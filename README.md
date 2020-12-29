@@ -2,73 +2,116 @@
 
 # What is CodeFactory?
 
-In the simplest terms, CodeFactory is a real time software factory that is triggered from inside Visual Studio during the design and construction of software.
-CodeFactory allows for development staff to automate repetitive development tasks that take up developer’s time. 
+CodeFactory is real time software delivery tool that natively runs inside of Visual Studio. The focus of CodeFactory is to increase the delivery velocity of applications being built new or uplift of projects to other technologies.
 
-## What is a Real Time Software Factory?
-A real time software factory is automation that can be triggered when ever requested and replace only target content within the solution. 
-By not requiring complete regeneration of the entire file or process, you can do continuous real time management through automation. 
+## Automation of Construction Delivery Patterns
+One of the core goals of CodeFactory is to use application source code within the application as a data model.
+This is a similar concept to ORM mapping based tools. 
 
-## What Can I Automate?
-Anything you base on a set of demonstrated repeatable steps can be turned into an automation. 
-The following are the basic criteria for automation.
+This allows for the implementation of development patterns to auto generate common application code developers have to build by hand. The following are common usage scenarios, but by no means the only scenarios in use.
 
-### Data Sources
-How information is collected and provided to the automation process to execute. 
-The following are common data sources used in automation:
+- Bounds checking in methods
+- Implementation of exception handling logic
+- Implementation of standard logging
+- Automation of dependency injection
+- Auto creation of different application layers based on common data models that can now be identified directly from application source code
+- Auto generation of data access layers based on different technologies that fit the need of a target delivery pattern
+- Auto generation of validation logic based on application source code data
+- Auto generation and mapping of logic between service technolgoies and consumers
 
-#### CodeFactory Data Models 
-CodeFactory provided data about the Visual Studio environment. The following are the common types of models CodeFactory provides:
- - Solution Data
- - Project Data
- - Project Folder Data
- - Project File Data
- - Full C# Source Code Models from Code Files
+## Automation of Technology Transformation
+Due to the design of CodeFactories SDK the tooling is very helpful in transformation of existing functionality of application to be lifted into new technology implementation. The following are common usage scenarios for technology transformation, like about these are not the only scenarios for usage.
+
+- Read ORM based data classes and transform into POCO's or to other ORM based implementations
+- Read data classes and generate interface definitions for all classes
+- Read markup languages and use adapters to transform markup from one implementation into another (Example WebForms to Blazor)
+- Read markup languages and update UI implmentation frameworks from one implementation to another (Example Modern UI to BootStrap)
+- Lift and shift of application logic from one platform to another (Example map logic from .net framework to .net standard)
+- Migration Mapping of logic from one system to another (Example using UI dialogs to select where logic comes from and where it goes in a new system)
+
+## Designed for Different Delivery Approaches
+The CodeFactory tool directly integrates into the Solution Explorer in Visual Studio. This provides flexibility to the delivery team on when to use automation and how that automation should be triggered. The following are a few examples, like the others above not the only approaches that can be taken.
+
+### Contract Driven Approach
+Interfaces are defined and automation triggers when interfaces need to be implemented. Allowing for a interface based design of the system and the core shell of the entire delivery driven by interface implementations.
+
+### UI Driven Approach
+User Interface dialogs are triggered and questions are asked which generates the impementation of new or uplift of application logic. 
+
+### Event Driven Approach
+Changes in markup files or .net application code files like c# will trigger the option to execute automation logic to complete the implementation of logic. 
+
+### Rebuild Approach
+Logic is run that will rebuild the definition of a target artifact. This is a common approach with ORM based tools.
+
+### Hybrid Approach
+This is the most common which uses a number of the above approaches together to meet a development teams delivery needs. 
+
+## Zero Touch Delivery Tool
+CodeFactory runs inside of visual studio itself. Which means it acts more like a behind the scene compiler.
+CodeFactory is a design time tool and has no application runtime capabilties. 
+This means there is no application libraries or technologies that have to be included inside the application you are delivering. 
+Any artificates that are generated by CodeFactory appear to be standard developer hand written code. 
+
+## Designed to Build Team Customized Delivery
+CodeFactory is a team delivery tool, which means there is no one size fits all delivery process. Its a SDK style platform that simplifies the design of automation to be taken advantage of by delivery teams. 
+CodeFactory releases a standard set of automation libraries fully implemented. 
+The goal of these libraries is to provide standard guidance scenarios. 
+Alot of teams will want to extend and change the guidance. Which is exactly what this tool is designed for.
+
+The following are the core tooling capabilities of CodeFactory
+### Solution and Project Management
+Direct access to the solution and project system hosted in visual studio. This will include access and partial management of the following items.
+
+- Solution
+- Solution Folders
+- Projects
+- Project Folders
+- Project Documents
+- C# Source Code Files
+
+### Document Management
+Direct access to any document that is hosted in the solution this will include the following.
+
+ - Read of all content from any document in the solution
+ - Replace all content in a document
+ - Add/remove/replace content at target locations within the document
+ - Add new documents
+ - Remove documents
+### C# Source Code Model Generation
+CodeFactory builds real time data models of C# code files. The models provide access to the following information
+
+ - Using statements
+ - Namespace definitions
+ - Attributes
+ - Classes
+ - Interfaces
+ - Structures
+ - Delegates
+ - Fields
+ - Methods
+ - Properties
+ - Events
+ - Type definitions
+ - Access to the body of classes, interfaces, structures
+ - Access to the body of methods, properties, events
+ - Source code management that include replace, add before, add after, delete on all member objects
+ - Source code management that include replace, add before, add after, delete, beginning, end of all classes,structures, interfaces
+
+### Source Formatting
+CodeFactory provides support for formatting of source code regardless of target langauges. This includes the following
+
+ - T4 integration to support the use of T4 formatting files to emite the target source code to be generated
+ - Source formatter an internal code factory formatter that provides granular source editing
+
+### User Interface Management
+CodeFactory integrates natively into the Visual Studio IDE. Allowing people to build their own custom dialog windows that display as native windows inside of visual studio.
+
+
+## Build Using .Net Technologies for Fast Adoption
+CodeFactory was designed to author automation using the C# programing language. All of code factory technologies are written using .net framework libraries.
+
+(Note: This is a current limitation of the Visual Studio development environment. As Microsoft provide .net core integration into visual studio code factory will update at that time)
+
+CodeFactories SDK provides a common set of tools for delivery teams to quickly extend and author their own automation for application delivery. 
  
-#### Collection of Information from the Developer
-A number of times we may need to get information directly from the developer in order for the automation to execute correctly. 
-CodeFactory provides direct access to creating custom user interface screens that display information as if they were Visual Studio dialogs. 
-
-#### Usage of 3rd Party Libraries
-
-CodeFactory allows direct access to the entire .NET framework, this allows for automation to use other third-party libraries to gather information. 
-The following are some common examples of usage scenarios for collecting data:
- - Third party library to parse HTML files
- - Third party library to read in a target file format (markdown, yaml, json)
- - ADO.NET calls to a database to read out information used in the automation process
-
-### Automation Logic
-CodeFactory uses an event driven model for processing automation requests from Visual Studio. 
-These events are called "commands" and once commands are executed the automation logic is managed directly in the native .NET framework C# programming language.
-Your logic is directly executed to run the expected functionality to build the output identified from the data you provided.
-
-Part of the automation process is providing common helper-based functionality to handle common automation Tasks. 
-CodeFactory has a number of helpers built into the SDK to help with common activities found inside code automation.
-
-### Automation Formatting
-A key part of any software factory automation is formatting the final data into a target format expected to be added back into your project or solution in Visual Studio.
-CodeFactory provides direct access to the T4 templating engine hosted inside Visual Studio. This allows you to build up formatted output regardless of the target language or format needed.
-
-### Automation Output
-The final step in any automation process is output of the process itself. The following are common outputs from CodeFactory:
-
-#### Document Creation with Content
-CodeFactory allows for the creation of a new document either at the project level or the solution level. During the creation of the document the content is directly added at time of creation.
-
-#### Positional Based Content Management
-CodeFactory provides access to solution and project documents and allows you to update the content of documents based on the position within the document. This includes the following scenarios:
- - Remove content by position
- - Replace content by position
- - Add content before position
- - Add content after position
-
-#### C# Artifact Based Content Management
-CodeFactory give you direct access to update content within C# code files. This includes the following scenarios:
- - Add content in the beginning of a class, structure, or interface definition
- - Add content at the end of a class, structure, or interface definition. 
- - Add a class, structure, or interface to a code file
- - Remove a class, structure, or interface to a code file
- - Remove a member (field, property, event, or method)
- - Replace a member (field, property, event, or method) with updated content.
- - Add content before a member (field, property, event, or method)
- - Add content after a member (field, property, event, or method)
