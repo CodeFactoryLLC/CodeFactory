@@ -1,16 +1,15 @@
 # CodeFactory DataModels
-The primary strength of CodeFactory is its ability to generate real time data models directly from the Visual Studio environment. 
+The primary strength of CodeFactory is its ability to generate real time data models directly from your project/solution artifacts within  the Visual Studio environment. 
 This ability makes it possible to do design time automation when delivering software. In this section we will provide a brief overview of the data models that are generated dynamically by the CodeFactory platform. These data models are used throughout the automation process.
 
 ## Data Models
-All data models are plain old CLR objects or POCO's for short. Each data model is implemented as an immutable data class. This approach is used since an change to the underlying data model requires a complete regeneration of the data model from the visual studio environment to make sure you have the latest version of all data.
+All data models are plain old CLR objects or POCO's for short. Each data model is implemented as an immutable data class. This approach is used since a change to the underlying data model requires a complete regeneration of the data model from the visual studio environment to make sure you have the latest version of all data.  For example, making a change to a C# class object would force CodeFactory to regenerate a data model of that file/class object.
 
-Data model generation is either triggered during the trigger of a new automation process, or from various CodeFactory API calls that will request new copies of data models.
-
+Data model generation is either triggered during the execution of a new automation process, or from various CodeFactory API calls that will request new copies of data models.
 
 ## Solution Explorer Models (Project System)
 The following models are directly generated off the legacy and new project systems that are hosted by Visual Studio.
-The overview of each data model is designed to provide an overview of capabilties. It will not list every single data element or function. See help docs for the full description if each data model.
+The overview of each data model is designed to provide an overview of capabilties. The examples here are not complete and only show partial functionality for the purpose of explanation.  Please see our help docs for the full description if each data model.
 
 ### Solution
 Data model that represents the loaded solution. This provides the location of the solution as well as access to the projects in the solution.
@@ -37,8 +36,8 @@ The C# source document project system access as well as full access to the C# so
 CodeFactory has access to the C# language compiler and can dynamically generate data models the represent the C# based source code. 
 CodeFactory provides direct access all the way down to member and type level data. 
 In addition, will give you direct access to the raw source code at the target object level. 
-The following are the data models that are generated whenever either accessing from source code files, or from directly referenced assemblies. 
-The overview of each data model is designed to provide an overview of capabilties. It will not list every single data element or function. See help docs for the full description if each data model.
+The following data models are generated whenever you are accessing from source code files, or from directly referenced assemblies. 
+The overview of each data model is designed to provide an example of capabilties and does not list every single data element or function. Please see our help docs for the full description if each data model.
 
 ### Soure Code
 The source code data model provides access to all elements that were compiled from the source code document. This includes the following.

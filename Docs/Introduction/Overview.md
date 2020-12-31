@@ -1,8 +1,7 @@
 # Overview of CodeFactory
-This provides an overview of the different capabilities and parts of the CodeFactory environment. 
-Each target area will provide a clear overview of target set of capabilites as well as guidance.
+This describes the different capabilities and parts of the CodeFactory ecosystem. Each area will provide a clear overview of target set of capabilites as well as guidance.
 
-This overview is designed to be read either top down or jump to the topic that interests you.
+This guide is designed to be read either top down or jump to the topic that interests you.
 
 ## CodeFactory for VisualStudio
 Review of the CodeFactory environment and how it integrates with Visual Studio.
@@ -10,7 +9,7 @@ Review of the CodeFactory environment and how it integrates with Visual Studio.
 [Link Here]
 
 ## CodeFactory Platform
-Review of the different parts of the CodeFactory platform itself. These are used to drive CodeFactory also used in authoring CodeFactory automation.
+Review of the different parts of the CodeFactory platform itself. This decsribes what is used to drive CodeFactory also used in authoring CodeFactory automation.
 
 [Link Here]
 
