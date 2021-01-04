@@ -2,68 +2,65 @@
 
 # What is CodeFactory?
 
-CodeFactory is real time software delivery tool that natively runs inside of Visual Studio. The focus of CodeFactory is to increase the delivery velocity of applications being built new or uplift of projects to other technologies.
+CodeFactory is real time software delivery tool that runs natively inside of Visual Studio. The focus of CodeFactory is to increase the delivery velocity of building new applications and/or uplift/refactor projects to other technologies.
 
 ## Automation of Construction Delivery Patterns
-One of the core goals of CodeFactory is to use application source code within the application as a data model.
-This is a similar concept to ORM mapping based tools. 
+One of the core features of CodeFactory is its use of your application source code as a data model.  This is a similar concept to ORM mapping based tools. 
 
-This allows for the implementation of development patterns to auto generate common application code developers have to build by hand. The following are common usage scenarios, but by no means the only scenarios in use.
+This allows for the implementation of development patterns which can then auto-generate common application code which developers would otherwise have to build by hand. The following common usage scenarios are good examples of this concept, although many other scenarios are feasible.
 
-- Bounds checking in methods
+- Adding/Creating bounds checking within methods
 - Implementation of exception handling logic
 - Implementation of standard logging
 - Automation of dependency injection
-- Auto creation of different application layers based on common data models that can now be identified directly from application source code
-- Auto generation of data access layers based on different technologies that fit the need of a target delivery pattern
-- Auto generation of validation logic based on application source code data
-- Auto generation and mapping of logic between service technolgoies and consumers
+- Auto-creation of different application layers, based on common data models, that can now be identified directly from application source code
+- Auto-generation of data access layers, based on different technologies, that fit the needs of a target delivery pattern
+- Auto-generation of validation logic based on application source code data
+- Auto-generation and logic mapping between service technologies and consumers
 
 ## Automation of Technology Transformation
-Due to the design of CodeFactories SDK the tooling is very helpful in transformation of existing functionality of application to be lifted into new technology implementation. The following are common usage scenarios for technology transformation, like about these are not the only scenarios for usage.
+Due to the way in which the CodeFactory SDK was designed - the tooling is very helpful in transforming existing functionality of an application to a new technology implementation. The following are common usage scenarios for technology transformation, but like the Construction Delivery Patterns described above, are not the only scenarios for usage.
 
-- Read ORM based data classes and transform into POCO's or to other ORM based implementations
+- Read ORM-based data classes and transform into POCO's or to other ORM based implementations
 - Read data classes and generate interface definitions for all classes
 - Read markup languages and use adapters to transform markup from one implementation into another (Example WebForms to Blazor)
-- Read markup languages and update UI implmentation frameworks from one implementation to another (Example Modern UI to BootStrap)
+- Read markup languages and update UI implementation frameworks from one implementation to another (Example Modern UI to BootStrap)
 - Lift and shift of application logic from one platform to another (Example map logic from .net framework to .net standard)
-- Migration Mapping of logic from one system to another (Example using UI dialogs to select where logic comes from and where it goes in a new system)
+- Migration Mapping of logic from one system to another (Example using UI dialogs to select where logic comes from and where it belongs in a new system)
 
 ## Designed for Different Delivery Approaches
-The CodeFactory tool directly integrates into the Solution Explorer in Visual Studio. This provides flexibility to the delivery team on when to use automation and how that automation should be triggered. The following are a few examples, like the others above not the only approaches that can be taken.
+CodeFactory directly integrates into the Solution Explorer within Visual Studio. This provides flexibility to the delivery team on when to use automation and how that automation should be triggered. The following are a few examples, much like the others above, these are not the only approaches that can be taken.
 
 ### Contract Driven Approach
 Interfaces are defined and automation triggers when interfaces need to be implemented. Allowing for a interface based design of the system and the core shell of the entire delivery driven by interface implementations.
 
 ### UI Driven Approach
-User Interface dialogs are triggered and questions are asked which generates the impementation of new or uplift of application logic. 
+User Interface dialogs are defined and triggered as a part of an automation command and questions are asked which generates the implementation of new or uplift of application logic. 
 
 ### Event Driven Approach
-Changes in markup files or .net application code files like c# will trigger the option to execute automation logic to complete the implementation of logic. 
+Changes in markup files or .NET application code files like C# will trigger the option to execute automation logic to complete the implementation of logic. 
 
 ### Rebuild Approach
-Logic is run that will rebuild the definition of a target artifact. This is a common approach with ORM based tools.
+Logic is run which will rebuild the definition of a target artifact. This is a common approach with ORM based tools.
 
 ### Hybrid Approach
-This is the most common which uses a number of the above approaches together to meet a development teams delivery needs. 
+This is the most common use case, which uses a number of the above approaches together to meet a development teams specific delivery needs. 
 
 ## Zero Touch Delivery Tool
-CodeFactory runs inside of visual studio itself. Which means it acts more like a behind the scene compiler.
-CodeFactory is a design time tool and has no application runtime capabilties. 
-This means there is no application libraries or technologies that have to be included inside the application you are delivering. 
-Any artificates that are generated by CodeFactory appear to be standard developer hand written code. 
+CodeFactory runs inside of the Visual Studio IDE itself, and acts more like a behind the scenes compiler.  CodeFactory is a design-time tool and has no application runtime capabilities. This means there are no application libraries or technologies that have to be included inside the application you are delivering. Any artificates that are generated by CodeFactory appear to be standard developer hand-written code. 
 
-## Designed to Build Team Customized Delivery
-CodeFactory is a team delivery tool, which means there is no one size fits all delivery process. Its a SDK style platform that simplifies the design of automation to be taken advantage of by delivery teams. 
+## Designed to Build Team-Customized Delivery
+CodeFactory is a team delivery tool, which means there is no one-size-fits-all delivery process. Its a SDK style platform that simplifies the design of automation to be leveraged by delivery teams. 
 CodeFactory releases a standard set of automation libraries fully implemented. 
 The goal of these libraries is to provide standard guidance scenarios. 
-Alot of teams will want to extend and change the guidance. Which is exactly what this tool is designed for.
+Many teams will want to extend and modify the guidance to match their own design preferences, which is exactly what the CodeFactory SDK is designed for.
 
-The following are the core tooling capabilities of CodeFactory
+The following are the core capabilities of CodeFactory:
+
 ### Solution and Project Management
-Direct access to the solution and project system hosted in visual studio. This will include access and partial management of the following items.
+Direct access to the solution and project system hosted inside of Visual Studio. This will include access and partial management of the following items:
 
-- Solution
+- Solutions
 - Solution Folders
 - Projects
 - Project Folders
@@ -71,15 +68,16 @@ Direct access to the solution and project system hosted in visual studio. This w
 - C# Source Code Files
 
 ### Document Management
-Direct access to any document that is hosted in the solution this will include the following.
+Direct access to any document that is hosted within the solution, which includes the following:
 
- - Read of all content from any document in the solution
- - Replace all content in a document
- - Add/remove/replace content at target locations within the document
+ - Read all content from any document within the solution
+ - Replace any/all content within a document
+ - Add/remove/replace content at target locations within a document
  - Add new documents
  - Remove documents
+ 
 ### C# Source Code Model Generation
-CodeFactory builds real time data models of C# code files. The models provide access to the following information
+CodeFactory builds real time data models of C# code files. These models provide access to the following information:
 
  - Using statements
  - Namespace definitions
@@ -95,23 +93,23 @@ CodeFactory builds real time data models of C# code files. The models provide ac
  - Type definitions
  - Access to the body of classes, interfaces, structures
  - Access to the body of methods, properties, events
- - Source code management that include replace, add before, add after, delete on all member objects
- - Source code management that include replace, add before, add after, delete, beginning, end of all classes,structures, interfaces
+ - Source code management that includes replace, add before, add after, delete on all member objects
+ - Source code management that includes replace, add before, add after, delete, beginning, end of all classes,structures, interfaces
 
 ### Source Formatting
-CodeFactory provides support for formatting of source code regardless of target langauges. This includes the following
+CodeFactory provides support for formatting of source code regardless of target langauges, including the following:
 
- - T4 integration to support the use of T4 formatting files to emite the target source code to be generated
- - Source formatter an internal code factory formatter that provides granular source editing
+ - T4 integration to support the use of T4 formatting files to emit the target source code to be generated
+ - Source formatter an internal CodeFactory formatter that provides granular source format editing
 
 ### User Interface Management
-CodeFactory integrates natively into the Visual Studio IDE. Allowing people to build their own custom dialog windows that display as native windows inside of visual studio.
+CodeFactory integrates natively into the Visual Studio IDE, allowing developers to build their own custom dialog windows which display as native windows inside of Visual Studio.
 
 
 ## Build Using .Net Technologies for Fast Adoption
-CodeFactory was designed to author automation using the C# programing language. All of code factory technologies are written using .net framework libraries.
+CodeFactory was designed to author automation using the C# programming language. All of CodeFactory technologies are written using .NET Framework libraries.
 
-(Note: This is a current limitation of the Visual Studio development environment. As Microsoft provide .net core integration into visual studio code factory will update at that time)
+(Note: This is a current limitation of the Visual Studio development environment. As Microsoft provide .NET Core integration into Visual Studio, CodeFactory will update at that time.)
 
-CodeFactories SDK provides a common set of tools for delivery teams to quickly extend and author their own automation for application delivery. 
+CodeFactory SDK provides a common set of tools for delivery teams to quickly extend and author their own automation for application delivery. 
  
