@@ -7,9 +7,12 @@ The following will help with installation and configuration of CodeFactory
 ## Installing CodeFactory for Visual Studio
 This will provide step by step instructions for installing CodeFactory itself and loading your license key.
 
+[Install CodeFactory for Visual Studio](Docs/Guidance/Install/CodeFactoryForVisualStudio.md)
 
 ## Installing CodeFactory SDK 
 This will provide step by step instruction for installing the CodeFactory SDK.
+
+[Install CodeFactory SDK](Docs/Guidance/Install/CodeFactorySDK.md)
 
 # SDK Examples
 The following will provide gudiance on how to setup and author your own automation using CodeFactory
