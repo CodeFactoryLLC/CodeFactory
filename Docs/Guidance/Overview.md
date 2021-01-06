@@ -22,7 +22,11 @@ Guidance for creating a new project and displaying the name of a hosted project.
  - How to create a CodeFactory project
  - Understanding how nuget packages are loaded for CodeFactory
  - How to create a CodeFactory command
+ - How to format a CodeFactory command
+ - How to consume data from the CodeFactory Framework
  - How to create a user interface and display data from CodeFactory
+
+[Create a CodeFactory Project](CreateProject/Overview.md)
 
 ## ASP.Net Core Automation
 
@@ -42,3 +46,7 @@ Guidance and walkthrough for automation that supports a ASP.Net core web project
  - Bounds checking logic automatically added to generated methods
  - Auto injection of logging for created interface members if Microsoft.Extensions.Logging is referenced at the project level
  
+# CodeFactory Overview 
+This link will take you to the overview of the CodeFactory platform.
+
+[CodeFactory Overview](../Introduction/Overview.md)

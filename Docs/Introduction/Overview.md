@@ -6,39 +6,34 @@ This guide is designed to be read either top to bottom or jump to whichever topi
 ## CodeFactory for VisualStudio
 Review of the CodeFactory environment and how it integrates with Visual Studio.
 
-[Link Here]
-
-## CodeFactory Platform
-Review of the different components of the CodeFactory platform itself. This describes what is used to drive CodeFactory, and also to author custom CodeFactory automation.
-
-[Link Here]
+[CodeFactory Environment](Environment/Overview.md)
 
 ### Data Models
 Review of the core data models which make up the CodeFactory Platform, describing how data is captured and presented in CodeFactory.
 
-[Link Here]
+[CodeFactory Data Models](DataModels/Overview.md)
 
 ### Commands
 Review of how CodeFactory automation is triggered and consumed.
 
-[Link Here]
+[CodeFactory Commands](Commands/Overview.md)
 
 ### Visual Studio Actions
 Review of the core API which provides access to Visual Studio.
 
-[Link Here]
+[CodeFactory Visual Studio Actions](VsActions/Overview.md)
 
 ### Source Formatting
 Review of different approaches which are used for formatting generated source code.
 
-[Link Here]
+[CodeFactory Source Formatting](Formatting/Overview.md)
 
 ### User Interfaces
 Review of how user interfaces can be created and used within the Visual Studio environment.
 
-[Link Here]
+[CodeFactory User Interface](UI/Overview.md)
  
 ## CodeFactory Guidance
 A variety of "walk-through" scenario-driven guidance is provided to help you get started and understand how to use the CodeFactory SDK.
 
-[Link Here]
+[CodeFactory Guidance](../Guidance/Overview.md)

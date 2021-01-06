@@ -23,4 +23,7 @@ The SDK was designed to provide straightforward access to existing automation an
 The SDK uses targeted .NET Framework projects that hosts all the supporting libraries that make up the CodeFactory capabilities. 
 The SDK is responsible for packaging the automation and generating the final CFX Files which are used with solutions.
 
-[Link Here] - Back to Overview
+## Overview 
+This link takes you back to the CodeFactory Overview
+
+[CodeFactory Overview](../Overview.md)

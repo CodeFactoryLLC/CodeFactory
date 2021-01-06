@@ -1,5 +1,21 @@
 # CodeFactory™
 
+# Getting Started
+The following will get you jump started on using CodeFactory. 
+
+## Overview
+The overview section will explain the parts that make up CodeFactory. 
+It is recommended you completely go through this section before jumping into Guidance. 
+We made sure the overview seciond was just that an Overview of the various parts and pieces of CodeFactory.
+
+[CodeFactory Overview](Docs/Introduction/Overview.md)
+
+## Guidance
+Guidance provides walk throughs on how to use CodeFactory. 
+This section provides step by step instructions on how to different activities in CodeFactory itself.
+
+[CodeFactory Guidance](Docs/Guidance/Overview.md)
+
 # What is CodeFactory?
 
 CodeFactory is real time software delivery tool that runs natively inside of Visual Studio. The focus of CodeFactory is to increase the delivery velocity of building new applications and/or uplift/refactor projects to other technologies.
@@ -113,3 +129,5 @@ CodeFactory was designed to author automation using the C# programming language.
 
 CodeFactory SDK provides a common set of tools for delivery teams to quickly extend and author their own automation for application delivery. 
  
+
+

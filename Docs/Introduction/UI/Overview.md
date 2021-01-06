@@ -10,3 +10,8 @@ This is the native UI framework that is supported by Visual Studio.
 
 CodeFactory user interface control is designed to plug directly into a Visual Studio window. The CodeFactory control provides minor extensions to the existing user control object that is part of WPF. 
 Any developer that is familar with XAML based user screens will be able to easily author and creator a dialog window to be displayed in Visual Studio.
+
+## Overview 
+This link takes you back to the CodeFactory Overview
+
+[CodeFactory Overview](../Overview.md)
