@@ -247,11 +247,241 @@ projectFiles = files.Count();
 ```
 Updated code will look like this.
 ![](Images/ExecuteCommandAsyncFileCount.png)
-
+___
 ## Build Visual Studio Dialog
+Now that we have the project data that we need, we will then focus on building a dialog to display this information in Visual Studio.
 
+1. From solution explorer we are going to do the following.
 
+![](Images/DialogFolderAddNewItem.png)
+ - Right click on the Dialog folder under the project folder
+ - From the context menu select Add
+ - From the sub context menu select New Item...
+___ 
+2. From the Add New Item dialog do the following
+
+![](Images/NewProjectInformationUserControl.png)
+
+ - Under Visual C# Items select CodeFactory
+ - Select Visual Studio User Control
+ - In the name field enter ProjectInformationUserControl.xaml
+ - Click Add
+___
+3. Now that the user control has been created it will open the user control xaml file. 
+You will see the default markup for the user control itself. 
+It will look like this.
+
+![](Images/DefaultXamlDialog.png)
+___
+4. We are going to set the window title and set the target size of the dialog. 
+We do this by updating the market up for the window title.
+We also replace the Design height and width. 
+We set the height to 175 pixels and the width to 400 pixels.
+
+```
+WindowTitle="Project Information"
+Height="175"
+Width="400">
+```
+The updated markup will look like this.
+![](Images/DialogTitleAndSize.png)
+___
+5. After we have setup our dialog and given it a title we are going to use a grid layout to format the placement of our data.
+Since we are working with 3 elements of data we will create a grid with 5 rows and a total 3 columns. 
+
+```
+<Grid.ColumnDefinitions>
+    <ColumnDefinition Width="20"/>
+    <ColumnDefinition Width="150"/>
+    <ColumnDefinition/>
+</Grid.ColumnDefinitions>
+<Grid.RowDefinitions>
+    <RowDefinition Height="20"/>
+    <RowDefinition Height="30"/>
+    <RowDefinition Height="30"/>
+    <RowDefinition Height="30"/>
+    <RowDefinition />
+</Grid.RowDefinitions>
+```
+The updated markup will look like this.
+![](Images/DialogGridFormatting.png)
+___
+6. Once the layout has been setup we will add label and text box controls for each piece of project data that is being added to the project.
+
+```
+<Label Name="LabelProjectName" Grid.Row="1" Grid.Column="1" Content="Project Name:" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+<TextBox Name="TextBoxProjectName" Grid.Row="1" Grid.Column="2" Margin="5" IsEnabled="False"/>
+<Label Name="LabelProjectReferences" Grid.Row="2" Grid.Column="1" Content="Project Reference Count:" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+<TextBox Name="TextBoxProjectReferences" Grid.Row="2" Grid.Column="2" Margin="5" Width="40" HorizontalAlignment="Left" IsEnabled="False"/>
+<Label Name="LabelProjectFiles" Grid.Row="3" Grid.Column="1" Content="Project File Count:" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+<TextBox Name="TextBoxProjectFiles" Grid.Row="3" Grid.Column="2" Margin="5" Width="40" HorizontalAlignment="Left" IsEnabled="False"/>
+```
+The updated markup will look like this.
+![](images/DialogDataControls.png)
+___
+7. Next we wire up the button and register a method to handle the click event. 
+```
+<Button Name="ButtonOk" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="125,15" Content="Ok" Click="ButtonOk_OnClick"/>
+```
+Note in the IDE when you enter the click attribute it will prompt you to create a new method let it create the method for you.
+
+The updated markup will look like this.
+
+![](Images/DialogButton.png)
+
+The final layout of the user control will look like this.
+
+![](Images/DialogLayout.png)
+___
+8. Now that the layout is complete we will access the code behind file for the user control and make some changes. 
+To do this do the following.
+
+![](Images/DialogSelectCodeBehind.png)
+
+ - Click the expander next to the xaml document of the user control it self.
+ - Select the project file with the same name of the user control ending in .cs
+ - This will will open the code file for edit.
+___
+9. After the code behind file has been opened we are going update the ok button click event method to close the dialog itself. 
+Those familar with WPF will know there is no close method for a user control. 
+This close event is part of the CodeFactory framework and will inform Visual Studio to close the dialog window. 
+The following code will be added to close the dialog when clicked.
+
+Before:
+```
+throw new NotImplementedException();
+```
+
+After:
+```
+this.Close();
+```
+
+The updated source code will look like this.
+
+![](Images/ButtonClose.png)
+___
+10. The final thing that is needed on the dialog is to be able to pass the project data to the user control.
+We will create a public facing method that will take in the three pieces of information and directly set each control individually.
+
+Those that are familar with WPF would probably used dependency properties. 
+For this example we are keeping it simple for people that are not familar with WPF.
+
+The following method is added to the code behind to set the data.
+```
+/// <summary>
+/// Sets the project information to be displayed in the dialog
+/// </summary>
+/// <param name="projectName">The name of the project hosted in the solution.</param>
+/// <param name="fileCount">The number of files hosted in the project.</param>
+/// <param name="referenceCount">The number of references in the project.</param>
+public void SetProjectInformation(string projectName, int fileCount, int referenceCount)
+{
+    this.TextBoxProjectName.Text = projectName;
+    this.TextBoxProjectFiles.Text = fileCount.ToString();
+    this.TextBoxProjectReferences.Text = referenceCount.ToString();
+}
+
+``` 
+___
 ## Create and Display Dialog
+Once we have created a dialog and formatted it. Next we will need to create an instance of the dialog user control. 
+Then pass the data that has been collected on the project and display it. 
+
+1. We navigate back to the ProjectInformationCommand code file. 
+In the ExecuteCommandAsync method we are going to create an instance of the user control.
+
+When working with the user interface we have to make a CodeFactory API call to make the instance of the user control.
+Behind the covers CodeFactory wraps the defined user control in a WPF dialog window used by Visual Studio. 
+
+In order to access the user interface you have to use a Visual Studio Action. 
+All commands have direct access to all Visual Studio Actions managed by CodeFactory via a property on the command base class.
+
+In the following we call ther user interface actions and create a instance of our user control and return it to the var dialog.
+
+```
+var dialog = await VisualStudioActions.UserInterfaceActions
+                    .CreateVsUserControlAsync<ProjectInformationUserControl>();
+```
+The updated code looks like the following.
+
+![](Images/ExecuteCommandAsyncCreateUserControl.png)
+___
+2. Once we have created an instance of dialog we will need to pass the project information to the dialog.
+We will call the public method we created and pass our project data to the dialog. 
+
+```
+dialog.SetProjectInformation(projectName,projectFiles,projectReferences);
+```
+The updated code looks like the following.
+
+![](Images/ExecuteCommandAsyncSetDataOnDialog.png)
+___
+3. Now that our data has been set we are ready to display the dialog itself. 
+Once again we will make a CodeFactory API call and display the dialog in Visual Studio.
+
+```
+await VisualStudioActions.UserInterfaceActions.ShowDialogWindowAsync(dialog);
+```
+The updated code looks like the following.
+![](Images/ExecuteCommandAsyncShowDialog.png)
+___
+
+## Test Completed Command
+Now the the project information command has been completed, we will use the debugger to test the logic.
+
+1. Click Start Debugging this will be the play button icon on your tool bar with star next to it.
+
+![](Images/StartDebugging.png)
+
+You will notice that will start a new instance of Visual Studio. 
+This is by design CodeFactory automation runs inside of Visual Studio so we debug it from another instance.
+___
+2. One the debugger version of Visual Studio loads do the following.
+
+![](Images/OpenCodeFactoryTesting.png)
+
+ - Click File
+ - From the menu select Recent Projects and Solutions
+ - From the sub menu select CodeFactoryTesting.sln
+ This will load our testing solution.
+
+During the loading of the solution a number of services are loading. 
+When in debugger mode this can be slow. 
+You will know when your code factory logic is loaded by see this message in the lower left hand corner.
+
+![](Images/CommandsLoaded.png)
+___
+3. Next we execute the project information command and test our logic by doing the following.
+
+![](Images/RunShowProjectInformation.png)
+
+ - Right click on the project in the solution
+ - From the context menu click Show Project Infomation
+
+Visual Studio will then display the dialog with the information about the project.
+
+![](Images/ProjectInfoDialogWithData.png)
+
+ - Click Ok to close the dialog 
+___
+4. Play with the project
+Make changes to the project itself, add code files.
+Maybe add a project reference and then rerun the command the dialog will show the updated information.
+
+Since this is in debug mode, you can go back to the hosting copy of Visual Studio and set break points. 
+You can then step through the code and see how everthing executes.
+
+Once you are done close the debug version of Visual Studio.
+___
+## Deploying the Automation to Your Solutions
+Every time you build your project the CodeFactory SDK calls an external executable called CFXPackager. 
+This packages up your automation for using in solutions.
+
+In the bin folder of your project is a file with the name of your project with a cfx file extension.
+![](Images/cfxLocation.png)
+
+You copy the cfx file into the solution folder of your target solution you want to use with automation and CodeFactory will load it when the solution opens.
 
 
 ## Return to Guidance
@@ -259,8 +489,10 @@ This concludes the complete training for how to create a CodeFactory project. Th
 
 [CodeFactory Guidance](../Overview.md)
 
+
 ## Return To Create Project Guidance 
 The link below will take you back to the create project guidance.
 
 [Create Project Guidance](Overview.md)
+
 
