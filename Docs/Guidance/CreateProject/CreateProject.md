@@ -25,7 +25,7 @@ This error will go away once the first command is added to the project.
 The following is the walk through for creating the project and make sure you can successfully compile the code factory project.
 
 1. Start Visual Studio 2019
-
+___
 2. From the What would you like to do? window click Create a new project
 ![](Images/StartWindowCreateProject.png)
 
@@ -35,7 +35,7 @@ Or you can start the same process if you dont use the start up window.
  - From the sub context menu select Project
 
 ![](Images/FileNewProject.png)
-
+___
 3. From the Create a new project window do the following
 
 ![](Images/SelectCommandLibraryProject.png)
@@ -43,14 +43,14 @@ Or you can start the same process if you dont use the start up window.
  - In the search box type CodeFactory
  - From The list of projects select CodeFactory - Commands Library
  - Click Next
- 
+___ 
 4. From the Configure you new project do the following
 
 ![](Images/ConfigureProject.png)
 
  - In the project name box type DisplayProjectCommands
  - Click Create
- 
+___ 
 5. Once the solution and project has been created you will see the project and default folder structure. I have expanded the Project folder to show you the sub folders. 
 
 The following is a brief overview of the goal for each folder. 
@@ -64,8 +64,7 @@ You can create any folder structure you wish for your automation.
  - The Dialog folder is for placement of user interface dialogs you created.
  - The Logic folder is where you add logic that can be reused across multiple project commands
  - The Template folder is where you add T4 template that as used by project commands. 
-
-
+___
 6. Next we will add a solution explorer project command to the project. Do the following steps.
 
 ![](Images/SolutionExplorerProjectNewItemAdd.png)
@@ -73,7 +72,7 @@ You can create any folder structure you wish for your automation.
  - Right click on the project folder in solution explorer
  - From the context menu select Add
  - From the sub context menu select New Item...
- 
+___ 
 7. From the Add New Item Dialog Window do the following.
 
 ![](Images/AddProjectCommandDialog.png)
@@ -82,25 +81,25 @@ You can create any folder structure you wish for your automation.
 - Select Solution Explorer - Project Command
 - In the name box enter ProjectInformationCommand.cs
 - Then click Add
-
+___
 8. A Microsoft Visual Studio error box will appear. 
 
 ![](Images/VisualStudioErrorDialogCodeFactory.png)
 
 This error occurs because the CodeFactory SDK nuget packages have not been downloaded into the project yet. 
 Click Ok to continue.
-
+___
 9. The command code file will display in the IDE and a number of syntax errors will appear. This is occuring since we have not pulled down the SDK through nuget yet.
 
 ![](Images/CodeFactoryReferenceMissingError.png)
-
+___
 10. We will then build the solution this will trigger the pull of the nuget packages. Do the following.
 
 ![](Images/BuildSolution.png)
 
  - From the top navigation bar click on Build
  - From the context menu click Build Solution
- 
+___ 
 11. Once the build has completed it will have downloaded and installed the nuget packages into the project. 
 
 You will now see the CodeFactorySDK reference in the project. 
@@ -112,7 +111,7 @@ You will also notice there are no longer any errors in the project command.
 ![](Images/ProjectCommandNoErrors.png)
 
 The project creation is complete. 
-
+___
 ## Next Step - Automating Project Information
 In the next section we will build the logic to read information about a project and display it to the user in Visual Studio. 
 
