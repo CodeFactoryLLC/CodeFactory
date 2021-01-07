@@ -114,7 +114,7 @@ ___
 ### Testing the Formatted Command
 Before we dive into the logic, lets go ahead and test to make sure our command formatting is correct. So we are going to debug our automation we have created so far. 
 
-1. Click Start Debugging this will be the "Play" button icon on your toolbar with star next to it.
+1. Click Start Debugging this will be the "Play" button icon on your toolbar with the "Start" label next to it.
 
 ![](Images/StartDebugging.png)
 
