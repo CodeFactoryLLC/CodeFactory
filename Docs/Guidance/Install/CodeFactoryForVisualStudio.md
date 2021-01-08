@@ -14,18 +14,18 @@ Once the VSIX has installed CodeFactory Runtime, launch Visual Studio 2019, and 
 
 - From Visual Studio 2019, click the Extensions menu, select CodeFactory > License Information
 
-![](images/step1_extensions_menu.png)
+![](Images/step1_extensions_menu.png)
 ___
 -  From the [cF] License Information screen, click “Activate License”
 
-![](images/Step2_licenseInfo_Screen.jpeg)
+![](Images/Step2_licenseInfo_Screen.jpeg)
 ___
 - Copy the license key that was included in your email receipt/confirmation and “Paste From Clipboard” as shown below. Once the license key is pasted/visible in the Enter License text box click “Activate License”.
 
-![](images/Step3_Activate_License.jpeg) 
+![](Images/Step3_Activate_License.jpeg) 
 ___
 - From the [cF] License Information screen you should now see your license information.
-![](images/Activated_License.png)
+![](Images/Activated_License.png)
 
 Click “Close” and your CodeFactory license is now activated.
 ___
