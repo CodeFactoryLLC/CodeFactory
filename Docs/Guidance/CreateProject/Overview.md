@@ -1,37 +1,37 @@
 # Creating a CodeFactory Project
-This section will get you started in understanding how to use the CodeFactory SDK.
- In this walk through we will focus on the following.
+This section will explains how to use the CodeFactory SDK.
+ In this walk-through we will focus on the following topics:
 
  - How to create a CodeFactory project
- - Understanding how nuget packages are loaded for CodeFactory
+ - Understanding how NuGet packages are loaded for CodeFactory
  - How to create a CodeFactory command
  - How to format a CodeFactory command
  - How to consume data from the CodeFactory Framework
- - How to create a user interface and display data from CodeFactory
+ - How to create a user interface and display data using CodeFactory
 
-The following is expected to have been completed before beginning this guidance.
+Prequisites: Please confirm the following prior to getting started with this guidance:
  
- - You are using Visual Studio 2019 on Windows (Visual Studio on Mac is not supported)
- - You have installed CodeFactory for Visual Studio and have activated CodeFactory.
- - YOu have installed the CodeFactory SDK
+ - You are using Visual Studio 2019 on Windows (Visual Studio on Mac is not currently supported).
+ - You have installed CodeFactory for Visual Studio and have activated CodeFactory with a license key.
+ - You have installed the CodeFactory SDK.
 
-The walk through will be broken down into logical exercises that cover each of the above goals of this gudiance.
+This walk-through is grouped into logical exercises which address each of the guidance topics listed above.
 
-## Part One Creating a Project
-In the first part of the guidance we will create a project and get it ready to build automation. 
+## Part One - Creating a Project
+In the first part of the guidance, we will create a project and get it ready to build automation. 
 
-This will focus on the following
+This will focus on the following:
  - How to create a CodeFactory project
- - Understanding how nuget packages are loaded for CodeFactory
+ - Understanding how NuGet packages are loaded for CodeFactory
  - How to create a CodeFactory command
 
 [Create a CodeFactory Project](CreateProject.md)
 
-## Part Two Automate Project Information
-In the second part we will gather information about a visual studio project and displaying it to the user in Visual Studio.
+## Part Two - Automate Project Information
+In the second part, we will gather & display information about a Visual Studio project for the Visual Studio user.
 
-This will focus on the following
- - How to Format a CodeFactory command
+This will focus on the following:
+ - How to format a CodeFactory command
  - How to consume data from the CodeFactory Framework
  - How to create a user interface and display data from CodeFactory
 
@@ -39,6 +39,6 @@ This will focus on the following
 
 
 ## Guidance
-Once you have completed this set of lessions you can return to gudiance by clicking the link below.
+Once you have completed this set of lessons you can return to guidance by clicking the link below.
 
 [CodeFactory Guidance](../Overview.md)
