@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Solution Explorer - Project Folder Command</Name>
+    <Description>Code factory command for a project folder node within solution explorer.</Description>
+    <Icon>ProjectFolderCommand.ico</Icon>
+    <TemplateID>11241099-03BA-4B85-8C09-A289B364D03A</TemplateID>
+    <AppliesTo>CSharp</AppliesTo>
+    <ProjectType>CodeFactory</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>ProjectFolderCommand.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.DotNet</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.Logging</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.VisualStudio</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">SolutionExplorerProjectFolderCommand.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

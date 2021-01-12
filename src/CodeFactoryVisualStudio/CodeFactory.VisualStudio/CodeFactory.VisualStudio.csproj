@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0E14E33-E53E-4F45-81CB-363A92B26B3B}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>CodeFactory.VisualStudio</RootNamespace>
+    <AssemblyName>CodeFactory.VisualStudio</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CodeFactory.VisualStudio.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Setup|AnyCPU'">
+    <OutputPath>bin\Setup\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />
+    <!--<Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>-->
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSharpSourceExtensions.cs" />
+    <Compile Include="PathHelper.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="IChildren.cs" />
+    <Compile Include="IParent.cs" />
+    <Compile Include="IVsActions.cs" />
+    <Compile Include="IVsCommandInformation.cs" />
+    <Compile Include="IVsCSharpSource.cs" />
+    <Compile Include="IVsDocument.cs" />
+    <Compile Include="IVsDocumentActions.cs" />
+    <Compile Include="IVsFactoryCommand.cs" />
+    <Compile Include="IVsModel.cs" />
+    <Compile Include="IVsProject.cs" />
+    <Compile Include="IVsProjectActions.cs" />
+    <Compile Include="IVsProjectFolder.cs" />
+    <Compile Include="IVsProjectFolderActions.cs" />
+    <Compile Include="IVsReference.cs" />
+    <Compile Include="IVsReferenceActions.cs" />
+    <Compile Include="IVsSolution.cs" />
+    <Compile Include="IVsSolutionActions.cs" />
+    <Compile Include="IVsSolutionFolder.cs" />
+    <Compile Include="IVsSolutionFolderActions.cs" />
+    <Compile Include="IVsSourceActions.cs" />
+    <Compile Include="ProjectLanguage.cs" />
+    <Compile Include="ProjectReferenceType.cs" />
+    <Compile Include="ProjectSystemException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SolutionExplorerException.cs" />
+    <Compile Include="SolutionExplorer\ICSharpSourceCommand.cs" />
+    <Compile Include="SolutionExplorer\IProjectCommand.cs" />
+    <Compile Include="SolutionExplorer\IProjectDocumentCommand.cs" />
+    <Compile Include="SolutionExplorer\IProjectFolderCommand.cs" />
+    <Compile Include="SolutionExplorer\ISolutionCommand.cs" />
+    <Compile Include="SolutionExplorer\ISolutionDocumentCommand.cs" />
+    <Compile Include="SolutionExplorer\ISolutionFolderCommand.cs" />
+    <Compile Include="SolutionExplorer\ProjectCommandBase.cs" />
+    <Compile Include="SolutionExplorer\CSharpSourceCommandBase.cs" />
+    <Compile Include="SolutionExplorer\ProjectDocumentCommandBase.cs" />
+    <Compile Include="SolutionExplorer\ProjectFolderCommandBase.cs" />
+    <Compile Include="SolutionExplorer\SolutionCommandBase.cs" />
+    <Compile Include="SolutionExplorer\SolutionDocumentCommandBase.cs" />
+    <Compile Include="SolutionExplorer\SolutionFolderCommandBase.cs" />
+    <Compile Include="UI\IVsUIActions.cs" />
+    <Compile Include="UI\VsUserControlBase.cs" />
+    <Compile Include="VisualStudioException.cs" />
+    <Compile Include="VisualStudioMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisualStudioMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VisualStudioModelType.cs" />
+    <Compile Include="VsCommandBase.cs" />
+    <Compile Include="VsCommandType.cs" />
+    <Compile Include="VsCSharpSource.cs" />
+    <Compile Include="VsCSharpSourceExtensions.cs" />
+    <Compile Include="VsDocument.cs" />
+    <Compile Include="VsDocumentType.cs" />
+    <Compile Include="VsModel.cs" />
+    <Compile Include="VsProject.cs" />
+    <Compile Include="VsProjectExtensions.cs" />
+    <Compile Include="VsProjectFolder.cs" />
+    <Compile Include="VsReference.cs" />
+    <Compile Include="VsSolution.cs" />
+    <Compile Include="VsSolutionFolder.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualStudioMessages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>VisualStudioMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="CodeFactory.VisualStudio.nuspec" />
+    <None Include="Key.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFactory.DotNet\CodeFactory.DotNet.csproj">
+      <Project>{661e6004-c585-45ab-8c40-5a1b826f6490}</Project>
+      <Name>CodeFactory.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Logging\CodeFactory.Logging.csproj">
+      <Project>{c0cbdd09-b55d-4572-9f4d-d0e6dd8c4a73}</Project>
+      <Name>CodeFactory.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory\CodeFactory.csproj">
+      <Project>{d73c2a8f-64a2-4713-9a23-03c10b888877}</Project>
+      <Name>CodeFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

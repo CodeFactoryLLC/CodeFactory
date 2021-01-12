@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
+  <metadata>
+    <id>CodeFactorySDK</id>
+    <version>1.0.202301</version>
+    <title>Code Factory Software Development Kit</title>
+    <authors>CodeFactory, LLC.</authors>
+    <owners>CodeFactory, LLC.</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://www.codefactory.software/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Software factory automation library used with the code factory code automation runtime.</description>
+    <releaseNotes>
+      CodeFactory Assembly
+      The following functionality has been added to the CodeFactory assembly
+      •	SourceFormatter - Base helper class used for the format and output of source code to be injected into CodeFactory Models.
+
+      CodeFactory.DotNet Assembly
+      The following functionality has been added to the CodeFactory assembly
+      •	CodeFactory.DotNet.CSharp.CsClassExtensions - Extension methods that support the CsClass Model.
+        •	InheritsBaseClass - Check to see if a target object name and its namespace is the base class.
+      •	CodeFactory.DotNet.CSharp.CsSourceExtensions - Extension methods that support the CsSource Model.
+        •	HasUsingStatement - Checks the source to determine if a target namespace has a using statement. This also supports looking up by alias
+        •	AddUsingStatement - Injects a target namespace into a using statement and adds it to the hosting source model.
+        •	AddMissingNamespaces - Scans members for types that are accessible at the member definition level. If the namespace is missing will add it to the source code file.
+      •	CodeFactory.DotNet.CSharp.CsTypeExtensions - Extension methods that support the CsType Model.
+        •	InheritsInterface - Checks the type definition and accesses the underlying symbols to confirm if the type inherits the provided interface name and optionally the fully qualified namespace of the interface.
+        •	InheritsBaseClass - Checks the type definition to see if inherits the identified type and namespace of the base type.
+
+      CodeFactory.VisualStudio Assembly
+      The following functionality has been added to the CodeFactory assembly
+      •	CodeFactory.VisualStudio.VsCSharpSourceExtensions - Extension methods that support the VsCSharpSource Model.
+        •	GetHostingProjectAsync - Returns the hosting Visual Studio project model, or null if the model does not have support from a target project.
+    </releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Factory Automation</tags>
+    <dependencies>
+      <dependency id="NLog" version="4.6.8"  />
+      <dependency id="System.Collections.Immutable" version="1.5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\CodeFactory*.dll" target="lib\net472" />
+    <file src="bin\Debug\CodeFactory*.pdb" target="lib\net472" />
+  </files>
+</package>
