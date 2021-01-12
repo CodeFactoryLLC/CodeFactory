@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C02D9275-C79A-43DE-B9FA-2AC50FB47878}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Documentation</RootNamespace>
+    <AssemblyName>Documentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api\index.md" />
+    <None Include="app.config" />
+    <None Include="guidance\howto\CreateProject\AutomateProjectInformation.md" />
+    <None Include="guidance\howto\CreateProject\CreateProject.md" />
+    <None Include="guidance\howto\CreateProject\Overview.md" />
+    <None Include="guidance\howto\Install\CodeFactoryForVisualStudio.md" />
+    <None Include="guidance\howto\Install\CodeFactorySDK.md" />
+    <None Include="guidance\howto\Overview.md" />
+    <None Include="guidance\intro.md" />
+    <None Include="guidance\Introduction\Commands\Overview.md" />
+    <None Include="guidance\Introduction\DataModels\Overview.md" />
+    <None Include="guidance\Introduction\Environment\Overview.md" />
+    <None Include="guidance\Introduction\Formatting\Overview.md" />
+    <None Include="guidance\Introduction\Overview.md" />
+    <None Include="guidance\Introduction\UI\Overview.md" />
+    <None Include="guidance\Introduction\VsActions\Overview.md" />
+    <None Include="guidance\toc.md" />
+    <None Include="docfx.json" />
+    <None Include="index.md" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="toc.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="guidance\howto\CreateProject\Images\AddProjectCommandDialog.png" />
+    <Content Include="guidance\howto\CreateProject\Images\BuildSolution.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ButtonClose.png" />
+    <Content Include="guidance\howto\CreateProject\Images\cfxLocation.png" />
+    <Content Include="guidance\howto\CreateProject\Images\CodeFactoryReferenceMissingError.png" />
+    <Content Include="guidance\howto\CreateProject\Images\CodeFactorySDKProjectReference.png" />
+    <Content Include="guidance\howto\CreateProject\Images\CommandsLoaded.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ConfigureCodeFactoryTestingProject.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ConfigureProject.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DefaultEnableCommandAsync.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DefaultXamlDialog.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogButton.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogDataControls.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogFolderAddNewItem.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogGridFormatting.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogLayout.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogSelectCodeBehind.png" />
+    <Content Include="guidance\howto\CreateProject\Images\DialogTitleAndSize.png" />
+    <Content Include="guidance\howto\CreateProject\Images\EnableCommandAsyncUpdated.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncBoundsCheck.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncCreateUserControl.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncDefault.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncFileCount.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncProjectVariables.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncReferences.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncSetDataOnDialog.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncSetProjectName.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ExecuteCommandAsyncShowDialog.png" />
+    <Content Include="guidance\howto\CreateProject\Images\FileNewProject.png" />
+    <Content Include="guidance\howto\CreateProject\Images\NewProjectInformationUserControl.png" />
+    <Content Include="guidance\howto\CreateProject\Images\NewProjectStandardDialog.png" />
+    <Content Include="guidance\howto\CreateProject\Images\OpenCodeFactoryTesting.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ProjectCommandNoErrors.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ProjectCommandTitleAndDescription.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ProjectFolderStructure.png" />
+    <Content Include="guidance\howto\CreateProject\Images\ProjectInfoDialogWithData.png" />
+    <Content Include="guidance\howto\CreateProject\Images\RunShowProjectInformation.png" />
+    <Content Include="guidance\howto\CreateProject\Images\SelectCommandLibraryProject.png" />
+    <Content Include="guidance\howto\CreateProject\Images\SolutionExplorerProjectNewItemAdd.png" />
+    <Content Include="guidance\howto\CreateProject\Images\SolutionExplorerTestShowProjectInformation.png" />
+    <Content Include="guidance\howto\CreateProject\Images\StartDebugging.png" />
+    <Content Include="guidance\howto\CreateProject\Images\StartWindowCreateProject.png" />
+    <Content Include="guidance\howto\CreateProject\Images\VisualStudioErrorDialogCodeFactory.png" />
+    <Content Include="guidance\howto\Install\Images\Activated_License.png" />
+    <Content Include="guidance\howto\Install\Images\step1_extensions_menu.png" />
+    <Content Include="guidance\howto\Install\Images\Step2_licenseInfo_Screen.jpeg" />
+    <Content Include="guidance\howto\Install\Images\Step3_Activate_License.jpeg" />
+    <Content Include="images\CodeFactoryLogoLarge.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\docfx.console.2.56.6\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.56.6\build\docfx.console.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\docfx.console.2.56.6\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.56.6\build\docfx.console.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  
+  <TemplateData>
+    <Name>Solution Explorer - C# Document Command</Name>
+    <Description>Code factory command for a C# document within solution explorer.</Description>
+    <Icon>CSDocumentCommand.ico</Icon>
+    <TemplateID>A74327F2-9D50-4CDA-9C9E-CC5E6F60B9D2</TemplateID>
+    <AppliesTo>CSharp</AppliesTo>
+    <ProjectType>CodeFactory</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>CsDocumentCommand.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.DotNet</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.Logging</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.VisualStudio</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">SolutionExplorerCsDocumentCommand.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

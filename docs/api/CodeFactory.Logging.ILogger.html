@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILogger
+   | CodeFactory Guidance </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILogger
+   | CodeFactory Guidance ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CodeFactory.Logging.ILogger">
+  
+  
+  <h1 id="CodeFactory_Logging_ILogger" data-uid="CodeFactory.Logging.ILogger" class="text-break">Interface ILogger
+  </h1>
+  <div class="markdown level0 summary"><p>Standard logging interface used by Code factory to log information about the execution of code factory.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeFactory.Logging.html">CodeFactory.Logging</a></h6>
+  <h6><strong>Assembly</strong>: CodeFactory.Logging.dll</h6>
+  <h5 id="CodeFactory_Logging_ILogger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILogger</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Critical_System_String_System_Exception_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Critical(System.String%2CSystem.Exception%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L128">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Critical_" data-uid="CodeFactory.Logging.ILogger.Critical*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Critical_System_String_System_Exception_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Critical(System.String,System.Exception,System.String,System.Int32)">Critical(String, Exception, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs critical level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Critical(string message, Exception exception, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception that occured that needs to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Critical_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Critical(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L119">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Critical_" data-uid="CodeFactory.Logging.ILogger.Critical*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Critical_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Critical(System.String,System.String,System.Int32)">Critical(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs critical level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Critical(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Debug_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Debug(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L68">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Debug_" data-uid="CodeFactory.Logging.ILogger.Debug*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Debug_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Debug(System.String,System.String,System.Int32)">Debug(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs debug level information. This level is used for application debugging.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Debug(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_DebugEnter_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.DebugEnter(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L31">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_DebugEnter_" data-uid="CodeFactory.Logging.ILogger.DebugEnter*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_DebugEnter_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.DebugEnter(System.String,System.Int32)">DebugEnter(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the entering into a member. This is an debuglevel log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DebugEnter(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_DebugExit_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.DebugExit(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L38">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_DebugExit_" data-uid="CodeFactory.Logging.ILogger.DebugExit*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_DebugExit_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.DebugExit(System.String,System.Int32)">DebugExit(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the exiting of a member. This is an debug level log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DebugExit(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Error_System_String_System_Exception_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Error(System.String%2CSystem.Exception%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L110">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Error_" data-uid="CodeFactory.Logging.ILogger.Error*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Error_System_String_System_Exception_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Error(System.String,System.Exception,System.String,System.Int32)">Error(String, Exception, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs error level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string message, Exception exception, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception that occured that needs to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Error_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Error(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L101">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Error_" data-uid="CodeFactory.Logging.ILogger.Error*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Error_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Error(System.String,System.String,System.Int32)">Error(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs error level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_InfoEnter_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.InfoEnter(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L45">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_InfoEnter_" data-uid="CodeFactory.Logging.ILogger.InfoEnter*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_InfoEnter_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.InfoEnter(System.String,System.Int32)">InfoEnter(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the entering into a member. This is an information level log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InfoEnter(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_InfoExit_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.InfoExit(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L52">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_InfoExit_" data-uid="CodeFactory.Logging.ILogger.InfoExit*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_InfoExit_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.InfoExit(System.String,System.Int32)">InfoExit(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the exiting of a member. This is an information level log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InfoExit(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Information_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Information(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L76">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Information_" data-uid="CodeFactory.Logging.ILogger.Information*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Information_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Information(System.String,System.String,System.Int32)">Information(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs general information about the executing code base. This is the default logging level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Information(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Trace_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Trace(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L60">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Trace_" data-uid="CodeFactory.Logging.ILogger.Trace*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Trace_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Trace(System.String,System.String,System.Int32)">Trace(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs detailed execution information. This level is used for application tracing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_TraceEnter_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.TraceEnter(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L17">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_TraceEnter_" data-uid="CodeFactory.Logging.ILogger.TraceEnter*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_TraceEnter_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.TraceEnter(System.String,System.Int32)">TraceEnter(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the entering into a member. This is an trace level log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void TraceEnter(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs. Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_TraceExit_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.TraceExit(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L24">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_TraceExit_" data-uid="CodeFactory.Logging.ILogger.TraceExit*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_TraceExit_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.TraceExit(System.String,System.Int32)">TraceExit(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs the exiting of a member. This is an trace level log message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void TraceExit(string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Warning_System_String_System_Exception_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Warning(System.String%2CSystem.Exception%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L93">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Warning_" data-uid="CodeFactory.Logging.ILogger.Warning*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Warning_System_String_System_Exception_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Warning(System.String,System.Exception,System.String,System.Int32)">Warning(String, Exception, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs warning level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string message, Exception exception, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception that occured that needs to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger_Warning_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger.Warning(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L84">View Source</a>
+  </span>
+  <a id="CodeFactory_Logging_ILogger_Warning_" data-uid="CodeFactory.Logging.ILogger.Warning*"></a>
+  <h4 id="CodeFactory_Logging_ILogger_Warning_System_String_System_String_System_Int32_" data-uid="CodeFactory.Logging.ILogger.Warning(System.String,System.String,System.Int32)">Warning(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Logs warning level information about the executing code base. This level is always logged when enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string message, string memberName = null, int lineNumber = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to be logged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the member being logged.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">lineNumber</span></td>
+        <td><p>The line number where the logging event occurs.Important the compiler will populate this value automatically.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_Logging_ILogger.md&amp;value=---%0Auid%3A%20CodeFactory.Logging.ILogger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.Logging/ILogger.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2021 &copy; CodeFactory, LLC.</span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101295999);</script>
+    <script async="" src="//static.getclicky.com/js"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101295999ns.gif"></p></noscript>
+    
+  </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>T4Factory</Name>
+    <Description>T4 Template to be used with code factory in building source from code factory models.</Description>
+    <Icon Package="{076c585b-aa33-4659-bd28-29ab2bcb29c3}" ID="T4Factory" />
+    <TemplateID>7d2780c1-1e84-4904-ad5d-1fb93eb28830</TemplateID>
+    <AppliesTo>CSharp</AppliesTo>
+    <ProjectType>CodeFactory</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Factory.tt</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.DotNet</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.Logging</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>CodeFactory.VisualStudio</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.tt" CustomTool="TextTemplatingFilePreprocessor" ReplaceParameters="true">T4Factory.tt</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.tt\$fileinputname$.transform.cs" ReplaceParameters="true">T4Factory.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

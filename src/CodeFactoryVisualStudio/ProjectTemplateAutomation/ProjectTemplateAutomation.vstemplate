@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>CodeFactory - Automation Library</Name>
+    <Description>A CodeFactory project that hosts common functionality which can be consumed by one or more CodeFactory Command Library projects.</Description>
+    <Icon>CodeFactoryLibrary.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <LanguageTag>csharp</LanguageTag>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>8050ae1f-c364-4902-8612-8da7c3abf9ed</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FactoryAutomation</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
