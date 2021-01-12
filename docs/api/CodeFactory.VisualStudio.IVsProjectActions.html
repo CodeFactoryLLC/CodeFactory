@@ -1,0 +1,528 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IVsProjectActions
+   | CodeFactory Guidance </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IVsProjectActions
+   | CodeFactory Guidance ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CodeFactory.VisualStudio.IVsProjectActions">
+  
+  
+  <h1 id="CodeFactory_VisualStudio_IVsProjectActions" data-uid="CodeFactory.VisualStudio.IVsProjectActions" class="text-break">Interface IVsProjectActions
+  </h1>
+  <div class="markdown level0 summary"><p>Visual studio actions that support the <a class="xref" href="CodeFactory.VisualStudio.IVsProject.html">IVsProject</a> model.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeFactory.VisualStudio.html">CodeFactory.VisualStudio</a></h6>
+  <h6><strong>Assembly</strong>: CodeFactory.VisualStudio.dll</h6>
+  <h5 id="CodeFactory_VisualStudio_IVsProjectActions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IVsProjectActions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_AddDocumentAsync_CodeFactory_VisualStudio_VsProject_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.AddDocumentAsync(CodeFactory.VisualStudio.VsProject%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L39">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_AddDocumentAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddDocumentAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_AddDocumentAsync_CodeFactory_VisualStudio_VsProject_System_String_System_String_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddDocumentAsync(CodeFactory.VisualStudio.VsProject,System.String,System.String)">AddDocumentAsync(VsProject, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a project document to the root of the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;VsDocument&gt; AddDocumentAsync(VsProject source, string fileName, string content = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The project to be added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The file name of the document. This should be the name only with no file path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>The content that will be initially added to the document. This is an optional parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsDocument.html">VsDocument</a>&gt;</td>
+        <td><p>The created project document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_AddExistingDocumentAsync_CodeFactory_VisualStudio_VsProject_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.AddExistingDocumentAsync(CodeFactory.VisualStudio.VsProject%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L47">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_AddExistingDocumentAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddExistingDocumentAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_AddExistingDocumentAsync_CodeFactory_VisualStudio_VsProject_System_String_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddExistingDocumentAsync(CodeFactory.VisualStudio.VsProject,System.String)">AddExistingDocumentAsync(VsProject, String)</h4>
+  <div class="markdown level1 summary"><p>Adds an existing document to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;VsDocument&gt; AddExistingDocumentAsync(VsProject source, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The project to be added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The file name for the document. This should be the file name only with extension. The file must already be in the projects folder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsDocument.html">VsDocument</a>&gt;</td>
+        <td><p>The model of the created project document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_AddProjectFolderAsync_CodeFactory_VisualStudio_VsProject_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.AddProjectFolderAsync(CodeFactory.VisualStudio.VsProject%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L55">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_AddProjectFolderAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddProjectFolderAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_AddProjectFolderAsync_CodeFactory_VisualStudio_VsProject_System_String_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.AddProjectFolderAsync(CodeFactory.VisualStudio.VsProject,System.String)">AddProjectFolderAsync(VsProject, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a project folder to the root of the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;VsProjectFolder&gt; AddProjectFolderAsync(VsProject source, string folderName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The project to be added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">folderName</span></td>
+        <td><p>The name of the project folder. This should be the name only with no path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsProjectFolder.html">VsProjectFolder</a>&gt;</td>
+        <td><p>The created project folder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_GetChildrenAsync_CodeFactory_VisualStudio_VsProject_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.GetChildrenAsync(CodeFactory.VisualStudio.VsProject%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L30">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_GetChildrenAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetChildrenAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_GetChildrenAsync_CodeFactory_VisualStudio_VsProject_System_Boolean_System_Boolean_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetChildrenAsync(CodeFactory.VisualStudio.VsProject,System.Boolean,System.Boolean)">GetChildrenAsync(VsProject, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get all the children that are direct children of the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyList&lt;VsModel&gt;&gt; GetChildrenAsync(VsProject source, bool allChildren, bool loadSourceCode = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>the project to get the children from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allChildren</span></td>
+        <td><p>Flag that determines if it should return all children of the project and not just the top level children.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">loadSourceCode</span></td>
+        <td><p>Flag that determines if code factory managed source code models should be loaded instead of the standard <a class="xref" href="CodeFactory.VisualStudio.VsDocument.html">VsDocument</a> model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsModel.html">VsModel</a>&gt;&gt;</td>
+        <td><p>The children of the project, if no children are found and empty enumeration will be returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_GetParentAsync_CodeFactory_VisualStudio_VsProject_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.GetParentAsync(CodeFactory.VisualStudio.VsProject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L21">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_GetParentAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetParentAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_GetParentAsync_CodeFactory_VisualStudio_VsProject_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetParentAsync(CodeFactory.VisualStudio.VsProject)">GetParentAsync(VsProject)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent solution folder that holds the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;VsSolutionFolder&gt; GetParentAsync(VsProject source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Project to get the parent for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsSolutionFolder.html">VsSolutionFolder</a>&gt;</td>
+        <td><p>Returns a solution folder if the project has a parent or null if the project has no parent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_GetReferencedProjects_CodeFactory_VisualStudio_VsProject_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.GetReferencedProjects(CodeFactory.VisualStudio.VsProject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L69">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_GetReferencedProjects_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetReferencedProjects*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_GetReferencedProjects_CodeFactory_VisualStudio_VsProject_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetReferencedProjects(CodeFactory.VisualStudio.VsProject)">GetReferencedProjects(VsProject)</h4>
+  <div class="markdown level1 summary"><p>Get the <a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a> models for all projects that are referenced by this project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyList&lt;VsProject&gt;&gt; GetReferencedProjects(VsProject source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source project to get referenced projects from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a>&gt;&gt;</td>
+        <td><p>Readonly list of the referenced projects or an empty list if there is no referenced projects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions_GetReferencesAsync_CodeFactory_VisualStudio_VsProject_.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions.GetReferencesAsync(CodeFactory.VisualStudio.VsProject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L62">View Source</a>
+  </span>
+  <a id="CodeFactory_VisualStudio_IVsProjectActions_GetReferencesAsync_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetReferencesAsync*"></a>
+  <h4 id="CodeFactory_VisualStudio_IVsProjectActions_GetReferencesAsync_CodeFactory_VisualStudio_VsProject_" data-uid="CodeFactory.VisualStudio.IVsProjectActions.GetReferencesAsync(CodeFactory.VisualStudio.VsProject)">GetReferencesAsync(VsProject)</h4>
+  <div class="markdown level1 summary"><p>Gets the references assigned to this project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyList&lt;VsReference&gt;&gt; GetReferencesAsync(VsProject source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.VisualStudio.VsProject.html">VsProject</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The source project to get the references from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.VisualStudio.VsReference.html">VsReference</a>&gt;&gt;</td>
+        <td><p>Readonly list of the references.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/CodeFactorySDK/apiSpec/new?filename=CodeFactory_VisualStudio_IVsProjectActions.md&amp;value=---%0Auid%3A%20CodeFactory.VisualStudio.IVsProjectActions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/CodeFactorySDK/src/CodeFactoryVisualStudio/CodeFactory.VisualStudio/IVsProjectActions.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2021 &copy; CodeFactory, LLC.</span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101295999);</script>
+    <script async="" src="//static.getclicky.com/js"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101295999ns.gif"></p></noscript>
+    
+  </body>
+</html>
