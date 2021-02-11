@@ -36,4 +36,4 @@ Review of how user interfaces can be created and used within the Visual Studio e
 ## CodeFactory Guidance
 A variety of "walk-through" scenario-driven guidance is provided to help you get started and understand how to use the CodeFactory SDK.
 
-[CodeFactory Guidance](../Guidance/Overview.md)
+[CodeFactory Guidance](../howto/Overview.md)

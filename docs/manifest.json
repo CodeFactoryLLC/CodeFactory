@@ -73,15 +73,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "guidance/Introduction/Overview.md",
       "output": {
         ".html": {
           "relative_path": "guidance/Introduction/Overview.html",
-          "hash": "fxZDv1pXH/y4kleYrkcsnA=="
+          "hash": "LuYgyIL8qt4Lo2VVkoUOoA=="
         }
       },
       "is_incremental": false,
@@ -129,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "guidance/howto/CreateProject/CreateProject.html",
-          "hash": "TXRyIu+2D2D8LwOX4He1iQ=="
+          "hash": "RQQ2azju+ueJybvZZJuhPg=="
         }
       },
       "is_incremental": false,
