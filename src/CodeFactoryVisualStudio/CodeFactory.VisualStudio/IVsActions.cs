@@ -12,6 +12,7 @@ namespace CodeFactory.VisualStudio
     /// </summary>
     public interface IVsActions
     {
+
         /// <summary>
         /// Gets the most current model of the solution.
         /// </summary>
@@ -19,43 +20,50 @@ namespace CodeFactory.VisualStudio
         Task<VsSolution> GetSolutionAsync();
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsSolution"/> model.
+        /// Visual Studio actions that directly interact with Visual Studio itself.
+        /// </summary>
+        IVsEnvironmentActions EnvironmentActions { get; }
+
+        /// <summary>
+        /// Visual Studio actions that work with the <see cref="IVsSolution"/> model.
         /// </summary>
         IVsSolutionActions SolutionActions { get;}
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsSolutionFolder"/> model.
+        /// Visual Studio actions that work with the <see cref="IVsSolutionFolder"/> model.
         /// </summary>
         IVsSolutionFolderActions SolutionFolderActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsProject"/> model.
+        /// Visual Studio actions that work with the <see cref="IVsProject"/> model.
         /// </summary>
         IVsProjectActions ProjectActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsReference"/> model.
+        /// Visual Studio actions that work with the <see cref="IVsReference"/> model.
         /// </summary>
         IVsReferenceActions ProjectReferenceActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsProjectFolder"/> model.
+        /// Visual Studio actions that work with the <see cref="IVsProjectFolder"/> model.
         /// </summary>
         IVsProjectFolderActions ProjectFolderActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work with the <see cref="IVsDocument"/> model.
+        /// Visual Studio actions that work with the <see cref="IVsDocument"/> model.
         /// </summary>
         IVsDocumentActions DocumentActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work the the visual studio user interface.
+        /// Visual Studio actions that work the the Visual Studio user interface.
         /// </summary>
         IVsUIActions UserInterfaceActions { get; }
 
         /// <summary>
-        /// Visual studio actions that work with source models.
+        /// Visual Studio actions that work with source models.
         /// </summary>
         IVsSourceActions SourceActions { get; }
+
+        
     }
 }

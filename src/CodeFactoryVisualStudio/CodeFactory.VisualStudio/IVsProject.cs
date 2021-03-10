@@ -32,5 +32,10 @@ namespace CodeFactory.VisualStudio
         /// </summary>
         IReadOnlyList<ProjectLanguage> ProjectLanguages { get;}
 
+        /// <summary>
+        /// The target frameworks this project supports as output. 
+        /// </summary>
+        IReadOnlyList<VsProjectFramework> TargetFrameworks { get; }
+
     }
 }

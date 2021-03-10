@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.0.202301</version>
-    <title>Code Factory Software Development Kit</title>
+    <version>1.21068.1</version>
+    <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
     <license type="expression">MIT</license>
-    <projectUrl>https://www.codefactory.software/</projectUrl>
+    <projectUrl>https://github.com/CodeFactoryLLC/CodeFactory</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>Software factory automation library used with the code factory code automation runtime.</description>
+    <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
       CodeFactory Assembly
       The following functionality has been added to the CodeFactory assembly
@@ -32,7 +32,7 @@
       •	CodeFactory.VisualStudio.VsCSharpSourceExtensions - Extension methods that support the VsCSharpSource Model.
         •	GetHostingProjectAsync - Returns the hosting Visual Studio project model, or null if the model does not have support from a target project.
     </releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <copyright>Copyright 2021</copyright>
     <tags>Factory Automation</tags>
     <dependencies>
       <dependency id="NLog" version="4.6.8"  />

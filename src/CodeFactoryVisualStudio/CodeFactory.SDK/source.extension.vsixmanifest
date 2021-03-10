@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CodeFactory.SDK.7d68b5be-8c43-4ca2-8852-5fdc0ae40f7e" Version="1.0.20230.1" Language="en-US" Publisher="CodeFactory LLC" />
+        <Identity Id="CodeFactory.SDK.7d68b5be-8c43-4ca2-8852-5fdc0ae40f7e" Version="1.21068.1.0" Language="en-US" Publisher="CodeFactory LLC" />
         <DisplayName>CodeFactory SDK for Visual Studio 2019</DisplayName>
-        <Description xml:space="preserve">Software deveopment kit for the code factory runtime that integrates with visual studio.</Description>
-        <MoreInfo>https://www.codefactory.software/</MoreInfo>
+        <Description xml:space="preserve">Software development kit for CodeFactory for Visual Studio. </Description>
+        <MoreInfo>https://docs.codefactory.software/guidance/intro.html</MoreInfo>
         <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://docs.codefactory.software/guidance/howto/Overview.html</GettingStartedGuide>
         <ReleaseNotes>SDKReleaseNotes.rtf</ReleaseNotes>
         <Icon>CodeFactoryLogoLarge.png</Icon>
         <Tags>Visual Studio 2019, SDK, Software Factory</Tags>

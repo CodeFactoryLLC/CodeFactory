@@ -74,9 +74,25 @@ namespace CodeFactory.DotNet
         bool IsExtension { get; }
 
         /// <summary>
-        /// The source code syntax that is stored in the body of the method. This will be null if the method was not loaded from source code.
+        /// Determines how the internal syntax for the method is stored. 
+        /// </summary>
+        SyntaxType SyntaxContent { get; }
+
+        /// <summary>
+        /// The source code syntax that is stored in the body of the method. This will be null if the method was not loaded from source code or the SyntaxContent is not set to Body.
         /// </summary>
         Task<string> GetBodySyntaxAsync();
 
+        /// <summary>
+        /// The source code syntax that is stored in the body of the method. This will be null if the method was not loaded from source code or the SyntaxContent is not set to Body. This will return each line of code that has a line feed or return as a separate string.
+        /// </summary>
+        Task<List<string>> GetBodySyntaxListAsync();
+
+
+        /// <summary>
+        /// Gets the expression that has been assigned to the method. This will be null if the method was not loaded from source code or the SyntaxContent is not set to Expression.
+        /// </summary>
+        /// <returns></returns>
+        Task<string> GetExpressionSyntaxAsync();
     }
 }

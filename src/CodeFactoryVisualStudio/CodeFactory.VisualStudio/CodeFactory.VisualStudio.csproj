@@ -41,7 +41,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>CodeFactoryRuntimeSigner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Setup|AnyCPU'">
     <OutputPath>bin\Setup\</OutputPath>
@@ -74,6 +74,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSharpSourceExtensions.cs" />
+    <Compile Include="IVsEnvironmentActions.cs" />
+    <Compile Include="IVsProjectFramework.cs" />
     <Compile Include="PathHelper.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="IChildren.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="VsProject.cs" />
     <Compile Include="VsProjectExtensions.cs" />
     <Compile Include="VsProjectFolder.cs" />
+    <Compile Include="VsProjectFramework.cs" />
     <Compile Include="VsReference.cs" />
     <Compile Include="VsSolution.cs" />
     <Compile Include="VsSolutionFolder.cs" />
@@ -158,7 +161,7 @@
       <LastGenOutput>VisualStudioMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="CodeFactory.VisualStudio.nuspec" />
-    <None Include="Key.snk" />
+    <None Include="CodeFactoryRuntimeSigner.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
