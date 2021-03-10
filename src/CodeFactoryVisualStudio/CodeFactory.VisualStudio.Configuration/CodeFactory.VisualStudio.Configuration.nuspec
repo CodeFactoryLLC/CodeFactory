@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactory.VisualStudio.Configuration</id>
-    <version>1.21068.1-beta1</version>
+    <version>1.21068.1</version>
     <title>CodeFactory packager configuration library</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
