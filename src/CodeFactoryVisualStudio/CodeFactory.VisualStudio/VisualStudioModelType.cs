@@ -46,6 +46,11 @@ namespace CodeFactory.VisualStudio
         CSharpSource = 6,
 
         /// <summary>
+        /// The target framework output for a project.
+        /// </summary>
+        ProjectFramework = 7,
+
+        /// <summary>
         /// Target model is unknown
         /// </summary>
         Unknown = 9999

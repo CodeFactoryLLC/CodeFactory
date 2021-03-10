@@ -181,6 +181,7 @@
     <Compile Include="ParameterDefaultValueType.cs" />
     <Compile Include="PathBuilderConstants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyntaxType.cs" />
     <Compile Include="WellKnownLanguageType.cs" />
   </ItemGroup>
   <ItemGroup>

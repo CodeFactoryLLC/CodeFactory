@@ -4279,15 +4279,15 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.CsMethod
   fullName: CodeFactory.DotNet.CSharp.CsMethod
   nameWithType: CsMethod
-- uid: CodeFactory.DotNet.CSharp.CsMethod.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsMethodType,CodeFactory.DotNet.CSharp.CsType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsParameter},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name: CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList<CsAttribute>, IReadOnlyList<String>, Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList<CsParameter>, String, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CodeFactory_DotNet_CSharp_CsMethodType_CodeFactory_DotNet_CSharp_CsType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsParameter__System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
-  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsMethodType,CodeFactory.DotNet.CSharp.CsType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsParameter},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name.vb: CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList(Of CsParameter), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
-  fullName: CodeFactory.DotNet.CSharp.CsMethod.CsMethod(System.Boolean, System.Boolean, System.Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, System.Collections.Generic.IReadOnlyList<System.String>, System.Boolean, System.String, System.String, System.String, System.String, CodeFactory.DotNet.CSharp.CsSecurity, System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, CodeFactory.DotNet.CSharp.CsMethodType, CodeFactory.DotNet.CSharp.CsType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsParameter>, System.String, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
-  fullName.vb: CodeFactory.DotNet.CSharp.CsMethod.CsMethod(System.Boolean, System.Boolean, System.Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), System.Collections.Generic.IReadOnlyList(Of System.String), System.Boolean, System.String, System.String, System.String, System.String, CodeFactory.DotNet.CSharp.CsSecurity, System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, CodeFactory.DotNet.CSharp.CsMethodType, CodeFactory.DotNet.CSharp.CsType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsParameter), System.String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
-  nameWithType: CsMethod.CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList<CsAttribute>, IReadOnlyList<String>, Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList<CsParameter>, String, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  nameWithType.vb: CsMethod.CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList(Of CsParameter), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsMethod.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsMethodType,CodeFactory.DotNet.CSharp.CsType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsParameter},CodeFactory.DotNet.SyntaxType,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList<CsAttribute>, IReadOnlyList<String>, Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList<CsParameter>, SyntaxType, String, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CodeFactory_DotNet_CSharp_CsMethodType_CodeFactory_DotNet_CSharp_CsType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsParameter__CodeFactory_DotNet_SyntaxType_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsMethodType,CodeFactory.DotNet.CSharp.CsType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsParameter},CodeFactory.DotNet.SyntaxType,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList(Of CsParameter), SyntaxType, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.CsMethod(System.Boolean, System.Boolean, System.Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, System.Collections.Generic.IReadOnlyList<System.String>, System.Boolean, System.String, System.String, System.String, System.String, CodeFactory.DotNet.CSharp.CsSecurity, System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, CodeFactory.DotNet.CSharp.CsMethodType, CodeFactory.DotNet.CSharp.CsType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsParameter>, CodeFactory.DotNet.SyntaxType, System.String, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsMethod.CsMethod(System.Boolean, System.Boolean, System.Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), System.Collections.Generic.IReadOnlyList(Of System.String), System.Boolean, System.String, System.String, System.String, System.String, CodeFactory.DotNet.CSharp.CsSecurity, System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, CodeFactory.DotNet.CSharp.CsMethodType, CodeFactory.DotNet.CSharp.CsType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsParameter), CodeFactory.DotNet.SyntaxType, System.String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsMethod.CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList<CsAttribute>, IReadOnlyList<String>, Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList<CsParameter>, SyntaxType, String, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsMethod.CsMethod(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CsMethodType, CsType, IReadOnlyList(Of CsParameter), SyntaxType, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
 - uid: CodeFactory.DotNet.CSharp.CsMethod.#ctor*
   name: CsMethod
   href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod__ctor_
@@ -4295,6 +4295,44 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsMethod.CsMethod
   nameWithType: CsMethod.CsMethod
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  name: AddToBeginningBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToBeginningBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  nameWithType: CsMethod.AddToBeginningBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String,System.String)
+  name: AddToBeginningBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToBeginningBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync(System.String, System.String)
+  nameWithType: CsMethod.AddToBeginningBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync*
+  name: AddToBeginningBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToBeginningBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToBeginningBodySyntaxAsync
+  nameWithType: CsMethod.AddToBeginningBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String)
+  name: AddToEndBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToEndBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String)
+  nameWithType: CsMethod.AddToEndBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String,System.String)
+  name: AddToEndBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToEndBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync(System.String, System.String)
+  nameWithType: CsMethod.AddToEndBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync*
+  name: AddToEndBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_AddToEndBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.AddToEndBodySyntaxAsync
+  nameWithType: CsMethod.AddToEndBodySyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.CsMethod.CodeFactory#DotNet#IDotNetGeneric#GenericParameters
   name: IDotNetGeneric.GenericParameters
   href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_CodeFactory_DotNet_IDotNetGeneric_GenericParameters
@@ -4380,6 +4418,25 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsMethod.CodeFactory.DotNet.IDotNetMethod.ReturnType
   nameWithType: CsMethod.IDotNetMethod.ReturnType
   nameWithType.vb: CsMethod.CodeFactory.DotNet.IDotNetMethod.ReturnType
+- uid: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync
+  name: DeleteBodySyntaxAsync()
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_DeleteBodySyntaxAsync
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync()
+  nameWithType: CsMethod.DeleteBodySyntaxAsync()
+- uid: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync(System.String)
+  name: DeleteBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_DeleteBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync(System.String)
+  nameWithType: CsMethod.DeleteBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync*
+  name: DeleteBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_DeleteBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.DeleteBodySyntaxAsync
+  nameWithType: CsMethod.DeleteBodySyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.CsMethod.GenericParameters
   name: GenericParameters
   href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_GenericParameters
@@ -4419,6 +4476,32 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxAsync
   nameWithType: CsMethod.GetBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync
+  name: GetBodySyntaxListAsync()
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_GetBodySyntaxListAsync
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync()
+  nameWithType: CsMethod.GetBodySyntaxListAsync()
+- uid: CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync*
+  name: GetBodySyntaxListAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_GetBodySyntaxListAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.GetBodySyntaxListAsync
+  nameWithType: CsMethod.GetBodySyntaxListAsync
+- uid: CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync
+  name: GetExpressionSyntaxAsync()
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_GetExpressionSyntaxAsync
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync()
+  nameWithType: CsMethod.GetExpressionSyntaxAsync()
+- uid: CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync*
+  name: GetExpressionSyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_GetExpressionSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.GetExpressionSyntaxAsync
+  nameWithType: CsMethod.GetExpressionSyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.CsMethod.HasParameters
   name: HasParameters
   href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_HasParameters
@@ -4588,6 +4671,44 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsMethod.Parameters
   nameWithType: CsMethod.Parameters
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String)
+  name: ReplaceBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String)
+  nameWithType: CsMethod.ReplaceBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String,System.String)
+  name: ReplaceBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync(System.String, System.String)
+  nameWithType: CsMethod.ReplaceBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync*
+  name: ReplaceBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceBodySyntaxAsync
+  nameWithType: CsMethod.ReplaceBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String)
+  name: ReplaceExpressionAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceExpressionAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String)
+  nameWithType: CsMethod.ReplaceExpressionAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String,System.String)
+  name: ReplaceExpressionAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceExpressionAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync(System.String, System.String)
+  nameWithType: CsMethod.ReplaceExpressionAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync*
+  name: ReplaceExpressionAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReplaceExpressionAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.ReplaceExpressionAsync
+  nameWithType: CsMethod.ReplaceExpressionAsync
 - uid: CodeFactory.DotNet.CSharp.CsMethod.ReturnType
   name: ReturnType
   href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_ReturnType
@@ -4601,6 +4722,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsMethod.ReturnType
   nameWithType: CsMethod.ReturnType
+- uid: CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent
+  name: SyntaxContent
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_SyntaxContent
+  commentId: P:CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent
+  nameWithType: CsMethod.SyntaxContent
+- uid: CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent*
+  name: SyntaxContent
+  href: api/CodeFactory.DotNet.CSharp.CsMethod.html#CodeFactory_DotNet_CSharp_CsMethod_SyntaxContent_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMethod.SyntaxContent
+  nameWithType: CsMethod.SyntaxContent
 - uid: CodeFactory.DotNet.CSharp.CsMethodType
   name: CsMethodType
   href: api/CodeFactory.DotNet.CSharp.CsMethodType.html
@@ -9403,6 +9537,63 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.ICsMethod
   fullName: CodeFactory.DotNet.CSharp.ICsMethod
   nameWithType: ICsMethod
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  name: AddToBeginningBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToBeginningBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String)
+  nameWithType: ICsMethod.AddToBeginningBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String,System.String)
+  name: AddToBeginningBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToBeginningBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync(System.String, System.String)
+  nameWithType: ICsMethod.AddToBeginningBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync*
+  name: AddToBeginningBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToBeginningBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToBeginningBodySyntaxAsync
+  nameWithType: ICsMethod.AddToBeginningBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String)
+  name: AddToEndBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToEndBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String)
+  nameWithType: ICsMethod.AddToEndBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String,System.String)
+  name: AddToEndBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToEndBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync(System.String, System.String)
+  nameWithType: ICsMethod.AddToEndBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync*
+  name: AddToEndBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_AddToEndBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.AddToEndBodySyntaxAsync
+  nameWithType: ICsMethod.AddToEndBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync
+  name: DeleteBodySyntaxAsync()
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_DeleteBodySyntaxAsync
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync()
+  nameWithType: ICsMethod.DeleteBodySyntaxAsync()
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync(System.String)
+  name: DeleteBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_DeleteBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync(System.String)
+  nameWithType: ICsMethod.DeleteBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync*
+  name: DeleteBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_DeleteBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.DeleteBodySyntaxAsync
+  nameWithType: ICsMethod.DeleteBodySyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.ICsMethod.MethodType
   name: MethodType
   href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_MethodType
@@ -9429,6 +9620,44 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsMethod.Parameters
   nameWithType: ICsMethod.Parameters
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String)
+  name: ReplaceBodySyntaxAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceBodySyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String)
+  nameWithType: ICsMethod.ReplaceBodySyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String,System.String)
+  name: ReplaceBodySyntaxAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceBodySyntaxAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync(System.String, System.String)
+  nameWithType: ICsMethod.ReplaceBodySyntaxAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync*
+  name: ReplaceBodySyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceBodySyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceBodySyntaxAsync
+  nameWithType: ICsMethod.ReplaceBodySyntaxAsync
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String)
+  name: ReplaceExpressionAsync(String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceExpressionAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String)
+  nameWithType: ICsMethod.ReplaceExpressionAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String,System.String)
+  name: ReplaceExpressionAsync(String, String)
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceExpressionAsync_System_String_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String,System.String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync(System.String, System.String)
+  nameWithType: ICsMethod.ReplaceExpressionAsync(String, String)
+- uid: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync*
+  name: ReplaceExpressionAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReplaceExpressionAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMethod.ReplaceExpressionAsync
+  nameWithType: ICsMethod.ReplaceExpressionAsync
 - uid: CodeFactory.DotNet.CSharp.ICsMethod.ReturnType
   name: ReturnType
   href: api/CodeFactory.DotNet.CSharp.ICsMethod.html#CodeFactory_DotNet_CSharp_ICsMethod_ReturnType
@@ -11812,6 +12041,32 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxAsync
   nameWithType: IDotNetMethod.GetBodySyntaxAsync
+- uid: CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync
+  name: GetBodySyntaxListAsync()
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_GetBodySyntaxListAsync
+  commentId: M:CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync
+  fullName: CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync()
+  nameWithType: IDotNetMethod.GetBodySyntaxListAsync()
+- uid: CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync*
+  name: GetBodySyntaxListAsync
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_GetBodySyntaxListAsync_
+  commentId: Overload:CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetMethod.GetBodySyntaxListAsync
+  nameWithType: IDotNetMethod.GetBodySyntaxListAsync
+- uid: CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync
+  name: GetExpressionSyntaxAsync()
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_GetExpressionSyntaxAsync
+  commentId: M:CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync
+  fullName: CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync()
+  nameWithType: IDotNetMethod.GetExpressionSyntaxAsync()
+- uid: CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync*
+  name: GetExpressionSyntaxAsync
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_GetExpressionSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetMethod.GetExpressionSyntaxAsync
+  nameWithType: IDotNetMethod.GetExpressionSyntaxAsync
 - uid: CodeFactory.DotNet.IDotNetMethod.HasParameters
   name: HasParameters
   href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_HasParameters
@@ -11968,6 +12223,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetMethod.ReturnType
   nameWithType: IDotNetMethod.ReturnType
+- uid: CodeFactory.DotNet.IDotNetMethod.SyntaxContent
+  name: SyntaxContent
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_SyntaxContent
+  commentId: P:CodeFactory.DotNet.IDotNetMethod.SyntaxContent
+  fullName: CodeFactory.DotNet.IDotNetMethod.SyntaxContent
+  nameWithType: IDotNetMethod.SyntaxContent
+- uid: CodeFactory.DotNet.IDotNetMethod.SyntaxContent*
+  name: SyntaxContent
+  href: api/CodeFactory.DotNet.IDotNetMethod.html#CodeFactory_DotNet_IDotNetMethod_SyntaxContent_
+  commentId: Overload:CodeFactory.DotNet.IDotNetMethod.SyntaxContent
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetMethod.SyntaxContent
+  nameWithType: IDotNetMethod.SyntaxContent
 - uid: CodeFactory.DotNet.IDotNetModel
   name: IDotNetModel
   href: api/CodeFactory.DotNet.IDotNetModel.html
@@ -13104,6 +13372,30 @@ references:
   commentId: F:CodeFactory.DotNet.PathBuilderConstants.Structure
   fullName: CodeFactory.DotNet.PathBuilderConstants.Structure
   nameWithType: PathBuilderConstants.Structure
+- uid: CodeFactory.DotNet.SyntaxType
+  name: SyntaxType
+  href: api/CodeFactory.DotNet.SyntaxType.html
+  commentId: T:CodeFactory.DotNet.SyntaxType
+  fullName: CodeFactory.DotNet.SyntaxType
+  nameWithType: SyntaxType
+- uid: CodeFactory.DotNet.SyntaxType.Body
+  name: Body
+  href: api/CodeFactory.DotNet.SyntaxType.html#CodeFactory_DotNet_SyntaxType_Body
+  commentId: F:CodeFactory.DotNet.SyntaxType.Body
+  fullName: CodeFactory.DotNet.SyntaxType.Body
+  nameWithType: SyntaxType.Body
+- uid: CodeFactory.DotNet.SyntaxType.Expression
+  name: Expression
+  href: api/CodeFactory.DotNet.SyntaxType.html#CodeFactory_DotNet_SyntaxType_Expression
+  commentId: F:CodeFactory.DotNet.SyntaxType.Expression
+  fullName: CodeFactory.DotNet.SyntaxType.Expression
+  nameWithType: SyntaxType.Expression
+- uid: CodeFactory.DotNet.SyntaxType.Unknown
+  name: Unknown
+  href: api/CodeFactory.DotNet.SyntaxType.html#CodeFactory_DotNet_SyntaxType_Unknown
+  commentId: F:CodeFactory.DotNet.SyntaxType.Unknown
+  fullName: CodeFactory.DotNet.SyntaxType.Unknown
+  nameWithType: SyntaxType.Unknown
 - uid: CodeFactory.DotNet.WellKnownLanguageType
   name: WellKnownLanguageType
   href: api/CodeFactory.DotNet.WellKnownLanguageType.html
@@ -14208,6 +14500,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.IVsActions.DocumentActions
   nameWithType: IVsActions.DocumentActions
+- uid: CodeFactory.VisualStudio.IVsActions.EnvironmentActions
+  name: EnvironmentActions
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_EnvironmentActions
+  commentId: P:CodeFactory.VisualStudio.IVsActions.EnvironmentActions
+  fullName: CodeFactory.VisualStudio.IVsActions.EnvironmentActions
+  nameWithType: IVsActions.EnvironmentActions
+- uid: CodeFactory.VisualStudio.IVsActions.EnvironmentActions*
+  name: EnvironmentActions
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_EnvironmentActions_
+  commentId: Overload:CodeFactory.VisualStudio.IVsActions.EnvironmentActions
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsActions.EnvironmentActions
+  nameWithType: IVsActions.EnvironmentActions
 - uid: CodeFactory.VisualStudio.IVsActions.GetSolutionAsync
   name: GetSolutionAsync()
   href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetSolutionAsync
@@ -14614,6 +14919,25 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.IVsDocumentActions.ReplaceContentAsync
   nameWithType: IVsDocumentActions.ReplaceContentAsync
+- uid: CodeFactory.VisualStudio.IVsEnvironmentActions
+  name: IVsEnvironmentActions
+  href: api/CodeFactory.VisualStudio.IVsEnvironmentActions.html
+  commentId: T:CodeFactory.VisualStudio.IVsEnvironmentActions
+  fullName: CodeFactory.VisualStudio.IVsEnvironmentActions
+  nameWithType: IVsEnvironmentActions
+- uid: CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync(System.String)
+  name: WriteToCodeFactoryOutputWindowAsync(String)
+  href: api/CodeFactory.VisualStudio.IVsEnvironmentActions.html#CodeFactory_VisualStudio_IVsEnvironmentActions_WriteToCodeFactoryOutputWindowAsync_System_String_
+  commentId: M:CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync(System.String)
+  fullName: CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync(System.String)
+  nameWithType: IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync(String)
+- uid: CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync*
+  name: WriteToCodeFactoryOutputWindowAsync
+  href: api/CodeFactory.VisualStudio.IVsEnvironmentActions.html#CodeFactory_VisualStudio_IVsEnvironmentActions_WriteToCodeFactoryOutputWindowAsync_
+  commentId: Overload:CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync
+  nameWithType: IVsEnvironmentActions.WriteToCodeFactoryOutputWindowAsync
 - uid: CodeFactory.VisualStudio.IVsFactoryCommand`1
   name: IVsFactoryCommand<TModel>
   href: api/CodeFactory.VisualStudio.IVsFactoryCommand-1.html
@@ -14717,6 +15041,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.IVsProject.ProjectLanguages
   nameWithType: IVsProject.ProjectLanguages
+- uid: CodeFactory.VisualStudio.IVsProject.TargetFrameworks
+  name: TargetFrameworks
+  href: api/CodeFactory.VisualStudio.IVsProject.html#CodeFactory_VisualStudio_IVsProject_TargetFrameworks
+  commentId: P:CodeFactory.VisualStudio.IVsProject.TargetFrameworks
+  fullName: CodeFactory.VisualStudio.IVsProject.TargetFrameworks
+  nameWithType: IVsProject.TargetFrameworks
+- uid: CodeFactory.VisualStudio.IVsProject.TargetFrameworks*
+  name: TargetFrameworks
+  href: api/CodeFactory.VisualStudio.IVsProject.html#CodeFactory_VisualStudio_IVsProject_TargetFrameworks_
+  commentId: Overload:CodeFactory.VisualStudio.IVsProject.TargetFrameworks
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsProject.TargetFrameworks
+  nameWithType: IVsProject.TargetFrameworks
 - uid: CodeFactory.VisualStudio.IVsProjectActions
   name: IVsProjectActions
   href: api/CodeFactory.VisualStudio.IVsProjectActions.html
@@ -14943,6 +15280,38 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.IVsProjectFolderActions.RemoveAsync
   nameWithType: IVsProjectFolderActions.RemoveAsync
+- uid: CodeFactory.VisualStudio.IVsProjectFramework
+  name: IVsProjectFramework
+  href: api/CodeFactory.VisualStudio.IVsProjectFramework.html
+  commentId: T:CodeFactory.VisualStudio.IVsProjectFramework
+  fullName: CodeFactory.VisualStudio.IVsProjectFramework
+  nameWithType: IVsProjectFramework
+- uid: CodeFactory.VisualStudio.IVsProjectFramework.Framework
+  name: Framework
+  href: api/CodeFactory.VisualStudio.IVsProjectFramework.html#CodeFactory_VisualStudio_IVsProjectFramework_Framework
+  commentId: P:CodeFactory.VisualStudio.IVsProjectFramework.Framework
+  fullName: CodeFactory.VisualStudio.IVsProjectFramework.Framework
+  nameWithType: IVsProjectFramework.Framework
+- uid: CodeFactory.VisualStudio.IVsProjectFramework.Framework*
+  name: Framework
+  href: api/CodeFactory.VisualStudio.IVsProjectFramework.html#CodeFactory_VisualStudio_IVsProjectFramework_Framework_
+  commentId: Overload:CodeFactory.VisualStudio.IVsProjectFramework.Framework
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsProjectFramework.Framework
+  nameWithType: IVsProjectFramework.Framework
+- uid: CodeFactory.VisualStudio.IVsProjectFramework.Version
+  name: Version
+  href: api/CodeFactory.VisualStudio.IVsProjectFramework.html#CodeFactory_VisualStudio_IVsProjectFramework_Version
+  commentId: P:CodeFactory.VisualStudio.IVsProjectFramework.Version
+  fullName: CodeFactory.VisualStudio.IVsProjectFramework.Version
+  nameWithType: IVsProjectFramework.Version
+- uid: CodeFactory.VisualStudio.IVsProjectFramework.Version*
+  name: Version
+  href: api/CodeFactory.VisualStudio.IVsProjectFramework.html#CodeFactory_VisualStudio_IVsProjectFramework_Version_
+  commentId: Overload:CodeFactory.VisualStudio.IVsProjectFramework.Version
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsProjectFramework.Version
+  nameWithType: IVsProjectFramework.Version
 - uid: CodeFactory.VisualStudio.IVsReference
   name: IVsReference
   href: api/CodeFactory.VisualStudio.IVsReference.html
@@ -16080,6 +16449,12 @@ references:
   commentId: F:CodeFactory.VisualStudio.VisualStudioModelType.ProjectFolder
   fullName: CodeFactory.VisualStudio.VisualStudioModelType.ProjectFolder
   nameWithType: VisualStudioModelType.ProjectFolder
+- uid: CodeFactory.VisualStudio.VisualStudioModelType.ProjectFramework
+  name: ProjectFramework
+  href: api/CodeFactory.VisualStudio.VisualStudioModelType.html#CodeFactory_VisualStudio_VisualStudioModelType_ProjectFramework
+  commentId: F:CodeFactory.VisualStudio.VisualStudioModelType.ProjectFramework
+  fullName: CodeFactory.VisualStudio.VisualStudioModelType.ProjectFramework
+  nameWithType: VisualStudioModelType.ProjectFramework
 - uid: CodeFactory.VisualStudio.VisualStudioModelType.Reference
   name: Reference
   href: api/CodeFactory.VisualStudio.VisualStudioModelType.html#CodeFactory_VisualStudio_VisualStudioModelType_Reference
@@ -16768,15 +17143,15 @@ references:
   commentId: T:CodeFactory.VisualStudio.VsProject
   fullName: CodeFactory.VisualStudio.VsProject
   nameWithType: VsProject
-- uid: CodeFactory.VisualStudio.VsProject.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.Boolean,System.Boolean,System.String,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.ProjectLanguage},System.String)
-  name: VsProject(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, Boolean, Boolean, String, Boolean, IReadOnlyList<ProjectLanguage>, String)
-  href: api/CodeFactory.VisualStudio.VsProject.html#CodeFactory_VisualStudio_VsProject__ctor_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_ModelException_CodeFactory_VisualStudio_VisualStudioModelType___System_String_System_Boolean_System_Boolean_System_String_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_VisualStudio_ProjectLanguage__System_String_
-  commentId: M:CodeFactory.VisualStudio.VsProject.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.Boolean,System.Boolean,System.String,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.ProjectLanguage},System.String)
-  name.vb: VsProject(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, Boolean, Boolean, String, Boolean, IReadOnlyList(Of ProjectLanguage), String)
-  fullName: CodeFactory.VisualStudio.VsProject.VsProject(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelException<CodeFactory.VisualStudio.VisualStudioModelType>>, System.String, System.Boolean, System.Boolean, System.String, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.VisualStudio.ProjectLanguage>, System.String)
-  fullName.vb: CodeFactory.VisualStudio.VsProject.VsProject(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelException(Of CodeFactory.VisualStudio.VisualStudioModelType)), System.String, System.Boolean, System.Boolean, System.String, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.VisualStudio.ProjectLanguage), System.String)
-  nameWithType: VsProject.VsProject(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, Boolean, Boolean, String, Boolean, IReadOnlyList<ProjectLanguage>, String)
-  nameWithType.vb: VsProject.VsProject(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, Boolean, Boolean, String, Boolean, IReadOnlyList(Of ProjectLanguage), String)
+- uid: CodeFactory.VisualStudio.VsProject.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.Boolean,System.Boolean,System.String,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.ProjectLanguage},System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.VsProjectFramework})
+  name: VsProject(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, Boolean, Boolean, String, Boolean, IReadOnlyList<ProjectLanguage>, String, IReadOnlyList<VsProjectFramework>)
+  href: api/CodeFactory.VisualStudio.VsProject.html#CodeFactory_VisualStudio_VsProject__ctor_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_ModelException_CodeFactory_VisualStudio_VisualStudioModelType___System_String_System_Boolean_System_Boolean_System_String_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_VisualStudio_ProjectLanguage__System_String_System_Collections_Generic_IReadOnlyList_CodeFactory_VisualStudio_VsProjectFramework__
+  commentId: M:CodeFactory.VisualStudio.VsProject.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.Boolean,System.Boolean,System.String,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.ProjectLanguage},System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.VisualStudio.VsProjectFramework})
+  name.vb: VsProject(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, Boolean, Boolean, String, Boolean, IReadOnlyList(Of ProjectLanguage), String, IReadOnlyList(Of VsProjectFramework))
+  fullName: CodeFactory.VisualStudio.VsProject.VsProject(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelException<CodeFactory.VisualStudio.VisualStudioModelType>>, System.String, System.Boolean, System.Boolean, System.String, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.VisualStudio.ProjectLanguage>, System.String, System.Collections.Generic.IReadOnlyList<CodeFactory.VisualStudio.VsProjectFramework>)
+  fullName.vb: CodeFactory.VisualStudio.VsProject.VsProject(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelException(Of CodeFactory.VisualStudio.VisualStudioModelType)), System.String, System.Boolean, System.Boolean, System.String, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.VisualStudio.ProjectLanguage), System.String, System.Collections.Generic.IReadOnlyList(Of CodeFactory.VisualStudio.VsProjectFramework))
+  nameWithType: VsProject.VsProject(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, Boolean, Boolean, String, Boolean, IReadOnlyList<ProjectLanguage>, String, IReadOnlyList<VsProjectFramework>)
+  nameWithType.vb: VsProject.VsProject(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, Boolean, Boolean, String, Boolean, IReadOnlyList(Of ProjectLanguage), String, IReadOnlyList(Of VsProjectFramework))
 - uid: CodeFactory.VisualStudio.VsProject.#ctor*
   name: VsProject
   href: api/CodeFactory.VisualStudio.VsProject.html#CodeFactory_VisualStudio_VsProject__ctor_
@@ -16953,6 +17328,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.VsProject.ProjectLanguages
   nameWithType: VsProject.ProjectLanguages
+- uid: CodeFactory.VisualStudio.VsProject.TargetFrameworks
+  name: TargetFrameworks
+  href: api/CodeFactory.VisualStudio.VsProject.html#CodeFactory_VisualStudio_VsProject_TargetFrameworks
+  commentId: P:CodeFactory.VisualStudio.VsProject.TargetFrameworks
+  fullName: CodeFactory.VisualStudio.VsProject.TargetFrameworks
+  nameWithType: VsProject.TargetFrameworks
+- uid: CodeFactory.VisualStudio.VsProject.TargetFrameworks*
+  name: TargetFrameworks
+  href: api/CodeFactory.VisualStudio.VsProject.html#CodeFactory_VisualStudio_VsProject_TargetFrameworks_
+  commentId: Overload:CodeFactory.VisualStudio.VsProject.TargetFrameworks
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.VsProject.TargetFrameworks
+  nameWithType: VsProject.TargetFrameworks
 - uid: CodeFactory.VisualStudio.VsProjectExtensions
   name: VsProjectExtensions
   href: api/CodeFactory.VisualStudio.VsProjectExtensions.html
@@ -17137,6 +17525,54 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.VsProjectFolder.RemoveAsync
   nameWithType: VsProjectFolder.RemoveAsync
+- uid: CodeFactory.VisualStudio.VsProjectFramework
+  name: VsProjectFramework
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html
+  commentId: T:CodeFactory.VisualStudio.VsProjectFramework
+  fullName: CodeFactory.VisualStudio.VsProjectFramework
+  nameWithType: VsProjectFramework
+- uid: CodeFactory.VisualStudio.VsProjectFramework.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.String)
+  name: VsProjectFramework(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, String)
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework__ctor_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_ModelException_CodeFactory_VisualStudio_VisualStudioModelType___System_String_System_String_
+  commentId: M:CodeFactory.VisualStudio.VsProjectFramework.#ctor(System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.ModelException{CodeFactory.VisualStudio.VisualStudioModelType}},System.String,System.String)
+  name.vb: VsProjectFramework(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, String)
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.VsProjectFramework(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelException<CodeFactory.VisualStudio.VisualStudioModelType>>, System.String, System.String)
+  fullName.vb: CodeFactory.VisualStudio.VsProjectFramework.VsProjectFramework(System.Boolean, System.Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelException(Of CodeFactory.VisualStudio.VisualStudioModelType)), System.String, System.String)
+  nameWithType: VsProjectFramework.VsProjectFramework(Boolean, Boolean, IReadOnlyList<ModelException<VisualStudioModelType>>, String, String)
+  nameWithType.vb: VsProjectFramework.VsProjectFramework(Boolean, Boolean, IReadOnlyList(Of ModelException(Of VisualStudioModelType)), String, String)
+- uid: CodeFactory.VisualStudio.VsProjectFramework.#ctor*
+  name: VsProjectFramework
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework__ctor_
+  commentId: Overload:CodeFactory.VisualStudio.VsProjectFramework.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.VsProjectFramework
+  nameWithType: VsProjectFramework.VsProjectFramework
+- uid: CodeFactory.VisualStudio.VsProjectFramework.Framework
+  name: Framework
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework_Framework
+  commentId: P:CodeFactory.VisualStudio.VsProjectFramework.Framework
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.Framework
+  nameWithType: VsProjectFramework.Framework
+- uid: CodeFactory.VisualStudio.VsProjectFramework.Framework*
+  name: Framework
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework_Framework_
+  commentId: Overload:CodeFactory.VisualStudio.VsProjectFramework.Framework
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.Framework
+  nameWithType: VsProjectFramework.Framework
+- uid: CodeFactory.VisualStudio.VsProjectFramework.Version
+  name: Version
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework_Version
+  commentId: P:CodeFactory.VisualStudio.VsProjectFramework.Version
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.Version
+  nameWithType: VsProjectFramework.Version
+- uid: CodeFactory.VisualStudio.VsProjectFramework.Version*
+  name: Version
+  href: api/CodeFactory.VisualStudio.VsProjectFramework.html#CodeFactory_VisualStudio_VsProjectFramework_Version_
+  commentId: Overload:CodeFactory.VisualStudio.VsProjectFramework.Version
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.VsProjectFramework.Version
+  nameWithType: VsProjectFramework.Version
 - uid: CodeFactory.VisualStudio.VsReference
   name: VsReference
   href: api/CodeFactory.VisualStudio.VsReference.html

@@ -32,7 +32,7 @@ namespace CodeFactory.DotNet.CSharp
         private readonly CsMethodType _methodType;
         private readonly CsType _returnType;
         private readonly IReadOnlyList<CsParameter> _parameters;
-
+        private readonly SyntaxType _contentSyntax;
 
         #endregion
 
@@ -45,9 +45,10 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="loadedFromSource">Flag that determines if the model was loaded from source code or from an existing library.</param>
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="parameters">The parameters assigned to the method.</param>
+        /// <param name="contentSyntax">How syntax is stored in the method.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
@@ -78,7 +79,7 @@ namespace CodeFactory.DotNet.CSharp
             IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes,
             bool hasParameters, bool isAbstract, bool isVirtual, bool isSealed, bool isOverride, bool isStatic, 
             bool isVoid, bool isAsync, bool isExtension, CsMethodType methodType, CsType returnType,
-            IReadOnlyList<CsParameter> parameters, string sourceDocument = null,
+            IReadOnlyList<CsParameter> parameters, SyntaxType contentSyntax = SyntaxType.Unknown, string sourceDocument = null,
             ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Method,
                 attributes, sourceFiles, hasDocumentation, documentation, lookupPath, name, parentPath,
@@ -100,6 +101,7 @@ namespace CodeFactory.DotNet.CSharp
             _methodType = methodType;
             _returnType = returnType;
             _parameters = parameters ?? ImmutableList<CsParameter>.Empty;
+            _contentSyntax = contentSyntax;
         }
 
         /// <summary>
@@ -207,9 +209,47 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         public bool IsExtension => _isExtension;
 
-        /// <summary>
-        /// The source code syntax that is stored in the body of the method. This will be null if the method was not loaded from source code.
-        /// </summary>
+        /// <inheritdoc />
+        public SyntaxType SyntaxContent => _contentSyntax;
+
+        /// <inheritdoc />
         public abstract Task<string> GetBodySyntaxAsync();
+
+        /// <inheritdoc />
+        public abstract Task<List<string>> GetBodySyntaxListAsync();
+
+        /// <inheritdoc />
+        public abstract Task<string> GetExpressionSyntaxAsync();
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceDocument, string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceDocument, string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> DeleteBodySyntaxAsync(string sourceDocument);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> DeleteBodySyntaxAsync();
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> ReplaceBodySyntaxAsync(string sourceDocument, string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> ReplaceBodySyntaxAsync(string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> ReplaceExpressionAsync(string sourceCode);
+
+        /// <inheritdoc />
+        public abstract Task<CsSource> ReplaceExpressionAsync(string sourceDocument, string sourceCode);
+
     }
 }

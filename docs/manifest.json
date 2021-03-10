@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsMethod.html",
-          "hash": "nngyOlCZntOmXD26/mpGWA=="
+          "hash": "Gm7M9V6GiGkJQoeEIlqLAQ=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsMethod.html",
-          "hash": "yxJ0xSPzw+fjtSruigaKwQ=="
+          "hash": "RW0b9KjRSow8rnqNQ5OyWg=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetMethod.html",
-          "hash": "K7dv0szgoWSnPmWbssmraA=="
+          "hash": "KoNOCWNIkSVD+f3rU7Kikg=="
         }
       },
       "is_incremental": false,
@@ -2270,6 +2270,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/CodeFactory.DotNet.SyntaxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.SyntaxType.html",
+          "hash": "FNQf8TFBPX+rnP+0vrxXKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/CodeFactory.DotNet.WellKnownLanguageType.yml",
       "output": {
         ".html": {
@@ -2286,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.html",
-          "hash": "uOegDyrbUgVXk+NuSb6ofQ=="
+          "hash": "Hla/AOId+BqPXR6DPTAiBg=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsActions.html",
-          "hash": "0CZFucmLpb/wThOrONXARQ=="
+          "hash": "UvMBCzbP+6X21Es/vyCjew=="
         }
       },
       "is_incremental": false,
@@ -2606,6 +2618,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/CodeFactory.VisualStudio.IVsEnvironmentActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsEnvironmentActions.html",
+          "hash": "r0VLOxmXNsI8Tf6k26h4mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/CodeFactory.VisualStudio.IVsFactoryCommand-1.yml",
       "output": {
         ".html": {
@@ -2634,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProject.html",
-          "hash": "m89R2PS2vu6kmMigbz1Drg=="
+          "hash": "lz78Jm71hf0FwEovcK6XPQ=="
         }
       },
       "is_incremental": false,
@@ -2671,6 +2695,18 @@
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolderActions.html",
           "hash": "TEcfWbOwN0yJud/p6sVlDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CodeFactory.VisualStudio.IVsProjectFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFramework.html",
+          "hash": "MmdWgymxrxdBfahhjcIxPw=="
         }
       },
       "is_incremental": false,
@@ -2718,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionActions.html",
-          "hash": "swHn0MhcZxIal0lF6oOHgA=="
+          "hash": "dMXJtallzJZxS261IBEx6A=="
         }
       },
       "is_incremental": false,
@@ -3066,7 +3102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VisualStudioModelType.html",
-          "hash": "bh7aqRc3srSc7zUV1H98Vw=="
+          "hash": "w4+E1qDRfjETvf/c6j9oDQ=="
         }
       },
       "is_incremental": false,
@@ -3150,7 +3186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsModel.html",
-          "hash": "yCbXkcyYofFR2SNuFDl+7g=="
+          "hash": "PSHzDt41Z/NulRt/nh/73g=="
         }
       },
       "is_incremental": false,
@@ -3162,7 +3198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProject.html",
-          "hash": "xY+kWmme1gHaZVKHgY+ZMg=="
+          "hash": "BGsw4PJP9dRXQ2MicQUGVw=="
         }
       },
       "is_incremental": false,
@@ -3187,6 +3223,18 @@
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProjectFolder.html",
           "hash": "vaVkodCHyAOvtD7SETKj+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CodeFactory.VisualStudio.VsProjectFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsProjectFramework.html",
+          "hash": "ix6b2nmJUm461axNYa4veQ=="
         }
       },
       "is_incremental": false,
@@ -3234,7 +3282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.html",
-          "hash": "IOAqdjL0ojiXrtHxIZb0yA=="
+          "hash": "2yguCBAZ6miexGWGQ0mbXg=="
         }
       },
       "is_incremental": false,
@@ -3258,7 +3306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Ds3XL1/mpcZX/a2V0PP4rg=="
+          "hash": "Us+aKqE23Hs7XraK7ezsew=="
         }
       },
       "is_incremental": false,
@@ -3297,7 +3345,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 209,
+          "total_file_count": 213,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

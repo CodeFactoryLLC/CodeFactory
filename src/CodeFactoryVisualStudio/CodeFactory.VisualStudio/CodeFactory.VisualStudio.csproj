@@ -74,6 +74,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSharpSourceExtensions.cs" />
+    <Compile Include="IVsEnvironmentActions.cs" />
+    <Compile Include="IVsProjectFramework.cs" />
     <Compile Include="PathHelper.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="IChildren.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="VsProject.cs" />
     <Compile Include="VsProjectExtensions.cs" />
     <Compile Include="VsProjectFolder.cs" />
+    <Compile Include="VsProjectFramework.cs" />
     <Compile Include="VsReference.cs" />
     <Compile Include="VsSolution.cs" />
     <Compile Include="VsSolutionFolder.cs" />

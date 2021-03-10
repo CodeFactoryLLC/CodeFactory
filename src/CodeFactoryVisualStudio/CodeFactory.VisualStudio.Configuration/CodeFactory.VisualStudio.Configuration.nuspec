@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactory.VisualStudio.Configuration</id>
-    <version>1.0.20202301</version>
-    <title>Code Factory packager configuration library</title>
+    <version>1.21068.1-beta1</version>
+    <title>CodeFactory packager configuration library</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
     <license type="expression">MIT</license>
@@ -14,7 +14,7 @@
     <copyright>Copyright 2020</copyright>
     <tags>Factory Automation</tags>
     <dependencies>
-      <dependency id="CodeFactorySDK" version="1.0.202301"  />
+      <dependency id="CodeFactorySDK" version="1.21068.1"  />
     </dependencies>
   </metadata>
   <files>

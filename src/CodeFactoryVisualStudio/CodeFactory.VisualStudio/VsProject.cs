@@ -23,6 +23,7 @@ namespace CodeFactory.VisualStudio
         private readonly bool _legacyProjectModel;
         private readonly IReadOnlyList<ProjectLanguage> _projectLanguages;
         private readonly string _defaultNamespace;
+        private readonly IReadOnlyList<VsProjectFramework> _targetFrameworks;
 
         #endregion
 
@@ -30,8 +31,8 @@ namespace CodeFactory.VisualStudio
         /// Constructor for the base class <see cref="VsProject"/>
         /// </summary>
         /// <param name="isLoaded">Flag that determines if the model is loaded.</param>
-        /// <param name="hasErrors">Flag that determines if errors occured while loading the model.</param>
-        /// <param name="modelErrors">The list of errors that occured if any.</param>
+        /// <param name="hasErrors">Flag that determines if errors occurred while loading the model.</param>
+        /// <param name="modelErrors">The list of errors that occurred if any.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="hasParent">Flag that determines if there is a parent model for this model.</param>
         /// <param name="hasChildren">Flag that determines if this model has child models.</param>
@@ -39,9 +40,10 @@ namespace CodeFactory.VisualStudio
         /// <param name="legacyProjectModel">Flag that determines if this project uses the legacy project system for visual studio.</param>
         /// <param name="projectLanguages">The programming languages this project supports.</param>
         /// <param name="defaultNamespace">The default namespace for the project if it support .net framework or .net core. Otherwise this will be null. </param>
+        /// <param name="targetFrameworks">List of the target frameworks this project sends output to on compile.</param>
         protected VsProject(bool isLoaded, bool hasErrors, IReadOnlyList<ModelException<VisualStudioModelType>> modelErrors,
              string name, bool hasParent, bool hasChildren, string path, bool legacyProjectModel, 
-             IReadOnlyList<ProjectLanguage> projectLanguages, string defaultNamespace) 
+             IReadOnlyList<ProjectLanguage> projectLanguages, string defaultNamespace, IReadOnlyList<VsProjectFramework> targetFrameworks) 
             : base(isLoaded, hasErrors, modelErrors, VisualStudioModelType.Project, name)
         {
             _hasParent = hasParent;
@@ -49,7 +51,9 @@ namespace CodeFactory.VisualStudio
             _path = path;
             _legacyProjectModel = legacyProjectModel;
             _defaultNamespace = defaultNamespace;
+            _targetFrameworks = targetFrameworks;
             _projectLanguages = projectLanguages ?? ImmutableList<ProjectLanguage>.Empty;
+            _targetFrameworks = targetFrameworks ?? ImmutableList<VsProjectFramework>.Empty;
         }
 
         /// <summary>
@@ -81,6 +85,9 @@ namespace CodeFactory.VisualStudio
         /// The project languages that are supported in this project. 
         /// </summary>
         public IReadOnlyList<ProjectLanguage> ProjectLanguages => _projectLanguages;
+
+        /// <inheritdoc />
+        public IReadOnlyList<VsProjectFramework> TargetFrameworks => _targetFrameworks;
 
         /// <summary>
         /// Gets the parent solution folder that holds the project.
