@@ -4,15 +4,10 @@ In the guidance section you will find walk-through tutorials on how to use diffe
 # Installation and Configuration
 The following will help with installation and configuration of CodeFactory
 
-## Installing CodeFactory for Visual Studio
+## Installing CodeFactory for Visual Studio (includes the SDK)
 This will provide step-by-step instructions for installing CodeFactory itself and loading your license key.
 
 [Install CodeFactory for Visual Studio](Install/CodeFactoryForVisualStudio.md)
-
-## Installing CodeFactory SDK 
-This will provide step-by-step instruction for installing the CodeFactory SDK.
-
-[Install CodeFactory SDK](Install/CodeFactorySDK.md)
 
 # SDK Examples
 The following will provide guidance on how to setup and author your own automation using CodeFactory
