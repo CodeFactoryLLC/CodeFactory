@@ -160,7 +160,6 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>VisualStudioMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="CodeFactory.VisualStudio.nuspec" />
     <None Include="CodeFactoryRuntimeSigner.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
+  <metadata>
+    <id>CodeFactorySDK</id>
+    <version>1.21085.1</version>
+    <title>CodeFactory Software Development Kit</title>
+    <authors>CodeFactory, LLC.</authors>
+    <owners>CodeFactory, LLC.</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/CodeFactoryLLC/CodeFactory</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
+    <releaseNotes>
+      Platform Update for CodeFactory
+      
+      This release of the SDK and the runtime focuses on the following.
+      - Stream line the packaging and loading of CodeFactory Extensions.
+      - Updated the configuration and loading process to be platform specific.
+      
+      The following libraries have been replaced
+      - CodeFactory.VisualStudio.Loader replaces CodeFactory.VisualStudio.Configuration
+      - CodeFactory.VisualStudio.Packager replaces CFXPackager
+      
+      The Package executable is now downloaded from NuGet that removed the reliance on an administrative install for CodeFactory.
+    </releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Factory Automation</tags>
+    <dependencies>
+      <dependency id="NLog" version="4.6.8"  />
+      <dependency id="System.Collections.Immutable" version="1.5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\CodeFactorySDK.targets" target="build/net472/CodeFactorySDK.targets" />
+    <file src="bin\Debug\VisualStudioPackager.targets" target="tools/VisualStudioPackager.targets" />
+    <file src="bin\Debug\CodeFactory*.dll" target="lib/net472/" />
+    <file src="bin\Debug\CodeFactory*.pdb" target="lib/net472/" />
+    <file src="bin\Debug\CodeFactory*.xml" target="lib/net472/" />
+    <file src="bin\Debug\CodeFactory.VisualStudio.Packager.exe" target="tools/net472/CodeFactory.VisualStudio.Packager.exe" />
+    <file src="bin\Debug\CodeFactory.VisualStudio.Packager.exe.config" target="tools/net472/CodeFactory.VisualStudio.Packager.exe.config" />
+    <file src="bin\Debug\CodeFactory*.dll" target="tools/net472/" />
+    <file src="bin\Debug\nlog.dll" target="tools/net472/nlog.dll" />
+    <file src="bin\Debug\System.Collections.Immutable.dll" target="tools/net472/System.Collections.Immutable.dll" />
+    <file src="bin\Debug\Microsoft.Extensions.CommandLineUtils.dll" target="tools/net472/Microsoft.Extensions.CommandLineUtils.dll" />
+  </files>
+</package>
