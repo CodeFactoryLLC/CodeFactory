@@ -20,8 +20,6 @@
 
 ###[CodeFactory for Visual Studio](howto/Install/CodeFactoryForVisualStudio.md)
 
-###[CodeFactory SDK](howto/Install/CodeFactorySDK.md)
-
 ##SDK Examples
 
 ###[Creating a CodeFactory Project](howto/CreateProject/Overview.md)

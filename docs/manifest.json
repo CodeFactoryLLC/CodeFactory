@@ -701,15 +701,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "guidance/toc.md",
       "output": {
         ".html": {
           "relative_path": "guidance/toc.html",
-          "hash": "J6tucRjfjpocRk/Iphnjhg=="
+          "hash": "/+0E6Zjw3BQr5XsXAtfzUQ=="
         }
       },
       "is_incremental": false,
