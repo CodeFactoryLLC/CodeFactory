@@ -57,7 +57,6 @@
     <None Include="guidance\howto\CreateProject\CreateProject.md" />
     <None Include="guidance\howto\CreateProject\Overview.md" />
     <None Include="guidance\howto\Install\CodeFactoryForVisualStudio.md" />
-    <None Include="guidance\howto\Install\CodeFactorySDK.md" />
     <None Include="guidance\howto\Overview.md" />
     <None Include="guidance\intro.md" />
     <None Include="guidance\Introduction\Commands\Overview.md" />

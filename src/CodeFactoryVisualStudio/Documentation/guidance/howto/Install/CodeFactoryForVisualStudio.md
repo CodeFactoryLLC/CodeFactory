@@ -2,12 +2,10 @@
 Use the following steps to install the CodeFactory Runtime Visual Studio Extension:
 
 ## Step 1: Download the CodeFactory for Visual Studio Runtime
-Get the latest release of the CodeFactory Runtime installer from [here](https://github.com/CodeFactoryLLC/CodeFactory/releases).
+Get the latest release of the CodeFactory Runtime installer from [here](https://github.com/CodeFactoryLLC/CodeFactory/releases/latest).
 
 ## Step 2: Execute the VSIX Installer
 Simply run the VSIX installer that was downloaded in Step 1 on the same machine that your copy of Visual Studio is installed on.  
-
-There is also a video tutorial that guides the install process [here](https://www.youtube.com/watch?v=sJTFVW2kxKE&t=1s&ab_channel=CodeFactory)
 
 ## Step 3: License Key Activation
 Once the VSIX has installed CodeFactory Runtime, launch Visual Studio 2019, and follow these steps to add your license key (which was included in the email confirmation). 
@@ -29,10 +27,6 @@ ___
 
 Click “Close” and your CodeFactory license is now activated.
 ___
-
-## Install Codefactory SDK
-Once you have completed the setup of CodeFactory RunTime, the next step is to install the CodeFactory SDK.
-[CodeFactory SDK Install Instructions](CodeFactorySDK.md)
 
 ## Guidance
 Once you have completed the setup of CodeFactory you can return to guidance here.

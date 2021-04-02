@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/github/CodeFactoryLLC/CodeFactory/src/CodeFactoryVisualStudio/Documentation",
+  "source_base_path": "c:/github/codefactoryllc/CodeFactory/src/CodeFactoryVisualStudio/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -13,12 +13,15 @@
       "is_incremental": false
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "k6uhtlZ4mB60af227EYFuw=="
+          "hash": "b4+flD+vznkKpb+3r9etEA=="
         }
       },
       "is_incremental": false,
@@ -623,19 +626,7 @@
       "output": {
         ".html": {
           "relative_path": "guidance/howto/Install/CodeFactoryForVisualStudio.html",
-          "hash": "XggCH/iQq9c/OsPNdQ3I2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "guidance/howto/Install/CodeFactorySDK.md",
-      "output": {
-        ".html": {
-          "relative_path": "guidance/howto/Install/CodeFactorySDK.html",
-          "hash": "ZG3lWHUCOs3ZbJYHncuiGQ=="
+          "hash": "SBvhplwRTZCCdMo4IzgoRA=="
         }
       },
       "is_incremental": false,
@@ -710,12 +701,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "guidance/toc.md",
       "output": {
         ".html": {
           "relative_path": "guidance/toc.html",
-          "hash": "HqvsTRLhIbOl8pKxNPcndw=="
+          "hash": "J6tucRjfjpocRk/Iphnjhg=="
         }
       },
       "is_incremental": false,
@@ -3339,7 +3333,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 16,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
