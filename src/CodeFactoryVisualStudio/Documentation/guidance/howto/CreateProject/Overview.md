@@ -11,7 +11,7 @@ This section will explains how to use the CodeFactory SDK.
 
 Prequisites: Please confirm the following prior to getting started with this guidance:
  
- - You are using Visual Studio 2019 on Windows (Visual Studio on Mac is not currently supported).
+ - You are using Visual Studio (2019 or 2022) on Windows (Visual Studio on Mac is not currently supported).
  - You have installed CodeFactory for Visual Studio and have activated CodeFactory with a license key.
  - You have installed the CodeFactory SDK.
 
