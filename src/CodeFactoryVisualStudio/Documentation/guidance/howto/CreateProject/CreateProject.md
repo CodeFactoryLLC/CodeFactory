@@ -24,7 +24,7 @@ This error will go away once the first command is added to the project.
 ## Walk-through Steps
 Follow these steps to successfully create and compile your CodeFactory project:
 
-1. Start Visual Studio 2019
+1. Start Visual Studio
 ___
 2. From the "What would you like to do?" window click "Create a new project".
 ![](Images/StartWindowCreateProject.png)
