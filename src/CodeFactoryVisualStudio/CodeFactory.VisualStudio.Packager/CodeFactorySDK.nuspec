@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.21085.1</version>
+    <version>1.22298.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,19 +11,18 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      Platform Update for CodeFactory
+      Platform Update for CodeFactory 1.22298.1
       
       This release of the SDK and the runtime focuses on the following.
-      - Stream line the packaging and loading of CodeFactory Extensions.
-      - Updated the configuration and loading process to be platform specific.
-      
-      The following libraries have been replaced
-      - CodeFactory.VisualStudio.Loader replaces CodeFactory.VisualStudio.Configuration
-      - CodeFactory.VisualStudio.Packager replaces CFXPackager
-      
-      The Package executable is now downloaded from NuGet that removed the reliance on an administrative install for CodeFactory.
+	  - Have updated the injection process of code into files. You no longer have to profile the file path. Framework determines this.
+      - Have added an overload to AddBeforeAsync functionality to allow you to add directly before the definition of the model ignoring attributes and xml documentation.
+      - LookupModel is now obsolete use GetModel now.
+	  - Added GetModel[T] this allows to set the target type to return instead of having to cast to directly.
+	  - CodeFactory.Formatting.CSharp has been moved into the SDK.
+	  - NamespaceManager in formatting now supports adding additional using statements after the manager has been loaded.
+	  - CsManualUsingStatement has been added to formatting to allow adding customing using statements to the namespace manager.
     </releaseNotes>
-    <copyright>Copyright 2021</copyright>
+    <copyright>Copyright 2022</copyright>
     <tags>Factory Automation</tags>
     <dependencies>
       <dependency id="NLog" version="4.6.8"  />

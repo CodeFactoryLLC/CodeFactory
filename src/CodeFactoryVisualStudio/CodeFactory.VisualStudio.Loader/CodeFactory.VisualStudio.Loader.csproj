@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>CodeFactoryRuntimeSigner.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,9 +85,6 @@
     <Compile Include="VsPackageReadResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CodeFactoryRuntimeSigner.snk" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="ConfigurationMessages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ConfigurationMessages.Designer.cs</LastGenOutput>
@@ -106,6 +103,9 @@
       <Project>{d73c2a8f-64a2-4713-9a23-03c10b888877}</Project>
       <Name>CodeFactory</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CodeFactorySigner.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

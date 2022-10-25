@@ -4,6 +4,6 @@
     <VsPackagerExe>"$(MSBuildThisFileDirectory)net472\CodeFactory.VisualStudio.Packager.exe"</VsPackagerExe>
   </PropertyGroup>
   <Target Name="GenerateCodeFactoryPackage" AfterTargets="AfterBuild">
-    <Exec Command="$(VsPackagerExe) -a $(TargetPath)" />
+    <Exec Command='$(VsPackagerExe) -a "$(TargetPath)"' />
   </Target>
 </Project>

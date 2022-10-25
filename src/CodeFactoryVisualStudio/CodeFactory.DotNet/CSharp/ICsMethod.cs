@@ -3,6 +3,7 @@
 //* Copyright (c) 2020 CodeFactory, LLC
 //*****************************************************************************
 using CodeFactory.Document;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -36,6 +37,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         /// <exception cref="CodeFactoryException">Error is raised if the incorrect ContentSyntax is present.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -55,6 +57,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         /// <exception cref="CodeFactoryException">Error is raised if the incorrect ContentSyntax is present.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> AddToEndBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -73,6 +76,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         /// <exception cref="CodeFactoryException">Error is raised if the incorrect ContentSyntax is present.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> DeleteBodySyntaxAsync(string sourceDocument);
 
         /// <summary>
@@ -91,6 +95,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         /// <exception cref="CodeFactoryException">Error is raised if the incorrect ContentSyntax is present.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> ReplaceBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -119,6 +124,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         /// <exception cref="CodeFactoryException">Error is raised if the incorrect ContentSyntax is present.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> ReplaceExpressionAsync(string sourceDocument, string sourceCode);
     }
 }

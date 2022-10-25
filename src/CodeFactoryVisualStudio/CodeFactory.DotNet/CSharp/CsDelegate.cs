@@ -301,7 +301,9 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
         /// <returns>The loaded model or null if the model could not be found.</returns>
         public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
-      
+
+        /// <inheritdoc/>
+        public abstract Task<CsSource> AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs);
 
         /// <summary>
         ///     The security scope that has been assigned to this item.

@@ -43,7 +43,7 @@
     <Reference Include="System.Data"/>
     <Reference Include="System.Xml"/>
     <PackageReference Include="CodeFactorySDK">
-      <Version>1.21085.1</Version>
+      <version>1.22298.1</version>
     </PackageReference>
     <Reference Include="PresentationCore"/>
     <Reference Include="PresentationFramework"/>

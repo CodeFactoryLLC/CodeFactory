@@ -25,7 +25,7 @@ namespace CodeFactory.VisualStudio.Packager
             commandLine.OnExecute(() =>
             {
                 if (!assembly.HasValue()) return PackagerData.ExitCodeNoAssemby;
-                var assemblyPath = assembly.Value();
+                var assemblyPath = assembly.Value().Replace("\"","");
                 if (!File.Exists(assemblyPath)) return PackagerData.ExitCodeNoAssemby;
 
                 var assemblyName = Path.GetFileNameWithoutExtension(assemblyPath);

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A5D05FB-013D-4685-A3A8-BE29F24BCB82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeFactory.Formatting.CSharp</RootNamespace>
+    <AssemblyName>CodeFactory.Formatting.CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CodeFactory.Formatting.CSharp.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CsAttributeExtensions.cs" />
+    <Compile Include="CsAttributeParameterExtensions.cs" />
+    <Compile Include="CsAttributeParameterValueExtensions.cs" />
+    <Compile Include="CsClassExtensions.cs" />
+    <Compile Include="CsEnumExtensions.cs" />
+    <Compile Include="CsEventExtensions.cs" />
+    <Compile Include="CsFieldExtensions.cs" />
+    <Compile Include="CsGenericParameterExtensions.cs" />
+    <Compile Include="CsInterfaceExtensions.cs" />
+    <Compile Include="CsManualUsingStatement.cs" />
+    <Compile Include="CsMethodExtensions.cs" />
+    <Compile Include="CsParameterDefaultValueExtensions.cs" />
+    <Compile Include="CsParameterExtensions.cs" />
+    <Compile Include="CsPropertyExtensions.cs" />
+    <Compile Include="CsSecurityExtensions.cs" />
+    <Compile Include="CsSourceExtensions.cs" />
+    <Compile Include="CsStructureExtensions.cs" />
+    <Compile Include="CsTypeExtensions.cs" />
+    <Compile Include="CsUsingStatementExtensions.cs" />
+    <Compile Include="DocumentationExtensions.cs" />
+    <Compile Include="NamespaceManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFactory.DotNet\CodeFactory.DotNet.csproj">
+      <Project>{661e6004-c585-45ab-8c40-5a1b826f6490}</Project>
+      <Name>CodeFactory.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory\CodeFactory.csproj">
+      <Project>{d73c2a8f-64a2-4713-9a23-03c10b888877}</Project>
+      <Name>CodeFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CodeFactorySigner.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

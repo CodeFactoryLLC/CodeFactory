@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Extensions.CommandLineUtils, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.CommandLineUtils.1.1.1\lib\net451\Microsoft.Extensions.CommandLineUtils.dll</HintPath>
@@ -57,6 +63,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="CodeFactorySDK.nuspec" />
+    <None Include="CodeFactorySigner.snk" />
     <None Include="packages.config" />
     <None Include="CodeFactorySDK.targets">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -69,6 +76,10 @@
     <ProjectReference Include="..\CodeFactory.DotNet\CodeFactory.DotNet.csproj">
       <Project>{661e6004-c585-45ab-8c40-5a1b826f6490}</Project>
       <Name>CodeFactory.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Formatting.CSharp\CodeFactory.Formatting.CSharp.csproj">
+      <Project>{0a5d05fb-013d-4685-a3a8-be29f24bcb82}</Project>
+      <Name>CodeFactory.Formatting.CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="..\CodeFactory.Logging\CodeFactory.Logging.csproj">
       <Project>{c0cbdd09-b55d-4572-9f4d-d0e6dd8c4a73}</Project>

@@ -1,8 +1,9 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Threading.Tasks;
@@ -222,24 +223,28 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<string> GetExpressionSyntaxAsync();
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
         public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
         public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> DeleteBodySyntaxAsync(string sourceDocument);
 
         /// <inheritdoc />
         public abstract Task<CsSource> DeleteBodySyntaxAsync();
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
@@ -249,6 +254,7 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceExpressionAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceExpressionAsync(string sourceDocument, string sourceCode);
 
     }

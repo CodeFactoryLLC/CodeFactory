@@ -1,8 +1,9 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Threading.Tasks;
@@ -78,6 +79,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be added to the document.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddBeforeAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -96,6 +98,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be added to the document.</param>
         /// <returns>A newly loaded copy of the <see cref="CsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddAfterAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -112,6 +115,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceDocument">The source document that the attribute is to be removed from.</param>
         /// <returns>A newly loaded copy of the <see cref="CsSource"/> model after the attribute has been removed from the document.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> DeleteAsync(string sourceDocument);
 
         /// <summary>
@@ -127,6 +131,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceDocument">The fully qualified path to the document that has the attribute defined in.</param>
         /// <returns>The source location for the attribute.</returns>
         /// <exception cref="DocumentException">Raised when an error occurs getting the location from the document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<ISourceLocation> GetSourceLocationAsync(string sourceDocument);
 
         /// <summary>
@@ -143,6 +148,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be used to replace the original definition in the document.</param>
         /// <returns>A newly loaded copy of the <see cref="CsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -152,13 +158,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="CsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
-
-        /// <summary>
-        /// Gets a <see cref="CsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
 
         /// <summary>
         ///     The type information for the attribute itself.
@@ -178,7 +177,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
 
     }
 }
