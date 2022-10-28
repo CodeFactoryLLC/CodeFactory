@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22298.1</version>
+    <version>1.22301.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,16 +11,22 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      Platform Update for CodeFactory 1.22298.1
+      SDK Update for CodeFactory 1.22301.1
       
-      This release of the SDK and the runtime focuses on the following.
-	  - Have updated the injection process of code into files. You no longer have to profile the file path. Framework determines this.
-      - Have added an overload to AddBeforeAsync functionality to allow you to add directly before the definition of the model ignoring attributes and xml documentation.
+      This release of the SDK focuses on the following.
+	  - Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.
+      - Have added an overload to AddBeforeAsync functionality to allow you to add directly before the definition of the model ignoring xml documentation.
       - LookupModel is now obsolete use GetModel now.
 	  - Added GetModel[T] this allows to set the target type to return instead of having to cast to directly.
 	  - CodeFactory.Formatting.CSharp has been moved into the SDK.
 	  - NamespaceManager in formatting now supports adding additional using statements after the manager has been loaded.
-	  - CsManualUsingStatement has been added to formatting to allow adding customing using statements to the namespace manager.
+	  - CsManualUsingStatement has been added to formatting to allow adding customizing using statements to the namespace manager.
+      - Can now directly control code documentation from the SDK. Added the following code management methods to control documentation.
+        - AddBeforeDocsAsync - Add source code content before XML documentation.
+        - AddAfterDocsAsync - Add source code content after XML documentation.
+        - ReplaceDocsAsync - Replaces the XML documentation.
+        - DeleteDocsAsync - Deletes the XML documentation.
+      - Fixed an issue with the Visual Studio packager not able to process project paths that had spaces in the path. 
     </releaseNotes>
     <copyright>Copyright 2022</copyright>
     <tags>Factory Automation</tags>

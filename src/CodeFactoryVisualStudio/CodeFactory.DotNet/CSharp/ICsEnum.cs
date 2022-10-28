@@ -71,39 +71,39 @@ namespace CodeFactory.DotNet.CSharp
         Task<CsSource> AddAfterAsync(string sourceCode);
 
         /// <summary>
-        /// Deletes the definition of the delegate from the source document. 
+        /// Deletes the definition of the enumeration from the source document. 
         /// </summary>
-        /// <param name="sourceDocument">The source document that the delegate is to be removed from.</param>
-        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the delegate has been removed from the document.</returns>
+        /// <param name="sourceDocument">The source document that the enumeration is to be removed from.</param>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the enumeration has been removed from the document.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<CsSource> DeleteAsync(string sourceDocument);
 
         /// <summary>
-        /// Deletes the definition of the delegate from the source document. 
+        /// Deletes the definition of the enumeration from the source document. 
         /// </summary>
-        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the delegate has been removed from the document.</returns>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the enumeration has been removed from the document.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         Task<CsSource> DeleteAsync();
 
         /// <summary>
-        /// Gets the starting and ending locations within the document where the delegate is located.
+        /// Gets the starting and ending locations within the document where the enumeration is located.
         /// </summary>
-        /// <param name="sourceDocument">The fully qualified path to the document that has the delegate defined in.</param>
-        /// <returns>The source location for the delegate.</returns>
+        /// <param name="sourceDocument">The fully qualified path to the document that has the enumeration defined in.</param>
+        /// <returns>The source location for the enumeration.</returns>
         /// <exception cref="DocumentException">Raised when an error occurs getting the location from the document.</exception>
         [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         Task<ISourceLocation> GetSourceLocationAsync(string sourceDocument);
 
         /// <summary>
-        /// Gets the starting and ending locations within the document where the delegate is located.
+        /// Gets the starting and ending locations within the document where the enumeration is located.
         /// </summary>
-        /// <returns>The source location for the delegate.</returns>
+        /// <returns>The source location for the enumeration.</returns>
         /// <exception cref="DocumentException">Raised when an error occurs getting the location from the document.</exception>
         Task<ISourceLocation> GetSourceLocationAsync();
 
         /// <summary>
-        /// Replaces the current delegate with the provided source code.
+        /// Replaces the current enumeration with the provided source code.
         /// </summary>
         /// <param name="sourceDocument">The fully qualified path to the source code document to be updated.</param>
         /// <param name="sourceCode">The source code that is to be used to replace the original definition in the document.</param>
@@ -113,7 +113,7 @@ namespace CodeFactory.DotNet.CSharp
         Task<CsSource> ReplaceAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
-        /// Replaces the current delegate with the provided source code.
+        /// Replaces the current enumeration with the provided source code.
         /// </summary>
         /// <param name="sourceCode">The source code that is to be used to replace the original definition in the document.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>

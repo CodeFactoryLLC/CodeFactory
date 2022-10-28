@@ -100,6 +100,33 @@ namespace CodeFactory.DotNet.CSharp
         public string Documentation => _documentation;
 
         /// <summary>
+        /// Adds the supplied source code directly before the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddBeforeDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Adds the supplied source code directly after the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddAfterDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Replaces the supplied source code directly this the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> ReplaceDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Deletes the documentation from the target supporting code artifact.
+        /// </summary>
+        /// <returns>Updated <see cref="CsSource"/> model with the documentation removed.</returns>
+        public abstract Task<CsSource> DeleteDocsAsync();
+
+        /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
         IDotNetModel DotNet.IParent.Parent => Parent;
