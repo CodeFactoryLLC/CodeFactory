@@ -55,6 +55,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
         /// <param name="lookupPath">The fully qualified model lookup path for this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was created from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="ns">The namespace this delegate is assigned to.</param>
@@ -72,7 +73,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
         protected CsDelegate(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics, IReadOnlyList<CsGenericParameter> genericParameters, 
-            IReadOnlyList<CsType> genericTypes, bool hasDocumentation, string documentation, string lookupPath,
+            IReadOnlyList<CsType> genericTypes, bool hasDocumentation, string documentation, string lookupPath, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, string name, string ns, bool hasParameters, bool isVoid, string parentPath,
             CsSecurity security, CsType returnType, IReadOnlyList<CsParameter> parameters, CsMethod invokeMethod,
             CsMethod beginInvokeMethod, CsMethod endInvokeMethod, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
@@ -86,6 +87,7 @@ namespace CodeFactory.DotNet.CSharp
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
             _lookupPath = lookupPath;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _name = name;
             _ns = ns;
@@ -348,6 +350,14 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

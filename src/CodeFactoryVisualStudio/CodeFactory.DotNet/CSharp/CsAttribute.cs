@@ -32,6 +32,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasErrors">Flag that determine if errors were found creating the model.</param>
         /// <param name="loadedFromSource">Flag that determines if the model was loaded from source code or from an existing library.</param>
         /// <param name="language">The target language the model was generated from.</param>
+        /// <param name="modelSourceFile">The soure code file for the model.</param>
         /// <param name="type">The target type of the attribute.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
@@ -40,11 +41,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasParameters">Flag that determines if the attribute has parameters.</param>
         /// <param name="parentPath">The fully qualified lookup path to the parent model for this attribute.</param>
         /// <param name="parameters">The list of parameters assigned to the attribute.</param>
-        protected CsAttribute(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
+        protected CsAttribute(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, bool hasParameters, string parentPath, IReadOnlyList<CsAttributeParameter> parameters, 
             CsType type, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Attribute, sourceDocument, modelStore, modelErrors)
         {
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _hasParameters = hasParameters;
             _parentPath = parentPath;
@@ -179,5 +181,12 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         public CsModel Parent => GetModel(_parentPath);
 
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

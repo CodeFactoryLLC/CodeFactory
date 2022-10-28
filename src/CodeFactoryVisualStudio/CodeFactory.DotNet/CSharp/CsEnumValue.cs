@@ -45,12 +45,13 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
         /// <param name="lookupPath">The fully qualified model lookup path for this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="parentPath">The fully qualified lookup path for the parent model to this one.</param>
         /// <param name="value">The value assigned to the enumeration value.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         protected CsEnumValue(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, string parentPath, bool hasDocumentation, string documentation, string lookupPath,
+            IReadOnlyList<CsAttribute> attributes, string parentPath, bool hasDocumentation, string documentation, string lookupPath, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, string name,
             string value, CsSecurity security, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.EnumValue, sourceDocument, modelStore, modelErrors)
@@ -61,6 +62,7 @@ namespace CodeFactory.DotNet.CSharp
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
             _lookupPath = lookupPath;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _name = name;
             _value = value;
@@ -217,5 +219,13 @@ namespace CodeFactory.DotNet.CSharp
         ///     The value that has been assigned to the enumeration value.
         /// </summary>
         public string Value => _value;
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

@@ -47,11 +47,13 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
         /// <param name="lookupPath">The fully qualified model lookup path for this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="name">The name of the model.</param>
+        /// <param name="ns"></param>
         /// <param name="parentPath">The fully qualified lookup path for the parent model to this one.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         protected CsEnum(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, string parentPath, bool hasDocumentation, string documentation, string lookupPath,
+            IReadOnlyList<CsAttribute> attributes, string parentPath, bool hasDocumentation, string documentation, string lookupPath,string modelSourceFile,
             IReadOnlyList<string> sourceFiles, string name, string ns, CsSecurity security, IReadOnlyList<CsEnumValue> values, 
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null): base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Enum, sourceDocument, modelStore, modelErrors)
         {
@@ -60,6 +62,7 @@ namespace CodeFactory.DotNet.CSharp
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
             _lookupPath = lookupPath;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _name = name;
             _ns = ns;
@@ -90,7 +93,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
 
         /// <summary>
         ///     Flag that determines if the model has code level documentation assigned to it.
@@ -231,5 +234,13 @@ namespace CodeFactory.DotNet.CSharp
         ///     List of the enumeration values implemented in this enumeration.
         /// </summary>
         IReadOnlyList<IDotNetEnumValue> IDotNetEnum.Values => Values;
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

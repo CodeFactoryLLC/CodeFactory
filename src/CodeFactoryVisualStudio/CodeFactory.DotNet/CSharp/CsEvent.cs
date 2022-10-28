@@ -38,6 +38,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -55,11 +56,11 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="addMethod">Model for the add method for this event.</param>
         /// <param name="removeMethod">Model for the remove method for this event.</param>
         protected CsEvent(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
             string lookupPath, string name, string parentPath, CsSecurity security, bool isAbstract, bool isVirtual, bool isOverride, 
             bool isSealed, bool isStatic, CsDelegate eventHandlerDelegate, CsMethod raiseMethod, CsMethod addMethod, CsMethod removeMethod,
             CsType eventType, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null): base(isLoaded, hasErrors, loadedFromSource, 
-            language, CsModelType.Event, attributes, sourceFiles, hasDocumentation, documentation, 
+            language, CsModelType.Event, attributes, modelSourceFile, sourceFiles, hasDocumentation, documentation, 
             lookupPath, name, parentPath, security, CsMemberType.Event, sourceDocument, modelStore, modelErrors)
         {
             _isAbstract = isAbstract;

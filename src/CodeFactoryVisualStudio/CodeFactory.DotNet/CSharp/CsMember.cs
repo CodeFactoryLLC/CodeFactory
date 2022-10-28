@@ -43,6 +43,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
         /// <param name="modelType">The type of model that represents this member.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -51,12 +52,13 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="parentPath">THe fully qualified lookup path for the parent model to this one.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         protected CsMember(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, CsModelType modelType,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation,
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation,
             string documentation, string lookupPath, string name, string parentPath, CsSecurity security,
             CsMemberType memberType, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, modelType, sourceDocument, modelStore, modelErrors)
         {
             _attributes = attributes ?? ImmutableList<CsAttribute>.Empty;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
@@ -121,6 +123,15 @@ namespace CodeFactory.DotNet.CSharp
         /// The type of member the model is.
         /// </summary>
         public CsMemberType MemberType => _memberType;
+
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
 
         /// <summary>
         /// Adds the source code directly before the definition of the <see cref="ICsMember"/>in the target document.

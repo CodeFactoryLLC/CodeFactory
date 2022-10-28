@@ -33,14 +33,16 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
         /// <param name="lookupPath">The fully qualified lookup path for the model to be used in the model store.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="sourceFiles">The source files where the namespace is defined in.</param>
         /// <param name="name">The fully qualified name of the namespace.</param>
-        protected CsNamespace(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,string lookupPath, 
+        protected CsNamespace(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,string lookupPath, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, string name, string parentPath, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, 
             IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Namespace, sourceDocument, modelStore, modelErrors)
         {
             _lookupPath = lookupPath;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _name = name;
             _parentPath = parentPath;
@@ -70,5 +72,13 @@ namespace CodeFactory.DotNet.CSharp
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
         public CsModel Parent => GetModel(_parentPath);
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

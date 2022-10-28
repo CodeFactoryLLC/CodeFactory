@@ -78,7 +78,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
 
         /// <summary>
         /// Adds the source code directly before the definition of the <see cref="ICsUsingStatement"/> in the target document.
@@ -160,13 +160,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
-
-        /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public ICsModel GetModel(string lookupPath) => LookupModel(lookupPath);
 
     }
 }

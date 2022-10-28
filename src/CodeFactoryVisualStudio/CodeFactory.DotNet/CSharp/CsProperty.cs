@@ -39,6 +39,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -56,12 +57,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="propertyType">The type the property supports.</param>
         /// <param name="getSecurity">The security access assigned to the getter.</param>
         protected CsProperty(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
             string lookupPath, string name, string parentPath, CsSecurity security, 
             bool hasGet, bool hasSet, bool isAbstract, bool isVirtual, bool isSealed, bool isOverride, bool isStatic,
             CsType propertyType, CsSecurity getSecurity, CsSecurity setSecurity,
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
-            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Property,attributes, sourceFiles,
+            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Property,attributes, modelSourceFile, sourceFiles,
                 hasDocumentation, documentation, lookupPath, name, parentPath, security, CsMemberType.Property, sourceDocument, modelStore, modelErrors)
         {
             _hasGet = hasGet;

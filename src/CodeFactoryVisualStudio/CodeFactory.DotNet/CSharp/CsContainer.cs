@@ -54,6 +54,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasStrongTypesInGenerics">Flag that determines if the generics use strong type definitions.</param>
         /// <param name="genericParameters">Generic parameters assigned to the container.</param>
         /// <param name="genericTypes">Target types for the generic parameters assigned to the container.</param>
+        /// <param name="modelSourceFile">The source file the model was loaded from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this model is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -66,7 +67,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="inheritedInterfaces">The interfaces that are inherited by this container.</param>
         protected CsContainer(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, CsModelType modelType,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics, 
-            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, 
+            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation, string lookupPath,
             string name, string ns, string parentPath, CsContainerType containerType, CsSecurity security,
             IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,
@@ -78,6 +79,7 @@ namespace CodeFactory.DotNet.CSharp
             _hasStrongTypesInGenerics = hasStrongTypesInGenerics;
             _genericParameters = genericParameters ?? ImmutableList<CsGenericParameter>.Empty;
             _genericTypes = genericTypes ?? ImmutableList<CsType>.Empty;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
@@ -393,5 +395,13 @@ namespace CodeFactory.DotNet.CSharp
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
         public CsModel Parent => GetModel(_parentPath);
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

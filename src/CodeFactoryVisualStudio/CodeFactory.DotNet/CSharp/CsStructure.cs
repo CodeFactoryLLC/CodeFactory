@@ -31,6 +31,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasStrongTypesInGenerics">Flag that determines if the generics use strong type definitions.</param>
         /// <param name="genericParameters">Generic parameters assigned to the container.</param>
         /// <param name="genericTypes">Target types for the generic parameters assigned to the container.</param>
+        /// <param name="modelSourceFile">The source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this model is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -42,12 +43,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="inheritedInterfaces">The interfaces that are inherited by this container.</param>
         protected CsStructure(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics,
-            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, IReadOnlyList<string> sourceFiles,
+            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, string modelSourceFile, IReadOnlyList<string> sourceFiles,
             bool hasDocumentation, string documentation, string lookupPath, string name, string ns, string parentPath,
             CsSecurity security, IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Structure,
-            attributes, isGeneric, hasStrongTypesInGenerics, genericParameters, genericTypes, sourceFiles, hasDocumentation,
+            attributes, isGeneric, hasStrongTypesInGenerics, genericParameters, genericTypes, modelSourceFile, sourceFiles, hasDocumentation,
             documentation, lookupPath, name, ns, parentPath, CsContainerType.Structure, security, inheritedInterfaces, members,
             sourceDocument, modelStore, modelErrors)
         {
