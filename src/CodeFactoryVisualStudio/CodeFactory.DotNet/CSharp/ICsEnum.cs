@@ -120,5 +120,26 @@ namespace CodeFactory.DotNet.CSharp
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         Task<CsSource> ReplaceAsync(string sourceCode);
 
+        /// <summary>
+        /// Gets the starting and ending locations of the body located in the enum.
+        /// </summary>
+        /// <returns>The source location in the enum.</returns>
+        /// <exception cref="DocumentException">Raised when an error occurs getting the location from the document.</exception>
+        Task<ISourceLocation> GetBodySourceLocationAsync();
+
+        /// <summary>
+        /// Adds the source code inside of the enumeration at the beginning of where members are defined in the enumeration.
+        /// </summary>
+        /// <param name="sourceCode">The source code that is to be added to the document.</param>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
+        Task<CsSource> AddToBeginningAsync(string sourceCode);
+
+        /// <summary>
+        /// Adds the source code inside of the enumeration at the end of where members are defined in the enumeration.
+        /// </summary>
+        /// <param name="sourceCode">The source code that is to be added to the document.</param>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
+        Task<CsSource> AddToEndAsync(string sourceCode);
+
     }
 }

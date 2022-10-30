@@ -39,6 +39,15 @@ namespace CodeFactory.DotNet.CSharp
         Task<CsSource> AddBeforeAsync(string sourceCode);
 
         /// <summary>
+        /// Adds the source code directly before the definition of the <see cref="ICsEnumValue"/>in the target document.
+        /// </summary>
+        /// <param name="sourceCode">The source code that is to be added to the document.</param>
+        /// <param name="ignoreLeadingModelsAndDocs">Changes the before entry point to the start of the member definition not before the documentation or attributes that are assigned to the member.</param>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
+        /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        Task<CsSource> AddBeforeAsync(string sourceCode,bool ignoreLeadingModelsAndDocs);
+
+        /// <summary>
         /// Adds the source code directly after the definition of the <see cref="ICsEnumValue"/>in the target document.
         /// </summary>
         /// <param name="sourceDocument">The fully qualified path to the source code document to be updated.</param>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22301.1</version>
+    <version>1.22303.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.22301.1
+      SDK Update for CodeFactory 1.22303.1
       
       This release of the SDK focuses on the following.
 	  - Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.
@@ -26,6 +26,14 @@
         - AddAfterDocsAsync - Add source code content after XML documentation.
         - ReplaceDocsAsync - Replaces the XML documentation.
         - DeleteDocsAsync - Deletes the XML documentation.
+      - CsProperty mode has added the following capabilities.
+	    - GetMethod property has been added to give you direct access to the get accessor and all the code management functions of the method.
+        - SetMethod property has been added to give you direct access to the set accessor and all the code management functions of the method.
+      - CsEnum mode has added the  the following capabilities
+        - Can now inject code at the beginning of the Enum body.
+        - Can now inject code at the end of the Enum body.
+        - Can now get the source location of the contents of the Enum body.
+      - All C# Models now have a ModelSourceFile property that identifies the source code file the model was generated from.
       - Fixed an issue with the Visual Studio packager not able to process project paths that had spaces in the path. 
     </releaseNotes>
     <copyright>Copyright 2022</copyright>
