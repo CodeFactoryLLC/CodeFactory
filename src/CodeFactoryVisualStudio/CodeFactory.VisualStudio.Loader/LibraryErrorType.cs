@@ -6,7 +6,7 @@
 namespace CodeFactory.VisualStudio.Loader
 {
     /// <summary>
-    ///     Enumeration that stores the type error that has occured while loading a library.
+    ///     Enumeration that stores the type error that has occurred while loading a library.
     /// </summary>
     public enum LibraryErrorType
     {

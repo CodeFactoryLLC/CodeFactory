@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22303.1</version>
+    <version>1.22305.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.22303.1
+      SDK Update for CodeFactory 1.22305.1
       
       This release of the SDK focuses on the following.
 	  - Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.
@@ -33,6 +33,16 @@
         - Can now inject code at the beginning of the Enum body.
         - Can now inject code at the end of the Enum body.
         - Can now get the source location of the contents of the Enum body.
+      - CsContainer Types (Class,Interface, Structure) now support nested type definitions, this includes the following.
+        - Class,Interface, Structure, and Enums can be nested in the above container types.
+      - CSMethod now provide partial support in definition which includes the following.
+        - Method Partial Definition - The capture of the definition of a partial method.
+        - Method Partial Implementation - The capture of the implementation of a partial method.
+        - When getting the list of methods you will get two instance models now. One for the definition and second for the implementation. 
+        - CsMethodType has added two additional enums PartialDefinition and PartialImplementation.
+      - XML Documentation for all models is directly captured from source code so the raw documentation is provided. This includes the following.
+        - Partial implementations will provide the target xml documentation that was provided. 
+	      If documentation was provided in each partial file it will grab the target file the model generation was requested from.
       - All C# Models now have a ModelSourceFile property that identifies the source code file the model was generated from.
       - Fixed an issue with the Visual Studio packager not able to process project paths that had spaces in the path. 
     </releaseNotes>

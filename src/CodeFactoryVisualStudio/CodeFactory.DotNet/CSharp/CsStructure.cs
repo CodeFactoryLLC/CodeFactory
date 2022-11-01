@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2022 CodeFactory, LLC
 //*****************************************************************************
 
 using System.Collections.Generic;
@@ -28,7 +28,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="nestedModels">List of nested models assigned to this container. This is an optional parameter and can be null</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
         /// <param name="isGeneric">Flag that determines if the container is a generic definition.</param>
         /// <param name="hasStrongTypesInGenerics">Flag that determines if the generics use strong type definitions.</param>

@@ -36,7 +36,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="type">The target type of the attribute.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="sourceFiles">The list of source files the attribute is defined in.</param>
         /// <param name="hasParameters">Flag that determines if the attribute has parameters.</param>
         /// <param name="parentPath">The fully qualified lookup path to the parent model for this attribute.</param>

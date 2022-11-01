@@ -17,7 +17,7 @@ namespace CodeFactory.VisualStudio.Loader
         bool IsLoaded { get; }
 
         /// <summary>
-        /// Flag that determines if errors occured while loading the code factory commands.
+        /// Flag that determines if errors occurred while loading the code factory commands.
         /// </summary>
         bool HasErrors { get; }
 

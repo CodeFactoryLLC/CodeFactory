@@ -70,7 +70,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="endInvokeMethod">The end invoke method definition assigned to this delegate.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         protected CsDelegate(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics, IReadOnlyList<CsGenericParameter> genericParameters, 
             IReadOnlyList<CsType> genericTypes, bool hasDocumentation, string documentation, string lookupPath, string modelSourceFile,

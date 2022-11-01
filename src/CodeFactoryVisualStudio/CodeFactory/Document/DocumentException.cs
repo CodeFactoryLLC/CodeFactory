@@ -7,7 +7,7 @@ using System;
 namespace CodeFactory.Document
 {
     /// <summary>
-    /// Exception management class that host information about exceptions that occured while managing documents in code factory.
+    /// Exception management class that host information about exceptions that occurred while managing documents in code factory.
     /// </summary>
     public class DocumentException:CodeFactoryException
     {

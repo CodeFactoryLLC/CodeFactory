@@ -7,7 +7,7 @@ using System;
 namespace CodeFactory
 {
     /// <summary>
-    /// Exception that is raised when an error occured that kept a code factory command from finishing execution. 
+    /// Exception that is raised when an error occurred that kept a code factory command from finishing execution. 
     /// </summary>
     public class ActionException:CodeFactoryException
     {

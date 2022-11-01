@@ -25,8 +25,8 @@ namespace CodeFactory.VisualStudio
         /// Constructor for the base class <see cref="VsModel"/>
         /// </summary>
         /// <param name="isLoaded">Flag that determines if the model is loaded.</param>
-        /// <param name="hasErrors">Flag that determines if errors occured while loading the model.</param>
-        /// <param name="modelErrors">The list of errors that occured if any.</param>
+        /// <param name="hasErrors">Flag that determines if errors occurred while loading the model.</param>
+        /// <param name="modelErrors">The list of errors that occurred if any.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="filePath">The fully qualified file path to the reference</param>
         /// <param name="type">The type of reference that is set for the project.</param>

@@ -19,7 +19,7 @@ namespace CodeFactory {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class CodeFactoryMessages {
@@ -61,7 +61,7 @@ namespace CodeFactory {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured could not complete the document operation..
+        ///   Looks up a localized string similar to An internal error occurred could not complete the document operation..
         /// </summary>
         public static string BaseDocumentException {
             get {
@@ -70,7 +70,7 @@ namespace CodeFactory {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An unhandled error occured and the current code factory operation failed to complete. Please try again..
+        ///   Looks up a localized string similar to An unhandled error occurred and the current code factory operation failed to complete. Please try again..
         /// </summary>
         public static string CodeFactoryError {
             get {
@@ -79,7 +79,7 @@ namespace CodeFactory {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while loading the errors, was not able to retrieve the error messages..
+        ///   Looks up a localized string similar to An internal error occurred while loading the errors, was not able to retrieve the error messages..
         /// </summary>
         public static string LoadErrorsUnhandledError {
             get {
@@ -88,7 +88,7 @@ namespace CodeFactory {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured while loading the model. Review the model to confirm that the model was able to complete loading. .
+        ///   Looks up a localized string similar to An error occurred while loading the model. Review the model to confirm that the model was able to complete loading. .
         /// </summary>
         public static string ModelLoadError {
             get {

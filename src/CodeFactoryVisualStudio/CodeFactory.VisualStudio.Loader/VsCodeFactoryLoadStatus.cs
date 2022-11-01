@@ -29,7 +29,7 @@ namespace CodeFactory.VisualStudio.Loader
         }
 
         /// <summary>
-        /// Flag that determines if errors occured while loading the code factory commands.
+        /// Flag that determines if errors occurred while loading the code factory commands.
         /// </summary>
         public bool HasErrors
         {

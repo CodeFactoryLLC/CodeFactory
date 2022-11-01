@@ -31,7 +31,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="parentPath">The fully qualified path for the model that is a parent of this model.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="lookupPath">The fully qualified lookup path for the model to be used in the model store.</param>
         /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="sourceFiles">The source files where the namespace is defined in.</param>

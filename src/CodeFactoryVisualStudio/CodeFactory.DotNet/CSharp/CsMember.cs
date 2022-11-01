@@ -40,7 +40,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="memberType">The type of member this model represents.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="modelType">The type of model that represents this member.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
         /// <param name="modelSourceFile">The source code file the model was generated from.</param>

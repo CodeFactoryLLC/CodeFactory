@@ -121,10 +121,10 @@
     <value>Code factory could not complete the load process. Code factory will not be avaliable at this time. </value>
   </data>
   <data name="ProjectSystemGeneralError" xml:space="preserve">
-    <value>An error occured while accessing visual studio's project system, code factory had to cancel the operation. Please try again.</value>
+    <value>An error occurred while accessing visual studio's project system, code factory had to cancel the operation. Please try again.</value>
   </data>
   <data name="SolutionExplorerGeneralError" xml:space="preserve">
-    <value>An error occured while access the selected item in solution explorer, code factory had to cancel the operation. Please try again.</value>
+    <value>An error occurred while access the selected item in solution explorer, code factory had to cancel the operation. Please try again.</value>
   </data>
   <data name="VisualStudioCompilerSystemLoadError" xml:space="preserve">
     <value>Code factory has encountered an internal error and cannot load the compiler functionality used by code factory to access .net objects.</value>
@@ -145,36 +145,36 @@
     <value>An internal error occurred locating the parent for project '{0}'. The parent lookup operating cannot complete.</value>
   </data>
   <data name="GetParentForSolutionFolderUnhandledErrorWithProjectFolderTitle" xml:space="preserve">
-    <value>An internal error occured while loading the parent of the solution folder '{0}', cannot complete the load parent operation.</value>
+    <value>An internal error occurred while loading the parent of the solution folder '{0}', cannot complete the load parent operation.</value>
   </data>
   <data name="GetParentUnhandledErrorForProjectDocumentWithName" xml:space="preserve">
-    <value>An internal error occured while trying to get the parent for the document '{0}', cannot get the parent model.</value>
+    <value>An internal error occurred while trying to get the parent for the document '{0}', cannot get the parent model.</value>
   </data>
   <data name="GetParentUnhandledErrorForProjectFolderWithName" xml:space="preserve">
-    <value>An internal error occured while loading the parent for the project folder '{0}', the parent model cannot be loaded.</value>
+    <value>An internal error occurred while loading the parent for the project folder '{0}', the parent model cannot be loaded.</value>
   </data>
   <data name="SolutionFolderChildLoadUnhandledExceptionWithFolderName" xml:space="preserve">
     <value>An internal error occurred while loading the child models for the solution folder '{0}'. The load action could not be completed.</value>
   </data>
   <data name="InternalErrorOccuredCheckLogs" xml:space="preserve">
-    <value>An internal error occured the operation could not complete. Review logs for further details.</value>
+    <value>An internal error occurred the operation could not complete. Review logs for further details.</value>
   </data>
   <data name="GetDocumentContentUnhandledError" xml:space="preserve">
     <value>An internal visual studio error occurred, cannot load the document content.</value>
   </data>
   <data name="UnhandledErrorReadingContent" xml:space="preserve">
-    <value>An internal error occured while loading the IDocumentContent, operation could not complete.</value>
+    <value>An internal error occurred while loading the IDocumentContent, operation could not complete.</value>
   </data>
   <data name="InternalErrorAddDocumentContent" xml:space="preserve">
-    <value>An internal error occured while adding content to the document, operation did not complete.</value>
+    <value>An internal error occurred while adding content to the document, operation did not complete.</value>
   </data>
   <data name="RemoveContentUnhandledError" xml:space="preserve">
-    <value>An internal error occured will not be able to remove the content from the document.</value>
+    <value>An internal error occurred will not be able to remove the content from the document.</value>
   </data>
   <data name="ReplaceContentUnhandledError" xml:space="preserve">
-    <value>An internal error occured will not be able to replace the content in the document.</value>
+    <value>An internal error occurred will not be able to replace the content in the document.</value>
   </data>
   <data name="LoadDocumentFromSourceUnhandledError" xml:space="preserve">
-    <value>An internal error occured while loading the visual studio document, the operation could not be completed.</value>
+    <value>An internal error occurred while loading the visual studio document, the operation could not be completed.</value>
   </data>
 </root>

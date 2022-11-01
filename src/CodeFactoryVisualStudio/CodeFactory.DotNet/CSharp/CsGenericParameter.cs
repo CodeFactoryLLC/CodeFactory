@@ -42,7 +42,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="type">The type definition for the generic type</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         protected CsGenericParameter(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, CsModelType modelType,
             bool hasOutKeyword, bool hasNewConstraint, bool hasClassConstraint, bool hasStructConstraint,
             bool hasConstraintTypes, IReadOnlyList<CsType> constrainingTypes, CsType type, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)

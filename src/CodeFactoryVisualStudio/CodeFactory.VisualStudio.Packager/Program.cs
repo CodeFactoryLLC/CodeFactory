@@ -72,7 +72,7 @@ namespace CodeFactory.VisualStudio.Packager
 
                         var assemblyInfo = library.IsStoredInGac ? $"--> GAC - {library.AssemblyStrongName}" : $"--> File - {library.AssemblyFilePath}";
                         Console.WriteLine(assemblyInfo);
-                        Console.WriteLine($"--> The follow error occured trying to load the external assembly. '{library.ErrorDetails}'");
+                        Console.WriteLine($"--> The follow error occurred trying to load the external assembly. '{library.ErrorDetails}'");
                     }
                     Console.WriteLine("--> Cannot create the package since the above assembly information was not able to load correctly.");
                     return PackagerData.ExitCodeKnownError;
@@ -141,7 +141,7 @@ namespace CodeFactory.VisualStudio.Packager
             }
             catch (Exception unhandledException)
             {
-                Console.WriteLine($"--> The following unhandled exception occured, '{unhandledException.Message}' ");
+                Console.WriteLine($"--> The following unhandled exception occurred, '{unhandledException.Message}' ");
                 if (Environment.ExitCode != 0) Environment.ExitCode = PackagerData.ExitCodeUnknownError;
                 return;
             }
@@ -180,10 +180,10 @@ namespace CodeFactory.VisualStudio.Packager
                     break;
 
                 case PackagerData.ExitCodePackageError:
-                    Console.WriteLine("--> An internal error occured while creating the final package. Please clean the the project and build again.");
+                    Console.WriteLine("--> An internal error occurred while creating the final package. Please clean the the project and build again.");
                     break;
             default:
-                    Console.WriteLine("--> An unknown internal error has occured, cannot package the CodeFactory automation.");
+                    Console.WriteLine("--> An unknown internal error has occurred, cannot package the CodeFactory automation.");
                     break;
 
             }

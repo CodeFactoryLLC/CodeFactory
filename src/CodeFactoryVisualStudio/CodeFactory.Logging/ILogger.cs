@@ -87,7 +87,7 @@ namespace CodeFactory.Logging
         /// Logs warning level information about the executing code base. This level is always logged when enabled.
         /// </summary>
         /// <param name="message">Message to be logged.</param>
-        /// <param name="exception">The exception that occured that needs to be logged.</param>
+        /// <param name="exception">The exception that occurred that needs to be logged.</param>
         /// <param name="memberName">The name of the member being logged.Important the compiler will populate this value automatically.</param>
         /// <param name="lineNumber">The line number where the logging event occurs.Important the compiler will populate this value automatically.</param>
         void Warning(string message, Exception exception, [CallerMemberName] string memberName = null, [CallerLineNumber] int lineNumber = 0);
@@ -104,7 +104,7 @@ namespace CodeFactory.Logging
         /// Logs error level information about the executing code base. This level is always logged when enabled.
         /// </summary>
         /// <param name="message">Message to be logged.</param>
-        /// <param name="exception">The exception that occured that needs to be logged.</param>
+        /// <param name="exception">The exception that occurred that needs to be logged.</param>
         /// <param name="memberName">The name of the member being logged.Important the compiler will populate this value automatically.</param>
         /// <param name="lineNumber">The line number where the logging event occurs.Important the compiler will populate this value automatically.</param>
         void Error(string message, Exception exception, [CallerMemberName] string memberName = null, [CallerLineNumber] int lineNumber = 0);
@@ -122,7 +122,7 @@ namespace CodeFactory.Logging
         /// Logs critical level information about the executing code base. This level is always logged when enabled.
         /// </summary>
         /// <param name="message">Message to be logged.</param>
-        /// <param name="exception">The exception that occured that needs to be logged.</param>
+        /// <param name="exception">The exception that occurred that needs to be logged.</param>
         /// <param name="memberName">The name of the member being logged.Important the compiler will populate this value automatically.</param>
         /// <param name="lineNumber">The line number where the logging event occurs.Important the compiler will populate this value automatically.</param>
         void Critical( string message, Exception exception, [CallerMemberName] string memberName = null, [CallerLineNumber] int lineNumber = 0);

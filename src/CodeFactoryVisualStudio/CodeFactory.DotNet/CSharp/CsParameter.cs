@@ -40,7 +40,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="defaultValue">The default value assigned to this parameter.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">Attributes assigned to this model.</param>
         /// <param name="lookupPath">The fully qualified path of the model that is stored in the model store.</param>
         /// <param name="name">The name of the parameter.</param>

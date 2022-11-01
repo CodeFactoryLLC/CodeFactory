@@ -47,7 +47,7 @@ namespace CodeFactory.VisualStudio.Packager
         public const int ExitCodeNoParameters = 4;
 
         /// <summary>
-        /// During the creation of the CFX Package an error occured.
+        /// During the creation of the CFX Package an error occurred.
         /// </summary>
         public const int ExitCodePackageError = 5;
 

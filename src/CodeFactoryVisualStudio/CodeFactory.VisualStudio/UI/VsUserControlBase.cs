@@ -122,7 +122,7 @@ namespace CodeFactory.VisualStudio.UI
             }
             catch (Exception unhandledEventError)
             {
-                _logger.Error("The following unhandled error occured while raising the CloseHost event.",
+                _logger.Error("The following unhandled error occurred while raising the CloseHost event.",
                     unhandledEventError);
             }
 
@@ -150,7 +150,7 @@ namespace CodeFactory.VisualStudio.UI
             }
             catch (Exception unhandledSubscribe)
             {
-                _logger.Error("The following unhandled exception occured while subscribing to the hosting window.",
+                _logger.Error("The following unhandled exception occurred while subscribing to the hosting window.",
                     unhandledSubscribe);
             }
 
