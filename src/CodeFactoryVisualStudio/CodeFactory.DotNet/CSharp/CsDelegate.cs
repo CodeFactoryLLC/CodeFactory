@@ -324,12 +324,12 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
 
 
-        /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
+        ///// <summary>
+        ///// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
+        ///// </summary>
+        ///// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
+        ///// <returns>The loaded model or null if the model could not be found.</returns>
+        //public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
 
         /// <inheritdoc/>
         public abstract Task<CsSource> AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs);

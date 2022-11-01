@@ -59,6 +59,32 @@ namespace CodeFactory.DotNet
         IReadOnlyList<IDotNetEvent> Events { get; }
 
         /// <summary>
+        /// Models that are nested in the implementation of this container.
+        /// </summary>
+        IReadOnlyList<IDotNetNestedModel> NestedModels { get; }
+
+        /// <summary>
+        /// Classes that are nested in this container.
+        /// </summary>
+        IReadOnlyList<IDotNetClass> NestedClasses { get; }
+
+        /// <summary>
+        /// Interfaces that are nested in this container.
+        /// </summary>
+        IReadOnlyList<IDotNetInterface> NestedInterfaces { get; }
+
+        /// <summary>
+        /// Structures that are nested in this container.
+        /// </summary>
+        IReadOnlyList<IDotNetStructure> NestedStructures { get; }
+
+        /// <summary>
+        /// Enums that are nested in this container.
+        /// </summary>
+        IReadOnlyList<IDotNetEnum> NestedEnums { get; }
+
+
+        /// <summary>
         /// The source code syntax that is stored in the body of the container model. This will be null if the container was not loaded from source code.
         /// </summary>
         Task<string> GetBodySyntaxAsync();

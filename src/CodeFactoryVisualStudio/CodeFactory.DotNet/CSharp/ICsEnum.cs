@@ -13,7 +13,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Data model that provides information on an enumeration.
     /// </summary>
-    public interface ICsEnum : ICsModel, ICsAttributes,IParent, IDotNetEnum
+    public interface ICsEnum : ICsModel, ICsAttributes,IParent, IDotNetEnum,ICsNestedModel
     {
         /// <summary>
         ///     The security scope assigned to the enumeration.

@@ -29,6 +29,9 @@ namespace CodeFactory.DotNet.CSharp
         private readonly string _ns;
         private readonly CsSecurity _security;
         private readonly IReadOnlyList<CsEnumValue> _values;
+        private readonly bool _isNested;
+        private readonly CsNestedType _nestedType;
+
         #endregion
 
         /// <summary>
@@ -39,9 +42,11 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="loadedFromSource">Flag that determines if the model was loaded from source code or from an existing library.</param>
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="values">The enumeration values assigned to this enumeration.</param>
+        /// <param name="isNested">Flag that determines if the container type is nested in another type definition.</param>
+        /// <param name="nestedType">Enumeration of the type of nesting the container is.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this model is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
@@ -54,7 +59,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="security">The security scope assigned to this model.</param>
         protected CsEnum(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, string parentPath, bool hasDocumentation, string documentation, string lookupPath,string modelSourceFile,
-            IReadOnlyList<string> sourceFiles, string name, string ns, CsSecurity security, IReadOnlyList<CsEnumValue> values, 
+            IReadOnlyList<string> sourceFiles, string name, string ns, CsSecurity security, IReadOnlyList<CsEnumValue> values, bool isNested,CsNestedType nestedType,
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null): base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Enum, sourceDocument, modelStore, modelErrors)
         {
             _attributes = attributes ?? ImmutableList<CsAttribute>.Empty;
@@ -68,6 +73,9 @@ namespace CodeFactory.DotNet.CSharp
             _ns = ns;
             _security = security;
             _values = values ?? ImmutableList<CsEnumValue>.Empty;
+            _isNested = isNested;
+            _nestedType = nestedType;
+
         }
 
         /// <summary>
@@ -272,7 +280,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <inheritdoc/>
         public abstract Task<CsSource> AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs);
 
-
         /// <summary>
         ///     The security scope assigned to the enumeration.
         /// </summary>
@@ -290,5 +297,20 @@ namespace CodeFactory.DotNet.CSharp
 
         /// <inheritdoc/>
         public string ModelSourceFile => _modelSourceFile;
+
+        /// <summary>
+        /// Identifies the type of model that has been nested.
+        /// </summary>
+        DotNetNestedType IDotNetNestedModel.NestedType => (DotNetNestedType)_nestedType;
+
+        /// <summary>
+        /// Identifies the type of model that has been nested.
+        /// </summary>
+        public CsNestedType NestedType => _nestedType;
+
+        /// <summary>
+        /// Flag that determines if this model is nested in a parent model.
+        /// </summary>
+        public bool IsNested => _isNested;
     }
 }

@@ -106,11 +106,11 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         /// <param name="path">The fully qualified path of the model to be loaded from the model store.</param>
         /// <returns>The loaded model or null if the model could not be loaded, or found. </returns>
-        [Obsolete("LookupModel is obsolete and will be remoted in later versions of the framework. Use GetModel or GetModel<T>",false)]
+        [Obsolete("LookupModel is obsolete and will be removed in later versions of the framework. Use GetModel or GetModel<T>",false)]
         protected CsModel LookupModel(string path) => string.IsNullOrEmpty(path) ? null : ModelStore?.GetModel(path) as CsModel;
 
         /// <inheritdoc/>
-        T ICsModel.GetModel<T>(string lookupPath) => string.IsNullOrEmpty(lookupPath) ? null : ModelStore?.GetModel(lookupPath) as T;
+        public T GetModel<T>(string lookupPath) where T : class, ICsModel => string.IsNullOrEmpty(lookupPath) ? null : ModelStore?.GetModel(lookupPath) as T;
         
         /// <inheritdoc/>
         public CsModel GetModel(string lookupPath)  => string.IsNullOrEmpty(lookupPath) ? null : ModelStore?.GetModel(lookupPath) as CsModel;

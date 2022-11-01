@@ -91,6 +91,7 @@
     <Compile Include="CSharp\CsModelExtensions.cs" />
     <Compile Include="CSharp\CsModelType.cs" />
     <Compile Include="CSharp\CsNamespace.cs" />
+    <Compile Include="CSharp\CsNestedType.cs" />
     <Compile Include="CSharp\CsParameter.cs" />
     <Compile Include="CSharp\CsParameterDefaultValue.cs" />
     <Compile Include="CSharp\CsProperty.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="CSharp\CsTypeExtensions.cs" />
     <Compile Include="CSharp\CsUsingStatement.cs" />
     <Compile Include="CSharp\CsWellKnownLanguageType.cs" />
+    <Compile Include="CSharp\ICsNestedModel.cs" />
     <Compile Include="CSharp\InterfaceMemberExtensions.cs" />
     <Compile Include="DotNetContainerExtensions.cs" />
     <Compile Include="CSharp\FormattedSyntax\CommonContextualKeywords.cs" />
@@ -145,6 +147,7 @@
     <Compile Include="DotNetMethodType.cs" />
     <Compile Include="DotNetModelExtensions.cs" />
     <Compile Include="DotNetModelType.cs" />
+    <Compile Include="DotNetNestedType.cs" />
     <Compile Include="DotNetSecurity.cs" />
     <Compile Include="IDocumentation.cs" />
     <Compile Include="IDotNetAttribute.cs" />
@@ -166,6 +169,7 @@
     <Compile Include="IDotNetModel.cs" />
     <Compile Include="IDotNetNamespace.cs" />
     <Compile Include="IDotNetNamespaceReference.cs" />
+    <Compile Include="IDotNetNestedModel.cs" />
     <Compile Include="IDotNetParameter.cs" />
     <Compile Include="IDotNetParameterDefaultValue.cs" />
     <Compile Include="IDotNetProperty.cs" />
