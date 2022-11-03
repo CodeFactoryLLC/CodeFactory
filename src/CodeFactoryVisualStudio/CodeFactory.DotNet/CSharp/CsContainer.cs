@@ -509,6 +509,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// Flag that determines if this model is nested in a parent model.
         /// </summary>
-        public bool IsNested { get; }
+        public bool IsNested => _isNested;
     }
 }
