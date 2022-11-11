@@ -20,7 +20,7 @@ namespace CodeFactory.Formatting.CSharp
         /// </example>
         /// <param name="source">The source using statement to use.</param>
         /// <param name="includeAlias">Optional flag that determines if a alias is included to add it to the using statement definition.</param>
-        /// <param name="alias">Optional flag that allows you to set a custom alias. If set this will always overrider the <see cref="includeAlias"/> flag and any internal alias assigned to the model.</param>
+        /// <param name="alias">Optional flag that allows you to set a custom alias. If set this will always overrider the includeAlias flag and any internal alias assigned to the model.</param>
         /// <returns>Fully formatted using statement, or null if namespace data is missing from the model</returns>
         public static string CSharpFormatUsingStatement(this CsUsingStatement source, bool includeAlias = true, string alias = null)
         {

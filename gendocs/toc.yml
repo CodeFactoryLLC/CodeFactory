@@ -1,0 +1,12 @@
+- name: Getting Started
+  href: gettingstarted/
+  homepage: gettingstarted/intro.md
+- name: Guidance
+  href: guidance/
+  homepage: guidance/intro.md
+- name: Visual Studio SDK
+  href: api/
+  homepage: api/index.md
+- name: Release Notes
+  href: releasenotes/
+  homepage: releasenotes/intro.md

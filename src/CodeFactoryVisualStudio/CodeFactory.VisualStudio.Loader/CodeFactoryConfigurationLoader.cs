@@ -188,7 +188,7 @@ namespace CodeFactory.VisualStudio.Loader
                 foreach (var libraryConfiguration in libraries)
                 {
                     if (libraryConfiguration == null) continue;
-  
+
                     Assembly loadedLibrary = null;
                     if (libraryConfiguration.IsStoredInGac)
                     {
@@ -197,16 +197,27 @@ namespace CodeFactory.VisualStudio.Loader
                     else
                     {
                         var assemblyPath = Path.Combine(packageDirectory, libraryConfiguration.AssemblyFilePath.Trim());
+
+
                         loadedLibrary = Assembly.LoadFrom(assemblyPath);
                     }
 
-                    if (loadedLibrary != null) continue;
+                    if (loadedLibrary != null)
+                    {
+                        SdkSupport.SupportedAssembly(loadedLibrary);
+                        continue;
+                    }
 
                     result.HasErrors = true;
                     result.Errors.Add(ConfigurationMessages.LibraryNotLoaded);
                     _logger.DebugExit();
                     return result;
                 }
+            }
+            catch (UnsupportedSdkLibraryException)
+            {
+                //Throwing to the caller to notify which library could not be loaded due to SDK being out of date.
+                throw;
             }
             catch (Exception loadFactoryLibrariesError)
             {

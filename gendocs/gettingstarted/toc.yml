@@ -1,0 +1,10 @@
+
+- name: Installation
+  href: Install/toc.yml
+
+- name: Creating a Project
+  href: CreateProject/toc.yml
+  homepage: CreateProject/intro.md
+
+- name: Creating an Add Missing Members Example Project
+  href: AddMissingMembers/intro.md

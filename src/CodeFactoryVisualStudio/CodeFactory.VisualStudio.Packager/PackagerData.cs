@@ -27,7 +27,7 @@ namespace CodeFactory.VisualStudio.Packager
         public const int ExitCodeSuccess = 0;
 
         /// <summary>
-        /// Appliction exited with no assembly being provided.
+        /// Application exited with no assembly being provided.
         /// </summary>
         public const int ExitCodeNoAssemby = 1;
 
@@ -52,12 +52,27 @@ namespace CodeFactory.VisualStudio.Packager
         public const int ExitCodePackageError = 5;
 
         /// <summary>
+        /// Could not access the project directory
+        /// </summary>
+        public const int ExitCodeNoProjectDir = 6;
+
+        /// <summary>
+        /// Cannot update the AssemblyInfo.cs file.
+        /// </summary>
+        public const int ExitCodeCannotUpdateAssemblyInfo = 7;
+
+        /// <summary>
+        /// A library was built using an unsupported version of the CodeFactory SDK.
+        /// </summary>
+        public const int ExitCodeUnsupportedLibrarySDKVersion = 8;
+
+        /// <summary>
         /// Application executed with a known error condition. 
         /// </summary>
         public const int ExitCodeKnownError = 9998;
 
         /// <summary>
-        /// Application exited with an unknown internal error occuring.
+        /// Application exited with an unknown internal error occurring.
         /// </summary>
         public const int ExitCodeUnknownError = 9999;
 

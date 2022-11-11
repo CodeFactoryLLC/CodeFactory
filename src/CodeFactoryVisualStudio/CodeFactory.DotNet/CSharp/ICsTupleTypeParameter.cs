@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CodeFactory.DotNet.CSharp
 {
+    /// <summary>
+    /// The C# model definition for the TupleTypeParameter.
+    /// </summary>
     public interface ICsTupleTypeParameter:ICsModel,IDotNetTupleTypeParameter
     {
         /// <summary>

@@ -5,6 +5,9 @@
 
 namespace CodeFactory.DotNet
 {
+    /// <summary>
+    /// Enumeration that determines the type of default value that is assigned to the value type.
+    /// </summary>
     public enum ParameterDefaultValueType
     {
         /// <summary>

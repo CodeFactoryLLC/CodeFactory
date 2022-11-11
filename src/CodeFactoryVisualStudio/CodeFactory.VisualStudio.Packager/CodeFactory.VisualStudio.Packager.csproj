@@ -55,10 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributeManager.cs" />
     <Compile Include="LibraryManagement.cs" />
     <Compile Include="PackagerData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsupportedSDKLibrary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -154,14 +154,20 @@ namespace CodeFactory.VisualStudio.Packager
                     //Validating that the SDK components are being pulled in.
                     var assemblyName = referenceAssembly.Name.Trim();
 
-                    if (PackagerData.IgnoreAssemblies.Any(a => string.Compare(assemblyName, a, StringComparison.InvariantCulture) == 0)) continue;
+                    if (PackagerData.IgnoreAssemblies.Any(a =>
+                            string.Compare(assemblyName, a, StringComparison.InvariantCulture) == 0)) continue;
 
                     var referenceAssemblyPath = $"{assemblyDirectory}\\{referenceAssembly.Name}.dll";
 
                     Assembly referenceAssemblyInfo = null;
-                    referenceAssemblyInfo = File.Exists(referenceAssemblyPath) ? Assembly.ReflectionOnlyLoadFrom(referenceAssemblyPath) : Assembly.ReflectionOnlyLoad(referenceAssembly.FullName);
+                    referenceAssemblyInfo = File.Exists(referenceAssemblyPath)
+                        ? Assembly.ReflectionOnlyLoadFrom(referenceAssemblyPath)
+                        : Assembly.ReflectionOnlyLoad(referenceAssembly.FullName);
 
                     if (referenceAssemblyInfo == null) continue;
+
+                    //Checks to make sure the assembly if a CodeFactory assembly is supported.
+                    SdkSupport.SupportedAssembly(referenceAssemblyInfo);
 
                     var assemblyFilePath = referenceAssemblyInfo.Location;
                     var assemblyStrongName = referenceAssemblyInfo.FullName;
@@ -170,23 +176,27 @@ namespace CodeFactory.VisualStudio.Packager
 
                     if (isStoredInGac)
                     {
-                        if (externalAssemblies.Where(e => e.IsStoredInGac).Any(e => string.Compare(e.AssemblyStrongName, assemblyStrongName, StringComparison.InvariantCulture) == 0)) continue;
+                        if (externalAssemblies.Where(e => e.IsStoredInGac).Any(e =>
+                                string.Compare(e.AssemblyStrongName, assemblyStrongName,
+                                    StringComparison.InvariantCulture) == 0)) continue;
                     }
-                    else 
-                    { 
-                        if (externalAssemblies.Where(e => !e.IsStoredInGac).Any(e => string.Compare(e.AssemblyFilePath, assemblyFilePath, StringComparison.InvariantCulture) == 0)) continue; 
+                    else
+                    {
+                        if (externalAssemblies.Where(e => !e.IsStoredInGac).Any(e =>
+                                string.Compare(e.AssemblyFilePath, assemblyFilePath,
+                                    StringComparison.InvariantCulture) == 0)) continue;
                     }
 
                     externalAssemblies.Add(new VsLibraryConfiguration
                     {
-                        AssemblyFilePath = !isStoredInGac ?assemblyFilePath :null,
-                        AssemblyStrongName = isStoredInGac ?assemblyStrongName :null,
+                        AssemblyFilePath = !isStoredInGac ? assemblyFilePath : null,
+                        AssemblyStrongName = isStoredInGac ? assemblyStrongName : null,
                         IsStoredInGac = isStoredInGac,
                         HasErrors = false,
                         ErrorType = LibraryErrorType.None,
                         ErrorDetails = null
                     });
-                    
+
                     if (!referenceAssemblyInfo.GlobalAssemblyCache)
                     {
                         var childAssemblies = referenceAssemblyInfo.GetExternalDependentLibraries(assemblyDirectory);
@@ -197,18 +207,27 @@ namespace CodeFactory.VisualStudio.Packager
                             {
                                 if (child.IsStoredInGac)
                                 {
-                                    if (externalAssemblies.Where(e => e.IsStoredInGac).Any(e => string.Compare(e.AssemblyStrongName, child.AssemblyStrongName, StringComparison.InvariantCulture) == 0)) continue;
+                                    if (externalAssemblies.Where(e => e.IsStoredInGac).Any(e =>
+                                            string.Compare(e.AssemblyStrongName, child.AssemblyStrongName,
+                                                StringComparison.InvariantCulture) == 0)) continue;
                                 }
-                                else 
-                                { 
-                                    if (externalAssemblies.Where(e => !e.IsStoredInGac).Any(e => string.Compare(e.AssemblyFilePath, child.AssemblyFilePath, StringComparison.InvariantCulture) == 0)) continue; 
+                                else
+                                {
+                                    if (externalAssemblies.Where(e => !e.IsStoredInGac).Any(e =>
+                                            string.Compare(e.AssemblyFilePath, child.AssemblyFilePath,
+                                                StringComparison.InvariantCulture) == 0)) continue;
                                 }
-                            
+
                                 externalAssemblies.Add(child);
                             }
                         }
                     }
                 }
+                catch (UnsupportedSdkLibraryException)
+                {
+                    throw;
+                }
+
                 catch (BadImageFormatException badImageError)
                 {
                     _logger.Error("A bad image error occurred while trying to load a dependent assembly.",

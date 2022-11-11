@@ -24,7 +24,7 @@ namespace CodeFactory
         /// <summary>
         /// Creates a general code factory exception.
         /// </summary>
-        /// <param name="message">The error message to be captured by the exception</param>
+        /// <param name="message">The error message to be captured by the exception.</param>
         public CodeFactoryException(string message) : base(message)
         {
 
@@ -33,6 +33,7 @@ namespace CodeFactory
         /// <summary>
         /// Creates a model exception.
         /// </summary>
+        /// <param name="message">The error message to be captured by the exception.</param>
         /// <param name="innerException">The inner exception that occurred and to be added to this exception.</param>
         public CodeFactoryException(string message, Exception innerException) : base(message, innerException)
         {

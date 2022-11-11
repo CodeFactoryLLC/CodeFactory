@@ -23,7 +23,6 @@ namespace CodeFactory.VisualStudio.UI
         /// <summary>
         /// Displays a dialog window in visual studio that hosts a user control that implements <see cref="VsUserControl"/>. This makes sure the dialog window is thread safe to be used with visual studio. 
         /// </summary>
-        /// <typeparam name="T">The type of the user control that will be hosted in the dialog window.</typeparam>
         /// <param name="userControl">The instance of the user control that is to be hosted in the dialog window.</param>
         /// <returns>Returns the result for the window which returns a true if a close event occurred, a false when a cancel event occurred, or null if neither were triggered.</returns>
         Task<bool?> ShowDialogWindowAsync(VsUserControl userControl);
