@@ -233,6 +233,10 @@ namespace CodeFactory.VisualStudio.Packager
 
             int result = WriteNewAssemblyInfo(assemblyInfoPath);
 
+            Console.WriteLine($"--> Updating Project: {Path.GetDirectoryName(projectPath)}");
+            Console.WriteLine($"--> Setting SDK Version to : {LoadFileVersion()}");
+            Console.WriteLine();
+
             return result;
         }
 
@@ -274,27 +278,50 @@ namespace CodeFactory.VisualStudio.Packager
                     {
                         envFound = Regex.IsMatch(assemblyData, AttributeManager.RegexFindCFEnvironment);
 
-                        if (envFound) updatedContent = Regex.Replace(assemblyData, AttributeManager.RegexFindCFEnvironment,envAttribute);
+                        if (envFound)
+                        {
+                            updatedContent = Regex.Replace(assemblyData, AttributeManager.RegexFindCFEnvironment,envAttribute);
+                            Console.WriteLine($"--> Updating CodeFactory environment attribute to '{envAttribute}'");
+
+                        }
                     }
 
                     if (!versionFound)
                     {
                         versionFound = Regex.IsMatch(assemblyData, AttributeManager.RegexFindCFSdkVersion);
 
-                        if (versionFound) updatedContent = Regex.Replace(assemblyData, AttributeManager.RegexFindCFSdkVersion,versionAttribute);
+                        if (versionFound)
+                        {
+                            updatedContent = Regex.Replace(assemblyData, AttributeManager.RegexFindCFSdkVersion,versionAttribute);
+                            Console.WriteLine($"--> Updating CodeFactory SDK version to '{versionAttribute}'");
+
+                        }
                     }
 
                     assemblyDataUpdated.Add(updatedContent);
                 }
 
-                
-                if(!envFound) assemblyDataUpdated.Add(envAttribute);
-                if(!versionFound) assemblyDataUpdated.Add(versionAttribute);
+
+                if (!envFound)
+                {
+                    assemblyDataUpdated.Add(envAttribute);
+                    Console.WriteLine($"--> Adding CodeFactory Environment attribute '{envAttribute}'");
+
+                }
+
+                if (!versionFound)
+                {
+                    assemblyDataUpdated.Add(versionAttribute);
+                    Console.WriteLine($"--> Adding CodeFactory SDK version '{versionAttribute}'");
+
+                }
 
                 if (!hasUsingStatement)
                 {
                     formattedAssemblyData.Add(usingStatement);
                     formattedAssemblyData.AddRange(assemblyDataUpdated);
+                    Console.WriteLine($"--> Adding using statement to the assemblyinfo file. '{usingStatement}'");
+
                 }
                 else
                 {
@@ -309,6 +336,8 @@ namespace CodeFactory.VisualStudio.Packager
                 return PackagerData.ExitCodeCannotUpdateAssemblyInfo;
             }
             
+            Console.WriteLine("--> Updates Completed'");
+            Console.WriteLine("");
 
             return PackagerData.ExitCodeSuccess;
         }
@@ -325,7 +354,7 @@ namespace CodeFactory.VisualStudio.Packager
                 assemblyFileContents.Add("using System.Runtime.InteropServices;");
                 assemblyFileContents.Add("");
                 assemblyFileContents.Add("[assembly: AssemblyVersion(\"1.0.0.0\")]");
-                assemblyFileContents.Add("[assembly: AssemblyFileVersion(\"1.22315.0.3\")]");
+                assemblyFileContents.Add("[assembly: AssemblyFileVersion(\"1.22318.0.3\")]");
                 assemblyFileContents.Add("[assembly: AssemblyCFEnvironment(\"CFVSW\")]");
                 assemblyFileContents.Add($"[assembly: AssemblyCFSdkVersion(\"{LoadFileVersion()}\")]");
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22315.3</version>
+    <version>1.22318.3</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.22315.3
+      SDK Update for CodeFactory 1.22318.3
       
       This release of the SDK focuses on the following.
 	  - Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.
@@ -45,6 +45,8 @@
 	      If documentation was provided in each partial file it will grab the target file the model generation was requested from.
       - All C# Models now have a ModelSourceFile property that identifies the source code file the model was generated from.
       - Fixed an issue with the Visual Studio packager not able to process project paths that had spaces in the path. 
+      - Packager now injects the target platform and SDK version information directly into assemblies during the build of CodeFactory automation. 
+        This is used to confirm the library is supported by the runtime.
     </releaseNotes>
     <copyright>Copyright 2022</copyright>
     <tags>Factory Automation</tags>

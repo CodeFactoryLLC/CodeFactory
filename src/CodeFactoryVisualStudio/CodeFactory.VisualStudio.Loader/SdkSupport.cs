@@ -16,12 +16,17 @@ namespace CodeFactory.VisualStudio.Loader
         /// <summary>
         /// The minimum version of the SDK that can be loaded and used.
         /// </summary>
-        public const string MinVersion = "1.22315.0.1";
+        public const string MinVersion = "1.22318.0.1";
 
         /// <summary>
         /// The maximum version of the SDK that can be loaded and used.
         /// </summary>
-        public const string MaxVersion = "1.22315.0.3";
+        public const string MaxVersion = "1.22318.0.3";
+
+        /// <summary>
+        /// The target version of the NuGet package this SDK is deployed from.
+        /// </summary>
+        public const string NuGetSdkVersion = "1.22318.3";
 
         /// <summary>
         /// Checks the assembly to see if it was created by a CodeFactory SDK. If so it checks the version to confirms it can be used by the runtime.
@@ -45,7 +50,7 @@ namespace CodeFactory.VisualStudio.Loader
                 int libraryVersion = Convert.ToInt32(rawVersion.Replace(".", ""));
 
                 int minVersion = Convert.ToInt32(MinVersion.Replace(".", ""));
-                int maxVersion = Convert.ToInt32(MinVersion.Replace(".", ""));
+                int maxVersion = Convert.ToInt32(MaxVersion.Replace(".", ""));
 
                 if (libraryVersion < minVersion || libraryVersion > maxVersion)
                     throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, rawVersion, MinVersion,
