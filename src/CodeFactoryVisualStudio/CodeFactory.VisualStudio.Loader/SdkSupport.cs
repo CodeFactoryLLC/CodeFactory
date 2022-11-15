@@ -4,6 +4,7 @@
 //*****************************************************************************
 
 using System;
+using System.Linq;
 using System.Reflection;
 
 namespace CodeFactory.VisualStudio.Loader
@@ -21,12 +22,12 @@ namespace CodeFactory.VisualStudio.Loader
         /// <summary>
         /// The maximum version of the SDK that can be loaded and used.
         /// </summary>
-        public const string MaxVersion = "1.22318.0.3";
+        public const string MaxVersion = "1.22319.0.1";
 
         /// <summary>
         /// The target version of the NuGet package this SDK is deployed from.
         /// </summary>
-        public const string NuGetSdkVersion = "1.22318.3";
+        public const string NuGetSdkVersion = "1.22319.1";
 
         /// <summary>
         /// Checks the assembly to see if it was created by a CodeFactory SDK. If so it checks the version to confirms it can be used by the runtime.
@@ -36,10 +37,23 @@ namespace CodeFactory.VisualStudio.Loader
         {
             if (sourceAssembly == null) return ;
 
+            bool cfAssembly = false;
             try
             {
-                var sdkVersion =
-                    sourceAssembly.GetCustomAttributes(typeof(AssemblyCFSdkVersion), false)[0] as AssemblyCFSdkVersion;
+                cfAssembly = sourceAssembly.GetReferencedAssemblies().Any( a=> a.Name == "CodeFactory");
+
+                var sdkVersionObject = sourceAssembly.GetCustomAttributes(typeof(AssemblyCFSdkVersion), false);
+
+                if (sdkVersionObject == null)
+                {
+                    if(cfAssembly) throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, "0.0.0.0", MinVersion,
+                        MaxVersion);
+
+                    return;
+                }
+
+                
+                var sdkVersion = sdkVersionObject[0] as AssemblyCFSdkVersion;
 
                 if (sdkVersion == null) return;
 
@@ -63,7 +77,8 @@ namespace CodeFactory.VisualStudio.Loader
             }
             catch (Exception)
             {
-                return;
+                if(cfAssembly) throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, "0.0.0.0", MinVersion,
+                    MaxVersion);
             }
 
         }

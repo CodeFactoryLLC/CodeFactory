@@ -5,9 +5,11 @@
 
 using System;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
 using CodeFactory.Logging;
+
 
 namespace CodeFactory.VisualStudio.UI
 {
@@ -56,7 +58,11 @@ namespace CodeFactory.VisualStudio.UI
         public string WindowTitle
         {
             get => (string)GetValue(WindowTitleProperty);
-            set => SetValue(WindowTitleProperty, value);
+            set
+            {
+                
+                SetValue(WindowTitleProperty, value);
+            }
         }
 
         /// <summary>

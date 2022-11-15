@@ -354,7 +354,7 @@ namespace CodeFactory.VisualStudio.Packager
                 assemblyFileContents.Add("using System.Runtime.InteropServices;");
                 assemblyFileContents.Add("");
                 assemblyFileContents.Add("[assembly: AssemblyVersion(\"1.0.0.0\")]");
-                assemblyFileContents.Add("[assembly: AssemblyFileVersion(\"1.22318.0.3\")]");
+                assemblyFileContents.Add("[assembly: AssemblyFileVersion(\"1.22319.0.1\")]");
                 assemblyFileContents.Add("[assembly: AssemblyCFEnvironment(\"CFVSW\")]");
                 assemblyFileContents.Add($"[assembly: AssemblyCFSdkVersion(\"{LoadFileVersion()}\")]");
 

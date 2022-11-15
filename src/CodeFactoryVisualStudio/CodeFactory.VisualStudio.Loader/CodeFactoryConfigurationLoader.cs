@@ -431,6 +431,11 @@ namespace CodeFactory.VisualStudio.Loader
                 }
 
             }
+            catch (UnsupportedSdkLibraryException)
+            {
+                //Throwing to the caller to notify which library could not be loaded due to SDK being out of date.
+                throw;
+            }
             catch (Exception loadPackageError)
             {
                 _logger.Error("An unhandled exception has occurred see the exception for details", loadPackageError);
