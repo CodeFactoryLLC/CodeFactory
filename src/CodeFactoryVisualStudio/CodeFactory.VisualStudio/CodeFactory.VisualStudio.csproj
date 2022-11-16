@@ -41,7 +41,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>CodeFactoryRuntimeSigner.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Setup|AnyCPU'">
     <OutputPath>bin\Setup\</OutputPath>
@@ -73,6 +73,8 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyCFEnvironment.cs" />
+    <Compile Include="AssemblyCFSdkVersion.cs" />
     <Compile Include="CSharpSourceExtensions.cs" />
     <Compile Include="IVsEnvironmentActions.cs" />
     <Compile Include="IVsProjectFramework.cs" />
@@ -160,7 +162,7 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>VisualStudioMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="CodeFactoryRuntimeSigner.snk" />
+    <None Include="CodeFactorySigner.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -19,7 +19,7 @@ namespace CodeFactory.VisualStudio.Loader {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ConfigurationMessages {
@@ -39,7 +39,7 @@ namespace CodeFactory.VisualStudio.Loader {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CodeFactory.VisualStudio.Configuration.ConfigurationMessages", typeof(ConfigurationMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CodeFactory.VisualStudio.Loader.ConfigurationMessages", typeof(ConfigurationMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -160,7 +160,7 @@ namespace CodeFactory.VisualStudio.Loader {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to create the configuration file &apos;{0}&apos;, the following error occured during the creation process, &apos;{1}&apos;.
+        ///   Looks up a localized string similar to Failed to create the configuration file &apos;{0}&apos;, the following error occurred during the creation process, &apos;{1}&apos;.
         /// </summary>
         public static string FailedToCreateConfigurationFile {
             get {
@@ -169,7 +169,7 @@ namespace CodeFactory.VisualStudio.Loader {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to delete the configuration file &apos;{0}&apos;, the following error occured during the delete process, &apos;{1}&apos;.
+        ///   Looks up a localized string similar to Failed to delete the configuration file &apos;{0}&apos;, the following error occurred during the delete process, &apos;{1}&apos;.
         /// </summary>
         public static string FailedToDeleteConfigFile {
             get {
@@ -205,7 +205,7 @@ namespace CodeFactory.VisualStudio.Loader {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured and the Code Factory libraries could not be loaded..
+        ///   Looks up a localized string similar to An error occurred and the Code Factory libraries could not be loaded..
         /// </summary>
         public static string LibrariesNotLoaded {
             get {
@@ -214,7 +214,7 @@ namespace CodeFactory.VisualStudio.Loader {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured while loading the library &apos;{0}&apos;, no automation will be loaded..
+        ///   Looks up a localized string similar to An error occurred while loading the library &apos;{0}&apos;, no automation will be loaded..
         /// </summary>
         public static string LibraryLoadError {
             get {
@@ -304,7 +304,7 @@ namespace CodeFactory.VisualStudio.Loader {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured while loading the code factory package. No automation will be avaliable with this project..
+        ///   Looks up a localized string similar to An error occurred while loading the code factory package. No automation will be avaliable with this project..
         /// </summary>
         public static string PackageLoadError {
             get {

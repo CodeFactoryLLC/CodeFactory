@@ -61,6 +61,16 @@ namespace CodeFactory.DotNet.CSharp
         Remove = DotNetMethodType.Remove,
 
         /// <summary>
+        /// This method is the definition for a partial method.
+        /// </summary>
+        PartialDefinition = DotNetMethodType.PartialDefinition,
+
+        /// <summary>
+        /// This method is the implementation for a partial method.
+        /// </summary>
+        PartialImplementation = DotNetMethodType.PartialImplementation,
+
+        /// <summary>
         /// The type of method is unknown
         /// </summary>
         Unknown = DotNetMethodType.Unknown

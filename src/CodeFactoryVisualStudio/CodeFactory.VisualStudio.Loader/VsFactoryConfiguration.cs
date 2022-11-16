@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2021 CodeFactory, LLC
+//* Copyright (c) 2022 CodeFactory, LLC
 //*****************************************************************************
 
 using System;
@@ -15,6 +15,7 @@ namespace CodeFactory.VisualStudio.Loader
     {
         private string _name;
         private Guid _id;
+        private string _sdkVersion;
         private List<VsLibraryConfiguration> _supportLibraries;
         private List<VsLibraryConfiguration> _codeFactoryLibraries;
         private List<VsActionConfiguration> _codeFactoryActions;
@@ -37,6 +38,15 @@ namespace CodeFactory.VisualStudio.Loader
         {
             get { return _id; }
             set { _id = value; }
+        }
+
+        /// <summary>
+        /// The version of the CodeFactory SDK that was used to build the automation.
+        /// </summary>
+        public string SdkVersion
+        {
+            get => _sdkVersion;
+            set => _sdkVersion = value;
         }
 
         /// <summary>

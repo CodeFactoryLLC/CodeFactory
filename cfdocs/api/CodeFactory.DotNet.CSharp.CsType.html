@@ -1,0 +1,1735 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class CsType
+     | CodeFactory Platform </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class CsType
+     | CodeFactory Platform ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      
+      <meta property="docfx:rel" content="../">
+      <meta property="docfx:newtab" content="true">
+      <script async="" defer="" data-domain="docs.codefactory.software" src="https://plausible.io/js/plausible.js"></script>
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+              <span class="brand-title">CodeFactory Platform</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+                          <span class="brand-title">CodeFactory Platform</span>
+                        </a>  </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  
+                  <strong><a href='https://www.codefactory.software/'>CodeFactory</a>
+                </strong></div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="CodeFactory.DotNet.CSharp.CsType">
+  
+  
+  <h1 id="CodeFactory_DotNet_CSharp_CsType" data-uid="CodeFactory.DotNet.CSharp.CsType" class="text-break">Class CsType
+  </h1>
+  <div class="markdown level0 summary"><p>Data model that represents the definition of a type.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html">CsModel</a></div>
+    <div class="level2"><span class="xref">CsType</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsType.html">ICsType</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsGeneric.html">ICsGeneric</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetType.html">IDotNetType</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetModel.html">IDotNetModel</a></div>
+    <div><a class="xref" href="CodeFactory.IModelStatus.html">IModelStatus</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetGeneric.html">IDotNetGeneric</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LocalModelErrors">CsModel.LocalModelErrors</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_ModelStore">CsModel.ModelStore</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_IsLoaded">CsModel.IsLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_HasErrors">CsModel.HasErrors</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetErrors">CsModel.GetErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LoadedFromSource">CsModel.LoadedFromSource</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_Language">CsModel.Language</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_ModelType">CsModel.ModelType</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_SourceDocument">CsModel.SourceDocument</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_CodeFactory_DotNet_IDotNetModel_ModelType">CsModel.IDotNetModel.ModelType</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LookupModel_System_String_">CsModel.LookupModel(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetModel__1_System_String_">CsModel.GetModel&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetModel_System_String_">CsModel.GetModel(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeFactory.DotNet.CSharp.html">CodeFactory.DotNet.CSharp</a></h6>
+  <h6><strong>Assembly</strong>: CodeFactory.DotNet.dll</h6>
+  <h5 id="CodeFactory_DotNet_CSharp_CsType_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CsType : CsModel, ICsType, ICsModel, ICsGeneric, IDotNetType, IDotNetModel, IModelStatus, IDotNetGeneric</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_String_System_Boolean_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsTupleTypeParameter__CodeFactory_DotNet_CSharp_CsKnownLanguageType_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.%23ctor(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CCodeFactory.SourceCode.SourceCodeType%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsGenericParameter%7D%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsType%7D%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Collections.Generic.IReadOnlyList%7BSystem.Int32%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsTupleTypeParameter%7D%2CCodeFactory.DotNet.CSharp.CsKnownLanguageType%2CSystem.String%2CCodeFactory.ModelStore%7BCodeFactory.DotNet.CSharp.ICsModel%7D%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.ModelLoadException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L75">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType__ctor_" data-uid="CodeFactory.DotNet.CSharp.CsType.#ctor*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_String_System_Boolean_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsTupleTypeParameter__CodeFactory_DotNet_CSharp_CsKnownLanguageType_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__" data-uid="CodeFactory.DotNet.CSharp.CsType.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsTupleTypeParameter},CodeFactory.DotNet.CSharp.CsKnownLanguageType,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})">CsType(Boolean, Boolean, Boolean, SourceCodeType, Boolean, Boolean, IReadOnlyList&lt;CsGenericParameter&gt;, IReadOnlyList&lt;CsType&gt;, String, String, Boolean, String, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, IReadOnlyList&lt;Int32&gt;, Boolean, Boolean, Boolean, Boolean, IReadOnlyList&lt;CsTupleTypeParameter&gt;, CsKnownLanguageType, String, ModelStore&lt;ICsModel&gt;, IReadOnlyList&lt;ModelLoadException&gt;)</h4>
+  <div class="markdown level1 summary"><p>Constructor for the <a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CsType(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, bool isGeneric, bool hasStrongTypesInGenerics, IReadOnlyList&lt;CsGenericParameter&gt; genericParameters, IReadOnlyList&lt;CsType&gt; genericTypes, string name, string ns, bool isWellKnownType, string valueTypeDefaultValue, bool isValueType, bool supportsDisposable, bool isInterface, bool isStructure, bool isClass, bool isArray, IReadOnlyList&lt;int&gt; arrayDimensions, bool isGenericPlaceHolder, bool isEnum, bool isDelegate, bool isTuple, IReadOnlyList&lt;CsTupleTypeParameter&gt; tupleTypes, CsKnownLanguageType wellKnownType, string sourceDocument = null, ModelStore&lt;ICsModel&gt; modelStore = null, IReadOnlyList&lt;ModelLoadException&gt; modelErrors = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isLoaded</span></td>
+        <td><p>Flag that determines if the model was loaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasErrors</span></td>
+        <td><p>Flag that determine if errors were found creating the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">loadedFromSource</span></td>
+        <td><p>Flag that determines if the model was loaded from source code or from an existing library.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.SourceCode.SourceCodeType.html">SourceCodeType</a></td>
+        <td><span class="parametername">language</span></td>
+        <td><p>The target language the model was generated from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isGeneric</span></td>
+        <td><p>Flag that determines if the type is generic.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasStrongTypesInGenerics</span></td>
+        <td><p>Flag that determines if the generics are strong types or placeholders.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsGenericParameter.html">CsGenericParameter</a>&gt;</td>
+        <td><span class="parametername">genericParameters</span></td>
+        <td><p>Generic parameters assigned to the type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a>&gt;</td>
+        <td><span class="parametername">genericTypes</span></td>
+        <td><p>The type definitions for the generic implementation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">ns</span></td>
+        <td><p>The namespace the type belongs to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isWellKnownType</span></td>
+        <td><p>Is the type one of the well known types for the language.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">valueTypeDefaultValue</span></td>
+        <td><p>The default value if the type is a value type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isValueType</span></td>
+        <td><p>Flag that determines if it is a value type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">supportsDisposable</span></td>
+        <td><p>Flag that determines if the type implements <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> interface.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isInterface</span></td>
+        <td><p>Flag that determines if the type is an interface definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isStructure</span></td>
+        <td><p>Flag that determines if the type is a structure definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isClass</span></td>
+        <td><p>Flag that determines if the type is a class definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isArray</span></td>
+        <td><p>Flag that determines if the type is also an array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="parametername">arrayDimensions</span></td>
+        <td><p>The dimensions assigned to the array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isGenericPlaceHolder</span></td>
+        <td><p>Flag that determines if the type is a generic place holder definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isEnum</span></td>
+        <td><p>Flag that determines if the type is an enumeration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDelegate</span></td>
+        <td><p>Flag that determines if the type is a delegate definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isTuple</span></td>
+        <td><p>Flag that determines if the type is a tuple.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsTupleTypeParameter.html">CsTupleTypeParameter</a>&gt;</td>
+        <td><span class="parametername">tupleTypes</span></td>
+        <td><p>The type information for each part of the tuple.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsKnownLanguageType.html">CsKnownLanguageType</a></td>
+        <td><span class="parametername">wellKnownType</span></td>
+        <td><p>The well known type from the language if it is well known.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The source document that was used to build this model. This is optional parameter and can be null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.ModelStore-1.html">ModelStore</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a>&gt;</td>
+        <td><span class="parametername">modelStore</span></td>
+        <td><p>Optional the lookup storage for models created during the compile or lookup of the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.ModelLoadException.html">ModelLoadException</a>&gt;</td>
+        <td><span class="parametername">modelErrors</span></td>
+        <td><p>Optional the error that occurred while creating the model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_ArrayDimensions.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.ArrayDimensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L204">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_ArrayDimensions_" data-uid="CodeFactory.DotNet.CSharp.CsType.ArrayDimensions*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_ArrayDimensions" data-uid="CodeFactory.DotNet.CSharp.CsType.ArrayDimensions">ArrayDimensions</h4>
+  <div class="markdown level1 summary"><p>Gets a list of the dimensions that are assigned to the array. This will contain more then one value if the array is a jagged array. This will be empty if the type is not an array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;int&gt; ArrayDimensions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GenericParameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GenericParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L114">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GenericParameters_" data-uid="CodeFactory.DotNet.CSharp.CsType.GenericParameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GenericParameters" data-uid="CodeFactory.DotNet.CSharp.CsType.GenericParameters">GenericParameters</h4>
+  <div class="markdown level1 summary"><p>List of the generic parameters assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsGenericParameter&gt; GenericParameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsGenericParameter.html">CsGenericParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GenericTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GenericTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L119">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GenericTypes_" data-uid="CodeFactory.DotNet.CSharp.CsType.GenericTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GenericTypes" data-uid="CodeFactory.DotNet.CSharp.CsType.GenericTypes">GenericTypes</h4>
+  <div class="markdown level1 summary"><p>List of the strong types that are implemented for each generic parameter. This will be an empty List when there is no generic types implemented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsType&gt; GenericTypes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_HasStrongTypesInGenerics.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.HasStrongTypesInGenerics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L129">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_HasStrongTypesInGenerics_" data-uid="CodeFactory.DotNet.CSharp.CsType.HasStrongTypesInGenerics*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_HasStrongTypesInGenerics" data-uid="CodeFactory.DotNet.CSharp.CsType.HasStrongTypesInGenerics">HasStrongTypesInGenerics</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the generics implementation has strong types passed in to the generics implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStrongTypesInGenerics { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsArray.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsArray%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L199">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsArray_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsArray*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsArray" data-uid="CodeFactory.DotNet.CSharp.CsType.IsArray">IsArray</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is an array of the target type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsArray { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsClass.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsClass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L194">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsClass_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsClass*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsClass" data-uid="CodeFactory.DotNet.CSharp.CsType.IsClass">IsClass</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsClass { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsDelegate.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L219">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsDelegate_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsDelegate*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsDelegate" data-uid="CodeFactory.DotNet.CSharp.CsType.IsDelegate">IsDelegate</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDelegate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsEnum.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsEnum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L214">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsEnum_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsEnum*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsEnum" data-uid="CodeFactory.DotNet.CSharp.CsType.IsEnum">IsEnum</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a enumeration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnum { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsGeneric.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsGeneric%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L109">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsGeneric_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsGeneric*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsGeneric" data-uid="CodeFactory.DotNet.CSharp.CsType.IsGeneric">IsGeneric</h4>
+  <div class="markdown level1 summary"><p>Flag the determines if this item supports generics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGeneric { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsGenericPlaceHolder.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsGenericPlaceHolder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L209">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsGenericPlaceHolder_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsGenericPlaceHolder*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsGenericPlaceHolder" data-uid="CodeFactory.DotNet.CSharp.CsType.IsGenericPlaceHolder">IsGenericPlaceHolder</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a generic place holder definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGenericPlaceHolder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsInterface.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsInterface%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L184">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsInterface_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsInterface*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsInterface" data-uid="CodeFactory.DotNet.CSharp.CsType.IsInterface">IsInterface</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is an interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInterface { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsStructure.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsStructure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L189">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsStructure_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsStructure*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsStructure" data-uid="CodeFactory.DotNet.CSharp.CsType.IsStructure">IsStructure</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsTuple.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsTuple%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L224">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsTuple_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsTuple*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsTuple" data-uid="CodeFactory.DotNet.CSharp.CsType.IsTuple">IsTuple</h4>
+  <div class="markdown level1 summary"><p>Flag that determine if the type is a Tuple</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTuple { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsValueType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsValueType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L174">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsValueType_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsValueType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsValueType" data-uid="CodeFactory.DotNet.CSharp.CsType.IsValueType">IsValueType</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is a value type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValueType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_IsWellKnownType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.IsWellKnownType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L149">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_IsWellKnownType_" data-uid="CodeFactory.DotNet.CSharp.CsType.IsWellKnownType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_IsWellKnownType" data-uid="CodeFactory.DotNet.CSharp.CsType.IsWellKnownType">IsWellKnownType</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type is one of the well know data types of the language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWellKnownType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_Name.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L139">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_Name_" data-uid="CodeFactory.DotNet.CSharp.CsType.Name*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_Name" data-uid="CodeFactory.DotNet.CSharp.CsType.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name of the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_Namespace.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.Namespace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L144">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_Namespace_" data-uid="CodeFactory.DotNet.CSharp.CsType.Namespace*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_Namespace" data-uid="CodeFactory.DotNet.CSharp.CsType.Namespace">Namespace</h4>
+  <div class="markdown level1 summary"><p>The namespace the type belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Namespace { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_SupportsDisposable.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.SupportsDisposable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L179">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_SupportsDisposable_" data-uid="CodeFactory.DotNet.CSharp.CsType.SupportsDisposable*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_SupportsDisposable" data-uid="CodeFactory.DotNet.CSharp.CsType.SupportsDisposable">SupportsDisposable</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the type supports the interface <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsDisposable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_TupleTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.TupleTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L159">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_TupleTypes_" data-uid="CodeFactory.DotNet.CSharp.CsType.TupleTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_TupleTypes" data-uid="CodeFactory.DotNet.CSharp.CsType.TupleTypes">TupleTypes</h4>
+  <div class="markdown level1 summary"><p>List of the types that are implemented in the Tuple. This will an empty list if the type is not a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsTupleTypeParameter&gt; TupleTypes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsTupleTypeParameter.html">CsTupleTypeParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_ValueTypeDefaultValue.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.ValueTypeDefaultValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L169">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_ValueTypeDefaultValue_" data-uid="CodeFactory.DotNet.CSharp.CsType.ValueTypeDefaultValue*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_ValueTypeDefaultValue" data-uid="CodeFactory.DotNet.CSharp.CsType.ValueTypeDefaultValue">ValueTypeDefaultValue</h4>
+  <div class="markdown level1 summary"><p>The default value for well known value data types. This will be null if the value is not a well known value type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ValueTypeDefaultValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_WellKnownType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.WellKnownType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L154">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_WellKnownType_" data-uid="CodeFactory.DotNet.CSharp.CsType.WellKnownType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_WellKnownType" data-uid="CodeFactory.DotNet.CSharp.CsType.WellKnownType">WellKnownType</h4>
+  <div class="markdown level1 summary"><p>Enumeration of the target well known type this type represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsKnownLanguageType WellKnownType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsKnownLanguageType.html">CsKnownLanguageType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetClassModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetClassModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L278">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetClassModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetClassModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetClassModel" data-uid="CodeFactory.DotNet.CSharp.CsType.GetClassModel">GetClassModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsClass.html">ICsClass</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsClass GetClassModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsClass.html">CsClass</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetClassModelData.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetClassModelData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L272">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetClassModelData_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetClassModelData*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetClassModelData" data-uid="CodeFactory.DotNet.CSharp.CsType.GetClassModelData">GetClassModelData()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsClass.html">ICsClass</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract CsClass GetClassModelData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsClass.html">CsClass</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetDelegateModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetDelegateModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L260">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetDelegateModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetDelegateModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetDelegateModel" data-uid="CodeFactory.DotNet.CSharp.CsType.GetDelegateModel">GetDelegateModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsDelegate GetDelegateModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsDelegate.html">CsDelegate</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetDelegateModelData.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetDelegateModelData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L254">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetDelegateModelData_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetDelegateModelData*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetDelegateModelData" data-uid="CodeFactory.DotNet.CSharp.CsType.GetDelegateModelData">GetDelegateModelData()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract CsDelegate GetDelegateModelData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsDelegate.html">CsDelegate</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetEnumModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetEnumModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L248">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetEnumModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetEnumModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetEnumModel" data-uid="CodeFactory.DotNet.CSharp.CsType.GetEnumModel">GetEnumModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsEnum.html">ICsEnum</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsEnum GetEnumModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsEnum.html">CsEnum</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an enumeration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetEnumModelData.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetEnumModelData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L235">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetEnumModelData_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetEnumModelData*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetEnumModelData" data-uid="CodeFactory.DotNet.CSharp.CsType.GetEnumModelData">GetEnumModelData()</h4>
+  <div class="markdown level1 summary"><p>Logic to load the full model data for an enumeration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract CsEnum GetEnumModelData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsEnum.html">CsEnum</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an enumeration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetInterfaceModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetInterfaceModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L296">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetInterfaceModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetInterfaceModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetInterfaceModel" data-uid="CodeFactory.DotNet.CSharp.CsType.GetInterfaceModel">GetInterfaceModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.CsInterface.html">CsInterface</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsInterface GetInterfaceModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsInterface.html">CsInterface</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an interface.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetInterfaceModelData.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetInterfaceModelData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L290">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetInterfaceModelData_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetInterfaceModelData*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetInterfaceModelData" data-uid="CodeFactory.DotNet.CSharp.CsType.GetInterfaceModelData">GetInterfaceModelData()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsInterface.html">ICsInterface</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract CsInterface GetInterfaceModelData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsInterface.html">CsInterface</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an interface.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetStructureModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetStructureModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L314">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetStructureModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetStructureModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetStructureModel" data-uid="CodeFactory.DotNet.CSharp.CsType.GetStructureModel">GetStructureModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsStructure.html">ICsStructure</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsStructure GetStructureModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsStructure.html">CsStructure</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_GetStructureModelData.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.GetStructureModelData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L308">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_GetStructureModelData_" data-uid="CodeFactory.DotNet.CSharp.CsType.GetStructureModelData*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_GetStructureModelData" data-uid="CodeFactory.DotNet.CSharp.CsType.GetStructureModelData">GetStructureModelData()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.CSharp.ICsStructure.html">ICsStructure</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract CsStructure GetStructureModelData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsStructure.html">CsStructure</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericParameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetGeneric%23GenericParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L124">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericParameters_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetGeneric#GenericParameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericParameters" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetGeneric#GenericParameters">IDotNetGeneric.GenericParameters</h4>
+  <div class="markdown level1 summary"><p>List of the generic parameters assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetGenericParameter&gt; IDotNetGeneric.GenericParameters { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetGenericParameter.html">IDotNetGenericParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetGeneric%23GenericTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L134">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericTypes_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetGeneric#GenericTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetGeneric_GenericTypes" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetGeneric#GenericTypes">IDotNetGeneric.GenericTypes</h4>
+  <div class="markdown level1 summary"><p>Enumeration of the strong types that are implemented for each generic parameter. This will be an empty list when there is no generic types implemented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetType&gt; IDotNetGeneric.GenericTypes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetType.html">IDotNetType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetClassModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23GetClassModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L284">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetClassModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetClassModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetClassModel" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetClassModel">IDotNetType.GetClassModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.IDotNetClass.html">IDotNetClass</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetClass IDotNetType.GetClassModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetClass.html">IDotNetClass</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetDelegateModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23GetDelegateModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L266">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetDelegateModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetDelegateModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetDelegateModel" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetDelegateModel">IDotNetType.GetDelegateModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.IDotNetDelegate.html">IDotNetDelegate</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetDelegate IDotNetType.GetDelegateModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetDelegate.html">IDotNetDelegate</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetEnumModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23GetEnumModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L241">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetEnumModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetEnumModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetEnumModel" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetEnumModel">IDotNetType.GetEnumModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.IDotNetEnum.html">IDotNetEnum</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetEnum IDotNetType.GetEnumModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetEnum.html">IDotNetEnum</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an enumeration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetInterfaceModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23GetInterfaceModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L302">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetInterfaceModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetInterfaceModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetInterfaceModel" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetInterfaceModel">IDotNetType.GetInterfaceModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.IDotNetInterface.html">IDotNetInterface</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetInterface IDotNetType.GetInterfaceModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetInterface.html">IDotNetInterface</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not an interface.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetStructureModel.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23GetStructureModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L320">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetStructureModel_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetStructureModel*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_GetStructureModel" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#GetStructureModel">IDotNetType.GetStructureModel()</h4>
+  <div class="markdown level1 summary"><p>Loads the full <a class="xref" href="CodeFactory.DotNet.IDotNetStructure.html">IDotNetStructure</a> model from the type definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetStructure IDotNetType.GetStructureModel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetStructure.html">IDotNetStructure</a></td>
+        <td><p>Return the fully loaded model or an empty model if the type is not a structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_TupleTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23TupleTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L229">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_TupleTypes_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#TupleTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_TupleTypes" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#TupleTypes">IDotNetType.TupleTypes</h4>
+  <div class="markdown level1 summary"><p>List of the types that are implemented in the Tuple. This will an empty list if the type is not a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetTupleTypeParameter&gt; IDotNetType.TupleTypes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetTupleTypeParameter.html">IDotNetTupleTypeParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_WellKnownType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsType.CodeFactory%23DotNet%23IDotNetType%23WellKnownType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsType.cs/#L164">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_WellKnownType_" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#WellKnownType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_IDotNetType_WellKnownType" data-uid="CodeFactory.DotNet.CSharp.CsType.CodeFactory#DotNet#IDotNetType#WellKnownType">IDotNetType.WellKnownType</h4>
+  <div class="markdown level1 summary"><p>Enumeration of the target well known type this type represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WellKnownLanguageType IDotNetType.WellKnownType { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.WellKnownLanguageType.html">WellKnownLanguageType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsType.html">ICsType</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsGeneric.html">ICsGeneric</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetType.html">IDotNetType</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetModel.html">IDotNetModel</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.IModelStatus.html">IModelStatus</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetGeneric.html">IDotNetGeneric</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.DotNetModelExtensions.html#CodeFactory_DotNet_DotNetModelExtensions_FormatCSharpFullTypeName_CodeFactory_DotNet_IDotNetType_">DotNetModelExtensions.FormatCSharpFullTypeName(IDotNetType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.DotNetModelExtensions.html#CodeFactory_DotNet_DotNetModelExtensions_FormatCSharpTupleSignatureSyntax_CodeFactory_DotNet_IDotNetType_">DotNetModelExtensions.FormatCSharpTupleSignatureSyntax(IDotNetType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.DotNetModelExtensions.html#CodeFactory_DotNet_DotNetModelExtensions_FormatCSharpArraySignatureSyntax_CodeFactory_DotNet_IDotNetType_">DotNetModelExtensions.FormatCSharpArraySignatureSyntax(IDotNetType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.DotNetModelExtensions.html#CodeFactory_DotNet_DotNetModelExtensions_FormatCSharpValueSyntax_CodeFactory_DotNet_IDotNetType_System_String_">DotNetModelExtensions.FormatCSharpValueSyntax(IDotNetType, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CSharpModelExtensions.html#CodeFactory_DotNet_CSharp_CSharpModelExtensions_ToModel__1_CodeFactory_DotNet_CSharp_CsModel_">CSharpModelExtensions.ToModel&lt;T&gt;(CsModel)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModelExtensions.html#CodeFactory_DotNet_CSharp_CsModelExtensions_FormatCSharpFullTypeName_CodeFactory_DotNet_CSharp_CsType_">CsModelExtensions.FormatCSharpFullTypeName(CsType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModelExtensions.html#CodeFactory_DotNet_CSharp_CsModelExtensions_FormatCSharpTupleSignatureSyntax_CodeFactory_DotNet_CSharp_CsType_">CsModelExtensions.FormatCSharpTupleSignatureSyntax(CsType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModelExtensions.html#CodeFactory_DotNet_CSharp_CsModelExtensions_FormatCSharpArraySignatureSyntax_CodeFactory_DotNet_CSharp_CsType_">CsModelExtensions.FormatCSharpArraySignatureSyntax(CsType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModelExtensions.html#CodeFactory_DotNet_CSharp_CsModelExtensions_FormatCSharpValueSyntax_CodeFactory_DotNet_CSharp_CsType_System_String_">CsModelExtensions.FormatCSharpValueSyntax(CsType, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsTypeExtensions.html#CodeFactory_DotNet_CSharp_CsTypeExtensions_InheritsInterface_CodeFactory_DotNet_CSharp_CsType_System_String_System_String_">CsTypeExtensions.InheritsInterface(CsType, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsTypeExtensions.html#CodeFactory_DotNet_CSharp_CsTypeExtensions_InheritsBaseClass_CodeFactory_DotNet_CSharp_CsType_System_String_System_String_">CsTypeExtensions.InheritsBaseClass(CsType, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.Formatting.CSharp.CsTypeExtensions.html#CodeFactory_Formatting_CSharp_CsTypeExtensions_CSharpFormatTypeName_CodeFactory_DotNet_CSharp_CsType_CodeFactory_Formatting_CSharp_NamespaceManager_">CsTypeExtensions.CSharpFormatTypeName(CsType, NamespaceManager)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.Formatting.CSharp.CsTypeExtensions.html#CodeFactory_Formatting_CSharp_CsTypeExtensions_CSharpFormatTupleSignature_CodeFactory_DotNet_CSharp_CsType_CodeFactory_Formatting_CSharp_NamespaceManager_">CsTypeExtensions.CSharpFormatTupleSignature(CsType, NamespaceManager)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.Formatting.CSharp.CsTypeExtensions.html#CodeFactory_Formatting_CSharp_CsTypeExtensions_CSharpFormatArraySignature_CodeFactory_DotNet_CSharp_CsType_">CsTypeExtensions.CSharpFormatArraySignature(CsType)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.Formatting.CSharp.CsTypeExtensions.html#CodeFactory_Formatting_CSharp_CsTypeExtensions_CSharpFormatValueSyntax_CodeFactory_DotNet_CSharp_CsType_System_String_">CsTypeExtensions.CSharpFormatValueSyntax(CsType, String)</a>
+  </div>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; CodeFactory, LLC. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>

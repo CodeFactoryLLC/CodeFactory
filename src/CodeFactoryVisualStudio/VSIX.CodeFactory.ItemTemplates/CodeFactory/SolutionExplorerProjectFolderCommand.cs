@@ -43,7 +43,7 @@ namespace $rootnamespace$
             }
             catch (Exception unhandledError)
             {
-                _logger.Error($"The following unhandled error occured while checking if the solution explorer project folder command {commandTitle} is enabled. ",
+                _logger.Error($"The following unhandled error occurred while checking if the solution explorer project folder command {commandTitle} is enabled. ",
                     unhandledError);
                 isEnabled = false;
             }
@@ -63,7 +63,7 @@ namespace $rootnamespace$
             }
             catch (Exception unhandledError)
             {
-                _logger.Error($"The following unhandled error occured while executing the solution explorer project folder command {commandTitle}. ",
+                _logger.Error($"The following unhandled error occurred while executing the solution explorer project folder command {commandTitle}. ",
                     unhandledError);
 
             }

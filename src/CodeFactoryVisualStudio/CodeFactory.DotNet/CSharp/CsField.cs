@@ -31,8 +31,9 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="dataType">The type definition for the field.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -45,12 +46,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="isConstant">Flag that determines if the field is a constant definition.</param>
         /// <param name="constantValue">The value assigned to the field if it is a constant definition.</param>
         protected CsField(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
+            IReadOnlyList<CsAttribute> attributes,string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
             string lookupPath, string name, string parentPath, CsSecurity security, bool isReadOnly, 
             bool isStatic, bool isConstant, string constantValue, CsType dataType, string sourceDocument, ModelStore<ICsModel> modelStore = null,
             IReadOnlyList<ModelLoadException> modelErrors=null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Field,attributes, 
-                sourceFiles, hasDocumentation, documentation, lookupPath,
+                modelSourceFile, sourceFiles, hasDocumentation, documentation, lookupPath,
                 name, parentPath, security, CsMemberType.Field, sourceDocument, modelStore, modelErrors)
         {
             _isReadOnly = isReadOnly;

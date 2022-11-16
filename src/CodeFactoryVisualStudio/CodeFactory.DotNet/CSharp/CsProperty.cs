@@ -3,6 +3,7 @@
 //* Copyright (c) 2020 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodeFactory.SourceCode;
@@ -25,6 +26,8 @@ namespace CodeFactory.DotNet.CSharp
         private readonly CsType _propertyType;
         private readonly CsSecurity _getSecurity;
         private readonly CsSecurity _setSecurity;
+        private readonly CsMethod _getMethod;
+        private readonly CsMethod _setMethod;
         #endregion
 
         /// <summary>
@@ -37,8 +40,9 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="setSecurity">The security access assigned to the setter.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -47,7 +51,9 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="parentPath">THe fully qualified lookup path for the parent model to this one.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         /// <param name="hasGet">Flag that determines if the property implements a getter.</param>
+        /// <param name="getMethod">The get accessor method assigned to the property</param>
         /// <param name="hasSet">Flag that determines if the property implements a setter.</param>
+        /// <param name="setMethod">The set accessor method assigned to the property.</param>
         /// <param name="isAbstract">Flag that determines if the model is abstract.</param>
         /// <param name="isVirtual">Flag that determines if the model is virtual.</param>
         /// <param name="isSealed">Flag that determines if the model is sealed.</param>
@@ -56,12 +62,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="propertyType">The type the property supports.</param>
         /// <param name="getSecurity">The security access assigned to the getter.</param>
         protected CsProperty(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
             string lookupPath, string name, string parentPath, CsSecurity security, 
-            bool hasGet, bool hasSet, bool isAbstract, bool isVirtual, bool isSealed, bool isOverride, bool isStatic,
+            bool hasGet, CsMethod getMethod, bool hasSet, CsMethod setMethod, bool isAbstract, bool isVirtual, bool isSealed, bool isOverride, bool isStatic,
             CsType propertyType, CsSecurity getSecurity, CsSecurity setSecurity,
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
-            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Property,attributes, sourceFiles,
+            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Property,attributes, modelSourceFile, sourceFiles,
                 hasDocumentation, documentation, lookupPath, name, parentPath, security, CsMemberType.Property, sourceDocument, modelStore, modelErrors)
         {
             _hasGet = hasGet;
@@ -73,7 +79,9 @@ namespace CodeFactory.DotNet.CSharp
             _isStatic = isStatic;
             _propertyType = propertyType;
             _getSecurity = getSecurity;
+            _getMethod = getMethod;
             _setSecurity = setSecurity;
+            _setMethod = setMethod;
         }
 
         /// <summary>
@@ -142,13 +150,35 @@ namespace CodeFactory.DotNet.CSharp
         public bool IsStatic => _isStatic;
 
         /// <summary>
+        /// Provides access to the get method statement in the property. This will be null the property does not have a get statement.
+        /// </summary>
+        public CsMethod GetMethod => _getMethod;
+
+        /// <summary>
+        /// Provides access to the set method statement in the property. This will be null the property does not have a set statement.
+        /// </summary>
+        public CsMethod SetMethod => _setMethod;
+
+        /// <summary>
+        /// Provides access to the get method statement in the property. This will be null the property does not have a get statement.
+        /// </summary>
+        IDotNetMethod IDotNetProperty.GetMethod => _getMethod;
+
+        /// <summary>
+        /// Provides access to the set method statement in the property. This will be null the property does not have a set statement.
+        /// </summary>
+        IDotNetMethod IDotNetProperty.SetMethod => _setMethod;
+
+        /// <summary>
         /// The source code syntax that is stored in the body of the property get. This will be null if was not loaded from source code.
         /// </summary>
+        [Obsolete("This will be removed in later editions of the SDK. Use the GetMethod property to access the get method details.",false)]
         public abstract Task<string> LoadGetBodySyntaxAsync();
 
         /// <summary>
         /// The source code syntax that is stored in the body of the property get. This will be null if was not loaded from source code.
         /// </summary>
+        [Obsolete("This will be removed in later editions of the SDK. Use the SetMethod property to access the set method details.",false)]
         public abstract Task<string> LoadSetBodySyntaxAsync();
     }
 }

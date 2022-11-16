@@ -32,7 +32,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="values">The list of values if the parameter has more then one value.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="parameterKind">The kind of attribute parameter.</param>
         /// <param name="value">The value of the attribute parameter.</param>
         /// <param name="enumValue">The value of the enumeration if the parameter is an enumeration.</param>

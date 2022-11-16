@@ -183,106 +183,106 @@ namespace CodeFactory.VisualStudio.Loader
 
 
 
-        /// <summary>
-        /// Static method that creates a package based on a single code factory library provided. The package will automatically be created in the same directory as the library.
-        /// </summary>
-        /// <param name="libraryPath">The fully qualified path to the library that is to have a package created.</param>
-        /// <returns>Boolean flag that determines if the package was created properly.</returns>
-        public static bool CreateDefaultPackage(string libraryPath)
-        {
-            _logger.DebugEnter();
-            if (string.IsNullOrEmpty(libraryPath))
-            {
-                _logger.Information("No library path was provided, cannot create the default package.");
-                _logger.DebugExit();
-                return false;
-            }
+        ///// <summary>
+        ///// Static method that creates a package based on a single code factory library provided. The package will automatically be created in the same directory as the library.
+        ///// </summary>
+        ///// <param name="libraryPath">The fully qualified path to the library that is to have a package created.</param>
+        ///// <returns>Boolean flag that determines if the package was created properly.</returns>
+        //public static bool CreateDefaultPackage(string libraryPath)
+        //{
+        //    _logger.DebugEnter();
+        //    if (string.IsNullOrEmpty(libraryPath))
+        //    {
+        //        _logger.Information("No library path was provided, cannot create the default package.");
+        //        _logger.DebugExit();
+        //        return false;
+        //    }
 
-            if (!File.Exists(libraryPath))
-            {
-                _logger.Information(
-                    $"The library path '{libraryPath}' does not exist. Cannot create the default package.");
-                _logger.DebugExit();
-                return false;
-            }
+        //    if (!File.Exists(libraryPath))
+        //    {
+        //        _logger.Information(
+        //            $"The library path '{libraryPath}' does not exist. Cannot create the default package.");
+        //        _logger.DebugExit();
+        //        return false;
+        //    }
           
-            bool result = false;
+        //    bool result = false;
 
-            try
-            {
-                var libraryData = LibraryManager.GetLibraryInformation(libraryPath);
+        //    try
+        //    {
+        //        var libraryData = LibraryManager.GetLibraryInformation(libraryPath);
 
-                if (libraryData == null)
-                {
-                    _logger.Information(
-                        $"No library data was found for the library '{libraryPath}', cannot create the default package.");
-                    _logger.DebugExit();
-                    return false;
-                }
+        //        if (libraryData == null)
+        //        {
+        //            _logger.Information(
+        //                $"No library data was found for the library '{libraryPath}', cannot create the default package.");
+        //            _logger.DebugExit();
+        //            return false;
+        //        }
               
 
-                if (libraryData.SupportLibraries != null)
-                {
-                    if (libraryData.SupportLibraries.Any(supportLibrary => supportLibrary.HasErrors))
-                    {
-                        _logger.Information(
-                            "At least one support library had errors cannot create the default package.");
-                        _logger.DebugExit();
-                        return false;
-                    }
-                }
+        //        if (libraryData.SupportLibraries != null)
+        //        {
+        //            if (libraryData.SupportLibraries.Any(supportLibrary => supportLibrary.HasErrors))
+        //            {
+        //                _logger.Information(
+        //                    "At least one support library had errors cannot create the default package.");
+        //                _logger.DebugExit();
+        //                return false;
+        //            }
+        //        }
 
-                var assemblyName = Path.GetFileNameWithoutExtension(libraryPath);
-                var assemblyDirectory = Path.GetDirectoryName(libraryPath);
+        //        var assemblyName = Path.GetFileNameWithoutExtension(libraryPath);
+        //        var assemblyDirectory = Path.GetDirectoryName(libraryPath);
 
-                if (string.IsNullOrEmpty(assemblyName))
-                {
-                    _logger.Information(
-                        "Could not load the code factory assembly name, cannot create the default package.");
-                    _logger.DebugExit();
-                    return false;
-                }
+        //        if (string.IsNullOrEmpty(assemblyName))
+        //        {
+        //            _logger.Information(
+        //                "Could not load the code factory assembly name, cannot create the default package.");
+        //            _logger.DebugExit();
+        //            return false;
+        //        }
 
-                if (string.IsNullOrEmpty(assemblyDirectory))
-                {
-                    _logger.Information(
-                        "No assembly directory was provided for the code factory assembly, cannot create the default package.");
-                    _logger.DebugExit();
-                    return false;
-                }
+        //        if (string.IsNullOrEmpty(assemblyDirectory))
+        //        {
+        //            _logger.Information(
+        //                "No assembly directory was provided for the code factory assembly, cannot create the default package.");
+        //            _logger.DebugExit();
+        //            return false;
+        //        }
                
 
-                var factoryConfig = new VsFactoryConfiguration
-                {
-                    CodeFactoryActions = libraryData.LibraryActions,
-                    SupportLibraries = libraryData.SupportLibraries,
-                    CodeFactoryLibraries =
-                            new List<VsLibraryConfiguration>
-                                {
-                                    new VsLibraryConfiguration
-                                        {
-                                            IsStoredInGac = false,
-                                            HasErrors = false,
-                                            AssemblyFilePath = libraryData.LibraryFilePath
-                                        }
-                                },
-                    Id = Guid.NewGuid(),
-                    Name = assemblyName
-                };
+        //        var factoryConfig = new VsFactoryConfiguration
+        //        {
+        //            CodeFactoryActions = libraryData.LibraryActions,
+        //            SupportLibraries = libraryData.SupportLibraries,
+        //            CodeFactoryLibraries =
+        //                    new List<VsLibraryConfiguration>
+        //                        {
+        //                            new VsLibraryConfiguration
+        //                                {
+        //                                    IsStoredInGac = false,
+        //                                    HasErrors = false,
+        //                                    AssemblyFilePath = libraryData.LibraryFilePath
+        //                                }
+        //                        },
+        //            Id = Guid.NewGuid(),
+        //            Name = assemblyName
+        //        };
 
-                result = CreateCodeFactoryPackage(factoryConfig, assemblyDirectory, assemblyName);
+        //        result = CreateCodeFactoryPackage(factoryConfig, assemblyDirectory, assemblyName);
 
-            }
-            catch (Exception createDefaultPackageError)
-            {
-                _logger.Error("The following unhandled exception occurred while trying to create the default package.",
-                    createDefaultPackageError);
-                result = false;
-            }
+        //    }
+        //    catch (Exception createDefaultPackageError)
+        //    {
+        //        _logger.Error("The following unhandled exception occurred while trying to create the default package.",
+        //            createDefaultPackageError);
+        //        result = false;
+        //    }
 
-            _logger.DebugExit();
-            return result;
-        }
+        //    _logger.DebugExit();
+        //    return result;
+        //}
 
         /// <summary>
         /// Creates a code factory package that consolidates the needed libraries and configuration for a code factory into one file.
@@ -367,7 +367,8 @@ namespace CodeFactory.VisualStudio.Loader
                 {
                     Name = targetPackageName,
                     Id = Guid.NewGuid(),
-                    CodeFactoryActions = sourceConfiguration.CodeFactoryActions
+                    CodeFactoryActions = sourceConfiguration.CodeFactoryActions,
+                    SdkVersion = sourceConfiguration.SdkVersion
                 };
 
                 var packageFileData = new List<VsPackageFileConfig>();

@@ -1,0 +1,5 @@
+- name: SDK Release Notes
+  href: sdk/toc.yml
+- name: Runtime Release Notes
+  href: VSWindowsRuntime/toc.yml
+

@@ -1,0 +1,12 @@
+- name: CodeFactory for VisualStudio
+  href: Environment/Overview.md
+- name: Data Models
+  href: DataModels/Overview.md
+- name: Commands
+  href: Commands/Overview.md
+- name: Visual Studio Actions
+  href: VsActions/Overview.md
+- name: Source Formatting
+  href: Formatting/Overview.md
+- name: User Interfaces
+  href: UI/Overview.md

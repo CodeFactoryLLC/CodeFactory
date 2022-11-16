@@ -51,7 +51,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="wellKnownType">The well known type from the language if it is well known.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="isGeneric">Flag that determines if the type is generic.</param>
         /// <param name="hasStrongTypesInGenerics">Flag that determines if the generics are strong types or placeholders.</param>
         /// <param name="genericParameters">Generic parameters assigned to the type.</param>

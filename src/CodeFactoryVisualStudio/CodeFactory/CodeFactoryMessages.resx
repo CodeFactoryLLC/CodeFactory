@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CodeFactoryError" xml:space="preserve">
-    <value>An unhandled error occured and the current code factory operation failed to complete. Please try again.</value>
+    <value>An unhandled error occurred and the current code factory operation failed to complete. Please try again.</value>
   </data>
   <data name="ModelLoadError" xml:space="preserve">
-    <value>An error occured while loading the model. Review the model to confirm that the model was able to complete loading. </value>
+    <value>An error occurred while loading the model. Review the model to confirm that the model was able to complete loading. </value>
   </data>
   <data name="LoadErrorsUnhandledError" xml:space="preserve">
-    <value>An internal error occured while loading the errors, was not able to retrieve the error messages.</value>
+    <value>An internal error occurred while loading the errors, was not able to retrieve the error messages.</value>
   </data>
   <data name="BaseDocumentException" xml:space="preserve">
-    <value>An internal error occured could not complete the document operation.</value>
+    <value>An internal error occurred could not complete the document operation.</value>
   </data>
 </root>

@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//*****************************************************************************
+//* Code Factory SDK
+//* Copyright (c) 2020-2022 CodeFactory, LLC
+//*****************************************************************************
 
 namespace CodeFactory.DotNet.CSharp
 {

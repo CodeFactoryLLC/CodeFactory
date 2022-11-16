@@ -1,8 +1,9 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
@@ -39,9 +40,10 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="memberType">The type of member this model represents.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="modelType">The type of model that represents this member.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -50,12 +52,13 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="parentPath">THe fully qualified lookup path for the parent model to this one.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         protected CsMember(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, CsModelType modelType,
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, bool hasDocumentation,
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation,
             string documentation, string lookupPath, string name, string parentPath, CsSecurity security,
             CsMemberType memberType, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, modelType, sourceDocument, modelStore, modelErrors)
         {
             _attributes = attributes ?? ImmutableList<CsAttribute>.Empty;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
@@ -97,6 +100,33 @@ namespace CodeFactory.DotNet.CSharp
         public string Documentation => _documentation;
 
         /// <summary>
+        /// Adds the supplied source code directly before the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddBeforeDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Adds the supplied source code directly after the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddAfterDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Replaces the supplied source code directly this the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> ReplaceDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Deletes the documentation from the target supporting code artifact.
+        /// </summary>
+        /// <returns>Updated <see cref="CsSource"/> model with the documentation removed.</returns>
+        public abstract Task<CsSource> DeleteDocsAsync();
+
+        /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
         IDotNetModel DotNet.IParent.Parent => Parent;
@@ -121,6 +151,15 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         public CsMemberType MemberType => _memberType;
 
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
+
         /// <summary>
         /// Adds the source code directly before the definition of the <see cref="ICsMember"/>in the target document.
         /// </summary>
@@ -128,6 +167,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be added to the document.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddBeforeAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -138,6 +178,8 @@ namespace CodeFactory.DotNet.CSharp
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         public abstract Task<CsSource> AddBeforeAsync(string sourceCode);
 
+        /// <inheritdoc/>
+        public abstract Task<CsSource> AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs);
 
         /// <summary>
         /// Adds the source code directly after the definition of the <see cref="ICsMember"/>in the target document.
@@ -146,6 +188,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be added to the document.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddAfterAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -163,6 +206,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceDocument">The source document that the member is to be removed from.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the member has been removed from the document.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> DeleteAsync(string sourceDocument);
 
         /// <summary>
@@ -179,6 +223,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceDocument">The fully qualified path to the document that has the member defined in.</param>
         /// <returns>The source location for the member.</returns>
         /// <exception cref="DocumentException">Raised when an error occurs getting the location from the document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<ISourceLocation> GetSourceLocationAsync(string sourceDocument);
 
         /// <summary>
@@ -196,6 +241,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="sourceCode">The source code that is to be used to replace the original definition in the document.</param>
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceAsync(string sourceDocument, string sourceCode);
 
         /// <summary>
@@ -207,14 +253,7 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
 
 
-        /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
-
-
+       
         /// <summary>
         ///     The security scope that has been assigned to the member.
         /// </summary>
@@ -228,6 +267,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
     }
 }

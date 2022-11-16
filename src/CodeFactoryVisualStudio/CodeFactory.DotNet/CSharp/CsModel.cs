@@ -3,8 +3,10 @@
 //* Copyright (c) 2020 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
+using System.IO;
 using CodeFactory.SourceCode;
 
 namespace CodeFactory.DotNet.CSharp
@@ -45,7 +47,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelType">The type of code model created.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         protected CsModel(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, CsModelType modelType, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
         {
             _isLoaded = isLoaded;
@@ -74,7 +76,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>Returns a <see cref="IReadOnlyList{T}"/> of the <see cref="ModelLoadException"/> exceptions or an empty list if no exceptions exist.</returns>
         public abstract IReadOnlyList<ModelLoadException> GetErrors();
         
-
         /// <summary>
         /// Flag that determines if this model was loaded from source code or was loaded through reflects or symbol libraries.
         /// </summary>
@@ -105,6 +106,14 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         /// <param name="path">The fully qualified path of the model to be loaded from the model store.</param>
         /// <returns>The loaded model or null if the model could not be loaded, or found. </returns>
+        [Obsolete("LookupModel is obsolete and will be removed in later versions of the framework. Use GetModel or GetModel<T>",false)]
         protected CsModel LookupModel(string path) => string.IsNullOrEmpty(path) ? null : ModelStore?.GetModel(path) as CsModel;
+
+        /// <inheritdoc/>
+        public T GetModel<T>(string lookupPath) where T : class, ICsModel => string.IsNullOrEmpty(lookupPath) ? null : ModelStore?.GetModel(lookupPath) as T;
+        
+        /// <inheritdoc/>
+        public CsModel GetModel(string lookupPath)  => string.IsNullOrEmpty(lookupPath) ? null : ModelStore?.GetModel(lookupPath) as CsModel;
+        
     }
 }

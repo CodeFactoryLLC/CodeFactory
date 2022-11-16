@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2021 CodeFactory, LLC
+//* Copyright (c) 2022 CodeFactory, LLC
 //*****************************************************************************
 using System;
 using System.Collections.Generic;
@@ -21,6 +21,11 @@ namespace CodeFactory.VisualStudio.Loader
         /// The unique identifier that is assigned to the factory configuration.
         /// </summary>
         Guid Id { get;}
+
+        /// <summary>
+        /// The version of the CodeFactory SDK that was used to build the automation.
+        /// </summary>
+        string SdkVersion { get; }
 
         /// <summary>
         /// Enumeration of the support libraries that need to be loaded to run the code factory libraries.

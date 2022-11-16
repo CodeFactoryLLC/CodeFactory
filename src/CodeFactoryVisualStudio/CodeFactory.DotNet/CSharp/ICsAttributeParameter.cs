@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
 namespace CodeFactory.DotNet.CSharp

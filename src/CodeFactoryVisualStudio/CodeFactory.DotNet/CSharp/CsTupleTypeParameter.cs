@@ -31,7 +31,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="tupleType">The type definition of the tuple type.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         protected CsTupleTypeParameter(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             bool hasDefaultName, string name, CsType tupleType, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, 
             IReadOnlyList<ModelLoadException> modelErrors = null)

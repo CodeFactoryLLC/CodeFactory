@@ -1,0 +1,4 @@
+<div class="footer">
+  {{{_appFooter}}}
+  {{^_appFooter}}<strong><a href='https://www.codefactory.software/'>CodeFactory</a>{{/_appFooter}}
+</div>

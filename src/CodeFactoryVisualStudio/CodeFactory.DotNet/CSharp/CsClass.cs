@@ -30,15 +30,19 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="loadedFromSource">Flag that determines if the model was loaded from source code or from an existing library.</param>
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="members">The members assigned to this container.</param>
+        /// <param name="isNested">Flag that determines if the container type is nested in another type definition.</param>
+        /// <param name="nestedType">Enumeration of the type of nesting the container is.</param>
+        /// <param name="nestedModels">List of nested models assigned to this container. This is an optional parameter and can be null</param>
         /// <param name="baseClass">The class model that is base class of this class.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
         /// <param name="isGeneric">Flag that determines if the container is a generic definition.</param>
         /// <param name="hasStrongTypesInGenerics">Flag that determines if the generics use strong type definitions.</param>
         /// <param name="genericParameters">Generic parameters assigned to the container.</param>
         /// <param name="genericTypes">Target types for the generic parameters assigned to the container.</param>
+        /// <param name="modelSourceFile">The source code file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this model is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -53,15 +57,15 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="isSealed">Flag that determines if the model is sealed.</param>
         protected CsClass(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics,
-            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, IReadOnlyList<string> sourceFiles,
+            IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, string modelSourceFile, IReadOnlyList<string> sourceFiles,
             bool hasDocumentation, string documentation, string lookupPath, string name, string ns, string parentPath, 
-            CsSecurity security, IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,
-            bool isStatic, bool isAbstract, bool isSealed, CsClass baseClass, string sourceDocument = null, 
+            CsSecurity security, IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,bool isNested, CsNestedType nestedType, 
+            bool isStatic, bool isAbstract, bool isSealed, CsClass baseClass,IReadOnlyList<ICsNestedModel> nestedModels, string sourceDocument = null, 
             ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Class, attributes, 
-                isGeneric, hasStrongTypesInGenerics, genericParameters, genericTypes, sourceFiles, hasDocumentation,
+                isGeneric, hasStrongTypesInGenerics, genericParameters, genericTypes, modelSourceFile, sourceFiles, hasDocumentation,
                 documentation, lookupPath, name, ns, parentPath, CsContainerType.Class, security, inheritedInterfaces, 
-                members, sourceDocument, modelStore, modelErrors)
+                members,isNested,nestedType,nestedModels, sourceDocument, modelStore, modelErrors)
         {
             _isStatic = isStatic;
             _isAbstract = isAbstract;

@@ -19,7 +19,7 @@ namespace CodeFactory.VisualStudio {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class VisualStudioMessages {
@@ -88,7 +88,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while loading the parent of the solution folder &apos;{0}&apos;, cannot complete the load parent operation..
+        ///   Looks up a localized string similar to An internal error occurred while loading the parent of the solution folder &apos;{0}&apos;, cannot complete the load parent operation..
         /// </summary>
         public static string GetParentForSolutionFolderUnhandledErrorWithProjectFolderTitle {
             get {
@@ -97,7 +97,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while trying to get the parent for the document &apos;{0}&apos;, cannot get the parent model..
+        ///   Looks up a localized string similar to An internal error occurred while trying to get the parent for the document &apos;{0}&apos;, cannot get the parent model..
         /// </summary>
         public static string GetParentUnhandledErrorForProjectDocumentWithName {
             get {
@@ -106,7 +106,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while loading the parent for the project folder &apos;{0}&apos;, the parent model cannot be loaded..
+        ///   Looks up a localized string similar to An internal error occurred while loading the parent for the project folder &apos;{0}&apos;, the parent model cannot be loaded..
         /// </summary>
         public static string GetParentUnhandledErrorForProjectFolderWithName {
             get {
@@ -115,7 +115,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while adding content to the document, operation did not complete..
+        ///   Looks up a localized string similar to An internal error occurred while adding content to the document, operation did not complete..
         /// </summary>
         public static string InternalErrorAddDocumentContent {
             get {
@@ -124,7 +124,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured the operation could not complete. Review logs for further details..
+        ///   Looks up a localized string similar to An internal error occurred the operation could not complete. Review logs for further details..
         /// </summary>
         public static string InternalErrorOccuredCheckLogs {
             get {
@@ -133,7 +133,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while loading the visual studio document, the operation could not be completed..
+        ///   Looks up a localized string similar to An internal error occurred while loading the visual studio document, the operation could not be completed..
         /// </summary>
         public static string LoadDocumentFromSourceUnhandledError {
             get {
@@ -142,7 +142,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured while accessing visual studio&apos;s project system, code factory had to cancel the operation. Please try again..
+        ///   Looks up a localized string similar to An error occurred while accessing visual studio&apos;s project system, code factory had to cancel the operation. Please try again..
         /// </summary>
         public static string ProjectSystemGeneralError {
             get {
@@ -151,7 +151,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured will not be able to remove the content from the document..
+        ///   Looks up a localized string similar to An internal error occurred will not be able to remove the content from the document..
         /// </summary>
         public static string RemoveContentUnhandledError {
             get {
@@ -160,7 +160,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured will not be able to replace the content in the document..
+        ///   Looks up a localized string similar to An internal error occurred will not be able to replace the content in the document..
         /// </summary>
         public static string ReplaceContentUnhandledError {
             get {
@@ -169,7 +169,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An error occured while access the selected item in solution explorer, code factory had to cancel the operation. Please try again..
+        ///   Looks up a localized string similar to An error occurred while access the selected item in solution explorer, code factory had to cancel the operation. Please try again..
         /// </summary>
         public static string SolutionExplorerGeneralError {
             get {
@@ -187,7 +187,7 @@ namespace CodeFactory.VisualStudio {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An internal error occured while loading the IDocumentContent, operation could not complete..
+        ///   Looks up a localized string similar to An internal error occurred while loading the IDocumentContent, operation could not complete..
         /// </summary>
         public static string UnhandledErrorReadingContent {
             get {

@@ -40,7 +40,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>CodeFactoryRuntimeSigner.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Setup|AnyCPU'">
     <OutputPath>bin\Setup\</OutputPath>
@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CodeFactoryRuntimeSigner.snk" />
+    <None Include="CodeFactorySigner.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -70,7 +70,7 @@ namespace CodeFactory.VisualStudio.Loader
             }
             catch (Exception locateFactoryPackageError)
             {
-                _logger.Error("Exception occured while locating the factory package. See exception for details.",
+                _logger.Error("Exception occurred while locating the factory package. See exception for details.",
                     locateFactoryPackageError);
                 result = null;
             }
@@ -84,7 +84,7 @@ namespace CodeFactory.VisualStudio.Loader
         /// </summary>
         /// <param name="packageDirectory">The target directory all files are to be copied to.</param>
         /// <param name="config">The factory configuration to load the files from.</param>
-        /// <returns>List of the assembly and support files to load, or null if a load failure error occured.</returns>
+        /// <returns>List of the assembly and support files to load, or null if a load failure error occurred.</returns>
         public static List<string> GetAssembliesToLoadFromPackage(string packageDirectory, VsFactoryConfiguration config)
         {
 
@@ -129,7 +129,7 @@ namespace CodeFactory.VisualStudio.Loader
             }
             catch (Exception getAssembliesToLoadFromPackageError)
             {
-                _logger.Error("Unhandled error occured check exception for details.",
+                _logger.Error("Unhandled error occurred check exception for details.",
                     getAssembliesToLoadFromPackageError);
                 result = null;
             }
@@ -188,7 +188,7 @@ namespace CodeFactory.VisualStudio.Loader
                 foreach (var libraryConfiguration in libraries)
                 {
                     if (libraryConfiguration == null) continue;
-  
+
                     Assembly loadedLibrary = null;
                     if (libraryConfiguration.IsStoredInGac)
                     {
@@ -197,10 +197,16 @@ namespace CodeFactory.VisualStudio.Loader
                     else
                     {
                         var assemblyPath = Path.Combine(packageDirectory, libraryConfiguration.AssemblyFilePath.Trim());
+
+
                         loadedLibrary = Assembly.LoadFrom(assemblyPath);
                     }
 
-                    if (loadedLibrary != null) continue;
+                    if (loadedLibrary != null)
+                    {
+                        SdkSupport.SupportedAssembly(loadedLibrary);
+                        continue;
+                    }
 
                     result.HasErrors = true;
                     result.Errors.Add(ConfigurationMessages.LibraryNotLoaded);
@@ -208,9 +214,14 @@ namespace CodeFactory.VisualStudio.Loader
                     return result;
                 }
             }
+            catch (UnsupportedSdkLibraryException)
+            {
+                //Throwing to the caller to notify which library could not be loaded due to SDK being out of date.
+                throw;
+            }
             catch (Exception loadFactoryLibrariesError)
             {
-                _logger.Error("Unhandled exception occured see exception for details.", loadFactoryLibrariesError);
+                _logger.Error("Unhandled exception occurred see exception for details.", loadFactoryLibrariesError);
                 result.HasErrors = true;
                 result.Errors.Add(ConfigurationMessages.LibraryNotLoaded);
             }
@@ -404,7 +415,7 @@ namespace CodeFactory.VisualStudio.Loader
                     }
                     catch (Exception actionFailedToLoad)
                     {
-                        _logger.Error("Unhandled error occured see exception for details.", actionFailedToLoad);
+                        _logger.Error("Unhandled error occurred see exception for details.", actionFailedToLoad);
                         result.HasErrors = true;
                         result.ErrorMessages.Add(string.Format(ConfigurationMessages.FailedToLoadAction,
                             factoryAction.Title));
@@ -420,9 +431,14 @@ namespace CodeFactory.VisualStudio.Loader
                 }
 
             }
+            catch (UnsupportedSdkLibraryException)
+            {
+                //Throwing to the caller to notify which library could not be loaded due to SDK being out of date.
+                throw;
+            }
             catch (Exception loadPackageError)
             {
-                _logger.Error("An unhandled exception has occured see the exception for details", loadPackageError);
+                _logger.Error("An unhandled exception has occurred see the exception for details", loadPackageError);
                 result.HasErrors = true;
                 result.ErrorMessages.Add(ConfigurationMessages.PackageLoadError);
             }

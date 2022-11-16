@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
 using System.Collections.Generic;
@@ -37,7 +37,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="namespaces">The namespaces that are defined in this source.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="lookupPath">The fully qualified name of the model to be used with the model store.</param>
         /// <param name="sourceDocument">The fully qualified path to the source document that loaded this model.</param>
         /// <param name="parentPath">The fully qualified path to the parent model of this model.</param>
@@ -142,14 +142,6 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
 
         /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
-      
-
-        /// <summary>
         /// The namespaces that are used as references to access other libraries not hosted in the source document.
         /// </summary>
         IReadOnlyList<IDotNetNamespaceReference> IDotNetSource.NamespaceReferences => NamespaceReferences;
@@ -187,6 +179,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
     }
 }

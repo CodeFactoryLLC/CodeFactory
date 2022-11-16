@@ -1,0 +1,3880 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/github/codefactoryllc/CodeFactory/gendocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ActionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ActionException.html",
+          "hash": "HCWFCxHSGV6kFiWd1uNDxm2tiBX68s8kjZzSPd6FvWw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.CodeFactoryException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.CodeFactoryException.html",
+          "hash": "zK4azvuOExMFeLl/soQgTbHRtaKDY2qe0fTOrE9ZK4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.CodeFactoryMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.CodeFactoryMessages.html",
+          "hash": "FWc7YRScaZlPkDG7BSkzo5bJ0DGOXAA0S2V0AtoLZiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.DocumentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.DocumentException.html",
+          "hash": "ez2iJ3Iv3S1MPvzqV0J032QCipvio625Bs1bkghfCbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.DocumentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.DocumentLine.html",
+          "hash": "iXTajjGCPbIdMvLh0evvxlGihiYxiV6QNlXTDh7DDiw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.DocumentLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.DocumentLocation.html",
+          "hash": "YPbJJkw95GC3fSSOlIO5p72LICCdaGbL1EgUCgdv1Cc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.IDocumentContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.IDocumentContent.html",
+          "hash": "XYT2LL15NlysOiGYbwNIdy5MLlfHm9wt3y7OxLysiPQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.IDocumentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.IDocumentLine.html",
+          "hash": "78FnWaC2BZu8UgY/oqNMFddGjpz5xfVFiKIX5do6OPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.IDocumentLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.IDocumentLocation.html",
+          "hash": "QmmWHBNjFdKAYjcWvQlRq0tHSdFmzcSsttVEsYecs/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Document.html",
+          "hash": "75EnIe0eOQlehr05jEoHG8OV9+TFu1QCGX82zdKcSKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.AttributeParameterKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.AttributeParameterKind.html",
+          "hash": "fwrwS7T1n6T1eUwWU3jT6pRQjL/pzeL/S+L1zISdEfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CSharpModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CSharpModelExtensions.html",
+          "hash": "9brZYPoZIcSZs8104aXKFudBnsEOFEuS3WmIsIU+438="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttribute.html",
+          "hash": "OFSw6AsjhCPSAc5JIcz/tCZf56KuAkgHyX1DA26By/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameter.html",
+          "hash": "1gFuroiGMlg/+QupjMywYneSVe0Mj+9fdtqYuiWzoXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameterValue.html",
+          "hash": "yszZVX0c9Ihm26P3oKeVI+McR2RLlf/fNNjsbRpRNcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsClass.html",
+          "hash": "ayMRcvn2wb4PwMSDjUTBzZCAVFbsG1NPOEJ3dJnHplw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsClassExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsClassExtensions.html",
+          "hash": "recorPEv/8vVfsXQTO3WLFZv9Wi9RR5S7R7k3bEGlk4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainer.html",
+          "hash": "Z95361fuxIbu+KC2dpwOIoMLqieP5SnA3Afu1S3/YSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerExtensions.html",
+          "hash": "Rru5Ypl56fsz5CHi+g7qDKVvoVPMpN/QqlsPCiWPWbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerType.html",
+          "hash": "DHCcwusH0jLg/gFpZ9ppd9s6vZyAaggbBa+Khi1Weic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsDelegate.html",
+          "hash": "dRkvskFRUlNaS1m8HNf2wZSlm+D9IHtJMv7TlQgqJPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsEnum.html",
+          "hash": "gngh08mmHYTr/TxziX54b7ZyqM/FxwZ4FE7OD1yUa1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsEnumValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsEnumValue.html",
+          "hash": "5i1aBlpQ4qIgAVtpFbqBDtsXxrGmJGCDXjK6fu8J1vI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsEvent.html",
+          "hash": "U1ZgLrNPy3Hn3E/9CcZ7v5Pdhvb48omdUX4m8x4mUi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsField.html",
+          "hash": "0gqPinWOmAbIea8Vg/8t8Ko9zqbfhT9G5KT4igX9Lbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsGenericParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsGenericParameter.html",
+          "hash": "0r1F5ErQ9cIls79WKRkE5zGJBkmfLEH5ssXVUxiftA0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsInterface.html",
+          "hash": "dh291MUBKkXoWlKlSOHxlQP7T7ytrytc0R4ame+QIw0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsKnownLanguageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsKnownLanguageType.html",
+          "hash": "ek9Aky7CBp6U7Wvx8eEfKpRHiYydntbBneetI7YDXYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsMember.html",
+          "hash": "n1HnBhIhOoolhIchn50wo2F1C6WBnHHKusF+HEeQmBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsMemberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsMemberExtensions.html",
+          "hash": "G31Vr4kMmjFwOc2i/AhV3edr+yZOPn7FjfrO6LCEPQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsMemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsMemberType.html",
+          "hash": "9dVdFFlTBCeTy3RcHQ+TwtqVoPuDBfyMkF0SaB/sTUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsMethod.html",
+          "hash": "xHdZuNLQKMTc8OTbr8MgtxG1EKf+PoVBFjfhmKfuIsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsMethodType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsMethodType.html",
+          "hash": "Pma2ZaCUMZwJo5hoMdupXwS9Piid7fBDehlv2tRpO64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsModel.html",
+          "hash": "4qkXcRWa6usPbfFEeS1lB0qlBz8D58VbydP9UJhjbeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelExtensions.html",
+          "hash": "CqehSDvbV1XTP8gTRued1X0jHj44m9SiRH1LAtST7i8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsModelStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelStore.html",
+          "hash": "MDW9lZEwLCe1R4DjmSXAbaXUZRRQ3vLhs+XN0U4dNMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelType.html",
+          "hash": "7UWCILXi7To4XrE0KqotPbAoYab5601JLAh0RCxQm4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsNamespace.html",
+          "hash": "0ZTq05EhLvf6CoT+URutxwiniaJ3cbEhxh8CvuK68XE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsNestedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsNestedType.html",
+          "hash": "OGeC/q3uWUidKgIx9XZalmx0oTHpjT5/S8BmvTnD4Es="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsParameter.html",
+          "hash": "86kqVWW/VCSnNc1QU0Jn3opDSu8OoLYfHiBEbsJ99MQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsParameterDefaultValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsParameterDefaultValue.html",
+          "hash": "okaBPTjmSKvSYS77xw1DzHgoA2LC8WZ9h+MWtfINRYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsProperty.html",
+          "hash": "86KVt4o/RWGuQdWaFvVWQMGE4XBF5bo5rsevR8cJ/PQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsSecurity.html",
+          "hash": "ZJMdyDpJQmxJGDZcR5RvG3ip6HWueGstLeljSsKNxf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsSource.html",
+          "hash": "7z2+NKz8CN3pqgYUtd8+RX5Je/4y++C5qo6DaRcHJYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsSourceExtensions.html",
+          "hash": "63F0rYiEDBC7w3gTmIJZ88hLGdisJV2aQWynGMf4nnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsStructure.html",
+          "hash": "jNn+wdaTVIXGZApB+/fUiA+Yc10LmE5vHtnZ4cWhJRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsTupleTypeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsTupleTypeParameter.html",
+          "hash": "BZzdNslks8UyhxYxdq0Up5iJAgMrIZUdNTPcvvvpNz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsType.html",
+          "hash": "r3E+HJ3v+rZdSn1pJHc7VzP8BGC+9zOSmSX1WJ4NoxM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsTypeExtensions.html",
+          "hash": "Ubzl0bi1IINHRMZYLBrY5DVgBBiyLqBHdEnSOrIXebQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsUsingStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsUsingStatement.html",
+          "hash": "Qwse4lOzjOhoQd334IihNDv7/e2pRhHsHlc0wKz61M4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.CommonContextualKeywords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.CommonContextualKeywords.html",
+          "hash": "HLRL9SRFzPzuMWhDeDpdIuiScw/2fwR+6ifBk3bcWbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Keywords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Keywords.html",
+          "hash": "xN8Ku07lPbtibYW6ZkT7sOL6oMbepqJQPU8H3U4r7As="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Security.html",
+          "hash": "jZzTbBL6oZcKQ97aMkFzoHZU2/Lps7GcLwPXtvyXG08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Symbols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Symbols.html",
+          "hash": "jgwQF2NkVgh4O8CspGQOkSkwHFZsJAwAaA3K+5hb7iI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.WellKnownTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.WellKnownTypes.html",
+          "hash": "nPSyd/gXvcrNrSnGUNtjen70z2hdSgIt7PTtRIcAAf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.html",
+          "hash": "vMApECvTn+PGo9vO34gzm1Va86/ORU2RGUMXsMJT/lY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttribute.html",
+          "hash": "R+ajFSGni5voggY20f2uSLDEpz2SY/X9RX3TOudBpcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameter.html",
+          "hash": "qobg4Oha67kCC29Snfda9visWERGIr4/8U6WZ9Soe2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameterValue.html",
+          "hash": "Hsx8AHePtMN8XxxrG3g/StOMPcZuAU3wFpBZubVQlQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributes.html",
+          "hash": "q6LAF//iOfXqAqlmbg3owPnAJKJhLQPLK/CmQFJlyNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsClass.html",
+          "hash": "wxyhdBxlAdTPV2Rju17BcqOwKvZb6OcebFFU0nqoXac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsContainer.html",
+          "hash": "+TrhowgDktIx/WQkOTqNfjEDobHIchTQToMPw4zEjwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsDelegate.html",
+          "hash": "2VpREjDBxPFriY1N1WGtLXpXrGy+LVwRLTI1lPMY3zI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnum.html",
+          "hash": "IQ7cnjzOZzJgWaxfHOv3YcvPnYEUtxGcmA9KGAcxOWw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnumValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnumValue.html",
+          "hash": "7EMADuWBRv3F2/V7t8Kd/5Th4A2cLSUYCzRVWoR54NY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEvent.html",
+          "hash": "sOWPUK5/MLvwMgYOGDLMRRmnirayZYVCXBmSY1Jedc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsField.html",
+          "hash": "NpmMo6yiF+yPvA73119rKByOICoOTrCsvRHbRG1DxZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsGeneric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsGeneric.html",
+          "hash": "ITRMSm07Qj1B9gcgwxFifQce9zxwaabKVyBWugzGYf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsGenericParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsGenericParameter.html",
+          "hash": "S7D50cFBpupIMQUZTTqdYxiUlz8H7HHCRhputrjdjKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsInterface.html",
+          "hash": "m3HnPlXRY+3AT+iB9wquKC46eJouyh8l9mmIAZivYoI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsMember.html",
+          "hash": "mh9oblm06UzHx3Cts9G+bFfn/xIyTSstCIoUDDbGVwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsMethod.html",
+          "hash": "sSsOkxdukhMHYNtsPiZ2h2CmOdAGrSIKtlMLlodEGsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsModel.html",
+          "hash": "xdJcokb4GED/5CwowT3c1HpibnQTrEMZMu2aLLOXuFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsNamespace.html",
+          "hash": "ZhkWYCGkVNwf2+s5zV/Ir5Dcm4igNEyuccgLAdikd38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedModel.html",
+          "hash": "qYdHVyrEiYSxUaV1Ed+bkobMyP9naE5MbpUVCetBC9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsParameter.html",
+          "hash": "O21NpoSKCsbJ1+2TZ7CdfCVpnxljD4W5RIwevU3RdsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsParameterDefaultValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsParameterDefaultValue.html",
+          "hash": "Hb7Jyy5cmeN8b0Mf3h60r73BLPrxwOsUO15/FCQzUt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsProperty.html",
+          "hash": "ii+HRapoiCgOrD8p/Ts1nc4VcpzLvWMECvtCeFGpgng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsSource.html",
+          "hash": "W6vE92meQz0SRbBAfCO9K7RGFXAzJsnjsOiGEXU9Bnc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsStructure.html",
+          "hash": "k4pxWoSSBHRDD12vADwWeCJ/n5hpAK/WFHz2xF+N6Mg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsT4Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsT4Factory.html",
+          "hash": "Hx8dOdDIgW/Mmb4+cuzAOCIlkyNJb9pfIoxxrMlbZg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsTupleTypeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsTupleTypeParameter.html",
+          "hash": "ptp03UVYHT1Frtx+qroLe7QBmz6ld6r7MilFxXH+dV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsType.html",
+          "hash": "PEoQxGQq/2qGauIM1IA7VGluA/146WP8iESH2Uk0uo0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsUsingStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsUsingStatement.html",
+          "hash": "4NhMRpvqrILEx+dlnr7VcEHOHJ3JUjgOmhR6/QSZRxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.IParent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.IParent.html",
+          "hash": "JJ+zRNf84pCnqyvUQn/5y7HwfjkAEG+4vJHDifTjygM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.InterfaceMemberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.InterfaceMemberExtensions.html",
+          "hash": "TFb2gc6OrSkaaSE7TRu7m6QqSxJIrNWBUC8Y79mqqGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.html",
+          "hash": "YqCBQRKRpJ2f0eM8HJzcyaDsDJdec7NkmXJ/OV0pVrM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetContainerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetContainerExtensions.html",
+          "hash": "6dDJrJunIdj099Zq9BH7kGK8WkR0dzoc+6w0j9kIdCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetContainerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetContainerType.html",
+          "hash": "pzin953GkBCDdxLBBOxgHbXXCDL/gXhzkgrPE02fw38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetMemberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetMemberExtensions.html",
+          "hash": "8VCFAtqKZsCiK5SlmxILRgNIWaPSJZfHRnPY7aFYHKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetMemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetMemberType.html",
+          "hash": "jBC9GoOglkDSu5FP6I2WM5f5MEewGALLSZnnEW3b0tk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetMethodType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetMethodType.html",
+          "hash": "xjkw8AuyWr5DI5CGKpavjcCEhl33uQSLlICgtAmmlcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetModelExtensions.html",
+          "hash": "4vy+B5V9YBdFWi9Tw3OkoxHQVjjYKEqXHIk4Y8dgkgo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetModelType.html",
+          "hash": "zYeAvzkit0m9gCX7GG4BHILwEZPnb6Lb4167qCy1bL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetNestedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetNestedType.html",
+          "hash": "69q+/FzqlweMCKUYF4LWMlEce+UgKXSv2lpgSvitlmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.DotNetSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.DotNetSecurity.html",
+          "hash": "Tn67AKe6Si8f7W4UhYfwpuYvnRvGBqWLTB4mBhfFofA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDocumentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDocumentation.html",
+          "hash": "7u3WxX2E0dytnz47MAWB6qkQyupS3TcdUrjAOv49N38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetAttribute.html",
+          "hash": "s+HhYWjH2CEvcRc7HJkdtWknZ9RSVwlD0oCFhoKj6c8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameter.html",
+          "hash": "5FViK45rIGKGYhsvkM0aimU5RczJZn7fGgg70t5BO5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameterValue.html",
+          "hash": "VKxjrwVOh6grFv+GuobE6AI8iD/Q6FktIF/EvXzhbzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetAttributes.html",
+          "hash": "9D8gZcdFVWM0kRBGwMwC3HkQsP2qXi3Fy5NeS9npV/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetClass.html",
+          "hash": "8qdrL5L1D9WVYlYjc+2wIBAHH3LuAKrFSnCBU0WiSCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetContainer.html",
+          "hash": "/PLsLEvrKtSl1lXnlxsPTZGi/QljNgqNM0ULY7ckCbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetDelegate.html",
+          "hash": "MHSU/feuCJq2EPXg9pBZ4/6LC5OA2TIitw779ztP2kw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetEnum.html",
+          "hash": "I5GQnseATlPuH+IS0Q1ZNHPhyzKbi0+ls7QYUaTHHyQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetEnumValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetEnumValue.html",
+          "hash": "4eIuXqwgcY37KMBAcDl1hmxnI6W/lt3vnS0MpnuF31w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetEvent.html",
+          "hash": "+fjX5CeiklXvecH4oKnraCQAqggKvYSIacc+5/6IB8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetField.html",
+          "hash": "FYmcvTfBmsM1GyjManJ6ryrzheaGK3VXznx4Hf2wlCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetGeneric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetGeneric.html",
+          "hash": "xc4sTeazNTYnfsTmHejwgGHfzcBnOgIUCzDmYKQ0vfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetGenericParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetGenericParameter.html",
+          "hash": "VGX2sUXhUJu1S0jJEqxK/7pSrb06lD1on8fF826+YpA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetInterface.html",
+          "hash": "CUKJ3XrzY8Zjao9yaYvV/tWW6UIDwI1ps7gOyqWUybY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetMember.html",
+          "hash": "KDVBu/AIwoZl5tcvcm+YcDgv2xvUOGSqEqsEud459Bs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetMethod.html",
+          "hash": "auposRxcs1t/vRIQ50v/p5sdX5r9rVXlr7qlKWOqopI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetModel.html",
+          "hash": "JqTI7UP05x8A17WiiLPoU3Rfh4VFiMpS8U9M6SWgx3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetNamespace.html",
+          "hash": "aP65t53kXaRN2WXdUAAx7JWVyGdUTYRWTMPKTzPvKCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetNamespaceReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetNamespaceReference.html",
+          "hash": "wpfg19pCuMVGdpNNJX7Ify4tcE9O4uY8Jhy9CqqrEkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetNestedModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetNestedModel.html",
+          "hash": "OrclHonUVx/QiQ4pVLdwh2aUuY+jcWWL9sLCIwDZdO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetParameter.html",
+          "hash": "mor7kFnzb7qKS4TWUyW5iTTai10AeJ4SYgs/25BJPhY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetParameterDefaultValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetParameterDefaultValue.html",
+          "hash": "i72IK7J6r6KPSpny1dyeaYPfG9bOCBPenIdf4YVrrIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetProperty.html",
+          "hash": "fp+BZm120YdQMukN3bwJ/cNiWCoQXQ06wMCefGzn8Do="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetSource.html",
+          "hash": "CHqjccW3OvwlntnAyeqRaYycL0+f/rjAaq+Ptn1Bo7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetStructure.html",
+          "hash": "mPEwelsmmHN+S9BB6PQH9kMK/lGsnEma3zKlRQcl+pk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetTupleTypeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetTupleTypeParameter.html",
+          "hash": "dHjEqqBBHlhwiE9YKPPNQ1wuV4lz3fzHi8woSp+C1Qc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetType.html",
+          "hash": "pfnFYHE0gCSbZAewWqvcNwkEdnbgTDgcTUj3+uVa29o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.ILookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.ILookup.html",
+          "hash": "bGM2F0qqhrs7BFCn2YOHJq2fmIVL9GhEfBb70iI8vcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IParent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IParent.html",
+          "hash": "XmiJ54JBpb+N2XvAM2XMOpx/VvaGcv8d0BA/cb+TfgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IT4Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IT4Factory.html",
+          "hash": "M+FxqWYfa9AqHv3M0bGQOmvj35T3zS2iWaI/gn8LvLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.Language.html",
+          "hash": "iyhCBiWLF013PqbMPDvY46mV9iokp5chXEzeQF8qlik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.MemberComparisonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.MemberComparisonType.html",
+          "hash": "1rnzh/AwetAexpiySxkJX28zB5hvJZcdsQk1uXGpaMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.ParameterDefaultValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.ParameterDefaultValueType.html",
+          "hash": "pX8ilKrzI72t/2WL3SoYtbeKER7z7BXLGswnD71FPko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.PathBuilderConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.PathBuilderConstants.html",
+          "hash": "2LvB+2YWe47S3t4tQvYX2GIgTk+osFR9r1Z7vY2mhqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.SyntaxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.SyntaxType.html",
+          "hash": "a5CJ/aXDUkiX2WdgSyhhDN1pPqWo2m1LfXW7sjkU3Ww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.WellKnownLanguageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.WellKnownLanguageType.html",
+          "hash": "CvufA2tO3FXjFpjQR4Bjyg45D3mLh5fDz06wyVzxpPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.html",
+          "hash": "X3oAQ2jY7aeQA58Kg02OheA5QjZ7wgWX2dTwujT0W/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeExtensions.html",
+          "hash": "JPf/4DDRZb2XWbP91lyB5fsPI05e11vnz6WQoXb4qp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterExtensions.html",
+          "hash": "CzCxBcopCoXTqZGC94+tkR1Uk/9s9Cx4+f5ZsdZ/cbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterValueExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterValueExtensions.html",
+          "hash": "ESElhjjtg0Gqvwm/iwg5Fq4amcCNecFYAXG8UPiZ6AQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsClassExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsClassExtensions.html",
+          "hash": "qjYL4+l3UZvJPSgSMuVZpv0npk2xnHRlvx0L0QSnCPU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsEnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsEnumExtensions.html",
+          "hash": "mwx/vQo70Z0zlJmmeFr8Z0nm7XmpZYoKnR/7hfJZmHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsEventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsEventExtensions.html",
+          "hash": "7WGS5obsW/5WnB0Q9d5i1C2iKqL97EefPxgTuL50rDs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsFieldExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsFieldExtensions.html",
+          "hash": "ctUHSWNBdXE37r4ucMwDziyNjNgDYfM2Hm4Nr8rIH9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsGenericParameterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsGenericParameterExtensions.html",
+          "hash": "woo99k0lp2jJTq8oj13zVYltMrcE7JOpP95WKwBSt1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsInterfaceExtensions.html",
+          "hash": "i3Whr7hjLL9Ilt+BrNUIPB1QFi3w+GR2aZbXbSOWnw0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsManualUsingStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsManualUsingStatement.html",
+          "hash": "wcbA/0zuhwqSWKgFLUSjN8rT6cqT3Tc1UWCv2qmBR/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsMethodExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsMethodExtensions.html",
+          "hash": "FP3iX0xQLEQHemc2DPretFYgyzu51Zis9cjYuPjszJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterDefaultValueExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterDefaultValueExtensions.html",
+          "hash": "JUQq4mSCAgNQmIB8N0mv38s1WvxrdqyygqVDwta5ldM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterExtensions.html",
+          "hash": "z/2DdE0zIHEVYumMKyReL1GEzMspaU0Qx91uDc9sR7Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsPropertyExtensions.html",
+          "hash": "3GpRL1xO8tfSHTQfJ2rCgpBv1M+dWAtgmRf4zV+0PbQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsSecurityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsSecurityExtensions.html",
+          "hash": "ECZop4OOnvks27pjpqHZovXY25h5oxIboavs9APpWNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsSourceExtensions.html",
+          "hash": "be99DY2/g/ZH2hMbpL1VfgnRHx3FCs+o7yZ5VLIOI2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsStructureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsStructureExtensions.html",
+          "hash": "80WeyQvwYXR5bbQeZfrvOof9HyL3D9tZZvrD4z8zZQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsTypeExtensions.html",
+          "hash": "e3O3X6bJaJKXp1S8+CcWDyRUtVH/pHJ7Y8EBE1oqjvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.CsUsingStatementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.CsUsingStatementExtensions.html",
+          "hash": "aQ7g5YGegAireRV62ZFNLNHENFFH0cL21emLC3xmuDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.DocumentationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.DocumentationExtensions.html",
+          "hash": "JTVCygsC4O1cQM6vUDoraPDNVmBHZm8ffcOgzeZZEGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.NamespaceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.NamespaceManager.html",
+          "hash": "12vRKjm/Dvh8Ou2E6RoHxwSDH8NYePCINvMMb/tT7Sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Formatting.CSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Formatting.CSharp.html",
+          "hash": "1Rw2exjMAweTdzlYz7MvdnGO0NkrMbV+grT1Q0OUAe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ICommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ICommand-1.html",
+          "hash": "TTLXY/cREytbDnZEunz4gRqslNBZqjjZfxMh4hhwh2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.IModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.IModel-1.html",
+          "hash": "0fCyoa6Xwgm7GcH9d0EETLqtojvpIL5a5bDCmnW8120="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.IModelStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.IModelStatus.html",
+          "hash": "yXIfc3urlyH78qZCMqateQ7jPjtmUt5RvJrk0CzaR1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ISourceFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ISourceFormatter.html",
+          "hash": "HeGAVhiiW4ImdvUm0i3t//bcBjYkYq5yasDTHKIvZGc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Logging.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Logging.ILogger.html",
+          "hash": "hLMdrEVsiRUChuWlf15Adc6WOqXynS9eCS9Q/1+brDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Logging.LogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Logging.LogManager.html",
+          "hash": "2nKeS9uV2WWR62wKU7aHBfD3BonR+bHjLohxRwbL5IQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Logging.LoggingProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Logging.LoggingProperties.html",
+          "hash": "mxLb1J65/mqdswVfWzjQ6qMO58vJEhla8zxL4M4REE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.Logging.html",
+          "hash": "Xpf+FF5YnPYjXWSP90C56nhkkq1FkKcDirJL/UxtzJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ModelException-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ModelException-1.html",
+          "hash": "ddlW0D1qpQlplP4MO+h7YdLOvww73CNBhjoykC6WdGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ModelLoadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ModelLoadException.html",
+          "hash": "1s6t6n4l+Hb7meF1CG/Z7NL+biFfauudGqd+mgUSw4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.ModelStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.ModelStore-1.html",
+          "hash": "vHn+jT2Ff8UaW9Eq8El2VcLfH0ufSj+s/61CvkSPWzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceCode.ISourceFiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceCode.ISourceFiles.html",
+          "hash": "q+mrRmejqfiZx3Ok+9XdANDRbSfqT/EujIvA8fFOzBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceCode.ISourceLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceCode.ISourceLocation.html",
+          "hash": "IeONLtlDS/tt+0y8wT+Oh9uTj2Or4pd7qu+52oxkXHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceCode.SourceCodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceCode.SourceCodeType.html",
+          "hash": "I53mtKwOqIxzhq/CqXatH7Pxz+fYu9tZfOStVhG0P0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceCode.SourceLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceCode.SourceLocation.html",
+          "hash": "+Ogx+zJTKs25wLLOqgJ7gFHoTzaAOUzPVO516NWmdvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceCode.html",
+          "hash": "YUnBVRrTsLXwevyGmK9oT6QPCkjrx1L1Xb3uTXCxElQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.SourceFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.SourceFormatter.html",
+          "hash": "RRS5TI4zj7S6vMZZkIPP+0DNBay6n4EHm49TvNqafg0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.UnsupportedSdkLibraryException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.UnsupportedSdkLibraryException.html",
+          "hash": "LSJdMp+BvKBMIhrW8NW3UO/XAAlx4dOZsV15kLnfavY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.AssemblyCFEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.AssemblyCFEnvironment.html",
+          "hash": "YfbHDJBPXIgF+PQTAT5Y2rOkFSU21IHW8e++fZ9nMi4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.AssemblyCFSdkVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.AssemblyCFSdkVersion.html",
+          "hash": "/mk1ANExpaJmUAfQiazOyx4YtRZ6XF2raqiZO5eCdiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.CSharpSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.CSharpSourceExtensions.html",
+          "hash": "PeWBeX/tGTyODK2b0n5Zd+s0szJhwEqptvmGd3HbuFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.FileHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.FileHelper.html",
+          "hash": "QjWZPguyAQoGOPiZLlMvUSvzhkP1dNE99N+fYr5dMQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IChildren.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IChildren.html",
+          "hash": "iDJp2HlEn7Lo9tu3vJlBdGfhk5x81USOGa6UfKKA0W4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IParent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IParent.html",
+          "hash": "inBzPpKLeFhLPu7eX0TEvQH6JBiuwDXKwCkVtOYdcuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsActions.html",
+          "hash": "eAprLAD7F6gIMAZHX3F7dMzOz8Xi3gTvbI2DdsLs864="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsCSharpSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsCSharpSource.html",
+          "hash": "BpxZcRgNH8cGvAnCDy3g445hxuqq8zOJqR0LIbAaIKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsCommandInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsCommandInformation.html",
+          "hash": "PXcjfePlhbp9zgJ9EFk1Qs19vGKEEUGQSxYhfhDne6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsDocument.html",
+          "hash": "ZxUNwBRj4Gq72t3tCBtK0Zf05XhhgAOe5C6ttqLr+cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsDocumentActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsDocumentActions.html",
+          "hash": "UPF0ZCxXHrBr3n3fzxbF1YJGqjJCFMuRD+S3L6NTdrU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsEnvironmentActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsEnvironmentActions.html",
+          "hash": "4VkeLB2YoAuB2qN141a+RjQ6Ue3o+SwMWvmCoADLskk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsFactoryCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsFactoryCommand-1.html",
+          "hash": "+ox8Ke5GAW4lpf2cLh4X13cscMQwCwY3suvhWyh0W1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsModel.html",
+          "hash": "dKgXSfPZPH+3hP41gnH2OKDCn4Yux06DLxkRdkaOAJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProject.html",
+          "hash": "IxtO+avf+jTuC8eSdVDJPdjkubj9qH7HvVYQZIlqtY0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsProjectActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProjectActions.html",
+          "hash": "SCUvvYFfqGVHjhkfMjW73daBBtNutna/eieAW8coGR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolder.html",
+          "hash": "FRagC9lnt5ZikD4M802quTyboWHv3JjstgOE7eQ9os0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolderActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolderActions.html",
+          "hash": "67LTVG8bRau9D7c122YnkLliKWXx/LkOk2ZZM3LIrNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsProjectFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFramework.html",
+          "hash": "Znkb5A6LHlsTgCFSBmkW49n0ruSvhz6h/rPH1dHdfFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsReference.html",
+          "hash": "TxbbUe/sdWGPr/W0aWclxDGB3u9vyWBiEBDJZGG6iv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsReferenceActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsReferenceActions.html",
+          "hash": "nZYYzs20hNcR4248258mw+VVsEIg41DuKm3dZoU7Jcg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsSolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsSolution.html",
+          "hash": "hIwCrHUJ/eMske+L1nCCqsEc5tmWnajZ1EINnctMa40="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsSolutionActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionActions.html",
+          "hash": "sSKoVQ2UmWgakB+YS7fRw1F1rmXaMMj71uvLwsstRFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsSolutionFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionFolder.html",
+          "hash": "UkQLSVzLKg+QgLOlSRvpT4aqiVtePISAW4XyCzeSXsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsSolutionFolderActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionFolderActions.html",
+          "hash": "MW4yxknfNWIcpoCf2FbW0ecPQ7/QzKN/TkKKtwnYZYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.IVsSourceActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.IVsSourceActions.html",
+          "hash": "HP3MR0nppgu+SZevSHuQPVlWXYhjHMzy5iPVJ9v62i0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.PathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.PathHelper.html",
+          "hash": "hhqGN9UZv0fGA5gljbYX2C5Vu1mHhJ8Ry+zrtQhU5f4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.ProjectLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.ProjectLanguage.html",
+          "hash": "DqPwmeB6nvatxppWhvlFP1+9O1asj2M3kmYEOJnr784="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.ProjectReferenceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.ProjectReferenceType.html",
+          "hash": "AM81vETjEPVttw+X3RDUHPO7RutLX4fnS4ALLGEgWEE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.ProjectSystemException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.ProjectSystemException.html",
+          "hash": "1SKnHfVbY6kQ3AzBvwz6Z9yYdeLg1PzxWZBVZEaYaks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.CSharpSourceCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.CSharpSourceCommandBase.html",
+          "hash": "Oz6W+TVG0fvxIVWr++qlLyoXyoskfghQO+ZChLzTAV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ICSharpSourceCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ICSharpSourceCommand.html",
+          "hash": "/VGL3qkumozlCGF+ehxeeDNUNyNTmDuRNXosX8EmD60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectCommand.html",
+          "hash": "1FwkAQdoUeE4+Y9OXaMl6lIHw8q789n7PYae234Lu90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectDocumentCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectDocumentCommand.html",
+          "hash": "SKMMfO1OFXVYmvE24HyHVS7zE++3mFzZ32JyBba34S0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectFolderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.IProjectFolderCommand.html",
+          "hash": "FoPJSY88k2Iuicx9+I2Jfe0gkflJhxz8FqH16RQulHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionCommand.html",
+          "hash": "pf2hWUAnLwXvIBxBi6scbihjGp1dEDPDT2Tp+Qfc45U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionDocumentCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionDocumentCommand.html",
+          "hash": "J16OJt9+ZVgqwdk4JnVaks66l1WWQHOe2LgDlh3rBWI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionFolderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ISolutionFolderCommand.html",
+          "hash": "OcnNp3rYxWKVtLDBxyNACdVHXb5v3yaGNwfTj+ncp5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectCommandBase.html",
+          "hash": "9QobQBVTTyNNOskGW3kSiVMQr9zw5kLrE8sfmqlLC9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectDocumentCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectDocumentCommandBase.html",
+          "hash": "P/hf58xrVBVvvAPE58WMmqeFl8dnelMchJvSlq3kz80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectFolderCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectFolderCommandBase.html",
+          "hash": "KUVubIvBmT0YMhCq8Ck1tel/JrXJNjPqs+VuC2GLcw4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionCommandBase.html",
+          "hash": "O1pfH3EKP7hS/IDtKiIoBZW8H7zSblNMVNJcZ1+04Ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionDocumentCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionDocumentCommandBase.html",
+          "hash": "Bt7+lEvpHH2a+qbECZlCvRmIPVe1fi5QJ+QCyQmX3VA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionFolderCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionFolderCommandBase.html",
+          "hash": "CLADkabVbR7SKU8CJR7Krb/vsh9dnvXkLtTSyFtAU4A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.html",
+          "hash": "mxi2r3I86+NoRlDrXCt6isgINipZpSZj/9jLglUbxPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.SolutionExplorerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorerException.html",
+          "hash": "eFNGd5BzzdNVg+6Iyu8YDHkEdUQizdufZlOWd+xR47s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.UI.IVsUIActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.UI.IVsUIActions.html",
+          "hash": "IvP5TXh03Bn3WBOKZgOvm700kS+QkjNqudXCta5qh98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.UI.VsUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.UI.VsUserControl.html",
+          "hash": "DDuNK3UKOZ5m7DcsM0TdbWwc85Z8bZ+1xS5MFZmRT6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.UI.html",
+          "hash": "1J01m9innrppF5BsSdq8/+7BzZUV7nsoLvXcmq7ZkYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VisualStudioException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VisualStudioException.html",
+          "hash": "LEDxgI4h2GK7mi23J3UNI4s72PFrEFTGHF6xTJSYYU8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VisualStudioMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VisualStudioMessages.html",
+          "hash": "xT32RR2aSIbs189GosWyTm/WpEZhWZA3a7pBUSop/cM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VisualStudioModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VisualStudioModelType.html",
+          "hash": "U49eXZ3CI426MfJoLlpi1isOetXEorJ0sdbGwl181rc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsCSharpSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsCSharpSource.html",
+          "hash": "mQjmIo3aBdDKLE3SfuQKg5bfIehYT5zKR9OZGEn/6Oo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsCSharpSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsCSharpSourceExtensions.html",
+          "hash": "2hnDQ4rKw7x2Vsb0DhmEJQ66EHKwX75UfAQNPe6Qiaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsCommandBase-1.html",
+          "hash": "nyp3IfrIU/gpTTB4iZiaJPGsKhjq8xcEA+JZqFbPavk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsCommandType.html",
+          "hash": "tCobDlz6mhgN0FDHBxCDvpME7axDQFwEVj8yOnRoRmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsDocument.html",
+          "hash": "P2KSiWa7ZIuKd587JWKhyTHPuRTnmnwrcWyGLv6jjfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsDocumentType.html",
+          "hash": "vo772bp51mb+4hYVf6dJyLSCUT7EMXwoC8OsHksUduY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsModel.html",
+          "hash": "rr6+RJVDD8wcIHUArJiBupyo9zQTDyDoEcNlonrjr/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsProject.html",
+          "hash": "AVfoiy5duMGont430NKaBf48Zee2ZGJZ8GB/LzdAJew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsProjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsProjectExtensions.html",
+          "hash": "lp9u1RhOuXct0N3d4i1B9dFNg6F671aTiH+o5H1sx/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsProjectFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsProjectFolder.html",
+          "hash": "kimoKRXmfVsiKUEToOcQ/EOvAz/gBgcyTd+IY2hncX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsProjectFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsProjectFramework.html",
+          "hash": "YuB3TkO1m+03x9KQ/xMQEOOwDhsZLjHMwA8D93p607Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsReference.html",
+          "hash": "Qj6pAPEA3FtDtV3m37die1TEqY/egcgsDhdnK1sA45w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsSolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsSolution.html",
+          "hash": "V5SJkyI5LZOF2ReiZGlD4BE9BTQ9BsphJoQlktVLHws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.VsSolutionFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.VsSolutionFolder.html",
+          "hash": "u9iCi1AmHj6BjQusZQWauYG+1KxjtjMGOBfcGpoyTx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.VisualStudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.VisualStudio.html",
+          "hash": "TCCEBGOEjnmAet97FRJi/s2S/LaQGv+wFNvDbOVPwGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.html",
+          "hash": "Gf/Od4/VmegcNN9a95/oT29i6LpcfYsEMYYOUAR3ZHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "api/images/CFLogoBlueWhite70x70.png",
+      "output": {
+        "resource": {
+          "relative_path": "api/images/CFLogoBlueWhite70x70.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "3RidRFlxx9CQJ85OPXZAAVfD/z9YZQgNRfqdoS+U4cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "N1p+gAqTQCWCQAd23jmjTsVbwTnBvrX9O6/3sdU5TX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/AddMissingMembers/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/AddMissingMembers/intro.html",
+          "hash": "Oqf4n74CdTVYB9nsi1TKtAxFZGevzmlVpQpRCA+L2QM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/CreateProject/AutomateProjectInformation.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/CreateProject/AutomateProjectInformation.html",
+          "hash": "ZjfkhYDHum9reSUeL75pqJGm1b2h5spQL2N4oNfH/jE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/CreateProject/CreateProject.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/CreateProject/CreateProject.html",
+          "hash": "PL8ZukQoXEjLFJYm1/PmcJP+OuH3Wmu8xUAgZk0/HTg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/AddProjectCommandDialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/AddProjectCommandDialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/BuildSolution.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/BuildSolution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ButtonClose.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ButtonClose.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/CodeFactoryReferenceMissingError.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/CodeFactoryReferenceMissingError.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/CodeFactorySDKProjectReference.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/CodeFactorySDKProjectReference.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/CommandsLoaded.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/CommandsLoaded.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ConfigureCodeFactoryTestingProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ConfigureCodeFactoryTestingProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ConfigureProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ConfigureProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DefaultEnableCommandAsync.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DefaultEnableCommandAsync.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DefaultXamlDialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DefaultXamlDialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogButton.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogButton.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogDataControls.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogDataControls.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogFolderAddNewItem.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogFolderAddNewItem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogGridFormatting.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogGridFormatting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogLayout.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogLayout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogSelectCodeBehind.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogSelectCodeBehind.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/DialogTitleAndSize.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/DialogTitleAndSize.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/EnableCommandAsyncUpdated.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/EnableCommandAsyncUpdated.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncBoundsCheck.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncBoundsCheck.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncCreateUserControl.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncCreateUserControl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncDefault.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncDefault.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncFileCount.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncFileCount.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncProjectVariables.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncProjectVariables.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncReferences.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncReferences.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncSetDataOnDialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncSetDataOnDialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncSetProjectName.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncSetProjectName.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncShowDialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ExecuteCommandAsyncShowDialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/FileNewProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/FileNewProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/NewProjectInformationUserControl.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/NewProjectInformationUserControl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/NewProjectStandardDialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/NewProjectStandardDialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/OpenCodeFactoryTesting.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/OpenCodeFactoryTesting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ProjectCommandNoErrors.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ProjectCommandNoErrors.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ProjectCommandTitleAndDescription.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ProjectCommandTitleAndDescription.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ProjectFolderStructure.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ProjectFolderStructure.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/ProjectInfoDialogWithData.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/ProjectInfoDialogWithData.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/RunShowProjectInformation.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/RunShowProjectInformation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/SelectCommandLibraryProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/SelectCommandLibraryProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/SolutionExplorerProjectNewItemAdd.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/SolutionExplorerProjectNewItemAdd.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/SolutionExplorerTestShowProjectInformation.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/SolutionExplorerTestShowProjectInformation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/StartDebugging.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/StartDebugging.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/StartWindowCreateProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/StartWindowCreateProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/VisualStudioErrorDialogCodeFactory.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/VisualStudioErrorDialogCodeFactory.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/CreateProject/Images/cfxLocation.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/CreateProject/Images/cfxLocation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/CreateProject/Intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/CreateProject/Intro.html",
+          "hash": "YcqQSVeYIFXvgjNuJvCIc+MPSgjc6a+eRsserHx8gnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/Install/GitHubCodeFactoryForVisualStudio.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/Install/GitHubCodeFactoryForVisualStudio.html",
+          "hash": "JzVsjQTNRYAa7tfiHj/3fEeHeruko1KHzusHrPS1dI8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/Install/Images/Activated_License.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/Install/Images/Activated_License.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/Install/Images/Step2_licenseInfo_Screen.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/Install/Images/Step2_licenseInfo_Screen.jpeg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/Install/Images/Step3_Activate_License.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/Install/Images/Step3_Activate_License.jpeg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gettingstarted/Install/Images/step1_extensions_menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "gettingstarted/Install/Images/step1_extensions_menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "gettingstarted/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/intro.html",
+          "hash": "BLOF4ie7aX0DxCJ7qJYjLeEEXDnPprTc33k3ywuxJGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "gettingstarted/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "gettingstarted/toc.html",
+          "hash": "BZF1BJgafGC47vRrZzzd0q5jerYPw7zSAYaBJTRXgsw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/examples.html",
+          "hash": "zcj9EDoc2zaqMY9KUIBMkm8pYLkVduD9iFUM150MSz8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/intro.html",
+          "hash": "GCs1acKjrTlGfDmtObjl9v+3HTm1p/54dq3oxDyQslM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/Commands/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/Commands/Overview.html",
+          "hash": "zW2ci2oOHEbSD5CnhwyvtfUpu8Vyf01qN/crWsIieg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/DataModels/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/DataModels/Overview.html",
+          "hash": "RRIbDJmmyHB/5UUvgHxMgOWTey/VxhXHAtxlTtMCemg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/Environment/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/Environment/Overview.html",
+          "hash": "qhBCbX+lD01obgOJ2R4X4cWFRBY3KS2fJLR6Ir4TiXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/Formatting/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/Formatting/Overview.html",
+          "hash": "nphV8N1Z0z+IRrWSNGp1GTug0rzcpgQVWNz13SC4FBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/Overview.html",
+          "hash": "mRZpDUkeBXTNV0nHkoCNZLZmi7She606ifcHDS90JuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/UI/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/UI/Overview.html",
+          "hash": "SBWMW/O0xP9mtpqwg2a5MKEs4jMwBSkuqOLjt9PmsWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/sdkOverview/VsActions/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/sdkOverview/VsActions/Overview.html",
+          "hash": "zW6+xoRgNSx5CGiw04gBWja3t1wH+r0WwYjVySnrSZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guidance/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/toc.html",
+          "hash": "ArIMh53uCIYvE6ba7dVyPfPzMFqfmjou2KYzL4ahAkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/whatisCodeFactory.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/whatisCodeFactory.html",
+          "hash": "Ohk6fMnrJRZ3QVRMdT/Cjrda6Ctq+4xgjL4vQjALOhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gettingstarted.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gettingstarted.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/guidance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/guidance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/releasenotes.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/releasenotes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sdk.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sdk.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "D18jq1o9qS5IH9QMm8HJUDrTngn58fvaFsyHegoG2Cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "releasenotes/VSWindowsRuntime/1.22320.0.1.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/VSWindowsRuntime/1.22320.0.1.html",
+          "hash": "Ed0Ar5gaUn3l0xHxKA6QELk9lgMvuWuRmyEZYW4de6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "releasenotes/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/intro.html",
+          "hash": "JGRgu9/fnrVrwudhNf2N3mZ9G2AiIoT0ml1Qzwe4sVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "releasenotes/sdk/1.22320.1.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/sdk/1.22320.1.html",
+          "hash": "Rhy2dJT0hKjGj2FAuxshh1/MXjaPJt+JBX3ra9mrLJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "releasenotes/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/toc.html",
+          "hash": "wUcFJ9ClxArwLUaflIVQ+lUfOnugf7Ns24VzbGsDG2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "/zdYyb/k54ouVZWm4LHmmAM3e5PnS1k7d+3N2yrmmP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 21,
+          "skipped_file_count": 21
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 242,
+          "skipped_file_count": 242
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

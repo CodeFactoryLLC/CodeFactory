@@ -55,6 +55,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
         /// <param name="lookupPath">The fully qualified model lookup path for this model.</param>
+        /// <param name="modelSourceFile">The source code file the model was created from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="ns">The namespace this delegate is assigned to.</param>
@@ -69,10 +70,10 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="endInvokeMethod">The end invoke method definition assigned to this delegate.</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
-        /// <param name="modelErrors">Optional the error that occured while creating the model.</param>
+        /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         protected CsDelegate(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics, IReadOnlyList<CsGenericParameter> genericParameters, 
-            IReadOnlyList<CsType> genericTypes, bool hasDocumentation, string documentation, string lookupPath,
+            IReadOnlyList<CsType> genericTypes, bool hasDocumentation, string documentation, string lookupPath, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, string name, string ns, bool hasParameters, bool isVoid, string parentPath,
             CsSecurity security, CsType returnType, IReadOnlyList<CsParameter> parameters, CsMethod invokeMethod,
             CsMethod beginInvokeMethod, CsMethod endInvokeMethod, string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
@@ -86,6 +87,7 @@ namespace CodeFactory.DotNet.CSharp
             _hasDocumentation = hasDocumentation;
             _documentation = documentation;
             _lookupPath = lookupPath;
+            _modelSourceFile = modelSourceFile;
             _sourceFiles = sourceFiles ?? ImmutableList<string>.Empty;
             _name = name;
             _ns = ns;
@@ -154,6 +156,33 @@ namespace CodeFactory.DotNet.CSharp
         ///     Documentation that has been assigned to this model.
         /// </summary>
         public string Documentation => _documentation;
+
+        /// <summary>
+        /// Adds the supplied source code directly before the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddBeforeDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Adds the supplied source code directly after the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> AddAfterDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Replaces the supplied source code directly this the documentation.
+        /// </summary>
+        /// <param name="sourceCode">The target syntax to be added to the document.</param>
+        /// <returns>Updated <see cref="CsSource"/> model with the injected source code.</returns>
+        public abstract Task<CsSource> ReplaceDocsAsync(string sourceCode);
+
+        /// <summary>
+        /// Deletes the documentation from the target supporting code artifact.
+        /// </summary>
+        /// <returns>Updated <see cref="CsSource"/> model with the documentation removed.</returns>
+        public abstract Task<CsSource> DeleteDocsAsync();
 
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
@@ -295,13 +324,15 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceAsync(string sourceCode);
 
 
-        /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
-      
+        ///// <summary>
+        ///// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
+        ///// </summary>
+        ///// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
+        ///// <returns>The loaded model or null if the model could not be found.</returns>
+        //public CsModel GetModel(string lookupPath) => LookupModel(lookupPath);
+
+        /// <inheritdoc/>
+        public abstract Task<CsSource> AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs);
 
         /// <summary>
         ///     The security scope that has been assigned to this item.
@@ -346,6 +377,14 @@ namespace CodeFactory.DotNet.CSharp
         /// <summary>
         /// The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located. 
         /// </summary>
-        public CsModel Parent => LookupModel(_parentPath);
+        public CsModel Parent => GetModel(_parentPath);
+
+        /// <summary>
+        /// Backing field for <see cref="ModelSourceFile"/>
+        /// </summary>
+        private readonly string _modelSourceFile;
+
+        /// <inheritdoc/>
+        public string ModelSourceFile => _modelSourceFile;
     }
 }

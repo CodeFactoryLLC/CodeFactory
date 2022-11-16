@@ -61,6 +61,16 @@ namespace CodeFactory.DotNet
         Remove = 9,
 
         /// <summary>
+        /// This method is the definition for a partial method.
+        /// </summary>
+        PartialDefinition = 10,
+
+        /// <summary>
+        /// This method is the implementation for a partial method.
+        /// </summary>
+        PartialImplementation = 11,
+
+        /// <summary>
         /// The type of method is unknown
         /// </summary>
         Unknown = 9999

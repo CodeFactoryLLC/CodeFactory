@@ -1,7 +1,8 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodeFactory.Document;
@@ -50,6 +51,31 @@ namespace CodeFactory.DotNet.CSharp
         new IReadOnlyList<CsEvent> Events { get; }
 
         /// <summary>
+        /// Models that are nested in the implementation of this container.
+        /// </summary>
+        new IReadOnlyList<ICsNestedModel> NestedModels { get; }
+
+        /// <summary>
+        /// Classes that are nested in this container.
+        /// </summary>
+        new IReadOnlyList<CsClass> NestedClasses { get; }
+
+        /// <summary>
+        /// Interfaces that are nested in this container.
+        /// </summary>
+        new IReadOnlyList<CsInterface> NestedInterfaces { get; }
+
+        /// <summary>
+        /// Structures that are nested in this container.
+        /// </summary>
+        new IReadOnlyList<CsStructure> NestedStructures { get; }
+
+        /// <summary>
+        /// Enums that are nested in this container.
+        /// </summary>
+        new IReadOnlyList<CsEnum> NestedEnums { get; }
+
+        /// <summary>
         /// Adds the source code directly before the definition of the <see cref="ICsContainer"/>in the target document.
         /// </summary>
         /// <param name="sourceDocument">The fully qualified path to the source code document to be updated.</param>
@@ -65,6 +91,15 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         Task<CsSource> AddBeforeAsync(string sourceCode);
+
+        /// <summary>
+        /// Adds the source code directly before the definition of the <see cref="ICsContainer"/>in the target document.
+        /// </summary>
+        /// <param name="sourceCode">The source code that is to be added to the document.</param>
+        /// <param name="ignoreLeadingModelsAndDocs">Changes the before entry point to the start of the container definition not before the documentation or attributes that are assigned to the member.</param>
+        /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
+        /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        Task<CsSource> AddBeforeAsync(string sourceCode,bool ignoreLeadingModelsAndDocs);
 
         /// <summary>
         /// Adds the source code directly after the definition of the <see cref="ICsContainer"/>in the target document.
@@ -174,12 +209,5 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         Task<CsSource> ReplaceAsync(string sourceCode);
-
-        /// <summary>
-        /// Gets a <see cref="ICsModel"/> from the currently loaded source code. 
-        /// </summary>
-        /// <param name="lookupPath">The fully qualified path to the model to be loaded.</param>
-        /// <returns>The loaded model or null if the model could not be found.</returns>
-        CsModel GetModel(string lookupPath);
     }
 }

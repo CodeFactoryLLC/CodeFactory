@@ -1,8 +1,9 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2022 CodeFactory, LLC
 //*****************************************************************************
 
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Threading.Tasks;
@@ -50,6 +51,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
         /// <param name="attributes">List of the attributes assigned to this model.</param>
+        /// <param name="modelSourceFile">Source file the model was generated from.</param>
         /// <param name="sourceFiles">List of the fully qualified paths to the source code files this member is defined in.</param>
         /// <param name="hasDocumentation">Flag that determines if the model has XML documentation assigned to it.</param>
         /// <param name="documentation">The xml documentation assigned to the model.</param>
@@ -73,7 +75,7 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="methodType">The type of method that was implemented.</param>
         /// <param name="returnType">The type definition for the return type.</param>
         protected CsMethod(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, 
-            IReadOnlyList<CsAttribute> attributes, IReadOnlyList<string> sourceFiles, 
+            IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, 
             bool hasDocumentation, string documentation, string lookupPath, string name, string parentPath, 
             CsSecurity security, bool isGeneric, bool hasStrongTypesInGenerics, 
             IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes,
@@ -82,7 +84,7 @@ namespace CodeFactory.DotNet.CSharp
             IReadOnlyList<CsParameter> parameters, SyntaxType contentSyntax = SyntaxType.Unknown, string sourceDocument = null,
             ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Method,
-                attributes, sourceFiles, hasDocumentation, documentation, lookupPath, name, parentPath,
+                attributes,modelSourceFile, sourceFiles, hasDocumentation, documentation, lookupPath, name, parentPath,
                 security, CsMemberType.Method, sourceDocument, modelStore, modelErrors)
         {
             _isGeneric = isGeneric;
@@ -222,24 +224,28 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<string> GetExpressionSyntaxAsync();
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
         public abstract Task<CsSource> AddToBeginningBodySyntaxAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
         public abstract Task<CsSource> AddToEndBodySyntaxAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> DeleteBodySyntaxAsync(string sourceDocument);
 
         /// <inheritdoc />
         public abstract Task<CsSource> DeleteBodySyntaxAsync();
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceBodySyntaxAsync(string sourceDocument, string sourceCode);
 
         /// <inheritdoc />
@@ -249,6 +255,7 @@ namespace CodeFactory.DotNet.CSharp
         public abstract Task<CsSource> ReplaceExpressionAsync(string sourceCode);
 
         /// <inheritdoc />
+        [Obsolete("No longer support will be removed in later edition, you no longer need to pass the source document.",false)]
         public abstract Task<CsSource> ReplaceExpressionAsync(string sourceDocument, string sourceCode);
 
     }

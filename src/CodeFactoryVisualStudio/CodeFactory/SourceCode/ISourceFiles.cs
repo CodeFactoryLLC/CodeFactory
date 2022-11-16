@@ -15,5 +15,10 @@ namespace CodeFactory.SourceCode
         /// The source file or files in which the model was loaded from. This will be an empty enumeration if the source models were loaded from metadata only.
         /// </summary>
         IReadOnlyList<string> SourceFiles { get; }
+
+        /// <summary>
+        /// If this model was loaded from source code, then this will contain the target file definition was loaded from. This will be null if not loaded from source. 
+        /// </summary>
+        string ModelSourceFile {get; }
     }
 }

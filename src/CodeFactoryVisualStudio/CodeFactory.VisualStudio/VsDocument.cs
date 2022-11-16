@@ -28,8 +28,8 @@ namespace CodeFactory.VisualStudio
         /// Constructor for the base class <see cref="VsDocument"/>
         /// </summary>
         /// <param name="isLoaded">Flag that determines if the model is loaded.</param>
-        /// <param name="hasErrors">Flag that determines if errors occured while loading the model.</param>
-        /// <param name="modelErrors">The list of errors that occured if any.</param>
+        /// <param name="hasErrors">Flag that determines if errors occurred while loading the model.</param>
+        /// <param name="modelErrors">The list of errors that occurred if any.</param>
         /// <param name="name">The name of the model.</param>
         /// <param name="hasParent">Flag that determines if this model has a parent model.</param>
         /// <param name="hasChildren">Flag that determines if this model has child models.</param>

@@ -5,6 +5,9 @@
 
 namespace CodeFactory.VisualStudio
 {
+    /// <summary>
+    /// Base contract definition all Visual Studio Models are based on.
+    /// </summary>
     public interface IVsModel:IModel<VisualStudioModelType>
     {
         /// <summary>

@@ -40,7 +40,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>CodeFactoryRuntimeSigner.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>CodeFactorySigner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Setup|AnyCPU'">
     <OutputPath>bin\Setup\</OutputPath>
@@ -88,6 +88,7 @@
     <Compile Include="SourceCode\SourceCodeType.cs" />
     <Compile Include="SourceCode\SourceLocation.cs" />
     <Compile Include="SourceFormatter.cs" />
+    <Compile Include="UnsupportedSdkLibraryException.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CodeFactoryMessages.resx">
@@ -99,7 +100,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CodeFactoryRuntimeSigner.snk" />
+    <None Include="CodeFactorySigner.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
