@@ -1,0 +1,2357 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class CsDelegate
+     | CodeFactory Platform </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class CsDelegate
+     | CodeFactory Platform ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      
+      <meta property="docfx:rel" content="../">
+      <meta property="docfx:newtab" content="true">
+      <script async="" defer="" data-domain="docs.codefactory.software" src="https://plausible.io/js/plausible.js"></script>
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+              <span class="brand-title">CodeFactory Platform</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+                          <span class="brand-title">CodeFactory Platform</span>
+                        </a>  </div>
+                    
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  
+                  <strong><a href='https://www.codefactory.software/'>CodeFactory</a>
+                </strong></div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="CodeFactory.DotNet.CSharp.CsDelegate">
+  
+  
+  <h1 id="CodeFactory_DotNet_CSharp_CsDelegate" data-uid="CodeFactory.DotNet.CSharp.CsDelegate" class="text-break">Class CsDelegate
+  </h1>
+  <div class="markdown level0 summary"><p>Data model that represents the definition of a delegate.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html">CsModel</a></div>
+    <div class="level2"><span class="xref">CsDelegate</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsAttributes.html">ICsAttributes</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.ICsGeneric.html">ICsGeneric</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetDelegate.html">IDotNetDelegate</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetModel.html">IDotNetModel</a></div>
+    <div><a class="xref" href="CodeFactory.IModelStatus.html">IModelStatus</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetAttributes.html">IDotNetAttributes</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDotNetGeneric.html">IDotNetGeneric</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IDocumentation.html">IDocumentation</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.ILookup.html">ILookup</a></div>
+    <div><a class="xref" href="CodeFactory.SourceCode.ISourceFiles.html">ISourceFiles</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.CSharp.IParent.html">IParent</a></div>
+    <div><a class="xref" href="CodeFactory.DotNet.IParent.html">IParent</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LocalModelErrors">CsModel.LocalModelErrors</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_ModelStore">CsModel.ModelStore</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_IsLoaded">CsModel.IsLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_HasErrors">CsModel.HasErrors</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetErrors">CsModel.GetErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LoadedFromSource">CsModel.LoadedFromSource</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_Language">CsModel.Language</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_ModelType">CsModel.ModelType</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_SourceDocument">CsModel.SourceDocument</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_CodeFactory_DotNet_IDotNetModel_ModelType">CsModel.IDotNetModel.ModelType</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_LookupModel_System_String_">CsModel.LookupModel(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetModel__1_System_String_">CsModel.GetModel&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html#CodeFactory_DotNet_CSharp_CsModel_GetModel_System_String_">CsModel.GetModel(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeFactory.DotNet.CSharp.html">CodeFactory.DotNet.CSharp</a></h6>
+  <h6><strong>Assembly</strong>: CodeFactory.DotNet.dll</h6>
+  <h5 id="CodeFactory_DotNet_CSharp_CsDelegate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CsDelegate : CsModel, ICsDelegate, ICsModel, ICsAttributes, ICsGeneric, IDotNetDelegate, IDotNetModel, IModelStatus, IDotNetAttributes, IDotNetGeneric, IDocumentation, ILookup, ISourceFiles, IParent, IParent</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_Boolean_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_String_System_String_System_Boolean_System_Boolean_System_String_CodeFactory_DotNet_CSharp_CsSecurity_CodeFactory_DotNet_CSharp_CsType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsParameter__CodeFactory_DotNet_CSharp_CsMethod_CodeFactory_DotNet_CSharp_CsMethod_CodeFactory_DotNet_CSharp_CsMethod_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.%23ctor(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CCodeFactory.SourceCode.SourceCodeType%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsAttribute%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsGenericParameter%7D%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsType%7D%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.IReadOnlyList%7BSystem.String%7D%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%2CCodeFactory.DotNet.CSharp.CsSecurity%2CCodeFactory.DotNet.CSharp.CsType%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.DotNet.CSharp.CsParameter%7D%2CCodeFactory.DotNet.CSharp.CsMethod%2CCodeFactory.DotNet.CSharp.CsMethod%2CCodeFactory.DotNet.CSharp.CsMethod%2CSystem.String%2CCodeFactory.ModelStore%7BCodeFactory.DotNet.CSharp.ICsModel%7D%2CSystem.Collections.Generic.IReadOnlyList%7BCodeFactory.ModelLoadException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L74">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate__ctor_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.#ctor*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_Boolean_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_String_System_String_System_Boolean_System_Boolean_System_String_CodeFactory_DotNet_CSharp_CsSecurity_CodeFactory_DotNet_CSharp_CsType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsParameter__CodeFactory_DotNet_CSharp_CsMethod_CodeFactory_DotNet_CSharp_CsMethod_CodeFactory_DotNet_CSharp_CsMethod_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.Boolean,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.String,System.Boolean,System.Boolean,System.String,CodeFactory.DotNet.CSharp.CsSecurity,CodeFactory.DotNet.CSharp.CsType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsParameter},CodeFactory.DotNet.CSharp.CsMethod,CodeFactory.DotNet.CSharp.CsMethod,CodeFactory.DotNet.CSharp.CsMethod,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})">CsDelegate(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList&lt;CsAttribute&gt;, Boolean, Boolean, IReadOnlyList&lt;CsGenericParameter&gt;, IReadOnlyList&lt;CsType&gt;, Boolean, String, String, String, IReadOnlyList&lt;String&gt;, String, String, Boolean, Boolean, String, CsSecurity, CsType, IReadOnlyList&lt;CsParameter&gt;, CsMethod, CsMethod, CsMethod, String, ModelStore&lt;ICsModel&gt;, IReadOnlyList&lt;ModelLoadException&gt;)</h4>
+  <div class="markdown level1 summary"><p>Constructor for the <a class="xref" href="CodeFactory.DotNet.CSharp.CsDelegate.html">CsDelegate</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CsDelegate(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, IReadOnlyList&lt;CsAttribute&gt; attributes, bool isGeneric, bool hasStrongTypesInGenerics, IReadOnlyList&lt;CsGenericParameter&gt; genericParameters, IReadOnlyList&lt;CsType&gt; genericTypes, bool hasDocumentation, string documentation, string lookupPath, string modelSourceFile, IReadOnlyList&lt;string&gt; sourceFiles, string name, string ns, bool hasParameters, bool isVoid, string parentPath, CsSecurity security, CsType returnType, IReadOnlyList&lt;CsParameter&gt; parameters, CsMethod invokeMethod, CsMethod beginInvokeMethod, CsMethod endInvokeMethod, string sourceDocument = null, ModelStore&lt;ICsModel&gt; modelStore = null, IReadOnlyList&lt;ModelLoadException&gt; modelErrors = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isLoaded</span></td>
+        <td><p>Flag that determines if the model was loaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasErrors</span></td>
+        <td><p>Flag that determine if errors were found creating the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">loadedFromSource</span></td>
+        <td><p>Flag that determines if the model was loaded from source code or from an existing library.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.SourceCode.SourceCodeType.html">SourceCodeType</a></td>
+        <td><span class="parametername">language</span></td>
+        <td><p>The target language the model was generated from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsAttribute.html">CsAttribute</a>&gt;</td>
+        <td><span class="parametername">attributes</span></td>
+        <td><p>List of the attributes assigned to this model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isGeneric</span></td>
+        <td><p>Flag that determines if the delegate is a generic definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasStrongTypesInGenerics</span></td>
+        <td><p>Flag that determines if the generics use strong type definitions.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsGenericParameter.html">CsGenericParameter</a>&gt;</td>
+        <td><span class="parametername">genericParameters</span></td>
+        <td><p>Generic parameters assigned to the delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a>&gt;</td>
+        <td><span class="parametername">genericTypes</span></td>
+        <td><p>Target types for the generic parameters assigned to the delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasDocumentation</span></td>
+        <td><p>Flag that determines if the model has XML documentation assigned to it.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">documentation</span></td>
+        <td><p>The xml documentation assigned to the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">lookupPath</span></td>
+        <td><p>The fully qualified model lookup path for this model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">modelSourceFile</span></td>
+        <td><p>The source code file the model was created from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">sourceFiles</span></td>
+        <td><p>List of the fully qualified paths to the source code files this member is defined in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">ns</span></td>
+        <td><p>The namespace this delegate is assigned to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">hasParameters</span></td>
+        <td><p>Flag that determines if the delegate had parameters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isVoid</span></td>
+        <td><p>Flag that determines if the return type is void.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">parentPath</span></td>
+        <td><p>THe fully qualified lookup path for the parent model to this one.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsSecurity.html">CsSecurity</a></td>
+        <td><span class="parametername">security</span></td>
+        <td><p>The security scope assigned to this model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a></td>
+        <td><span class="parametername">returnType</span></td>
+        <td><p>The type definition for the return type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsParameter.html">CsParameter</a>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters assigned to the delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td><span class="parametername">invokeMethod</span></td>
+        <td><p>The invoke method definition assigned to this delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td><span class="parametername">beginInvokeMethod</span></td>
+        <td><p>The begin invoke method definition assigned to this delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td><span class="parametername">endInvokeMethod</span></td>
+        <td><p>The end invoke method definition assigned to this delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The source document that was used to build this model. This is optional parameter and can be null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CodeFactory.ModelStore-1.html">ModelStore</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a>&gt;</td>
+        <td><span class="parametername">modelStore</span></td>
+        <td><p>Optional the lookup storage for models created during the compile or lookup of the model.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.ModelLoadException.html">ModelLoadException</a>&gt;</td>
+        <td><span class="parametername">modelErrors</span></td>
+        <td><p>Optional the error that occurred while creating the model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Attributes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Attributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L113">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Attributes_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Attributes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Attributes" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Attributes">Attributes</h4>
+  <div class="markdown level1 summary"><p>The attributes assigned to this item. If the HasAttributes is false this will be an empty list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsAttribute&gt; Attributes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsAttribute.html">CsAttribute</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_BeginInvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.BeginInvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L235">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_BeginInvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.BeginInvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_BeginInvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.BeginInvokeMethod">BeginInvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The begin invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsMethod BeginInvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Documentation.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Documentation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L158">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Documentation_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Documentation*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Documentation" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Documentation">Documentation</h4>
+  <div class="markdown level1 summary"><p>Documentation that has been assigned to this model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Documentation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_EndInvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.EndInvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L240">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_EndInvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.EndInvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_EndInvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.EndInvokeMethod">EndInvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The end invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsMethod EndInvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_GenericParameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.GenericParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L128">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_GenericParameters_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GenericParameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_GenericParameters" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GenericParameters">GenericParameters</h4>
+  <div class="markdown level1 summary"><p>List of the generic parameters assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsGenericParameter&gt; GenericParameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsGenericParameter.html">CsGenericParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_GenericTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.GenericTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L133">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_GenericTypes_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GenericTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_GenericTypes" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GenericTypes">GenericTypes</h4>
+  <div class="markdown level1 summary"><p>List of the strong types that are implemented for each generic parameter. This will be an empty List when there is no generic types implemented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsType&gt; GenericTypes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_HasAttributes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.HasAttributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L108">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_HasAttributes_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasAttributes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_HasAttributes" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasAttributes">HasAttributes</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if attributes are assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAttributes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_HasDocumentation.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.HasDocumentation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L153">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_HasDocumentation_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasDocumentation*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_HasDocumentation" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasDocumentation">HasDocumentation</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the model has code level documentation assigned to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDocumentation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_HasParameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.HasParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L350">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_HasParameters_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasParameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_HasParameters" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasParameters">HasParameters</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the delegate has parameters assigned to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasParameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_HasStrongTypesInGenerics.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.HasStrongTypesInGenerics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L143">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_HasStrongTypesInGenerics_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasStrongTypesInGenerics*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_HasStrongTypesInGenerics" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.HasStrongTypesInGenerics">HasStrongTypesInGenerics</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the generics implementation has strong types passed in to the generics implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStrongTypesInGenerics { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_InvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.InvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L230">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_InvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.InvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_InvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.InvokeMethod">InvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsMethod InvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsMethod.html">CsMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_IsGeneric.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.IsGeneric%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L123">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_IsGeneric_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.IsGeneric*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_IsGeneric" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.IsGeneric">IsGeneric</h4>
+  <div class="markdown level1 summary"><p>Flag the determines if this item supports generics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGeneric { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_IsVoid.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.IsVoid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L375">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_IsVoid_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.IsVoid*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_IsVoid" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.IsVoid">IsVoid</h4>
+  <div class="markdown level1 summary"><p>Flag that determines if the delegate return is a void.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVoid { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_LookupPath.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.LookupPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L195">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_LookupPath_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.LookupPath*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_LookupPath" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.LookupPath">LookupPath</h4>
+  <div class="markdown level1 summary"><p>The fully qualified path for this model that can be used when searching the source for the model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LookupPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_ModelSourceFile.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.ModelSourceFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L388">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_ModelSourceFile_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ModelSourceFile*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_ModelSourceFile" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ModelSourceFile">ModelSourceFile</h4>
+  <div class="markdown level1 summary"><p>If this model was loaded from source code, then this will contain the target file definition was loaded from. This will be null if not loaded from source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModelSourceFile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Name.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L205">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Name_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Name*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Name" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name assigned to the this item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Namespace.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Namespace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L210">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Namespace_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Namespace*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Namespace" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Namespace">Namespace</h4>
+  <div class="markdown level1 summary"><p>The namespace the delegate is assigned to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Namespace { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Parameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Parameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L225">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Parameters_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Parameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Parameters" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>List of the parameters that have been assigned to the delegate. If HasParameters property is set to false this will be an empty list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CsParameter&gt; Parameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsParameter.html">CsParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Parent.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L380">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Parent_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Parent*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Parent" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsModel Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsModel.html">CsModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_ReturnType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.ReturnType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L220">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_ReturnType_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReturnType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_ReturnType" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReturnType">ReturnType</h4>
+  <div class="markdown level1 summary"><p>The type information about the return type assigned to the delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsType ReturnType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsType.html">CsType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_Security.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.Security%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L215">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_Security_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Security*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_Security" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.Security">Security</h4>
+  <div class="markdown level1 summary"><p>The security scope that has been assigned to this item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CsSecurity Security { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.CsSecurity.html">CsSecurity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_SourceFiles.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.SourceFiles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L200">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_SourceFiles_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.SourceFiles*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_SourceFiles" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.SourceFiles">SourceFiles</h4>
+  <div class="markdown level1 summary"><p>The source file or files in which the model was loaded from. This will be an empty enumeration if the source models were loaded from metadata only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; SourceFiles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L275">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync(System.String)">AddAfterAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Adds the source code directly after the definition of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>in the target document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddAfterAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L267">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterAsync_System_String_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterAsync(System.String,System.String)">AddAfterAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds the source code directly after the definition of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>in the target document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddAfterAsync(string sourceDocument, string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The fully qualified path to the source code document to be updated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddAfterDocsAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddAfterDocsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L172">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterDocsAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterDocsAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddAfterDocsAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddAfterDocsAsync(System.String)">AddAfterDocsAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Adds the supplied source code directly after the documentation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddAfterDocsAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The target syntax to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>Updated <a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a> model with the injected source code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L257">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String)">AddBeforeAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Adds the source code directly before the definition of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>in the target document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddBeforeAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L335">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_System_Boolean_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String,System.Boolean)">AddBeforeAsync(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds the source code directly before the definition of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>in the target document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddBeforeAsync(string sourceCode, bool ignoreLeadingModelsAndDocs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be added to the document.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">ignoreLeadingModelsAndDocs</span></td>
+        <td><p>Changes the before entry point to the start of the delegate definition not before the documentation or attributes that are assigned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L249">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeAsync_System_String_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeAsync(System.String,System.String)">AddBeforeAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds the source code directly before the definition of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>in the target document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddBeforeAsync(string sourceDocument, string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The fully qualified path to the source code document to be updated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeDocsAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeDocsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L165">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeDocsAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeDocsAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_AddBeforeDocsAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.AddBeforeDocsAsync(System.String)">AddBeforeDocsAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Adds the supplied source code directly before the documentation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; AddBeforeDocsAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The target syntax to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>Updated <a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a> model with the injected source code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L291">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync">DeleteAsync()</h4>
+  <div class="markdown level1 summary"><p>Deletes the definition of the delegate from the source document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; DeleteAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the delegate has been removed from the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L284">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteAsync(System.String)">DeleteAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the definition of the delegate from the source document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; DeleteAsync(string sourceDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The source document that the delegate is to be removed from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the delegate has been removed from the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_DeleteDocsAsync.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.DeleteDocsAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L185">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteDocsAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteDocsAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_DeleteDocsAsync" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.DeleteDocsAsync">DeleteDocsAsync()</h4>
+  <div class="markdown level1 summary"><p>Deletes the documentation from the target supporting code artifact.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; DeleteDocsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>Updated <a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a> model with the documentation removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L307">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync">GetSourceLocationAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the starting and ending locations within the document where the delegate is located.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;ISourceLocation&gt; GetSourceLocationAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.SourceCode.ISourceLocation.html">ISourceLocation</a>&gt;</td>
+        <td><p>The source location for the delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Raised when an error occurs getting the location from the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L300">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_GetSourceLocationAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.GetSourceLocationAsync(System.String)">GetSourceLocationAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the starting and ending locations within the document where the delegate is located.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;ISourceLocation&gt; GetSourceLocationAsync(string sourceDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The fully qualified path to the document that has the delegate defined in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.SourceCode.ISourceLocation.html">ISourceLocation</a>&gt;</td>
+        <td><p>The source location for the delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Raised when an error occurs getting the location from the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L324">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync(System.String)">ReplaceAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Replaces the current delegate with the provided source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; ReplaceAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be used to replace the original definition in the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L316">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceAsync_System_String_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceAsync(System.String,System.String)">ReplaceAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Replaces the current delegate with the provided source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; ReplaceAsync(string sourceDocument, string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceDocument</span></td>
+        <td><p>The fully qualified path to the source code document to be updated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The source code that is to be used to replace the original definition in the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>A newly loaded copy of the <a class="xref" href="CodeFactory.DotNet.CSharp.ICsSource.html">ICsSource</a> model after the changes have been applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Document.DocumentException.html">DocumentException</a></td>
+        <td><p>Error is raised when errors occur updating the source document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_ReplaceDocsAsync_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.ReplaceDocsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L179">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceDocsAsync_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceDocsAsync*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_ReplaceDocsAsync_System_String_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.ReplaceDocsAsync(System.String)">ReplaceDocsAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Replaces the supplied source code directly this the documentation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;CsSource&gt; ReplaceDocsAsync(string sourceCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sourceCode</span></td>
+        <td><p>The target syntax to be added to the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a>&gt;</td>
+        <td><p>Updated <a class="xref" href="CodeFactory.DotNet.CSharp.CsSource.html">CsSource</a> model with the injected source code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetAttributes_Attributes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetAttributes%23Attributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L118">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetAttributes_Attributes_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetAttributes#Attributes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetAttributes_Attributes" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetAttributes#Attributes">IDotNetAttributes.Attributes</h4>
+  <div class="markdown level1 summary"><p>The attributes assigned to this item. If the HasAttributes is false this will be an empty list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetAttribute&gt; IDotNetAttributes.Attributes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetAttribute.html">IDotNetAttribute</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_BeginInvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23BeginInvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L365">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_BeginInvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#BeginInvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_BeginInvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#BeginInvokeMethod">IDotNetDelegate.BeginInvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The begin invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetMethod IDotNetDelegate.BeginInvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetMethod.html">IDotNetMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_EndInvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23EndInvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L370">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_EndInvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#EndInvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_EndInvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#EndInvokeMethod">IDotNetDelegate.EndInvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The end invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetMethod IDotNetDelegate.EndInvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetMethod.html">IDotNetMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_InvokeMethod.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23InvokeMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L360">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_InvokeMethod_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#InvokeMethod*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_InvokeMethod" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#InvokeMethod">IDotNetDelegate.InvokeMethod</h4>
+  <div class="markdown level1 summary"><p>The invoke delegate definition for this delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetMethod IDotNetDelegate.InvokeMethod { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetMethod.html">IDotNetMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Parameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23Parameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L355">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Parameters_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#Parameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Parameters" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#Parameters">IDotNetDelegate.Parameters</h4>
+  <div class="markdown level1 summary"><p>List of the parameters that have been assigned to the delegate. If HasParameters property is set to false this will be an empty list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetParameter&gt; IDotNetDelegate.Parameters { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetParameter.html">IDotNetParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_ReturnType.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23ReturnType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L345">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_ReturnType_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#ReturnType*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_ReturnType" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#ReturnType">IDotNetDelegate.ReturnType</h4>
+  <div class="markdown level1 summary"><p>The type information about the return type assigned to the delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetType IDotNetDelegate.ReturnType { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetType.html">IDotNetType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Security.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetDelegate%23Security%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L340">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Security_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#Security*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetDelegate_Security" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetDelegate#Security">IDotNetDelegate.Security</h4>
+  <div class="markdown level1 summary"><p>The security scope that has been assigned to this item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DotNetSecurity IDotNetDelegate.Security { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.DotNetSecurity.html">DotNetSecurity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericParameters.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetGeneric%23GenericParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L138">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericParameters_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetGeneric#GenericParameters*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericParameters" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetGeneric#GenericParameters">IDotNetGeneric.GenericParameters</h4>
+  <div class="markdown level1 summary"><p>List of the generic parameters assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetGenericParameter&gt; IDotNetGeneric.GenericParameters { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetGenericParameter.html">IDotNetGenericParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericTypes.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IDotNetGeneric%23GenericTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L148">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericTypes_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetGeneric#GenericTypes*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IDotNetGeneric_GenericTypes" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IDotNetGeneric#GenericTypes">IDotNetGeneric.GenericTypes</h4>
+  <div class="markdown level1 summary"><p>Enumeration of the strong types that are implemented for each generic parameter. This will be an empty list when there is no generic types implemented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;IDotNetType&gt; IDotNetGeneric.GenericTypes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="CodeFactory.DotNet.IDotNetType.html">IDotNetType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/docsUpdate/apiSpec/new?filename=CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IParent_Parent.md&amp;value=---%0Auid%3A%20CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory%23DotNet%23IParent%23Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/docsUpdate/src/CodeFactoryVisualStudio/CodeFactory.DotNet/CSharp/CsDelegate.cs/#L190">View Source</a>
+  </span>
+  <a id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IParent_Parent_" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IParent#Parent*"></a>
+  <h4 id="CodeFactory_DotNet_CSharp_CsDelegate_CodeFactory_DotNet_IParent_Parent" data-uid="CodeFactory.DotNet.CSharp.CsDelegate.CodeFactory#DotNet#IParent#Parent">IParent.Parent</h4>
+  <div class="markdown level1 summary"><p>The parent to the current model. This will return null if there is no parent for this model, or the parent could not be located.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDotNetModel IParent.Parent { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.IDotNetModel.html">IDotNetModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsDelegate.html">ICsDelegate</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsModel.html">ICsModel</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsAttributes.html">ICsAttributes</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.ICsGeneric.html">ICsGeneric</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetDelegate.html">IDotNetDelegate</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetModel.html">IDotNetModel</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.IModelStatus.html">IModelStatus</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetAttributes.html">IDotNetAttributes</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDotNetGeneric.html">IDotNetGeneric</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IDocumentation.html">IDocumentation</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.ILookup.html">ILookup</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.SourceCode.ISourceFiles.html">ISourceFiles</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.IParent.html">IParent</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.IParent.html">IParent</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CodeFactory.DotNet.CSharp.CSharpModelExtensions.html#CodeFactory_DotNet_CSharp_CSharpModelExtensions_ToModel__1_CodeFactory_DotNet_CSharp_CsModel_">CSharpModelExtensions.ToModel&lt;T&gt;(CsModel)</a>
+  </div>
+  <div>
+      <a class="xref" href="CodeFactory.Formatting.CSharp.DocumentationExtensions.html#CodeFactory_Formatting_CSharp_DocumentationExtensions_CSharpFormatXmlDocumentationEnumerator_CodeFactory_DotNet_IDocumentation_">DocumentationExtensions.CSharpFormatXmlDocumentationEnumerator(IDocumentation)</a>
+  </div>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; CodeFactory, LLC. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>
