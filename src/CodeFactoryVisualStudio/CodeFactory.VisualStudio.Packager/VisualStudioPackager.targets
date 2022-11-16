@@ -3,10 +3,10 @@
   <PropertyGroup>
     <VsPackagerExe>"$(MSBuildThisFileDirectory)net472\CodeFactory.VisualStudio.Packager.exe"</VsPackagerExe>
   </PropertyGroup>
-	<Target Name="SetAssemblySDKVersion" BeforeTargets="Build">
+	<Target Name="BeforeBuild">
 		<Exec Command='$(VsPackagerExe) -p "$(MSBuildProjectDirectory)"' />
 	</Target>
-	<Target Name="GenerateCodeFactoryPackage" AfterTargets="AfterBuild">
+	<Target Name="AfterBuild">
 		<Exec Command='$(VsPackagerExe) -a "$(TargetPath)"' />
   </Target>
 </Project>

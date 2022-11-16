@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class NamespaceManager
+     | CodeFactory Platform </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class NamespaceManager
+     | CodeFactory Platform ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      
+      <meta property="docfx:rel" content="../">
+      <meta property="docfx:newtab" content="true">
+      <script async="" defer="" data-domain="docs.codefactory.software" src="https://plausible.io/js/plausible.js"></script>
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+              <span class="brand-title">CodeFactory Platform</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+                          <span class="brand-title">CodeFactory Platform</span>
+                        </a>  </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  
+                  <strong><a href='https://www.codefactory.software/'>CodeFactory</a>
+                </strong></div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager">
+  
+  
+  <h1 id="CodeFactory_Formatting_CSharp_NamespaceManager" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager" class="text-break">Class NamespaceManager
+  </h1>
+  <div class="markdown level0 summary"><p>Utility class that allows you to load in a collection of namespaces that will be used for code formatting operations for the C# programming language.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">NamespaceManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CodeFactory.Formatting.CSharp.html">CodeFactory.Formatting.CSharp</a></h6>
+  <h6><strong>Assembly</strong>: CodeFactory.Formatting.CSharp.dll</h6>
+  <h5 id="CodeFactory_Formatting_CSharp_NamespaceManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NamespaceManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager__ctor_System_Collections_Generic_IEnumerable_CodeFactory_DotNet_CSharp_ICsUsingStatement__System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.%23ctor(System.Collections.Generic.IEnumerable%7BCodeFactory.DotNet.CSharp.ICsUsingStatement%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L34">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager__ctor_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.#ctor*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager__ctor_System_Collections_Generic_IEnumerable_CodeFactory_DotNet_CSharp_ICsUsingStatement__System_String_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.#ctor(System.Collections.Generic.IEnumerable{CodeFactory.DotNet.CSharp.ICsUsingStatement},System.String)">NamespaceManager(IEnumerable&lt;ICsUsingStatement&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of the <a class="xref" href="CodeFactory.Formatting.CSharp.NamespaceManager.html">NamespaceManager</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NamespaceManager(IEnumerable&lt;ICsUsingStatement&gt; usingStatements, string targetNamespace = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.ICsUsingStatement.html">ICsUsingStatement</a>&gt;</td>
+        <td><span class="parametername">usingStatements</span></td>
+        <td><p>Using statements to be used for formatting in code output.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">targetNamespace</span></td>
+        <td><p>Additional namespace to check for that will be the target namespace the content will be managed under.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_CodeFactory_DotNet_CSharp_ICsUsingStatement_.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace(CodeFactory.DotNet.CSharp.ICsUsingStatement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L135">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_CodeFactory_DotNet_CSharp_ICsUsingStatement_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace(CodeFactory.DotNet.CSharp.ICsUsingStatement)">AddNamespace(ICsUsingStatement)</h4>
+  <div class="markdown level1 summary"><p>Adds additional namespace to the namespace manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NamespaceManager AddNamespace(ICsUsingStatement nameSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.DotNet.CSharp.ICsUsingStatement.html">ICsUsingStatement</a></td>
+        <td><span class="parametername">nameSpace</span></td>
+        <td><p>Using statement to add to the namespace manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Formatting.CSharp.NamespaceManager.html">NamespaceManager</a></td>
+        <td><p>New instance of the namespace manager with the added using statements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_System_String_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L153">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespace_System_String_System_String_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespace(System.String,System.String)">AddNamespace(String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds an additional namespace to the namespace manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NamespaceManager AddNamespace(string nameSpace, string alias = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nameSpace</span></td>
+        <td><p>Target namespace to be added to the manager.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">alias</span></td>
+        <td><p>Optional, the alias to assign to the target namespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Formatting.CSharp.NamespaceManager.html">NamespaceManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespaces_System_Collections_Generic_IEnumerable_CodeFactory_DotNet_CSharp_ICsUsingStatement__.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespaces(System.Collections.Generic.IEnumerable%7BCodeFactory.DotNet.CSharp.ICsUsingStatement%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L118">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespaces_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespaces*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager_AddNamespaces_System_Collections_Generic_IEnumerable_CodeFactory_DotNet_CSharp_ICsUsingStatement__" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AddNamespaces(System.Collections.Generic.IEnumerable{CodeFactory.DotNet.CSharp.ICsUsingStatement})">AddNamespaces(IEnumerable&lt;ICsUsingStatement&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds additional namespaces to the namespace manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NamespaceManager AddNamespaces(IEnumerable&lt;ICsUsingStatement&gt; nameSpaces)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CodeFactory.DotNet.CSharp.ICsUsingStatement.html">ICsUsingStatement</a>&gt;</td>
+        <td><span class="parametername">nameSpaces</span></td>
+        <td><p>Using statements to add to the namespace manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CodeFactory.Formatting.CSharp.NamespaceManager.html">NamespaceManager</a></td>
+        <td><p>New instance of the namespace manager with the added using statements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager_AppendingNamespace_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.AppendingNamespace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L98">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager_AppendingNamespace_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AppendingNamespace*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager_AppendingNamespace_System_String_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.AppendingNamespace(System.String)">AppendingNamespace(String)</h4>
+  <div class="markdown level1 summary"><p>Defines the appending namespace that will be appended to types or other declares based on if the namespace is currently supported by using or namespace definitions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AppendingNamespace(string nameSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nameSpace</span></td>
+        <td><p>Namespace to format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>Null if the namespace is not needed or the formatted substring of the namespace used in declarations and other actions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/new/2022-FixesAndExtensions/apiSpec/new?filename=CodeFactory_Formatting_CSharp_NamespaceManager_ValidNameSpace_System_String_.md&amp;value=---%0Auid%3A%20CodeFactory.Formatting.CSharp.NamespaceManager.ValidNameSpace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/CodeFactoryLLC/CodeFactory/blob/2022-FixesAndExtensions/src/CodeFactoryVisualStudio/CodeFactory.Formatting.CSharp/NamespaceManager.cs/#L67">View Source</a>
+  </span>
+  <a id="CodeFactory_Formatting_CSharp_NamespaceManager_ValidNameSpace_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.ValidNameSpace*"></a>
+  <h4 id="CodeFactory_Formatting_CSharp_NamespaceManager_ValidNameSpace_System_String_" data-uid="CodeFactory.Formatting.CSharp.NamespaceManager.ValidNameSpace(System.String)">ValidNameSpace(String)</h4>
+  <div class="markdown level1 summary"><p>Determines if the provides namespace was found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (bool namespaceFound, bool hasAlias, string alias) ValidNameSpace(string nameSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nameSpace</span></td>
+        <td><p>The namespace to search for in the namespace manager.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-3">(T1, T2, T3)</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><p>Returns a tuple that determine the namespace was found and if the found namespace had an alias.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; CodeFactory, LLC. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>

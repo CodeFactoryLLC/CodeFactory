@@ -22,6 +22,7 @@ namespace CodeFactory.VisualStudio.Loader
         private const string CODE_FACTORY_DOT_NET = "CodeFactory.DotNet";
         private const string CODE_FACTORY_LOGGING = "CodeFactory.Logging";
         private const string CODE_FACTORY_VISUAL_STUDIO = "CodeFactory.VisualStudio";
+        private const string CODE_FACTORY_FORMATTING_CSHARP = "CodeFactory.Formatting.CSharp";
 
         /// <summary>
         /// Loads the information about an automation library.
@@ -173,6 +174,7 @@ namespace CodeFactory.VisualStudio.Loader
                     if (string.Compare(assemblyName, CODE_FACTORY_DOT_NET, StringComparison.InvariantCulture) == 0) continue;
                     if (string.Compare(assemblyName, CODE_FACTORY_LOGGING, StringComparison.InvariantCulture) == 0) continue;
                     if (string.Compare(assemblyName, CODE_FACTORY_VISUAL_STUDIO, StringComparison.InvariantCulture) == 0) continue;
+                    if (string.Compare(assemblyName,CODE_FACTORY_FORMATTING_CSHARP,StringComparison.InvariantCulture) ==0) continue;
 
                     var referenceAssemblyPath = $"{assemblyDirectory}\\{referenceAssembly.Name}.dll";
 

@@ -22,12 +22,12 @@ namespace CodeFactory.VisualStudio.Loader
         /// <summary>
         /// The maximum version of the SDK that can be loaded and used.
         /// </summary>
-        public const string MaxVersion = "1.22319.0.1";
+        public const string MaxVersion = "1.22320.0.1";
 
         /// <summary>
         /// The target version of the NuGet package this SDK is deployed from.
         /// </summary>
-        public const string NuGetSdkVersion = "1.22319.1";
+        public const string NuGetSdkVersion = "1.22320.1";
 
         /// <summary>
         /// Checks the assembly to see if it was created by a CodeFactory SDK. If so it checks the version to confirms it can be used by the runtime.

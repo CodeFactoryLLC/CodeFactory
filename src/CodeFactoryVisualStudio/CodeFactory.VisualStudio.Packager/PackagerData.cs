@@ -79,7 +79,7 @@ namespace CodeFactory.VisualStudio.Packager
         /// <summary>
         /// Assemblies that should not be included with the packaging process.
         /// </summary>
-        public static ImmutableList<string> IgnoreAssemblies = ImmutableList<string>.Empty.AddRange(new string[] { "CodeFactory", "CodeFactory.DotNet", "CodeFactory.VisualStudio", "CodeFactory.VisualStudio.Loader","CodeFactory.Logging", "NLog", "System.Collections.Immutable" });
+        public static ImmutableList<string> IgnoreAssemblies = ImmutableList<string>.Empty.AddRange(new string[] { "CodeFactory", "CodeFactory.DotNet", "CodeFactory.VisualStudio", "CodeFactory.VisualStudio.Loader","CodeFactory.Formatting.CSharp","CodeFactory.Logging", "NLog", "System.Collections.Immutable" });
         
     }
 }

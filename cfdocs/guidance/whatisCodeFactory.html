@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>What is CodeFactory? | CodeFactory Platform </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="What is CodeFactory? | CodeFactory Platform ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      
+      <meta property="docfx:rel" content="../">
+      <meta property="docfx:newtab" content="true">
+      <script async="" defer="" data-domain="docs.codefactory.software" src="https://plausible.io/js/plausible.js"></script>
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+              <span class="brand-title">CodeFactory Platform</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="CodeFactory Platform" class="logomark">
+                          <span class="brand-title">CodeFactory Platform</span>
+                        </a>  </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  
+                  <strong><a href='https://www.codefactory.software/'>CodeFactory</a>
+                </strong></div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="what-is-codefactory">What is CodeFactory?</h1>
+
+<p>CodeFactory is real-time software delivery tool that runs natively inside of Visual Studio. The focus of CodeFactory is to increase the delivery velocity of building new applications and/or uplift/refactor projects to other technologies.</p>
+<h2 id="automation-of-construction-delivery-patterns">Automation of Construction Delivery Patterns</h2>
+<p>One of the core features of CodeFactory is its ability to use existing application source code as a data model.  This is similar in concept to ORM mapping based tools.</p>
+<p>This allows for the consistent implementation of development patterns which can then auto-generate common application code, which developers would otherwise have to build by hand. The following common use case scenarios are good examples of this concept, although many other scenarios are feasible:</p>
+<ul>
+<li>Adding/Creating bounds checking within methods</li>
+<li>Implementation of exception handling logic</li>
+<li>Implementation of standard logging</li>
+<li>Automation of dependency injection</li>
+<li>Auto-creation of different application layers, based on common data models, which can now be identified directly from application source code</li>
+<li>Auto-generation of data access layers, based on different technologies, which fit the needs of a target delivery pattern</li>
+<li>Auto-generation of validation logic based on application source code data</li>
+<li>Auto-generation and logic mapping between service technologies and consumers</li>
+</ul>
+<h2 id="automation-of-technology-transformation">Automation of Technology Transformation</h2>
+<p>Due to the way in which the CodeFactory SDK was designed - the tooling is very helpful in transforming existing functionality of an application to a new technology implementation. The following are common use case scenarios for technology transformation, but like the Construction Delivery Patterns described above, the examples are not the only scenarios for usage.</p>
+<ul>
+<li>Read ORM-based data classes and transform into POCO's or to other ORM based implementations</li>
+<li>Read data classes and generate interface definitions for all classes</li>
+<li>Read markup languages and use adapters to transform markup from one implementation into another (Example WebForms to Blazor)</li>
+<li>Read markup languages and update UI implementation frameworks from one implementation to another (Example Modern UI to BootStrap)</li>
+<li>Lift and shift of application logic from one platform to another (Example mapping logic from .NET Framework to .NET Standard)</li>
+<li>Migration Mapping of logic from one system to another (Example using UI dialogs to select where logic comes from and where it belongs in a new system)</li>
+</ul>
+<h2 id="designed-for-a-variety-of-delivery-approaches">Designed for a Variety of Delivery Approaches</h2>
+<p>CodeFactory directly integrates into the Solution Explorer within Visual Studio. This provides flexibility to the architecture and delivery teams as to when to utilize automation and how that automation should be triggered. The following are a few examples, much like the others above, these are not the only approaches that can be taken.</p>
+<h3 id="contract-driven-approach">Contract-Driven Approach</h3>
+<p>Interfaces are defined and automation triggers when interfaces need to be implemented. Allowing for a interface based design of the system and the core shell of the entire delivery driven by interface implementations.</p>
+<h3 id="ui-driven-approach">UI-Driven Approach</h3>
+<p>User Interface dialogs are defined and triggered as a part of an automation command and questions are asked which generates the implementation of new or uplift of application logic.</p>
+<h3 id="event-driven-approach">Event-Driven Approach</h3>
+<p>Changes in markup files or .NET application code files like C# will trigger the option to execute automation logic to complete the implementation of logic.</p>
+<h3 id="rebuild-approach">Rebuild Approach</h3>
+<p>Logic is run which will rebuild the definition of a target artifact. This is a common approach with ORM based tools.</p>
+<h3 id="hybrid-approach">Hybrid Approach</h3>
+<p>This is the most common use case, which some combination of the approaches lsited above to meet a development teams specific delivery needs.</p>
+<h2 id="zero-touch-delivery-tool">Zero-Touch Delivery Tool</h2>
+<p>CodeFactory runs inside of the Visual Studio IDE itself, and behaves like a behind-the-scenes compiler.  CodeFactory is a design-time tool and has no application runtime capabilities or dependencies. This means there are no application libraries or technologies that have to be included inside the application you are delivering. Any artifacts that are generated by CodeFactory appear to be standard developer hand-written code.</p>
+<h2 id="designed-to-build-team-customized-delivery">Designed to Build Team-Customized Delivery</h2>
+<p>CodeFactory is a team delivery tool, which means there is no one-size-fits-all delivery process. Its a SDK style platform that simplifies the design of automation to be leveraged by delivery teams.
+CodeFactory releases a standard set of automation libraries fully implemented.
+The goal of these libraries is to provide standard guidance scenarios.
+Many teams will want to extend and modify the guidance to match their own design preferences, which is exactly what the CodeFactory SDK is designed for.</p>
+<p>The following are the core capabilities of CodeFactory:</p>
+<h3 id="solution-and-project-management">Solution and Project Management</h3>
+<p>Direct access to the solution and project system hosted inside of Visual Studio. This will include access and partial management of the following items:</p>
+<ul>
+<li>Solutions</li>
+<li>Solution Folders</li>
+<li>Projects</li>
+<li>Project Folders</li>
+<li>Project Documents</li>
+<li>C# Source Code Files</li>
+</ul>
+<h3 id="document-management">Document Management</h3>
+<p>Direct access to any document that is hosted within the solution, which includes the following:</p>
+<ul>
+<li>Read all content from any document within the solution</li>
+<li>Replace any/all content within a document</li>
+<li>Add/remove/replace content at target locations within a document</li>
+<li>Add new documents</li>
+<li>Remove documents</li>
+</ul>
+<h3 id="c-source-code-model-generation">C# Source Code Model Generation</h3>
+<p>CodeFactory builds real-time data models of C# code files. These models provide access to the following information:</p>
+<ul>
+<li>Using statements</li>
+<li>Namespace definitions</li>
+<li>Attributes</li>
+<li>Classes</li>
+<li>Interfaces</li>
+<li>Structures</li>
+<li>Delegates</li>
+<li>Fields</li>
+<li>Methods</li>
+<li>Properties</li>
+<li>Events</li>
+<li>Type definitions</li>
+<li>Access to the body of classes, interfaces, structures</li>
+<li>Access to the body of methods, properties, events</li>
+<li>Source code management that includes replace, add before, add after, delete on all member objects</li>
+<li>Source code management that includes replace, add before, add after, delete, beginning, end of all classes,structures, interfaces</li>
+</ul>
+<h3 id="source-formatting">Source Formatting</h3>
+<p>CodeFactory provides support for formatting of source code regardless of target langauges, including the following:</p>
+<ul>
+<li>T4 integration to support the use of T4 formatting files to emit the target source code to be generated</li>
+<li>Source formatter an internal CodeFactory formatter which provides granular source format editing</li>
+</ul>
+<h3 id="user-interface-management">User Interface Management</h3>
+<p>CodeFactory integrates natively into the Visual Studio IDE, allowing developers to build their own custom dialog windows which display as native windows inside of Visual Studio.</p>
+<h2 id="build-using-net-technologies-for-fast-adoption">Build Using .Net Technologies for Fast Adoption</h2>
+<p>CodeFactory was designed to author automation using the C# programming language. All of CodeFactory technologies are written using .NET Framework libraries.</p>
+<p>(Note: This is a current limitation of the Visual Studio development environment. As Microsoft provide .NET Core integration into Visual Studio, CodeFactory will update at that time.)</p>
+<p>CodeFactory SDK provides a common set of tools for delivery teams to quickly extend and author their own automation for application delivery.</p>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; CodeFactory, LLC. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>
