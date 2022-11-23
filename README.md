@@ -10,10 +10,10 @@ The following link will provide a detailed overview of what CodeFactory is and i
 The CodeFactory Overview section explains the components that make up CodeFactory. 
 We recommend going through this section completely, prior to reviewing CodeFactory Guidance. 
 
-[CodeFactory Overview](https://docs.codefactory.software/guidance/Introduction/Overview.html)
+[CodeFactory Overview](https://docs.codefactory.software/guidance/whatisCodeFactory.html)
 
-## CodeFactory Guidance
-The CodeFactory Guidance documentation provides step-by-step walk throughs and examples on how to use CodeFactory effectively. 
+## Setting Started
+The CodeFactory setting started documentation provides step-by-step walk throughs and examples on how to use CodeFactory effectively. 
 
-[CodeFactory Guidance](https://docs.codefactory.software/guidance/howto/Overview.html)
+[CodeFactory Guidance](https://docs.codefactory.software/gettingstarted/intro.html)
 
