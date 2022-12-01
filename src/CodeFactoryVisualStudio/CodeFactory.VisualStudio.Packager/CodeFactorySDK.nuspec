@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22320.1</version>
+    <version>1.22335.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.22320.1
+      SDK Update for CodeFactory 1.22335.1
       
       This release of the SDK focuses on the following.
 	  - Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.
