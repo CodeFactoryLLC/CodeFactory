@@ -4,6 +4,7 @@
 //*****************************************************************************
 
 using System;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 
@@ -30,6 +31,13 @@ namespace CodeFactory.VisualStudio.Loader
         public const string NuGetSdkVersion = "1.22320.1";
 
         /// <summary>
+        /// The name of the assembly type for the CodeFactory SDK version attribute.
+        /// </summary>
+        public const string CodeFactorySdkVersionAttributeName = "AssemblyCFSdkVersion";
+
+        public const string CodeFactoryAssemblyName = "CodeFactory";
+
+        /// <summary>
         /// Checks the assembly to see if it was created by a CodeFactory SDK. If so it checks the version to confirms it can be used by the runtime.
         /// </summary>
         /// <param name="sourceAssembly"></param>
@@ -37,27 +45,21 @@ namespace CodeFactory.VisualStudio.Loader
         {
             if (sourceAssembly == null) return ;
 
+            //Adding a assembly resolver if the child assembly needs to be loaded
+            AppDomain.CurrentDomain.ReflectionOnlyAssemblyResolve += CurrentDomain_ReflectionOnlyAssemblyResolve;
+
+            Assembly workAssembly = sourceAssembly;
+            
             bool cfAssembly = false;
             try
             {
-                cfAssembly = sourceAssembly.GetReferencedAssemblies().Any( a=> a.Name == "CodeFactory");
+                cfAssembly = workAssembly.GetReferencedAssemblies().Any(a => a.Name == CodeFactoryAssemblyName);
 
-                var sdkVersionObject = sourceAssembly.GetCustomAttributes(typeof(AssemblyCFSdkVersion), false);
+                var customAttributes = CustomAttributeData.GetCustomAttributes(workAssembly);
 
-                if (sdkVersionObject == null)
-                {
-                    if(cfAssembly) throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, "0.0.0.0", MinVersion,
-                        MaxVersion);
+                var versionSdk = customAttributes.FirstOrDefault(c => c.AttributeType.Name == CodeFactorySdkVersionAttributeName);
 
-                    return;
-                }
-
-                
-                var sdkVersion = sdkVersionObject[0] as AssemblyCFSdkVersion;
-
-                if (sdkVersion == null) return;
-
-                var rawVersion = sdkVersion.Value;
+                var rawVersion = versionSdk?.ConstructorArguments.FirstOrDefault().Value as string;
 
                 if (string.IsNullOrEmpty(rawVersion)) return;
 
@@ -67,7 +69,7 @@ namespace CodeFactory.VisualStudio.Loader
                 int maxVersion = Convert.ToInt32(MaxVersion.Replace(".", ""));
 
                 if (libraryVersion < minVersion || libraryVersion > maxVersion)
-                    throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, rawVersion, MinVersion,
+                    throw new UnsupportedSdkLibraryException(workAssembly.FullName, rawVersion, MinVersion,
                         MaxVersion);
 
             }
@@ -77,10 +79,45 @@ namespace CodeFactory.VisualStudio.Loader
             }
             catch (Exception)
             {
-                if(cfAssembly) throw new UnsupportedSdkLibraryException(sourceAssembly.FullName, "0.0.0.0", MinVersion,
-                    MaxVersion);
+                if (cfAssembly)
+                    throw new UnsupportedSdkLibraryException(workAssembly.FullName, "0.0.0.0", MinVersion,
+                        MaxVersion);
+            }
+            finally
+            {
+                //Removing our delegate from the assembly resolver.
+                AppDomain.CurrentDomain.ReflectionOnlyAssemblyResolve -= CurrentDomain_ReflectionOnlyAssemblyResolve;
             }
 
+        }
+
+        /// <summary>
+        /// Event handler that resolves assemblies that are not in the reflection only context.
+        /// </summary>
+        /// <param name="sender">Application domain that needs to resolve.</param>
+        /// <param name="args">Resolve arguments that contains the information needed for resolution.</param>
+        /// <returns>The reflection only assembly or null if it cannot be loaded.</returns>
+        private static Assembly CurrentDomain_ReflectionOnlyAssemblyResolve(object sender, ResolveEventArgs args)
+        {
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+            var loadedAssembly = assemblies.FirstOrDefault(a => a.FullName == args.Name);
+
+            if (loadedAssembly != null)
+            {
+                return Assembly.ReflectionOnlyLoadFrom(loadedAssembly.Location);
+            }
+
+            var filenamePosition = args.Name.IndexOf(',');
+            var fileName =$"{args.Name.Substring(0,filenamePosition)}.dll";
+
+            var directoryPath = Path.GetDirectoryName(args.RequestingAssembly.Location);
+
+            if (string.IsNullOrEmpty(directoryPath)) return null;
+
+            var filePath = Path.Combine(directoryPath, fileName);
+
+            return !File.Exists(filePath) ? null : Assembly.ReflectionOnlyLoadFrom(filePath);
         }
     }
 }
