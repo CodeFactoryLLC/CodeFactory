@@ -12,8 +12,8 @@ We recommend going through this section completely, prior to reviewing CodeFacto
 
 [CodeFactory Overview](https://docs.codefactory.software/guidance/whatisCodeFactory.html)
 
-## Setting Started
-The CodeFactory setting started documentation provides step-by-step walk throughs and examples on how to use CodeFactory effectively. 
+## Getting Started
+The CodeFactory getting started documentation provides step-by-step walk throughs and examples on how to use CodeFactory effectively. 
 
 [CodeFactory Guidance](https://docs.codefactory.software/gettingstarted/intro.html)
 
