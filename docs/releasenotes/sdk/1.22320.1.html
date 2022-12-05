@@ -98,9 +98,9 @@
 <h3 id="source-code-injection-updates">Source Code Injection Updates</h3>
 <p>The following updates how the SDK injects source code into a file.</p>
 <ul>
-<li>Have updated the injection process of code into files. You no longer have to provide the file path, framework determines this.</li>
-<li>Have added an overload to AddBeforeAsync functionality to allow you to add directly before the definition of the model ignoring xml documentation.</li>
-<li>Can now directly control code documentation from the SDK. Added the following code management methods to control documentation.
+<li>Have updated the injection process of code into files. Users no longer have to provide the file path, as the framework determines this.</li>
+<li>Have added an overload to AddBeforeAsync functionality to allow users to add directly before the definition of the model ignoring xml documentation.</li>
+<li>Can now directly control code documentation from the SDK. Added the following code management methods to control documentation:
 <ul>
 <li><strong>AddBeforeDocsAsync</strong> - Add source code content before XML documentation.</li>
 <li><strong>AddAfterDocsAsync</strong> - Add source code content after XML documentation.</li>
@@ -112,34 +112,34 @@
 <h3 id="model-lookup-updates">Model Lookup Updates</h3>
 <ul>
 <li><strong>LookupModel</strong> is now obsolete use <strong>GetModel</strong> now.</li>
-<li>Added <strong>GetModel[T]</strong> this allows to set the target type to return instead of having to cast to directly.</li>
+<li>Added <strong>GetModel[T]</strong> this allows users to set the target type to return instead of having to cast to directly.</li>
 </ul>
 <h3 id="c-source-formatting-moved-into-the-sdk">C# Source Formatting moved into the SDK</h3>
-<p>The <strong>CodeFactory.Formatting.CSharp</strong> project has been moved into the SDK. The following additional capabilities were addeed to source formatting for C#.</p>
+<p>The <strong>CodeFactory.Formatting.CSharp</strong> project has been moved into the SDK. The following additional capabilities were added to source formatting for C#.</p>
 <ul>
 <li>The <strong>NamespaceManager</strong> now supports adding additional using statements after the manager has been loaded.</li>
 <li><strong>CsManualUsingStatement</strong> has been added to formatting to allow adding customizing using statements to the namespace manager.</li>
 </ul>
 <h3 id="c-property-model-updates">C# Property Model Updates</h3>
-<p>The CsProperty model has added the following capabilities.</p>
+<p>The CsProperty model has added the following capabilities:</p>
 <ul>
-<li><strong>GetMethod</strong> property has been added to give you direct access to the get accessor and all the code management functions of the method.</li>
-<li><strong>SetMethod</strong> property has been added to give you direct access to the set accessor and all the code management functions of the method.</li>
+<li><strong>GetMethod</strong> property has been added to give users direct access to the get accessor and all the code management functions of the method.</li>
+<li><strong>SetMethod</strong> property has been added to give users direct access to the set accessor and all the code management functions of the method.</li>
 </ul>
 <h3 id="c-enum-model-updates">C# Enum Model Updates</h3>
-<p>The CsEnum model has added the  the following capabilities.</p>
+<p>The CsEnum model has added the following capabilities:</p>
 <ul>
 <li>Can now inject code at the beginning of the Enum body.</li>
 <li>Can now inject code at the end of the Enum body.</li>
 <li>Can now get the source location of the contents of the Enum body.</li>
 </ul>
 <h3 id="c-cscontainer-updates">C# CsContainer Updates</h3>
-<p>The CsContainer Types (<strong>Class</strong>,<strong>Interface</strong>, <strong>Structure</strong>) now support nested type definitions, this includes the following.</p>
+<p>The CsContainer Types (<strong>Class</strong>,<strong>Interface</strong>, <strong>Structure</strong>) now support nested type definitions, this includes the following:</p>
 <ul>
 <li>Class,Interface, Structure, and Enums can be nested in the above container types.</li>
 </ul>
 <h3 id="c-csmethod-updates">C# CsMethod Updates</h3>
-<p>The CSMethod model now provides partial support in definition which includes the following.</p>
+<p>The CSMethod model now provides partial support in definition which includes the following:</p>
 <ul>
 <li>Method Partial Definition - The capture of the definition of a partial method.</li>
 <li>Method Partial Implementation - The capture of the implementation of a partial method.</li>
@@ -148,8 +148,8 @@
 </ul>
 <h3 id="c-documentation-changes">C# Documentation Changes</h3>
 <ul>
-<li>XML Documentation for all models is directly captured from source code so the raw documentation is provided. This includes the following.</li>
-<li>Partial implementations will provide the target xml documentation that was provided.
+<li>XML Documentation for all models is directly captured from source code so the raw documentation is provided. This includes the following:</li>
+<li>Partial implementations will provide the target XML documentation that was provided.
 If documentation was provided in each partial file it will grab the target file the model generation was requested from.</li>
 </ul>
 <h3 id="c-model-updates">C# Model Updates</h3>
