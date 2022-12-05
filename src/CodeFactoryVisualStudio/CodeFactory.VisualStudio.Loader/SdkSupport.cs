@@ -28,7 +28,7 @@ namespace CodeFactory.VisualStudio.Loader
         /// <summary>
         /// The target version of the NuGet package this SDK is deployed from.
         /// </summary>
-        public const string NuGetSdkVersion = "1.22335.1";
+        public const string NuGetSdkVersion = "1.22339.1";
 
         /// <summary>
         /// The name of the assembly type for the CodeFactory SDK version attribute.
