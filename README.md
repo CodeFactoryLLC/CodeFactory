@@ -1,4 +1,3 @@
-<a rel="me" href="https://hachyderm.io/@CodeFactory">Mastodon</a>
 # CodeFactory™
 CodeFactory provides tooling for software development teams to automate the delivery of software.
 
