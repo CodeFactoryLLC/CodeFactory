@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.22339.1</version>
+    <version>1.23044.1</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,13 +11,13 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.22339.1
+      SDK Update for CodeFactory 1.23044.1
       
       This release of the SDK focuses on the following.
-	  - Bug fix for bug https://github.com/CodeFactoryLLC/CodeFactory/issues/36
-       - Issue was with how reflections of an assembly was reading the custom attributes assigned to the assembly. Has been fixed and validated. 
+	  - Adding the solution load command. The first of the IDE commands. This command fires when the solution is first loaded and only fired once.
+	  - Fixed a bug with the XML documentation formatter for C# now will correctly only add /// if they do not exist.
     </releaseNotes>
-    <copyright>Copyright 2022</copyright>
+    <copyright>Copyright 2023</copyright>
     <tags>Factory Automation</tags>
     <dependencies>
       <dependency id="NLog" version="4.6.8"  />

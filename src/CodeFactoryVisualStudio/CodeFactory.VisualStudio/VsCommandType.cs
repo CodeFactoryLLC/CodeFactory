@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2023 CodeFactory, LLC
 //*****************************************************************************
 
 namespace CodeFactory.VisualStudio
@@ -44,6 +44,11 @@ namespace CodeFactory.VisualStudio
         /// Solution explorer command that is triggered from the context menu from a project document that supports source code.
         /// </summary>
         SolutionExplorerCSharpSourceCode = 6,
+
+        /// <summary>
+        /// IDE level command that is fired once the solution has been loaded. Will only be triggered once the solution is loaded.
+        /// </summary>
+        IDESolutionLoad = 7,
 
         /// <summary>
         /// The command type is unknown

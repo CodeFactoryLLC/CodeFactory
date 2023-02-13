@@ -76,7 +76,10 @@
     <Compile Include="AssemblyCFEnvironment.cs" />
     <Compile Include="AssemblyCFSdkVersion.cs" />
     <Compile Include="CSharpSourceExtensions.cs" />
+    <Compile Include="IDE\ISolutionLoadCommand.cs" />
+    <Compile Include="IDE\SolutionLoadCommandBase.cs" />
     <Compile Include="IVsEnvironmentActions.cs" />
+    <Compile Include="IVsEnvironmentCommand.cs" />
     <Compile Include="IVsProjectFramework.cs" />
     <Compile Include="PathHelper.cs" />
     <Compile Include="FileHelper.cs" />
@@ -140,6 +143,7 @@
       <DependentUpon>VisualStudioMessages.resx</DependentUpon>
     </Compile>
     <Compile Include="VisualStudioModelType.cs" />
+    <Compile Include="VsEnvironmentCommandBase.cs" />
     <Compile Include="VsCommandBase.cs" />
     <Compile Include="VsCommandType.cs" />
     <Compile Include="VsCSharpSource.cs" />
