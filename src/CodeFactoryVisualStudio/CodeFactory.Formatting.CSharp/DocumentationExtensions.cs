@@ -50,7 +50,8 @@ namespace CodeFactory.Formatting.CSharp
             if (string.IsNullOrEmpty(source)) return null;
             var trimmed = source.Trim();
             if (trimmed.Contains("<member")) return null;
-            return trimmed.Contains("</member") ? null : $"///{trimmed}";
+            if (trimmed.Contains("</member")) return null;
+            return trimmed.Contains("///") ? trimmed  : $"///{trimmed}";
         }
     }
 }

@@ -189,7 +189,6 @@
     <Compile Include="WellKnownLanguageType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CodeFactoryRuntimeSigner.snk" />
     <None Include="CodeFactorySigner.snk" />
     <None Include="packages.config" />
   </ItemGroup>
