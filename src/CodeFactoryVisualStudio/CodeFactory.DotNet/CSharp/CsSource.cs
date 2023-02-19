@@ -23,9 +23,14 @@ namespace CodeFactory.DotNet.CSharp
         private readonly IReadOnlyList<CsInterface> _interfaces;
         private readonly IReadOnlyList<CsClass> _classes;
         private readonly IReadOnlyList<CsStructure> _structures;
+        private readonly IReadOnlyList<CsRecord> _records;
+        private readonly IReadOnlyList<CsRecordStructure> _recordsStructure;
         private readonly IReadOnlyList<CsDelegate> _delegates;
         private readonly IReadOnlyList<CsEnum> _enums;
         private readonly IReadOnlyList<CsNamespace> _namespaces;
+        private readonly bool _hostedInProject;
+        private readonly string _projectName;
+
         #endregion
 
         /// <summary>
@@ -45,12 +50,16 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="interfaces">The interfaces that are define in this source.</param>
         /// <param name="classes">The classes that are defined in this source.</param>
         /// <param name="structures">The structures that are defined in this source.</param>
+        /// <param name="records">The records that are defined in this source.</param>
+        /// <param name="recordStructures">The record structures that are defined in this source.</param>
         /// <param name="delegates">The delegates that are defined in this source.</param>
         /// <param name="enums">The enumerations defined in this source.</param>
+
         protected CsSource(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language, string lookupPath, 
             string sourceDocument, string parentPath, IReadOnlyList<CsUsingStatement> namespaceReferences,
-            IReadOnlyList<CsInterface> interfaces, IReadOnlyList<CsClass> classes, IReadOnlyList<CsStructure> structures,
-            IReadOnlyList<CsDelegate> delegates, IReadOnlyList<CsEnum> enums, IReadOnlyList<CsNamespace> namespaces, 
+            IReadOnlyList<CsInterface> interfaces, IReadOnlyList<CsClass> classes, IReadOnlyList<CsStructure> structures, 
+            IReadOnlyList<CsRecord> records, IReadOnlyList<CsRecordStructure> recordStructures,
+            IReadOnlyList<CsDelegate> delegates, IReadOnlyList<CsEnum> enums, IReadOnlyList<CsNamespace> namespaces, bool hostedInProject,string projectName,
             ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Source, sourceDocument, modelStore, modelErrors)
         {
@@ -60,9 +69,13 @@ namespace CodeFactory.DotNet.CSharp
             _interfaces = interfaces ?? ImmutableList<CsInterface>.Empty;
             _classes = classes ?? ImmutableList<CsClass>.Empty;
             _structures = structures ?? ImmutableList<CsStructure>.Empty;
+            _records = records ?? ImmutableList<CsRecord>.Empty;
+            _recordsStructure = recordStructures ?? ImmutableList<CsRecordStructure>.Empty;
             _delegates = delegates ?? ImmutableList<CsDelegate>.Empty;
             _enums = enums ?? ImmutableList<CsEnum>.Empty;
             _namespaces = namespaces ?? ImmutableList<CsNamespace>.Empty;
+            _hostedInProject = hostedInProject;
+            _projectName = projectName; 
         }
 
         /// <summary>
@@ -96,6 +109,26 @@ namespace CodeFactory.DotNet.CSharp
         public IReadOnlyList<CsStructure> Structures => _structures;
 
         /// <summary>
+        /// The records that were defined in the source.
+        /// </summary>
+        public IReadOnlyList<CsRecord> Records => _records;
+
+        /// <summary>
+        /// The record structures that were defined in the source.
+        /// </summary>
+        public IReadOnlyList<CsRecordStructure> RecordStructures => _recordsStructure;
+
+        /// <summary>
+        /// The records that were defined in the source.
+        /// </summary>
+        IReadOnlyList<IDotNetRecord> IDotNetSource.Records => Records;
+
+        /// <summary>
+        /// The record structures that were defined in the source.
+        /// </summary>
+        IReadOnlyList<IDotNetRecordStructure> IDotNetSource.RecordStructures => RecordStructures;
+
+        /// <summary>
         /// The delegates that were defined in the source.
         /// </summary>
         public IReadOnlyList<CsDelegate> Delegates => _delegates;
@@ -109,6 +142,16 @@ namespace CodeFactory.DotNet.CSharp
         /// The namespaces that were defined in the source.
         /// </summary>
         public IReadOnlyList<CsNamespace> Namespaces => _namespaces;
+
+        /// <summary>
+        /// Flag that determines if the source code was hosted in a project.
+        /// </summary>
+        public bool HostedInProject => _hostedInProject;
+
+        /// <summary>
+        /// The name of the project the source is hosted in. This will be null if this source is not hosted in a project.
+        /// </summary>
+        public string ProjectName => _projectName;
 
         /// <summary>
         /// Adds the source code to the beginning of the <see cref="ICsSource"/> model.

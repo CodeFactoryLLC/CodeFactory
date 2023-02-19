@@ -71,6 +71,11 @@ namespace CodeFactory.DotNet
         PartialImplementation = 11,
 
         /// <summary>
+        /// The method supports the init functionality from a property or an indexer.
+        /// </summary>
+        Init = 12,
+
+        /// <summary>
         /// The type of method is unknown
         /// </summary>
         Unknown = 9999

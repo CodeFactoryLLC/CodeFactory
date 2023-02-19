@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 using System;
 using System.Threading.Tasks;
@@ -118,5 +118,20 @@ namespace CodeFactory.DotNet.CSharp
         /// <returns>A newly loaded copy of the <see cref="ICsSource"/> model after the changes have been applied.</returns>
         /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
         Task<CsSource> ReplaceAsync(string sourceCode);
+
+        /// <summary>
+        /// Comments out the member hosting syntax.
+        /// </summary>
+        /// <param name="commentSyntax">Optional parameter that sets the syntax used to comment out the member defaults to '//'</param>
+        /// <returns>A newly loaded copy of the <see cref="CsSource"/> model after the member has been commented out.
+        /// This will return the current instance if the model was not loaded from source.</returns>
+        /// <exception cref="DocumentException">Error is raised when errors occur updating the source document.</exception>
+        Task<CsSource> CommentOutSyntaxAsync(string commentSyntax = "//");
+
+        /// <summary>
+        /// Gets the syntax that defined the member model.
+        /// </summary>
+        /// <returns>The syntax that makes up the member or null if the syntax cannot be loaded. This will be null if the model was not loaded from source code.</returns>
+        Task<string> GetMemberSyntaxAsync();
     }
 }

@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 using System.Collections.Generic;
 
@@ -34,6 +34,16 @@ namespace CodeFactory.DotNet
         IReadOnlyList<IDotNetStructure> Structures { get; }
 
         /// <summary>
+        /// The records that were defined in the source.
+        /// </summary>
+        IReadOnlyList<IDotNetRecord> Records { get; }
+
+        /// <summary>
+        /// The record structures that were defined in the source.
+        /// </summary>
+        IReadOnlyList<IDotNetRecordStructure> RecordStructures { get; }
+
+        /// <summary>
         /// The delegates that were defined in the source.
         /// </summary>
         IReadOnlyList<IDotNetDelegate> Delegates { get; }
@@ -47,5 +57,15 @@ namespace CodeFactory.DotNet
         /// The namespaces that were defined in the source.
         /// </summary>
         IReadOnlyList<IDotNetNamespace> Namespaces { get; }
+
+        /// <summary>
+        /// Flag that determines if the source code was hosted in a project.
+        /// </summary>
+        bool HostedInProject { get; }
+
+        /// <summary>
+        /// The name of the project the source is hosted in. This will be null if this source is not hosted in a project.
+        /// </summary>
+        string ProjectName { get; }
     }
 }

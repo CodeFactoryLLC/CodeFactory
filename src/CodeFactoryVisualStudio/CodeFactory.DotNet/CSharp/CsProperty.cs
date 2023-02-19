@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 
 using System;
@@ -28,6 +28,8 @@ namespace CodeFactory.DotNet.CSharp
         private readonly CsSecurity _setSecurity;
         private readonly CsMethod _getMethod;
         private readonly CsMethod _setMethod;
+        private readonly bool _hasInit;
+        private readonly CsMethod _initMethod;
         #endregion
 
         /// <summary>
@@ -54,6 +56,8 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="getMethod">The get accessor method assigned to the property</param>
         /// <param name="hasSet">Flag that determines if the property implements a setter.</param>
         /// <param name="setMethod">The set accessor method assigned to the property.</param>
+        /// <param name="hasInit">Flag that determines if the property implements a init accessor.</param>
+        /// <param name="initMethod">The init accessor method assigned to the property.</param>
         /// <param name="isAbstract">Flag that determines if the model is abstract.</param>
         /// <param name="isVirtual">Flag that determines if the model is virtual.</param>
         /// <param name="isSealed">Flag that determines if the model is sealed.</param>
@@ -61,11 +65,12 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="isStatic">Flag that determines if the model is static.</param>
         /// <param name="propertyType">The type the property supports.</param>
         /// <param name="getSecurity">The security access assigned to the getter.</param>
+
         protected CsProperty(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, string modelSourceFile, IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation,
             string lookupPath, string name, string parentPath, CsSecurity security, 
-            bool hasGet, CsMethod getMethod, bool hasSet, CsMethod setMethod, bool isAbstract, bool isVirtual, bool isSealed, bool isOverride, bool isStatic,
-            CsType propertyType, CsSecurity getSecurity, CsSecurity setSecurity,
+            bool hasGet, CsMethod getMethod, bool hasSet, CsMethod setMethod, bool hasInit, CsMethod initMethod, bool isAbstract, bool isVirtual, bool isSealed,
+            bool isOverride, bool isStatic, CsType propertyType, CsSecurity getSecurity, CsSecurity setSecurity,
             string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Property,attributes, modelSourceFile, sourceFiles,
                 hasDocumentation, documentation, lookupPath, name, parentPath, security, CsMemberType.Property, sourceDocument, modelStore, modelErrors)
@@ -82,6 +87,8 @@ namespace CodeFactory.DotNet.CSharp
             _getMethod = getMethod;
             _setSecurity = setSecurity;
             _setMethod = setMethod;
+            _hasInit = hasInit;
+            _initMethod = initMethod;
         }
 
         /// <summary>
@@ -98,6 +105,11 @@ namespace CodeFactory.DotNet.CSharp
         ///     The security scope that is assigned to the set accessor. Make sure you check the HasSet to determine if the property supports set operations.
         /// </summary>
         public CsSecurity SetSecurity => _setSecurity;
+
+        /// <summary>
+        /// Flag that determines if this property supports init accessor.
+        /// </summary>
+        public bool HasInit => _hasInit;
 
         /// <summary>
         ///     The source data type that is managed by this property.
@@ -150,24 +162,29 @@ namespace CodeFactory.DotNet.CSharp
         public bool IsStatic => _isStatic;
 
         /// <summary>
-        /// Provides access to the get method statement in the property. This will be null the property does not have a get statement.
+        /// Provides access to the get method statement in the property. This will be null if the property does not have a get statement.
         /// </summary>
         public CsMethod GetMethod => _getMethod;
 
         /// <summary>
-        /// Provides access to the set method statement in the property. This will be null the property does not have a set statement.
+        /// Provides access to the set method statement in the property. This will be null if the property does not have a set statement.
         /// </summary>
         public CsMethod SetMethod => _setMethod;
 
         /// <summary>
-        /// Provides access to the get method statement in the property. This will be null the property does not have a get statement.
+        /// Provides access to the get method statement in the property. This will be null if the property does not have a get statement.
         /// </summary>
         IDotNetMethod IDotNetProperty.GetMethod => _getMethod;
 
         /// <summary>
-        /// Provides access to the set method statement in the property. This will be null the property does not have a set statement.
+        /// Provides access to the set method statement in the property. This will be null if the property does not have a set statement.
         /// </summary>
         IDotNetMethod IDotNetProperty.SetMethod => _setMethod;
+
+        /// <summary>
+        /// Provides access to the init method statement in the property. This will be null if the property does not have a init statement.
+        /// </summary>
+        IDotNetMethod IDotNetProperty.InitMethod => _initMethod;
 
         /// <summary>
         /// The source code syntax that is stored in the body of the property get. This will be null if was not loaded from source code.

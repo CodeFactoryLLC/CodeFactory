@@ -2,25 +2,36 @@
 //* Code Factory SDK
 //* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
-
 using System.Collections.Generic;
+
 
 namespace CodeFactory.DotNet.CSharp
 {
     /// <summary>
-    /// Model definition for a structure in C#.
+    /// Model definition for a class in C#.
     /// </summary>
-    public interface ICsStructure:ICsNestedContainers,IDotNetStructure
+    public interface ICsRecord:ICsContainer,IDotNetRecord
     {
         /// <summary>
-        /// List of the constructors for this structure.
+        /// List of the constructors implemented in this class.
         /// </summary>
         new IReadOnlyList<CsMethod> Constructors { get; }
 
+        /// <summary>
+        /// The destructor implemented in this class.
+        /// </summary>
+        new CsMethod Destructor { get; }
 
         /// <summary>
-        ///     List of the fields for this structure.
+        ///     List of the fields implemented in this class.
         /// </summary>
         new IReadOnlyList<CsField> Fields { get; }
+
+        /// <summary>
+        ///     The base record assigned to this record. This will be null if HasBase is false.
+        /// </summary>
+        new CsRecord BaseRecord { get; }
+
+
     }
 }

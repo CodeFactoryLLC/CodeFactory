@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020-2022 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 
 namespace CodeFactory.DotNet.CSharp
@@ -8,7 +8,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Model implementation of an interface in C#.
     /// </summary>
-    public interface ICsInterface:ICsContainer,IDotNetInterface
+    public interface ICsInterface:ICsNestedContainers,IDotNetInterface
     {
         //Intentionally blank
     }

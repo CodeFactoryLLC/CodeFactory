@@ -8,7 +8,7 @@ namespace CodeFactory.DotNet
     /// <summary>
     /// Mode definition for an interface in .net.
     /// </summary>
-    public interface IDotNetInterface:IDotNetContainer
+    public interface IDotNetInterface:IDotNetNestedContainers
     {
         //Intentionally blank
     }

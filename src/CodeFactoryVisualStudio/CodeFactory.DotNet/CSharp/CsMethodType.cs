@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2023 CodeFactory, LLC
 //*****************************************************************************
 
 namespace CodeFactory.DotNet.CSharp
@@ -69,6 +69,11 @@ namespace CodeFactory.DotNet.CSharp
         /// This method is the implementation for a partial method.
         /// </summary>
         PartialImplementation = DotNetMethodType.PartialImplementation,
+
+        /// <summary>
+        /// The method supports the init functionality from a property or an indexer.
+        /// </summary>
+        Init = DotNetMethodType.Init,
 
         /// <summary>
         /// The type of method is unknown

@@ -19,7 +19,7 @@ namespace CodeFactory.DotNet
         IDotNetType PropertyType { get; }
 
         /// <summary>
-        ///     Flag that determines if this property supports get access.
+        ///     Flag that determines if this property supports get accessor.
         /// </summary>
         bool HasGet { get; }
 
@@ -29,7 +29,7 @@ namespace CodeFactory.DotNet
         DotNetSecurity GetSecurity { get; }
 
         /// <summary>
-        ///     Flag that determines if this property supports set access.
+        ///     Flag that determines if this property supports set accessor.
         /// </summary>
         bool HasSet { get; }
 
@@ -37,6 +37,11 @@ namespace CodeFactory.DotNet
         ///     The security scope that is assigned to the set accessor. Make sure you check the HasSet to determine if the property supports set operations.
         /// </summary>
         DotNetSecurity SetSecurity { get; }
+
+        /// <summary>
+        /// Flag that determines if this property supports init accessor.
+        /// </summary>
+        bool HasInit { get; }
 
         /// <summary>
         ///     Flag that determines if the property is implemented as an abstract property.
@@ -72,6 +77,11 @@ namespace CodeFactory.DotNet
         /// Provides access to the set method statement in the property. This will be null the property does not have a set statement.
         /// </summary>
         IDotNetMethod SetMethod { get; }
+
+        /// <summary>
+        /// Provides access to the init method statement in the property. This will be null the property does not have a init statement.
+        /// </summary>
+        IDotNetMethod InitMethod { get; }
 
         /// <summary>
         /// The source code syntax that is stored in the body of the property get. This will be null if was not loaded from source code.

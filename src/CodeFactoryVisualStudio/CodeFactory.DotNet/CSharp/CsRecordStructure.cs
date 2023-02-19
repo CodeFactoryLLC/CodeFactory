@@ -11,21 +11,18 @@ using CodeFactory.SourceCode;
 namespace CodeFactory.DotNet.CSharp
 {
     /// <summary>
-    /// Data model that represents the definition of a structure.
+    /// Data model that represents the definition of a record structure.
     /// </summary>
-    public abstract class CsStructure:CsContainerWithNestedContainers,ICsStructure
+    public abstract class CsRecordStructure:CsContainer,ICsRecordStructure
     {
         /// <summary>
-        /// Constructor for the <see cref="CsStructure"/>
+        /// Constructor for the <see cref="CsRecordStructure"/>
         /// </summary>
         /// <param name="isLoaded">Flag that determines if the model was loaded.</param>
         /// <param name="hasErrors">Flag that determine if errors were found creating the model.</param>
         /// <param name="loadedFromSource">Flag that determines if the model was loaded from source code or from an existing library.</param>
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="members">The members assigned to this container.</param>
-        /// <param name="isNested">Flag that determines if the container type is nested in another type definition.</param>
-        /// <param name="nestedType">Enumeration of the type of nesting the container is.</param>
-        /// <param name="nestedModels">List of nested models assigned to this container. This is an optional parameter and can be null</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
@@ -44,35 +41,34 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="parentPath">The fully qualified lookup path for the parent model to this one.</param>
         /// <param name="security">The security scope assigned to this model.</param>
         /// <param name="inheritedInterfaces">The interfaces that are inherited by this container.</param>
-        protected CsStructure(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
+        protected CsRecordStructure(bool isLoaded, bool hasErrors, bool loadedFromSource, SourceCodeType language,
             IReadOnlyList<CsAttribute> attributes, bool isGeneric, bool hasStrongTypesInGenerics,
             IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, string modelSourceFile, IReadOnlyList<string> sourceFiles,
             bool hasDocumentation, string documentation, string lookupPath, string name, string ns, string parentPath,
-            CsSecurity security, IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,bool isNested,CsNestedType nestedType,IReadOnlyList<ICsNestedModel> nestedModels = null,
-
-        string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
-            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.Structure,
+            CsSecurity security, IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,
+            string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
+            : base(isLoaded, hasErrors, loadedFromSource, language, CsModelType.RecordStructure,
             attributes, isGeneric, hasStrongTypesInGenerics, genericParameters, genericTypes, modelSourceFile, sourceFiles, hasDocumentation,
-            documentation, lookupPath, name, ns, parentPath, CsContainerType.Structure, security, inheritedInterfaces, members,isNested,nestedType,
-            nestedModels, sourceDocument, modelStore, modelErrors)
+            documentation, lookupPath, name, ns, parentPath, CsContainerType.RecordStructure, security, inheritedInterfaces, members,
+            sourceDocument, modelStore, modelErrors)
         {
             //Intentionally blank
         }
 
         /// <summary>
-        /// List of the constructors for this structure.
+        /// List of the constructors for this record structure.
         /// </summary>
-        IReadOnlyList<IDotNetMethod> IDotNetStructure.Constructors => Constructors;
+        IReadOnlyList<IDotNetMethod> IDotNetRecordStructure.Constructors => Constructors;
 
         /// <summary>
-        ///     List of the fields for this structure.
+        ///     List of the fields for this record structure.
         /// </summary>
         public IReadOnlyList<CsField> Fields =>
             Members.Where(m => m.MemberType == CsMemberType.Field).Cast<CsField>().ToImmutableList() ??
             ImmutableList<CsField>.Empty;
 
         /// <summary>
-        /// List of the constructors for this structure.
+        /// List of the constructors for this record structure.
         /// </summary>
         public IReadOnlyList<CsMethod> Constructors =>
             Members.Where(m => m.MemberType == CsMemberType.Method).Cast<CsMethod>()
@@ -80,8 +76,8 @@ namespace CodeFactory.DotNet.CSharp
             ImmutableList<CsMethod>.Empty;
 
         /// <summary>
-        ///     List of the fields for this structure.
+        ///     List of the fields for this record structure.
         /// </summary>
-        IReadOnlyList<IDotNetField> IDotNetStructure.Fields => Fields;
+        IReadOnlyList<IDotNetField> IDotNetRecordStructure.Fields => Fields;
     }
 }
