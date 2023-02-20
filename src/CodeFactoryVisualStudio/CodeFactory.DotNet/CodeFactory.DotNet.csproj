@@ -69,8 +69,10 @@
     <Compile Include="CSharp\CsAttribute.cs" />
     <Compile Include="CSharp\CsAttributeParameter.cs" />
     <Compile Include="CSharp\CsAttributeParameterValue.cs" />
+    <Compile Include="CSharp\CsRecord.cs" />
     <Compile Include="CSharp\CsClass.cs" />
     <Compile Include="CSharp\CsClassExtensions.cs" />
+    <Compile Include="CSharp\CsContainerWithNestedContainers.cs" />
     <Compile Include="CSharp\CsContainer.cs" />
     <Compile Include="CSharp\CsContainerExtensions.cs" />
     <Compile Include="CSharp\CsContainerType.cs" />
@@ -98,13 +100,17 @@
     <Compile Include="CSharp\CsSecurity.cs" />
     <Compile Include="CSharp\CsSource.cs" />
     <Compile Include="CSharp\CsSourceExtensions.cs" />
+    <Compile Include="CSharp\CsRecordStructure.cs" />
     <Compile Include="CSharp\CsStructure.cs" />
     <Compile Include="CSharp\CsTupleTypeParameter.cs" />
     <Compile Include="CSharp\CsType.cs" />
     <Compile Include="CSharp\CsTypeExtensions.cs" />
     <Compile Include="CSharp\CsUsingStatement.cs" />
     <Compile Include="CSharp\CsWellKnownLanguageType.cs" />
+    <Compile Include="CSharp\ICsRecord.cs" />
+    <Compile Include="CSharp\ICsNestedContainers.cs" />
     <Compile Include="CSharp\ICsNestedModel.cs" />
+    <Compile Include="CSharp\ICsRecordStructure.cs" />
     <Compile Include="CSharp\InterfaceMemberExtensions.cs" />
     <Compile Include="DotNetContainerExtensions.cs" />
     <Compile Include="CSharp\FormattedSyntax\CommonContextualKeywords.cs" />
@@ -154,6 +160,8 @@
     <Compile Include="IDotNetAttributeParameter.cs" />
     <Compile Include="IDotNetAttributeParameterValue.cs" />
     <Compile Include="IDotNetAttributes.cs" />
+    <Compile Include="IDotNetNestedContainers.cs" />
+    <Compile Include="IDotNetRecord.cs" />
     <Compile Include="IDotNetClass.cs" />
     <Compile Include="IDotNetContainer.cs" />
     <Compile Include="IDotNetDelegate.cs" />
@@ -174,6 +182,7 @@
     <Compile Include="IDotNetParameterDefaultValue.cs" />
     <Compile Include="IDotNetProperty.cs" />
     <Compile Include="IDotNetSource.cs" />
+    <Compile Include="IDotNetRecordStructure.cs" />
     <Compile Include="IDotNetStructure.cs" />
     <Compile Include="IDotNetTupleTypeParameter.cs" />
     <Compile Include="IDotNetType.cs" />

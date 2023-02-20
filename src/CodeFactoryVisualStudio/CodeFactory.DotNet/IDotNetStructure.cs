@@ -10,7 +10,7 @@ namespace CodeFactory.DotNet
     /// <summary>
     /// Model definition for a structure in .net.
     /// </summary>
-    public interface IDotNetStructure:IDotNetContainer
+    public interface IDotNetStructure:IDotNetNestedContainers
     {
         /// <summary>
         /// List of the constructors for this structure.

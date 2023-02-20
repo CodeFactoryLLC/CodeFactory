@@ -11,7 +11,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Data model that represents in definition of an interface.
     /// </summary>
-    public abstract class CsInterface:CsContainer,ICsInterface
+    public abstract class CsInterface:CsContainerWithNestedContainers,ICsInterface
     {
         /// <summary>
         /// Constructor for the <see cref="CsInterface"/>

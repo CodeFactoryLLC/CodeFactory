@@ -16,7 +16,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Data model that implements the base implement for all models that support members.
     /// </summary>
-    public abstract class CsContainer:CsModel,ICsContainer,ICsNestedModel
+    public abstract class CsContainer:CsModel,ICsContainer
     {
         #region Property backing fields
         private readonly IReadOnlyList<CsAttribute> _attributes;
@@ -35,9 +35,6 @@ namespace CodeFactory.DotNet.CSharp
         private readonly CsSecurity _security;
         private readonly IReadOnlyList<CsInterface> _inheritedInterfaces;
         private readonly IReadOnlyList<CsMember> _members;
-        private readonly bool _isNested;
-        private readonly CsNestedType _nestedType;
-        private readonly IReadOnlyList<ICsNestedModel> _nestedModels;
 
         #endregion
 
@@ -50,9 +47,6 @@ namespace CodeFactory.DotNet.CSharp
         /// <param name="language">The target language the model was generated from.</param>
         /// <param name="modelType">The type of code model created.</param>
         /// <param name="members">The members assigned to this container.</param>
-        /// <param name="isNested">Flag that determines if the container type is nested in another type definition.</param>
-        /// <param name="nestedType">Enumeration of the type of nesting the container is.</param>
-        /// <param name="nestedModels">List of nested models assigned to this container. This is an optional parameter and can be null</param>
         /// <param name="sourceDocument">The source document that was used to build this model. This is optional parameter and can be null.</param>
         /// <param name="modelStore">Optional the lookup storage for models created during the compile or lookup of the model.</param>
         /// <param name="modelErrors">Optional the error that occurred while creating the model.</param>
@@ -77,9 +71,8 @@ namespace CodeFactory.DotNet.CSharp
             IReadOnlyList<CsGenericParameter> genericParameters, IReadOnlyList<CsType> genericTypes, string modelSourceFile,
             IReadOnlyList<string> sourceFiles, bool hasDocumentation, string documentation, string lookupPath,
             string name, string ns, string parentPath, CsContainerType containerType, CsSecurity security,
-            IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members, bool isNested, CsNestedType nestedType, IReadOnlyList<ICsNestedModel> nestedModels = null,
-
-        string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
+            IReadOnlyList<CsInterface> inheritedInterfaces, IReadOnlyList<CsMember> members,
+            string sourceDocument = null, ModelStore<ICsModel> modelStore = null, IReadOnlyList<ModelLoadException> modelErrors = null)
             : base(isLoaded, hasErrors, loadedFromSource, language, modelType, sourceDocument, modelStore, modelErrors)
         {
             _attributes = attributes ?? ImmutableList<CsAttribute>.Empty;
@@ -99,9 +92,6 @@ namespace CodeFactory.DotNet.CSharp
             _security = security;
             _inheritedInterfaces = inheritedInterfaces ?? ImmutableList<CsInterface>.Empty;
             _members = members ?? ImmutableList<CsMember>.Empty;
-            _isNested = isNested;
-            _nestedType = nestedType;
-            _nestedModels = nestedModels ?? ImmutableList<ICsNestedModel>.Empty;
         }
 
         /// <summary>
@@ -240,60 +230,6 @@ namespace CodeFactory.DotNet.CSharp
         /// </summary>
         public IReadOnlyList<CsEvent> Events => _members.Where(m => m.MemberType == CsMemberType.Event).Cast<CsEvent>()
                                                     .ToImmutableList() ?? ImmutableList<CsEvent>.Empty;
-
-        /// <summary>
-        /// Models that are nested in the implementation of this container.
-        /// </summary>
-        public IReadOnlyList<ICsNestedModel> NestedModels => _nestedModels;
-
-        /// <summary>
-        /// Classes that are nested in this container.
-        /// </summary>
-        public IReadOnlyList<CsClass> NestedClasses =>
-            _nestedModels.Where(n => n.NestedType == CsNestedType.Class).Cast<CsClass>().ToImmutableList();
-
-        /// <summary>
-        /// Interfaces that are nested in this container.
-        /// </summary>
-        public IReadOnlyList<CsInterface> NestedInterfaces =>
-            _nestedModels.Where(n => n.NestedType == CsNestedType.Interface).Cast<CsInterface>().ToImmutableList();
-
-        /// <summary>
-        /// Structures that are nested in this container.
-        /// </summary>
-        public IReadOnlyList<CsStructure> NestedStructures =>
-            _nestedModels.Where(n => n.NestedType == CsNestedType.Structure).Cast<CsStructure>().ToImmutableList();
-
-        /// <summary>
-        /// Enums that are nested in this container.
-        /// </summary>
-        public IReadOnlyList<CsEnum> NestedEnums =>
-            _nestedModels.Where(n => n.NestedType == CsNestedType.Enum).Cast<CsEnum>().ToImmutableList();
-
-        /// <summary>
-        /// Models that are nested in the implementation of this container.
-        /// </summary>
-        IReadOnlyList<IDotNetNestedModel> IDotNetContainer.NestedModels => NestedModels;
-
-        /// <summary>
-        /// Classes that are nested in this container.
-        /// </summary>
-        IReadOnlyList<IDotNetClass> IDotNetContainer.NestedClasses => NestedClasses;
-
-        /// <summary>
-        /// Interfaces that are nested in this container.
-        /// </summary>
-        IReadOnlyList<IDotNetInterface> IDotNetContainer.NestedInterfaces => NestedInterfaces;
-
-        /// <summary>
-        /// Structures that are nested in this container.
-        /// </summary>
-        IReadOnlyList<IDotNetStructure> IDotNetContainer.NestedStructures => NestedStructures;
-
-        /// <summary>
-        /// Enums that are nested in this container.
-        /// </summary>
-        IReadOnlyList<IDotNetEnum> IDotNetContainer.NestedEnums => NestedEnums;
 
         /// <summary>
         /// The source code syntax that is stored in the body of the container model. This will be null if the container was not loaded from source code.
@@ -496,19 +432,5 @@ namespace CodeFactory.DotNet.CSharp
         /// <inheritdoc/>
         public string ModelSourceFile => _modelSourceFile;
 
-        /// <summary>
-        /// Identifies the type of model that has been nested.
-        /// </summary>
-        DotNetNestedType IDotNetNestedModel.NestedType => (DotNetNestedType) _nestedType ;
-
-        /// <summary>
-        /// Identifies the type of model that has been nested.
-        /// </summary>
-        public CsNestedType NestedType => _nestedType;
-
-        /// <summary>
-        /// Flag that determines if this model is nested in a parent model.
-        /// </summary>
-        public bool IsNested => _isNested;
     }
 }

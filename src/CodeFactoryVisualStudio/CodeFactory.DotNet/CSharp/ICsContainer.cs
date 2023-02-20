@@ -1,8 +1,7 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020-2022 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodeFactory.Document;
@@ -49,31 +48,6 @@ namespace CodeFactory.DotNet.CSharp
         ///     Enumeration of the events assigned to this container. If HasEvents is false this will be null.
         /// </summary>
         new IReadOnlyList<CsEvent> Events { get; }
-
-        /// <summary>
-        /// Models that are nested in the implementation of this container.
-        /// </summary>
-        new IReadOnlyList<ICsNestedModel> NestedModels { get; }
-
-        /// <summary>
-        /// Classes that are nested in this container.
-        /// </summary>
-        new IReadOnlyList<CsClass> NestedClasses { get; }
-
-        /// <summary>
-        /// Interfaces that are nested in this container.
-        /// </summary>
-        new IReadOnlyList<CsInterface> NestedInterfaces { get; }
-
-        /// <summary>
-        /// Structures that are nested in this container.
-        /// </summary>
-        new IReadOnlyList<CsStructure> NestedStructures { get; }
-
-        /// <summary>
-        /// Enums that are nested in this container.
-        /// </summary>
-        new IReadOnlyList<CsEnum> NestedEnums { get; }
 
         /// <summary>
         /// Adds the source code directly before the definition of the <see cref="ICsContainer"/>in the target document.

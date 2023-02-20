@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 
 namespace CodeFactory.DotNet.CSharp
@@ -124,6 +124,16 @@ namespace CodeFactory.DotNet.CSharp
         /// Model is a tuple type parameter that belongs to a tuple type.
         /// </summary>
         TupleTypeParameter = DotNetModelType.TupleTypeParameter,
+
+        /// <summary>
+        /// Model stores a record implementation.
+        /// </summary>
+        Record = DotNetModelType.Record,
+
+        /// <summary>
+        /// Model stores a record structure implementation.
+        /// </summary>
+        RecordStructure = DotNetModelType.RecordStructure,
 
         /// <summary>
         /// The model is currently not know by the C# source type.

@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 
 using System.Collections.Generic;
@@ -34,6 +34,16 @@ namespace CodeFactory.DotNet.CSharp
         /// The structures that were defined in the source.
         /// </summary>
         new IReadOnlyList<CsStructure> Structures { get; }
+
+        /// <summary>
+        /// The records that were defined in the source.
+        /// </summary>
+        IReadOnlyList<CsRecord> Records { get; }
+
+        /// <summary>
+        /// The record structures that were defined in the source.
+        /// </summary>
+        IReadOnlyList<CsRecordStructure> RecordStructures { get; }
 
         /// <summary>
         /// The delegates that were defined in the source.

@@ -1185,15 +1185,15 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.CsContainer
   fullName: CodeFactory.DotNet.CSharp.CsContainer
   nameWithType: CsContainer
-- uid: CodeFactory.DotNet.CSharp.CsContainer.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,CodeFactory.DotNet.CSharp.CsNestedType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.ICsNestedModel},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name: CsContainer(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, CsNestedType, IReadOnlyList<ICsNestedModel>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_CodeFactory_DotNet_CSharp_CsModelType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsContainerType_CodeFactory_DotNet_CSharp_CsSecurity_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsMember__System_Boolean_CodeFactory_DotNet_CSharp_CsNestedType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_ICsNestedModel__System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
-  commentId: M:CodeFactory.DotNet.CSharp.CsContainer.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,CodeFactory.DotNet.CSharp.CsNestedType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.ICsNestedModel},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, CsNestedType, IReadOnlyList(Of ICsNestedModel), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CsContainer(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, bool, bool, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, string, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsMember>, bool, CodeFactory.DotNet.CSharp.CsNestedType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.ICsNestedModel>, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
-  fullName.vb: CodeFactory.DotNet.CSharp.CsContainer.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), Boolean, Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, String, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsMember), Boolean, CodeFactory.DotNet.CSharp.CsNestedType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.ICsNestedModel), String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
-  nameWithType: CsContainer.CsContainer(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, CsNestedType, IReadOnlyList<ICsNestedModel>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  nameWithType.vb: CsContainer.New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, CsNestedType, IReadOnlyList(Of ICsNestedModel), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsContainer.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsContainer(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_CodeFactory_DotNet_CSharp_CsModelType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsContainerType_CodeFactory_DotNet_CSharp_CsSecurity_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsMember__System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsContainer.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsContainer.CsContainer(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, bool, bool, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, string, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsMember>, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsContainer.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), Boolean, Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, String, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsMember), String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsContainer.CsContainer(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsContainer.New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
 - uid: CodeFactory.DotNet.CSharp.CsContainer.#ctor*
   name: CsContainer
   href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer__ctor_
@@ -1460,91 +1460,6 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.Methods
   nameWithType: CsContainer.IDotNetContainer.Methods
   nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.Methods
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedClasses
-  name: IDotNetContainer.NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedClasses
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedClasses
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  nameWithType: CsContainer.IDotNetContainer.NestedClasses
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedClasses*
-  name: IDotNetContainer.NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedClasses_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedClasses
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  nameWithType: CsContainer.IDotNetContainer.NestedClasses
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedEnums
-  name: IDotNetContainer.NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedEnums
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedEnums
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  nameWithType: CsContainer.IDotNetContainer.NestedEnums
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedEnums*
-  name: IDotNetContainer.NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedEnums_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedEnums
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  nameWithType: CsContainer.IDotNetContainer.NestedEnums
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedInterfaces
-  name: IDotNetContainer.NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedInterfaces
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedInterfaces
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  nameWithType: CsContainer.IDotNetContainer.NestedInterfaces
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedInterfaces*
-  name: IDotNetContainer.NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedInterfaces_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedInterfaces
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  nameWithType: CsContainer.IDotNetContainer.NestedInterfaces
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedModels
-  name: IDotNetContainer.NestedModels
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedModels
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedModels
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedModels
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedModels
-  nameWithType: CsContainer.IDotNetContainer.NestedModels
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedModels*
-  name: IDotNetContainer.NestedModels
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedModels_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedModels
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedModels
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedModels
-  nameWithType: CsContainer.IDotNetContainer.NestedModels
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedStructures
-  name: IDotNetContainer.NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedStructures
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedStructures
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  nameWithType: CsContainer.IDotNetContainer.NestedStructures
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedStructures
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedStructures*
-  name: IDotNetContainer.NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_NestedStructures_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#NestedStructures
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  nameWithType: CsContainer.IDotNetContainer.NestedStructures
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetContainer.NestedStructures
 - uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetContainer#Properties
   name: IDotNetContainer.Properties
   href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetContainer_Properties
@@ -1613,23 +1528,6 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetGeneric.GenericTypes
   nameWithType: CsContainer.IDotNetGeneric.GenericTypes
   nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetGeneric.GenericTypes
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetNestedModel#NestedType
-  name: IDotNetNestedModel.NestedType
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetNestedModel_NestedType
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetNestedModel#NestedType
-  name.vb: CodeFactory.DotNet.IDotNetNestedModel.NestedType
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetNestedModel.NestedType
-  nameWithType: CsContainer.IDotNetNestedModel.NestedType
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetNestedModel.NestedType
-- uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetNestedModel#NestedType*
-  name: IDotNetNestedModel.NestedType
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IDotNetNestedModel_NestedType_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IDotNetNestedModel#NestedType
-  isSpec: "True"
-  name.vb: CodeFactory.DotNet.IDotNetNestedModel.NestedType
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory.DotNet.IDotNetNestedModel.NestedType
-  nameWithType: CsContainer.IDotNetNestedModel.NestedType
-  nameWithType.vb: CsContainer.CodeFactory.DotNet.IDotNetNestedModel.NestedType
 - uid: CodeFactory.DotNet.CSharp.CsContainer.CodeFactory#DotNet#IParent#Parent
   name: IParent.Parent
   href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_CodeFactory_DotNet_IParent_Parent
@@ -1869,19 +1767,6 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsContainer.IsGeneric
   nameWithType: CsContainer.IsGeneric
-- uid: CodeFactory.DotNet.CSharp.CsContainer.IsNested
-  name: IsNested
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_IsNested
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.IsNested
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.IsNested
-  nameWithType: CsContainer.IsNested
-- uid: CodeFactory.DotNet.CSharp.CsContainer.IsNested*
-  name: IsNested
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_IsNested_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.IsNested
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.IsNested
-  nameWithType: CsContainer.IsNested
 - uid: CodeFactory.DotNet.CSharp.CsContainer.LookupPath
   name: LookupPath
   href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_LookupPath
@@ -1960,84 +1845,6 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsContainer.Namespace
   nameWithType: CsContainer.Namespace
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedClasses
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedClasses
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedClasses
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedClasses
-  nameWithType: CsContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedClasses*
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedClasses_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedClasses
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedClasses
-  nameWithType: CsContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedEnums
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedEnums
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedEnums
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedEnums
-  nameWithType: CsContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedEnums*
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedEnums_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedEnums
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedEnums
-  nameWithType: CsContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedInterfaces
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces
-  nameWithType: CsContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces*
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedInterfaces_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedInterfaces
-  nameWithType: CsContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedModels
-  name: NestedModels
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedModels
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedModels
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedModels
-  nameWithType: CsContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedModels*
-  name: NestedModels
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedModels_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedModels
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedModels
-  nameWithType: CsContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedStructures
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedStructures
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedStructures
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedStructures
-  nameWithType: CsContainer.NestedStructures
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedStructures*
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedStructures_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedStructures
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedStructures
-  nameWithType: CsContainer.NestedStructures
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedType
-  name: NestedType
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedType
-  commentId: P:CodeFactory.DotNet.CSharp.CsContainer.NestedType
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedType
-  nameWithType: CsContainer.NestedType
-- uid: CodeFactory.DotNet.CSharp.CsContainer.NestedType*
-  name: NestedType
-  href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_NestedType_
-  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainer.NestedType
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.CsContainer.NestedType
-  nameWithType: CsContainer.NestedType
 - uid: CodeFactory.DotNet.CSharp.CsContainer.Parent
   name: Parent
   href: api/CodeFactory.DotNet.CSharp.CsContainer.html#CodeFactory_DotNet_CSharp_CsContainer_Parent
@@ -2187,6 +1994,18 @@ references:
   commentId: F:CodeFactory.DotNet.CSharp.CsContainerType.Interface
   fullName: CodeFactory.DotNet.CSharp.CsContainerType.Interface
   nameWithType: CsContainerType.Interface
+- uid: CodeFactory.DotNet.CSharp.CsContainerType.Record
+  name: Record
+  href: api/CodeFactory.DotNet.CSharp.CsContainerType.html#CodeFactory_DotNet_CSharp_CsContainerType_Record
+  commentId: F:CodeFactory.DotNet.CSharp.CsContainerType.Record
+  fullName: CodeFactory.DotNet.CSharp.CsContainerType.Record
+  nameWithType: CsContainerType.Record
+- uid: CodeFactory.DotNet.CSharp.CsContainerType.RecordStructure
+  name: RecordStructure
+  href: api/CodeFactory.DotNet.CSharp.CsContainerType.html#CodeFactory_DotNet_CSharp_CsContainerType_RecordStructure
+  commentId: F:CodeFactory.DotNet.CSharp.CsContainerType.RecordStructure
+  fullName: CodeFactory.DotNet.CSharp.CsContainerType.RecordStructure
+  nameWithType: CsContainerType.RecordStructure
 - uid: CodeFactory.DotNet.CSharp.CsContainerType.Structure
   name: Structure
   href: api/CodeFactory.DotNet.CSharp.CsContainerType.html#CodeFactory_DotNet_CSharp_CsContainerType_Structure
@@ -2199,6 +2018,224 @@ references:
   commentId: F:CodeFactory.DotNet.CSharp.CsContainerType.Unknown
   fullName: CodeFactory.DotNet.CSharp.CsContainerType.Unknown
   nameWithType: CsContainerType.Unknown
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers
+  name: CsContainerWithNestedContainers
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html
+  commentId: T:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers
+  nameWithType: CsContainerWithNestedContainers
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,CodeFactory.DotNet.CSharp.CsNestedType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.ICsNestedModel},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsContainerWithNestedContainers(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, CsNestedType, IReadOnlyList<ICsNestedModel>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_CodeFactory_DotNet_CSharp_CsModelType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsContainerType_CodeFactory_DotNet_CSharp_CsSecurity_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsMember__System_Boolean_CodeFactory_DotNet_CSharp_CsNestedType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_ICsNestedModel__System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,CodeFactory.DotNet.CSharp.CsModelType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsContainerType,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,CodeFactory.DotNet.CSharp.CsNestedType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.ICsNestedModel},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, CsNestedType, IReadOnlyList(Of ICsNestedModel), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CsContainerWithNestedContainers(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, bool, bool, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, string, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsMember>, bool, CodeFactory.DotNet.CSharp.CsNestedType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.ICsNestedModel>, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, CodeFactory.DotNet.CSharp.CsModelType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), Boolean, Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, String, CodeFactory.DotNet.CSharp.CsContainerType, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsMember), Boolean, CodeFactory.DotNet.CSharp.CsNestedType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.ICsNestedModel), String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsContainerWithNestedContainers.CsContainerWithNestedContainers(bool, bool, bool, SourceCodeType, CsModelType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsContainerType, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, CsNestedType, IReadOnlyList<ICsNestedModel>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsContainerWithNestedContainers.New(Boolean, Boolean, Boolean, SourceCodeType, CsModelType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsContainerType, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, CsNestedType, IReadOnlyList(Of ICsNestedModel), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.#ctor*
+  name: CsContainerWithNestedContainers
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers__ctor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CsContainerWithNestedContainers
+  fullName.vb: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.New
+  nameWithType: CsContainerWithNestedContainers.CsContainerWithNestedContainers
+  nameWithType.vb: CsContainerWithNestedContainers.New
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedClasses
+  name: IDotNetNestedContainers.NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedClasses
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedClasses
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedClasses
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedClasses*
+  name: IDotNetNestedContainers.NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedClasses_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedClasses
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedClasses
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedEnums
+  name: IDotNetNestedContainers.NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedEnums
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedEnums
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedEnums
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedEnums*
+  name: IDotNetNestedContainers.NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedEnums_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedEnums
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedEnums
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedInterfaces
+  name: IDotNetNestedContainers.NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedInterfaces
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedInterfaces
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedInterfaces
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedInterfaces*
+  name: IDotNetNestedContainers.NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedInterfaces_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedInterfaces
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedInterfaces
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedModels
+  name: IDotNetNestedContainers.NestedModels
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedModels
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedModels
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedModels
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedModels*
+  name: IDotNetNestedContainers.NestedModels
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedModels_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedModels
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedModels
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedStructures
+  name: IDotNetNestedContainers.NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedStructures
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedStructures
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedStructures
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedStructures*
+  name: IDotNetNestedContainers.NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedContainers_NestedStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedContainers#NestedStructures
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedContainers.NestedStructures
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedModel#NestedType
+  name: IDotNetNestedModel.NestedType
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedModel_NestedType
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedModel#NestedType
+  name.vb: CodeFactory.DotNet.IDotNetNestedModel.NestedType
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedModel.NestedType
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedModel.NestedType
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedModel.NestedType
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedModel#NestedType*
+  name: IDotNetNestedModel.NestedType
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_CodeFactory_DotNet_IDotNetNestedModel_NestedType_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory#DotNet#IDotNetNestedModel#NestedType
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetNestedModel.NestedType
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedModel.NestedType
+  nameWithType: CsContainerWithNestedContainers.IDotNetNestedModel.NestedType
+  nameWithType.vb: CsContainerWithNestedContainers.CodeFactory.DotNet.IDotNetNestedModel.NestedType
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested
+  name: IsNested
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_IsNested
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested
+  nameWithType: CsContainerWithNestedContainers.IsNested
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested*
+  name: IsNested
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_IsNested_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.IsNested
+  nameWithType: CsContainerWithNestedContainers.IsNested
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedClasses
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses
+  nameWithType: CsContainerWithNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses*
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedClasses_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedClasses
+  nameWithType: CsContainerWithNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedEnums
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums
+  nameWithType: CsContainerWithNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums*
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedEnums_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedEnums
+  nameWithType: CsContainerWithNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedInterfaces
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces
+  nameWithType: CsContainerWithNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces*
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedInterfaces_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedInterfaces
+  nameWithType: CsContainerWithNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels
+  name: NestedModels
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedModels
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels
+  nameWithType: CsContainerWithNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels*
+  name: NestedModels
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedModels_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedModels
+  nameWithType: CsContainerWithNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedStructures
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures
+  nameWithType: CsContainerWithNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures*
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedStructures
+  nameWithType: CsContainerWithNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType
+  name: NestedType
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedType
+  commentId: P:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType
+  nameWithType: CsContainerWithNestedContainers.NestedType
+- uid: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType*
+  name: NestedType
+  href: api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html#CodeFactory_DotNet_CSharp_CsContainerWithNestedContainers_NestedType_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.NestedType
+  nameWithType: CsContainerWithNestedContainers.NestedType
 - uid: CodeFactory.DotNet.CSharp.CsDelegate
   name: CsDelegate
   href: api/CodeFactory.DotNet.CSharp.CsDelegate.html
@@ -4798,6 +4835,22 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsMember.CodeFactory.DotNet.IParent.Parent
   nameWithType: CsMember.IParent.Parent
   nameWithType.vb: CsMember.CodeFactory.DotNet.IParent.Parent
+- uid: CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync(System.String)
+  name: CommentOutSyntaxAsync(string)
+  href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_CommentOutSyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync(System.String)
+  name.vb: CommentOutSyntaxAsync(String)
+  fullName: CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync(string)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync(String)
+  nameWithType: CsMember.CommentOutSyntaxAsync(string)
+  nameWithType.vb: CsMember.CommentOutSyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync*
+  name: CommentOutSyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_CommentOutSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMember.CommentOutSyntaxAsync
+  nameWithType: CsMember.CommentOutSyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.CsMember.DeleteAsync
   name: DeleteAsync()
   href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_DeleteAsync
@@ -4846,6 +4899,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsMember.Documentation
   nameWithType: CsMember.Documentation
+- uid: CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync
+  name: GetMemberSyntaxAsync()
+  href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_GetMemberSyntaxAsync
+  commentId: M:CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync
+  fullName: CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync()
+  nameWithType: CsMember.GetMemberSyntaxAsync()
+- uid: CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync*
+  name: GetMemberSyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_GetMemberSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsMember.GetMemberSyntaxAsync
+  nameWithType: CsMember.GetMemberSyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.CsMember.GetSourceLocationAsync
   name: GetSourceLocationAsync()
   href: api/CodeFactory.DotNet.CSharp.CsMember.html#CodeFactory_DotNet_CSharp_CsMember_GetSourceLocationAsync
@@ -5702,6 +5768,12 @@ references:
   commentId: F:CodeFactory.DotNet.CSharp.CsMethodType.Get
   fullName: CodeFactory.DotNet.CSharp.CsMethodType.Get
   nameWithType: CsMethodType.Get
+- uid: CodeFactory.DotNet.CSharp.CsMethodType.Init
+  name: Init
+  href: api/CodeFactory.DotNet.CSharp.CsMethodType.html#CodeFactory_DotNet_CSharp_CsMethodType_Init
+  commentId: F:CodeFactory.DotNet.CSharp.CsMethodType.Init
+  fullName: CodeFactory.DotNet.CSharp.CsMethodType.Init
+  nameWithType: CsMethodType.Init
 - uid: CodeFactory.DotNet.CSharp.CsMethodType.Invoke
   name: Invoke
   href: api/CodeFactory.DotNet.CSharp.CsMethodType.html#CodeFactory_DotNet_CSharp_CsMethodType_Invoke
@@ -6363,6 +6435,18 @@ references:
   commentId: F:CodeFactory.DotNet.CSharp.CsModelType.Property
   fullName: CodeFactory.DotNet.CSharp.CsModelType.Property
   nameWithType: CsModelType.Property
+- uid: CodeFactory.DotNet.CSharp.CsModelType.Record
+  name: Record
+  href: api/CodeFactory.DotNet.CSharp.CsModelType.html#CodeFactory_DotNet_CSharp_CsModelType_Record
+  commentId: F:CodeFactory.DotNet.CSharp.CsModelType.Record
+  fullName: CodeFactory.DotNet.CSharp.CsModelType.Record
+  nameWithType: CsModelType.Record
+- uid: CodeFactory.DotNet.CSharp.CsModelType.RecordStructure
+  name: RecordStructure
+  href: api/CodeFactory.DotNet.CSharp.CsModelType.html#CodeFactory_DotNet_CSharp_CsModelType_RecordStructure
+  commentId: F:CodeFactory.DotNet.CSharp.CsModelType.RecordStructure
+  fullName: CodeFactory.DotNet.CSharp.CsModelType.RecordStructure
+  nameWithType: CsModelType.RecordStructure
 - uid: CodeFactory.DotNet.CSharp.CsModelType.Source
   name: Source
   href: api/CodeFactory.DotNet.CSharp.CsModelType.html#CodeFactory_DotNet_CSharp_CsModelType_Source
@@ -6904,15 +6988,15 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.CsProperty
   fullName: CodeFactory.DotNet.CSharp.CsProperty
   nameWithType: CsProperty
-- uid: CodeFactory.DotNet.CSharp.CsProperty.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsType,CodeFactory.DotNet.CSharp.CsSecurity,CodeFactory.DotNet.CSharp.CsSecurity,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name: CsProperty(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, string, IReadOnlyList<string>, bool, string, string, string, string, CsSecurity, bool, CsMethod, bool, CsMethod, bool, bool, bool, bool, bool, CsType, CsSecurity, CsSecurity, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Boolean_CodeFactory_DotNet_CSharp_CsMethod_System_Boolean_CodeFactory_DotNet_CSharp_CsMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_CSharp_CsSecurity_CodeFactory_DotNet_CSharp_CsSecurity_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
-  commentId: M:CodeFactory.DotNet.CSharp.CsProperty.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsType,CodeFactory.DotNet.CSharp.CsSecurity,CodeFactory.DotNet.CSharp.CsSecurity,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), String, IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, CsMethod, Boolean, CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CsType, CsSecurity, CsSecurity, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
-  fullName: CodeFactory.DotNet.CSharp.CsProperty.CsProperty(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, CodeFactory.DotNet.CSharp.CsSecurity, bool, CodeFactory.DotNet.CSharp.CsMethod, bool, CodeFactory.DotNet.CSharp.CsMethod, bool, bool, bool, bool, bool, CodeFactory.DotNet.CSharp.CsType, CodeFactory.DotNet.CSharp.CsSecurity, CodeFactory.DotNet.CSharp.CsSecurity, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
-  fullName.vb: CodeFactory.DotNet.CSharp.CsProperty.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, CodeFactory.DotNet.CSharp.CsSecurity, Boolean, CodeFactory.DotNet.CSharp.CsMethod, Boolean, CodeFactory.DotNet.CSharp.CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CodeFactory.DotNet.CSharp.CsType, CodeFactory.DotNet.CSharp.CsSecurity, CodeFactory.DotNet.CSharp.CsSecurity, String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
-  nameWithType: CsProperty.CsProperty(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, string, IReadOnlyList<string>, bool, string, string, string, string, CsSecurity, bool, CsMethod, bool, CsMethod, bool, bool, bool, bool, bool, CsType, CsSecurity, CsSecurity, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  nameWithType.vb: CsProperty.New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), String, IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, CsMethod, Boolean, CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CsType, CsSecurity, CsSecurity, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsProperty.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsType,CodeFactory.DotNet.CSharp.CsSecurity,CodeFactory.DotNet.CSharp.CsSecurity,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsProperty(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, string, IReadOnlyList<string>, bool, string, string, string, string, CsSecurity, bool, CsMethod, bool, CsMethod, bool, CsMethod, bool, bool, bool, bool, bool, CsType, CsSecurity, CsSecurity, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Boolean_CodeFactory_DotNet_CSharp_CsMethod_System_Boolean_CodeFactory_DotNet_CSharp_CsMethod_System_Boolean_CodeFactory_DotNet_CSharp_CsMethod_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CodeFactory_DotNet_CSharp_CsType_CodeFactory_DotNet_CSharp_CsSecurity_CodeFactory_DotNet_CSharp_CsSecurity_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsProperty.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,CodeFactory.DotNet.CSharp.CsMethod,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsType,CodeFactory.DotNet.CSharp.CsSecurity,CodeFactory.DotNet.CSharp.CsSecurity,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), String, IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, CsMethod, Boolean, CsMethod, Boolean, CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CsType, CsSecurity, CsSecurity, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsProperty.CsProperty(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, CodeFactory.DotNet.CSharp.CsSecurity, bool, CodeFactory.DotNet.CSharp.CsMethod, bool, CodeFactory.DotNet.CSharp.CsMethod, bool, CodeFactory.DotNet.CSharp.CsMethod, bool, bool, bool, bool, bool, CodeFactory.DotNet.CSharp.CsType, CodeFactory.DotNet.CSharp.CsSecurity, CodeFactory.DotNet.CSharp.CsSecurity, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsProperty.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, CodeFactory.DotNet.CSharp.CsSecurity, Boolean, CodeFactory.DotNet.CSharp.CsMethod, Boolean, CodeFactory.DotNet.CSharp.CsMethod, Boolean, CodeFactory.DotNet.CSharp.CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CodeFactory.DotNet.CSharp.CsType, CodeFactory.DotNet.CSharp.CsSecurity, CodeFactory.DotNet.CSharp.CsSecurity, String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsProperty.CsProperty(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, string, IReadOnlyList<string>, bool, string, string, string, string, CsSecurity, bool, CsMethod, bool, CsMethod, bool, CsMethod, bool, bool, bool, bool, bool, CsType, CsSecurity, CsSecurity, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsProperty.New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), String, IReadOnlyList(Of String), Boolean, String, String, String, String, CsSecurity, Boolean, CsMethod, Boolean, CsMethod, Boolean, CsMethod, Boolean, Boolean, Boolean, Boolean, Boolean, CsType, CsSecurity, CsSecurity, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
 - uid: CodeFactory.DotNet.CSharp.CsProperty.#ctor*
   name: CsProperty
   href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty__ctor_
@@ -6957,6 +7041,23 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory.DotNet.IDotNetProperty.GetSecurity
   nameWithType: CsProperty.IDotNetProperty.GetSecurity
   nameWithType.vb: CsProperty.CodeFactory.DotNet.IDotNetProperty.GetSecurity
+- uid: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory#DotNet#IDotNetProperty#InitMethod
+  name: IDotNetProperty.InitMethod
+  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_CodeFactory_DotNet_IDotNetProperty_InitMethod
+  commentId: P:CodeFactory.DotNet.CSharp.CsProperty.CodeFactory#DotNet#IDotNetProperty#InitMethod
+  name.vb: CodeFactory.DotNet.IDotNetProperty.InitMethod
+  fullName: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory.DotNet.IDotNetProperty.InitMethod
+  nameWithType: CsProperty.IDotNetProperty.InitMethod
+  nameWithType.vb: CsProperty.CodeFactory.DotNet.IDotNetProperty.InitMethod
+- uid: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory#DotNet#IDotNetProperty#InitMethod*
+  name: IDotNetProperty.InitMethod
+  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_CodeFactory_DotNet_IDotNetProperty_InitMethod_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsProperty.CodeFactory#DotNet#IDotNetProperty#InitMethod
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetProperty.InitMethod
+  fullName: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory.DotNet.IDotNetProperty.InitMethod
+  nameWithType: CsProperty.IDotNetProperty.InitMethod
+  nameWithType.vb: CsProperty.CodeFactory.DotNet.IDotNetProperty.InitMethod
 - uid: CodeFactory.DotNet.CSharp.CsProperty.CodeFactory#DotNet#IDotNetProperty#PropertyType
   name: IDotNetProperty.PropertyType
   href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_CodeFactory_DotNet_IDotNetProperty_PropertyType
@@ -7047,6 +7148,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsProperty.HasGet
   nameWithType: CsProperty.HasGet
+- uid: CodeFactory.DotNet.CSharp.CsProperty.HasInit
+  name: HasInit
+  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_HasInit
+  commentId: P:CodeFactory.DotNet.CSharp.CsProperty.HasInit
+  fullName: CodeFactory.DotNet.CSharp.CsProperty.HasInit
+  nameWithType: CsProperty.HasInit
+- uid: CodeFactory.DotNet.CSharp.CsProperty.HasInit*
+  name: HasInit
+  href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_HasInit_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsProperty.HasInit
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsProperty.HasInit
+  nameWithType: CsProperty.HasInit
 - uid: CodeFactory.DotNet.CSharp.CsProperty.HasSet
   name: HasSet
   href: api/CodeFactory.DotNet.CSharp.CsProperty.html#CodeFactory_DotNet_CSharp_CsProperty_HasSet
@@ -7190,6 +7304,275 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsProperty.SetSecurity
   nameWithType: CsProperty.SetSecurity
+- uid: CodeFactory.DotNet.CSharp.CsRecord
+  name: CsRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html
+  commentId: T:CodeFactory.DotNet.CSharp.CsRecord
+  fullName: CodeFactory.DotNet.CSharp.CsRecord
+  nameWithType: CsRecord
+- uid: CodeFactory.DotNet.CSharp.CsRecord.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsRecord,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsRecord(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, bool, bool, CsRecord, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsMember__System_Boolean_System_Boolean_System_Boolean_CodeFactory_DotNet_CSharp_CsRecord_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsRecord.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.Boolean,System.Boolean,System.Boolean,CodeFactory.DotNet.CSharp.CsRecord,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, Boolean, Boolean, CsRecord, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CsRecord(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, bool, bool, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, string, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsMember>, bool, bool, bool, CodeFactory.DotNet.CSharp.CsRecord, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsRecord.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), Boolean, Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, String, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsMember), Boolean, Boolean, Boolean, CodeFactory.DotNet.CSharp.CsRecord, String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsRecord.CsRecord(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, bool, bool, bool, CsRecord, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsRecord.New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), Boolean, Boolean, Boolean, CsRecord, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsRecord.#ctor*
+  name: CsRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord__ctor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CsRecord
+  fullName.vb: CodeFactory.DotNet.CSharp.CsRecord.New
+  nameWithType: CsRecord.CsRecord
+  nameWithType.vb: CsRecord.New
+- uid: CodeFactory.DotNet.CSharp.CsRecord.BaseRecord
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_BaseRecord
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.BaseRecord
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.BaseRecord
+  nameWithType: CsRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.CsRecord.BaseRecord*
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_BaseRecord_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.BaseRecord
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.BaseRecord
+  nameWithType: CsRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#BaseRecord
+  name: IDotNetRecord.BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_BaseRecord
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#BaseRecord
+  name.vb: CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  nameWithType: CsRecord.IDotNetRecord.BaseRecord
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#BaseRecord*
+  name: IDotNetRecord.BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_BaseRecord_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#BaseRecord
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  nameWithType: CsRecord.IDotNetRecord.BaseRecord
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Constructors
+  name: IDotNetRecord.Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Constructors
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Constructors
+  nameWithType: CsRecord.IDotNetRecord.Constructors
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Constructors*
+  name: IDotNetRecord.Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Constructors
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Constructors
+  nameWithType: CsRecord.IDotNetRecord.Constructors
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Destructor
+  name: IDotNetRecord.Destructor
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Destructor
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Destructor
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Destructor
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Destructor
+  nameWithType: CsRecord.IDotNetRecord.Destructor
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Destructor*
+  name: IDotNetRecord.Destructor
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Destructor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Destructor
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Destructor
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Destructor
+  nameWithType: CsRecord.IDotNetRecord.Destructor
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Fields
+  name: IDotNetRecord.Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Fields
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Fields
+  nameWithType: CsRecord.IDotNetRecord.Fields
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Fields*
+  name: IDotNetRecord.Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_CodeFactory_DotNet_IDotNetRecord_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.CodeFactory#DotNet#IDotNetRecord#Fields
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecord.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.CodeFactory.DotNet.IDotNetRecord.Fields
+  nameWithType: CsRecord.IDotNetRecord.Fields
+  nameWithType.vb: CsRecord.CodeFactory.DotNet.IDotNetRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Constructors
+  nameWithType: CsRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Constructors
+  nameWithType: CsRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Destructor
+  name: Destructor
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Destructor
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.Destructor
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Destructor
+  nameWithType: CsRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Destructor*
+  name: Destructor
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Destructor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.Destructor
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Destructor
+  nameWithType: CsRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Fields
+  nameWithType: CsRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecord.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.Fields
+  nameWithType: CsRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsAbstract
+  name: IsAbstract
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsAbstract
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.IsAbstract
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsAbstract
+  nameWithType: CsRecord.IsAbstract
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsAbstract*
+  name: IsAbstract
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsAbstract_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.IsAbstract
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsAbstract
+  nameWithType: CsRecord.IsAbstract
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsSealed
+  name: IsSealed
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsSealed
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.IsSealed
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsSealed
+  nameWithType: CsRecord.IsSealed
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsSealed*
+  name: IsSealed
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsSealed_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.IsSealed
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsSealed
+  nameWithType: CsRecord.IsSealed
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsStatic
+  name: IsStatic
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsStatic
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecord.IsStatic
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsStatic
+  nameWithType: CsRecord.IsStatic
+- uid: CodeFactory.DotNet.CSharp.CsRecord.IsStatic*
+  name: IsStatic
+  href: api/CodeFactory.DotNet.CSharp.CsRecord.html#CodeFactory_DotNet_CSharp_CsRecord_IsStatic_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecord.IsStatic
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecord.IsStatic
+  nameWithType: CsRecord.IsStatic
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure
+  name: CsRecordStructure
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html
+  commentId: T:CodeFactory.DotNet.CSharp.CsRecordStructure
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure
+  nameWithType: CsRecordStructure
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsRecordStructure(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsAttribute__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsGenericParameter__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsType__System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Boolean_System_String_System_String_System_String_System_String_System_String_CodeFactory_DotNet_CSharp_CsSecurity_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsMember__System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsRecordStructure.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsAttribute},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsGenericParameter},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsType},System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.String,System.String,System.String,System.String,System.String,CodeFactory.DotNet.CSharp.CsSecurity,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsMember},System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CsRecordStructure(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsAttribute>, bool, bool, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsGenericParameter>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsType>, string, System.Collections.Generic.IReadOnlyList<string>, bool, string, string, string, string, string, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsMember>, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsRecordStructure.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsAttribute), Boolean, Boolean, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsGenericParameter), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsType), String, System.Collections.Generic.IReadOnlyList(Of String), Boolean, String, String, String, String, String, CodeFactory.DotNet.CSharp.CsSecurity, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsMember), String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsRecordStructure.CsRecordStructure(bool, bool, bool, SourceCodeType, IReadOnlyList<CsAttribute>, bool, bool, IReadOnlyList<CsGenericParameter>, IReadOnlyList<CsType>, string, IReadOnlyList<string>, bool, string, string, string, string, string, CsSecurity, IReadOnlyList<CsInterface>, IReadOnlyList<CsMember>, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsRecordStructure.New(Boolean, Boolean, Boolean, SourceCodeType, IReadOnlyList(Of CsAttribute), Boolean, Boolean, IReadOnlyList(Of CsGenericParameter), IReadOnlyList(Of CsType), String, IReadOnlyList(Of String), Boolean, String, String, String, String, String, CsSecurity, IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsMember), String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.#ctor*
+  name: CsRecordStructure
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure__ctor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecordStructure.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CsRecordStructure
+  fullName.vb: CodeFactory.DotNet.CSharp.CsRecordStructure.New
+  nameWithType: CsRecordStructure.CsRecordStructure
+  nameWithType.vb: CsRecordStructure.New
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Constructors
+  name: IDotNetRecordStructure.Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_CodeFactory_DotNet_IDotNetRecordStructure_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Constructors
+  name.vb: CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  nameWithType: CsRecordStructure.IDotNetRecordStructure.Constructors
+  nameWithType.vb: CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Constructors*
+  name: IDotNetRecordStructure.Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_CodeFactory_DotNet_IDotNetRecordStructure_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Constructors
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  nameWithType: CsRecordStructure.IDotNetRecordStructure.Constructors
+  nameWithType.vb: CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Fields
+  name: IDotNetRecordStructure.Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_CodeFactory_DotNet_IDotNetRecordStructure_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Fields
+  name.vb: CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  nameWithType: CsRecordStructure.IDotNetRecordStructure.Fields
+  nameWithType.vb: CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Fields*
+  name: IDotNetRecordStructure.Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_CodeFactory_DotNet_IDotNetRecordStructure_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory#DotNet#IDotNetRecordStructure#Fields
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  nameWithType: CsRecordStructure.IDotNetRecordStructure.Fields
+  nameWithType.vb: CsRecordStructure.CodeFactory.DotNet.IDotNetRecordStructure.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors
+  nameWithType: CsRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.Constructors
+  nameWithType: CsRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.CsRecordStructure.Fields
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.Fields
+  nameWithType: CsRecordStructure.Fields
+- uid: CodeFactory.DotNet.CSharp.CsRecordStructure.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.CsRecordStructure.html#CodeFactory_DotNet_CSharp_CsRecordStructure_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsRecordStructure.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsRecordStructure.Fields
+  nameWithType: CsRecordStructure.Fields
 - uid: CodeFactory.DotNet.CSharp.CsSecurity
   name: CsSecurity
   href: api/CodeFactory.DotNet.CSharp.CsSecurity.html
@@ -7244,15 +7627,15 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.CsSource
   fullName: CodeFactory.DotNet.CSharp.CsSource
   nameWithType: CsSource
-- uid: CodeFactory.DotNet.CSharp.CsSource.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsUsingStatement},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsClass},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsDelegate},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsEnum},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsNamespace},CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name: CsSource(bool, bool, bool, SourceCodeType, string, string, string, IReadOnlyList<CsUsingStatement>, IReadOnlyList<CsInterface>, IReadOnlyList<CsClass>, IReadOnlyList<CsStructure>, IReadOnlyList<CsDelegate>, IReadOnlyList<CsEnum>, IReadOnlyList<CsNamespace>, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsUsingStatement__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsClass__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsStructure__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsDelegate__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsEnum__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsNamespace__CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
-  commentId: M:CodeFactory.DotNet.CSharp.CsSource.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsUsingStatement},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsClass},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsDelegate},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsEnum},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsNamespace},CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
-  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, String, String, String, IReadOnlyList(Of CsUsingStatement), IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsClass), IReadOnlyList(Of CsStructure), IReadOnlyList(Of CsDelegate), IReadOnlyList(Of CsEnum), IReadOnlyList(Of CsNamespace), ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
-  fullName: CodeFactory.DotNet.CSharp.CsSource.CsSource(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, string, string, string, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsUsingStatement>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsClass>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsStructure>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsDelegate>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsEnum>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsNamespace>, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
-  fullName.vb: CodeFactory.DotNet.CSharp.CsSource.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, String, String, String, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsUsingStatement), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsClass), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsStructure), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsDelegate), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsEnum), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsNamespace), CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
-  nameWithType: CsSource.CsSource(bool, bool, bool, SourceCodeType, string, string, string, IReadOnlyList<CsUsingStatement>, IReadOnlyList<CsInterface>, IReadOnlyList<CsClass>, IReadOnlyList<CsStructure>, IReadOnlyList<CsDelegate>, IReadOnlyList<CsEnum>, IReadOnlyList<CsNamespace>, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
-  nameWithType.vb: CsSource.New(Boolean, Boolean, Boolean, SourceCodeType, String, String, String, IReadOnlyList(Of CsUsingStatement), IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsClass), IReadOnlyList(Of CsStructure), IReadOnlyList(Of CsDelegate), IReadOnlyList(Of CsEnum), IReadOnlyList(Of CsNamespace), ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+- uid: CodeFactory.DotNet.CSharp.CsSource.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsUsingStatement},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsClass},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsRecord},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsRecordStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsDelegate},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsEnum},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsNamespace},System.Boolean,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name: CsSource(bool, bool, bool, SourceCodeType, string, string, string, IReadOnlyList<CsUsingStatement>, IReadOnlyList<CsInterface>, IReadOnlyList<CsClass>, IReadOnlyList<CsStructure>, IReadOnlyList<CsRecord>, IReadOnlyList<CsRecordStructure>, IReadOnlyList<CsDelegate>, IReadOnlyList<CsEnum>, IReadOnlyList<CsNamespace>, bool, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource__ctor_System_Boolean_System_Boolean_System_Boolean_CodeFactory_SourceCode_SourceCodeType_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsUsingStatement__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsInterface__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsClass__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsStructure__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsRecord__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsRecordStructure__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsDelegate__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsEnum__System_Collections_Generic_IReadOnlyList_CodeFactory_DotNet_CSharp_CsNamespace__System_Boolean_System_String_CodeFactory_ModelStore_CodeFactory_DotNet_CSharp_ICsModel__System_Collections_Generic_IReadOnlyList_CodeFactory_ModelLoadException__
+  commentId: M:CodeFactory.DotNet.CSharp.CsSource.#ctor(System.Boolean,System.Boolean,System.Boolean,CodeFactory.SourceCode.SourceCodeType,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsUsingStatement},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsInterface},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsClass},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsRecord},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsRecordStructure},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsDelegate},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsEnum},System.Collections.Generic.IReadOnlyList{CodeFactory.DotNet.CSharp.CsNamespace},System.Boolean,System.String,CodeFactory.ModelStore{CodeFactory.DotNet.CSharp.ICsModel},System.Collections.Generic.IReadOnlyList{CodeFactory.ModelLoadException})
+  name.vb: New(Boolean, Boolean, Boolean, SourceCodeType, String, String, String, IReadOnlyList(Of CsUsingStatement), IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsClass), IReadOnlyList(Of CsStructure), IReadOnlyList(Of CsRecord), IReadOnlyList(Of CsRecordStructure), IReadOnlyList(Of CsDelegate), IReadOnlyList(Of CsEnum), IReadOnlyList(Of CsNamespace), Boolean, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
+  fullName: CodeFactory.DotNet.CSharp.CsSource.CsSource(bool, bool, bool, CodeFactory.SourceCode.SourceCodeType, string, string, string, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsUsingStatement>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsInterface>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsClass>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsStructure>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsRecord>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsRecordStructure>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsDelegate>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsEnum>, System.Collections.Generic.IReadOnlyList<CodeFactory.DotNet.CSharp.CsNamespace>, bool, string, CodeFactory.ModelStore<CodeFactory.DotNet.CSharp.ICsModel>, System.Collections.Generic.IReadOnlyList<CodeFactory.ModelLoadException>)
+  fullName.vb: CodeFactory.DotNet.CSharp.CsSource.New(Boolean, Boolean, Boolean, CodeFactory.SourceCode.SourceCodeType, String, String, String, System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsUsingStatement), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsInterface), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsClass), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsStructure), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsRecord), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsRecordStructure), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsDelegate), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsEnum), System.Collections.Generic.IReadOnlyList(Of CodeFactory.DotNet.CSharp.CsNamespace), Boolean, String, CodeFactory.ModelStore(Of CodeFactory.DotNet.CSharp.ICsModel), System.Collections.Generic.IReadOnlyList(Of CodeFactory.ModelLoadException))
+  nameWithType: CsSource.CsSource(bool, bool, bool, SourceCodeType, string, string, string, IReadOnlyList<CsUsingStatement>, IReadOnlyList<CsInterface>, IReadOnlyList<CsClass>, IReadOnlyList<CsStructure>, IReadOnlyList<CsRecord>, IReadOnlyList<CsRecordStructure>, IReadOnlyList<CsDelegate>, IReadOnlyList<CsEnum>, IReadOnlyList<CsNamespace>, bool, string, ModelStore<ICsModel>, IReadOnlyList<ModelLoadException>)
+  nameWithType.vb: CsSource.New(Boolean, Boolean, Boolean, SourceCodeType, String, String, String, IReadOnlyList(Of CsUsingStatement), IReadOnlyList(Of CsInterface), IReadOnlyList(Of CsClass), IReadOnlyList(Of CsStructure), IReadOnlyList(Of CsRecord), IReadOnlyList(Of CsRecordStructure), IReadOnlyList(Of CsDelegate), IReadOnlyList(Of CsEnum), IReadOnlyList(Of CsNamespace), Boolean, String, ModelStore(Of ICsModel), IReadOnlyList(Of ModelLoadException))
 - uid: CodeFactory.DotNet.CSharp.CsSource.#ctor*
   name: CsSource
   href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource__ctor_
@@ -7410,6 +7793,40 @@ references:
   fullName: CodeFactory.DotNet.CSharp.CsSource.CodeFactory.DotNet.IDotNetSource.Namespaces
   nameWithType: CsSource.IDotNetSource.Namespaces
   nameWithType.vb: CsSource.CodeFactory.DotNet.IDotNetSource.Namespaces
+- uid: CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#Records
+  name: IDotNetSource.Records
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_CodeFactory_DotNet_IDotNetSource_Records
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#Records
+  name.vb: CodeFactory.DotNet.IDotNetSource.Records
+  fullName: CodeFactory.DotNet.CSharp.CsSource.CodeFactory.DotNet.IDotNetSource.Records
+  nameWithType: CsSource.IDotNetSource.Records
+  nameWithType.vb: CsSource.CodeFactory.DotNet.IDotNetSource.Records
+- uid: CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#Records*
+  name: IDotNetSource.Records
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_CodeFactory_DotNet_IDotNetSource_Records_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#Records
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetSource.Records
+  fullName: CodeFactory.DotNet.CSharp.CsSource.CodeFactory.DotNet.IDotNetSource.Records
+  nameWithType: CsSource.IDotNetSource.Records
+  nameWithType.vb: CsSource.CodeFactory.DotNet.IDotNetSource.Records
+- uid: CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#RecordStructures
+  name: IDotNetSource.RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_CodeFactory_DotNet_IDotNetSource_RecordStructures
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#RecordStructures
+  name.vb: CodeFactory.DotNet.IDotNetSource.RecordStructures
+  fullName: CodeFactory.DotNet.CSharp.CsSource.CodeFactory.DotNet.IDotNetSource.RecordStructures
+  nameWithType: CsSource.IDotNetSource.RecordStructures
+  nameWithType.vb: CsSource.CodeFactory.DotNet.IDotNetSource.RecordStructures
+- uid: CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#RecordStructures*
+  name: IDotNetSource.RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_CodeFactory_DotNet_IDotNetSource_RecordStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#RecordStructures
+  isSpec: "True"
+  name.vb: CodeFactory.DotNet.IDotNetSource.RecordStructures
+  fullName: CodeFactory.DotNet.CSharp.CsSource.CodeFactory.DotNet.IDotNetSource.RecordStructures
+  nameWithType: CsSource.IDotNetSource.RecordStructures
+  nameWithType.vb: CsSource.CodeFactory.DotNet.IDotNetSource.RecordStructures
 - uid: CodeFactory.DotNet.CSharp.CsSource.CodeFactory#DotNet#IDotNetSource#Structures
   name: IDotNetSource.Structures
   href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_CodeFactory_DotNet_IDotNetSource_Structures
@@ -7483,6 +7900,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsSource.Enums
   nameWithType: CsSource.Enums
+- uid: CodeFactory.DotNet.CSharp.CsSource.HostedInProject
+  name: HostedInProject
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_HostedInProject
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.HostedInProject
+  fullName: CodeFactory.DotNet.CSharp.CsSource.HostedInProject
+  nameWithType: CsSource.HostedInProject
+- uid: CodeFactory.DotNet.CSharp.CsSource.HostedInProject*
+  name: HostedInProject
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_HostedInProject_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.HostedInProject
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsSource.HostedInProject
+  nameWithType: CsSource.HostedInProject
 - uid: CodeFactory.DotNet.CSharp.CsSource.Interfaces
   name: Interfaces
   href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_Interfaces
@@ -7548,6 +7978,45 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.CsSource.Parent
   nameWithType: CsSource.Parent
+- uid: CodeFactory.DotNet.CSharp.CsSource.ProjectName
+  name: ProjectName
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_ProjectName
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.ProjectName
+  fullName: CodeFactory.DotNet.CSharp.CsSource.ProjectName
+  nameWithType: CsSource.ProjectName
+- uid: CodeFactory.DotNet.CSharp.CsSource.ProjectName*
+  name: ProjectName
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_ProjectName_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.ProjectName
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsSource.ProjectName
+  nameWithType: CsSource.ProjectName
+- uid: CodeFactory.DotNet.CSharp.CsSource.Records
+  name: Records
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_Records
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.Records
+  fullName: CodeFactory.DotNet.CSharp.CsSource.Records
+  nameWithType: CsSource.Records
+- uid: CodeFactory.DotNet.CSharp.CsSource.Records*
+  name: Records
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_Records_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.Records
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsSource.Records
+  nameWithType: CsSource.Records
+- uid: CodeFactory.DotNet.CSharp.CsSource.RecordStructures
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_RecordStructures
+  commentId: P:CodeFactory.DotNet.CSharp.CsSource.RecordStructures
+  fullName: CodeFactory.DotNet.CSharp.CsSource.RecordStructures
+  nameWithType: CsSource.RecordStructures
+- uid: CodeFactory.DotNet.CSharp.CsSource.RecordStructures*
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_RecordStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.CsSource.RecordStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.CsSource.RecordStructures
+  nameWithType: CsSource.RecordStructures
 - uid: CodeFactory.DotNet.CSharp.CsSource.ReplaceAsync(System.String)
   name: ReplaceAsync(string)
   href: api/CodeFactory.DotNet.CSharp.CsSource.html#CodeFactory_DotNet_CSharp_CsSource_ReplaceAsync_System_String_
@@ -9918,71 +10387,6 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsContainer.Methods
   nameWithType: ICsContainer.Methods
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedClasses
-  commentId: P:CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses
-  nameWithType: ICsContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses*
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedClasses_
-  commentId: Overload:CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedClasses
-  nameWithType: ICsContainer.NestedClasses
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedEnums
-  commentId: P:CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums
-  nameWithType: ICsContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums*
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedEnums_
-  commentId: Overload:CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedEnums
-  nameWithType: ICsContainer.NestedEnums
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedInterfaces
-  commentId: P:CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces
-  nameWithType: ICsContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces*
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedInterfaces_
-  commentId: Overload:CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedInterfaces
-  nameWithType: ICsContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedModels
-  name: NestedModels
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedModels
-  commentId: P:CodeFactory.DotNet.CSharp.ICsContainer.NestedModels
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedModels
-  nameWithType: ICsContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedModels*
-  name: NestedModels
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedModels_
-  commentId: Overload:CodeFactory.DotNet.CSharp.ICsContainer.NestedModels
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedModels
-  nameWithType: ICsContainer.NestedModels
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedStructures
-  commentId: P:CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures
-  nameWithType: ICsContainer.NestedStructures
-- uid: CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures*
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_NestedStructures_
-  commentId: Overload:CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.CSharp.ICsContainer.NestedStructures
-  nameWithType: ICsContainer.NestedStructures
 - uid: CodeFactory.DotNet.CSharp.ICsContainer.Properties
   name: Properties
   href: api/CodeFactory.DotNet.CSharp.ICsContainer.html#CodeFactory_DotNet_CSharp_ICsContainer_Properties
@@ -10823,6 +11227,22 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsMember.AddBeforeAsync
   nameWithType: ICsMember.AddBeforeAsync
+- uid: CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync(System.String)
+  name: CommentOutSyntaxAsync(string)
+  href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_CommentOutSyntaxAsync_System_String_
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync(System.String)
+  name.vb: CommentOutSyntaxAsync(String)
+  fullName: CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync(string)
+  fullName.vb: CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync(String)
+  nameWithType: ICsMember.CommentOutSyntaxAsync(string)
+  nameWithType.vb: ICsMember.CommentOutSyntaxAsync(String)
+- uid: CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync*
+  name: CommentOutSyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_CommentOutSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMember.CommentOutSyntaxAsync
+  nameWithType: ICsMember.CommentOutSyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.ICsMember.DeleteAsync
   name: DeleteAsync()
   href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_DeleteAsync
@@ -10845,6 +11265,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsMember.DeleteAsync
   nameWithType: ICsMember.DeleteAsync
+- uid: CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync
+  name: GetMemberSyntaxAsync()
+  href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_GetMemberSyntaxAsync
+  commentId: M:CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync
+  fullName: CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync()
+  nameWithType: ICsMember.GetMemberSyntaxAsync()
+- uid: CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync*
+  name: GetMemberSyntaxAsync
+  href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_GetMemberSyntaxAsync_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsMember.GetMemberSyntaxAsync
+  nameWithType: ICsMember.GetMemberSyntaxAsync
 - uid: CodeFactory.DotNet.CSharp.ICsMember.GetSourceLocationAsync
   name: GetSourceLocationAsync()
   href: api/CodeFactory.DotNet.CSharp.ICsMember.html#CodeFactory_DotNet_CSharp_ICsMember_GetSourceLocationAsync
@@ -11135,6 +11568,77 @@ references:
   commentId: T:CodeFactory.DotNet.CSharp.ICsNamespace
   fullName: CodeFactory.DotNet.CSharp.ICsNamespace
   nameWithType: ICsNamespace
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers
+  name: ICsNestedContainers
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html
+  commentId: T:CodeFactory.DotNet.CSharp.ICsNestedContainers
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers
+  nameWithType: ICsNestedContainers
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedClasses
+  commentId: P:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses
+  nameWithType: ICsNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses*
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedClasses_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedClasses
+  nameWithType: ICsNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedEnums
+  commentId: P:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums
+  nameWithType: ICsNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums*
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedEnums_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedEnums
+  nameWithType: ICsNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedInterfaces
+  commentId: P:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces
+  nameWithType: ICsNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces*
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedInterfaces_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedInterfaces
+  nameWithType: ICsNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels
+  name: NestedModels
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedModels
+  commentId: P:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels
+  nameWithType: ICsNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels*
+  name: NestedModels
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedModels_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedModels
+  nameWithType: ICsNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedStructures
+  commentId: P:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures
+  nameWithType: ICsNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures*
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html#CodeFactory_DotNet_CSharp_ICsNestedContainers_NestedStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsNestedContainers.NestedStructures
+  nameWithType: ICsNestedContainers.NestedStructures
 - uid: CodeFactory.DotNet.CSharp.ICsNestedModel
   name: ICsNestedModel
   href: api/CodeFactory.DotNet.CSharp.ICsNestedModel.html
@@ -11237,6 +11741,96 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsProperty.SetSecurity
   nameWithType: ICsProperty.SetSecurity
+- uid: CodeFactory.DotNet.CSharp.ICsRecord
+  name: ICsRecord
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html
+  commentId: T:CodeFactory.DotNet.CSharp.ICsRecord
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord
+  nameWithType: ICsRecord
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_BaseRecord
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord
+  nameWithType: ICsRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord*
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_BaseRecord_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.BaseRecord
+  nameWithType: ICsRecord.BaseRecord
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecord.Constructors
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Constructors
+  nameWithType: ICsRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecord.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Constructors
+  nameWithType: ICsRecord.Constructors
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Destructor
+  name: Destructor
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Destructor
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecord.Destructor
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Destructor
+  nameWithType: ICsRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Destructor*
+  name: Destructor
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Destructor_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecord.Destructor
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Destructor
+  nameWithType: ICsRecord.Destructor
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecord.Fields
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Fields
+  nameWithType: ICsRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.ICsRecord.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.ICsRecord.html#CodeFactory_DotNet_CSharp_ICsRecord_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecord.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecord.Fields
+  nameWithType: ICsRecord.Fields
+- uid: CodeFactory.DotNet.CSharp.ICsRecordStructure
+  name: ICsRecordStructure
+  href: api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html
+  commentId: T:CodeFactory.DotNet.CSharp.ICsRecordStructure
+  fullName: CodeFactory.DotNet.CSharp.ICsRecordStructure
+  nameWithType: ICsRecordStructure
+- uid: CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html#CodeFactory_DotNet_CSharp_ICsRecordStructure_Constructors
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors
+  fullName: CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors
+  nameWithType: ICsRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html#CodeFactory_DotNet_CSharp_ICsRecordStructure_Constructors_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecordStructure.Constructors
+  nameWithType: ICsRecordStructure.Constructors
+- uid: CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html#CodeFactory_DotNet_CSharp_ICsRecordStructure_Fields
+  commentId: P:CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields
+  fullName: CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields
+  nameWithType: ICsRecordStructure.Fields
+- uid: CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html#CodeFactory_DotNet_CSharp_ICsRecordStructure_Fields_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsRecordStructure.Fields
+  nameWithType: ICsRecordStructure.Fields
 - uid: CodeFactory.DotNet.CSharp.ICsSource
   name: ICsSource
   href: api/CodeFactory.DotNet.CSharp.ICsSource.html
@@ -11366,6 +11960,32 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.CSharp.ICsSource.Namespaces
   nameWithType: ICsSource.Namespaces
+- uid: CodeFactory.DotNet.CSharp.ICsSource.Records
+  name: Records
+  href: api/CodeFactory.DotNet.CSharp.ICsSource.html#CodeFactory_DotNet_CSharp_ICsSource_Records
+  commentId: P:CodeFactory.DotNet.CSharp.ICsSource.Records
+  fullName: CodeFactory.DotNet.CSharp.ICsSource.Records
+  nameWithType: ICsSource.Records
+- uid: CodeFactory.DotNet.CSharp.ICsSource.Records*
+  name: Records
+  href: api/CodeFactory.DotNet.CSharp.ICsSource.html#CodeFactory_DotNet_CSharp_ICsSource_Records_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsSource.Records
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsSource.Records
+  nameWithType: ICsSource.Records
+- uid: CodeFactory.DotNet.CSharp.ICsSource.RecordStructures
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.ICsSource.html#CodeFactory_DotNet_CSharp_ICsSource_RecordStructures
+  commentId: P:CodeFactory.DotNet.CSharp.ICsSource.RecordStructures
+  fullName: CodeFactory.DotNet.CSharp.ICsSource.RecordStructures
+  nameWithType: ICsSource.RecordStructures
+- uid: CodeFactory.DotNet.CSharp.ICsSource.RecordStructures*
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.CSharp.ICsSource.html#CodeFactory_DotNet_CSharp_ICsSource_RecordStructures_
+  commentId: Overload:CodeFactory.DotNet.CSharp.ICsSource.RecordStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.CSharp.ICsSource.RecordStructures
+  nameWithType: ICsSource.RecordStructures
 - uid: CodeFactory.DotNet.CSharp.ICsSource.ReplaceAsync(System.String)
   name: ReplaceAsync(string)
   href: api/CodeFactory.DotNet.CSharp.ICsSource.html#CodeFactory_DotNet_CSharp_ICsSource_ReplaceAsync_System_String_
@@ -11784,6 +12404,18 @@ references:
   commentId: F:CodeFactory.DotNet.DotNetContainerType.Interface
   fullName: CodeFactory.DotNet.DotNetContainerType.Interface
   nameWithType: DotNetContainerType.Interface
+- uid: CodeFactory.DotNet.DotNetContainerType.Record
+  name: Record
+  href: api/CodeFactory.DotNet.DotNetContainerType.html#CodeFactory_DotNet_DotNetContainerType_Record
+  commentId: F:CodeFactory.DotNet.DotNetContainerType.Record
+  fullName: CodeFactory.DotNet.DotNetContainerType.Record
+  nameWithType: DotNetContainerType.Record
+- uid: CodeFactory.DotNet.DotNetContainerType.RecordStructure
+  name: RecordStructure
+  href: api/CodeFactory.DotNet.DotNetContainerType.html#CodeFactory_DotNet_DotNetContainerType_RecordStructure
+  commentId: F:CodeFactory.DotNet.DotNetContainerType.RecordStructure
+  fullName: CodeFactory.DotNet.DotNetContainerType.RecordStructure
+  nameWithType: DotNetContainerType.RecordStructure
 - uid: CodeFactory.DotNet.DotNetContainerType.Structure
   name: Structure
   href: api/CodeFactory.DotNet.DotNetContainerType.html#CodeFactory_DotNet_DotNetContainerType_Structure
@@ -11967,6 +12599,12 @@ references:
   commentId: F:CodeFactory.DotNet.DotNetMethodType.Get
   fullName: CodeFactory.DotNet.DotNetMethodType.Get
   nameWithType: DotNetMethodType.Get
+- uid: CodeFactory.DotNet.DotNetMethodType.Init
+  name: Init
+  href: api/CodeFactory.DotNet.DotNetMethodType.html#CodeFactory_DotNet_DotNetMethodType_Init
+  commentId: F:CodeFactory.DotNet.DotNetMethodType.Init
+  fullName: CodeFactory.DotNet.DotNetMethodType.Init
+  nameWithType: DotNetMethodType.Init
 - uid: CodeFactory.DotNet.DotNetMethodType.Invoke
   name: Invoke
   href: api/CodeFactory.DotNet.DotNetMethodType.html#CodeFactory_DotNet_DotNetMethodType_Invoke
@@ -12347,6 +12985,18 @@ references:
   commentId: F:CodeFactory.DotNet.DotNetModelType.Property
   fullName: CodeFactory.DotNet.DotNetModelType.Property
   nameWithType: DotNetModelType.Property
+- uid: CodeFactory.DotNet.DotNetModelType.Record
+  name: Record
+  href: api/CodeFactory.DotNet.DotNetModelType.html#CodeFactory_DotNet_DotNetModelType_Record
+  commentId: F:CodeFactory.DotNet.DotNetModelType.Record
+  fullName: CodeFactory.DotNet.DotNetModelType.Record
+  nameWithType: DotNetModelType.Record
+- uid: CodeFactory.DotNet.DotNetModelType.RecordStructure
+  name: RecordStructure
+  href: api/CodeFactory.DotNet.DotNetModelType.html#CodeFactory_DotNet_DotNetModelType_RecordStructure
+  commentId: F:CodeFactory.DotNet.DotNetModelType.RecordStructure
+  fullName: CodeFactory.DotNet.DotNetModelType.RecordStructure
+  nameWithType: DotNetModelType.RecordStructure
 - uid: CodeFactory.DotNet.DotNetModelType.Source
   name: Source
   href: api/CodeFactory.DotNet.DotNetModelType.html#CodeFactory_DotNet_DotNetModelType_Source
@@ -12954,71 +13604,6 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetContainer.Namespace
   nameWithType: IDotNetContainer.Namespace
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedClasses
-  commentId: P:CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  nameWithType: IDotNetContainer.NestedClasses
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedClasses*
-  name: NestedClasses
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedClasses_
-  commentId: Overload:CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedClasses
-  nameWithType: IDotNetContainer.NestedClasses
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedEnums
-  commentId: P:CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  nameWithType: IDotNetContainer.NestedEnums
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedEnums*
-  name: NestedEnums
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedEnums_
-  commentId: Overload:CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedEnums
-  nameWithType: IDotNetContainer.NestedEnums
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedInterfaces
-  commentId: P:CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  nameWithType: IDotNetContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces*
-  name: NestedInterfaces
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedInterfaces_
-  commentId: Overload:CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedInterfaces
-  nameWithType: IDotNetContainer.NestedInterfaces
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedModels
-  name: NestedModels
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedModels
-  commentId: P:CodeFactory.DotNet.IDotNetContainer.NestedModels
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedModels
-  nameWithType: IDotNetContainer.NestedModels
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedModels*
-  name: NestedModels
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedModels_
-  commentId: Overload:CodeFactory.DotNet.IDotNetContainer.NestedModels
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedModels
-  nameWithType: IDotNetContainer.NestedModels
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedStructures
-  commentId: P:CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  nameWithType: IDotNetContainer.NestedStructures
-- uid: CodeFactory.DotNet.IDotNetContainer.NestedStructures*
-  name: NestedStructures
-  href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_NestedStructures_
-  commentId: Overload:CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  isSpec: "True"
-  fullName: CodeFactory.DotNet.IDotNetContainer.NestedStructures
-  nameWithType: IDotNetContainer.NestedStructures
 - uid: CodeFactory.DotNet.IDotNetContainer.Properties
   name: Properties
   href: api/CodeFactory.DotNet.IDotNetContainer.html#CodeFactory_DotNet_IDotNetContainer_Properties
@@ -14033,6 +14618,77 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetNamespaceReference.ReferenceNamespace
   nameWithType: IDotNetNamespaceReference.ReferenceNamespace
+- uid: CodeFactory.DotNet.IDotNetNestedContainers
+  name: IDotNetNestedContainers
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html
+  commentId: T:CodeFactory.DotNet.IDotNetNestedContainers
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers
+  nameWithType: IDotNetNestedContainers
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedClasses
+  commentId: P:CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  nameWithType: IDotNetNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses*
+  name: NestedClasses
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedClasses_
+  commentId: Overload:CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedClasses
+  nameWithType: IDotNetNestedContainers.NestedClasses
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedEnums
+  commentId: P:CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  nameWithType: IDotNetNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums*
+  name: NestedEnums
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedEnums_
+  commentId: Overload:CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedEnums
+  nameWithType: IDotNetNestedContainers.NestedEnums
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedInterfaces
+  commentId: P:CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  nameWithType: IDotNetNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces*
+  name: NestedInterfaces
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedInterfaces_
+  commentId: Overload:CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedInterfaces
+  nameWithType: IDotNetNestedContainers.NestedInterfaces
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  name: NestedModels
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedModels
+  commentId: P:CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  nameWithType: IDotNetNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels*
+  name: NestedModels
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedModels_
+  commentId: Overload:CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedModels
+  nameWithType: IDotNetNestedContainers.NestedModels
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedStructures
+  commentId: P:CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  nameWithType: IDotNetNestedContainers.NestedStructures
+- uid: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures*
+  name: NestedStructures
+  href: api/CodeFactory.DotNet.IDotNetNestedContainers.html#CodeFactory_DotNet_IDotNetNestedContainers_NestedStructures_
+  commentId: Overload:CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetNestedContainers.NestedStructures
+  nameWithType: IDotNetNestedContainers.NestedStructures
 - uid: CodeFactory.DotNet.IDotNetNestedModel
   name: IDotNetNestedModel
   href: api/CodeFactory.DotNet.IDotNetNestedModel.html
@@ -14265,6 +14921,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetProperty.HasGet
   nameWithType: IDotNetProperty.HasGet
+- uid: CodeFactory.DotNet.IDotNetProperty.HasInit
+  name: HasInit
+  href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_HasInit
+  commentId: P:CodeFactory.DotNet.IDotNetProperty.HasInit
+  fullName: CodeFactory.DotNet.IDotNetProperty.HasInit
+  nameWithType: IDotNetProperty.HasInit
+- uid: CodeFactory.DotNet.IDotNetProperty.HasInit*
+  name: HasInit
+  href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_HasInit_
+  commentId: Overload:CodeFactory.DotNet.IDotNetProperty.HasInit
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetProperty.HasInit
+  nameWithType: IDotNetProperty.HasInit
 - uid: CodeFactory.DotNet.IDotNetProperty.HasSet
   name: HasSet
   href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_HasSet
@@ -14278,6 +14947,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetProperty.HasSet
   nameWithType: IDotNetProperty.HasSet
+- uid: CodeFactory.DotNet.IDotNetProperty.InitMethod
+  name: InitMethod
+  href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_InitMethod
+  commentId: P:CodeFactory.DotNet.IDotNetProperty.InitMethod
+  fullName: CodeFactory.DotNet.IDotNetProperty.InitMethod
+  nameWithType: IDotNetProperty.InitMethod
+- uid: CodeFactory.DotNet.IDotNetProperty.InitMethod*
+  name: InitMethod
+  href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_InitMethod_
+  commentId: Overload:CodeFactory.DotNet.IDotNetProperty.InitMethod
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetProperty.InitMethod
+  nameWithType: IDotNetProperty.InitMethod
 - uid: CodeFactory.DotNet.IDotNetProperty.IsAbstract
   name: IsAbstract
   href: api/CodeFactory.DotNet.IDotNetProperty.html#CodeFactory_DotNet_IDotNetProperty_IsAbstract
@@ -14408,6 +15090,135 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetProperty.SetSecurity
   nameWithType: IDotNetProperty.SetSecurity
+- uid: CodeFactory.DotNet.IDotNetRecord
+  name: IDotNetRecord
+  href: api/CodeFactory.DotNet.IDotNetRecord.html
+  commentId: T:CodeFactory.DotNet.IDotNetRecord
+  fullName: CodeFactory.DotNet.IDotNetRecord
+  nameWithType: IDotNetRecord
+- uid: CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_BaseRecord
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  fullName: CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  nameWithType: IDotNetRecord.BaseRecord
+- uid: CodeFactory.DotNet.IDotNetRecord.BaseRecord*
+  name: BaseRecord
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_BaseRecord_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.BaseRecord
+  nameWithType: IDotNetRecord.BaseRecord
+- uid: CodeFactory.DotNet.IDotNetRecord.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Constructors
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.Constructors
+  fullName: CodeFactory.DotNet.IDotNetRecord.Constructors
+  nameWithType: IDotNetRecord.Constructors
+- uid: CodeFactory.DotNet.IDotNetRecord.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Constructors_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.Constructors
+  nameWithType: IDotNetRecord.Constructors
+- uid: CodeFactory.DotNet.IDotNetRecord.Destructor
+  name: Destructor
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Destructor
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.Destructor
+  fullName: CodeFactory.DotNet.IDotNetRecord.Destructor
+  nameWithType: IDotNetRecord.Destructor
+- uid: CodeFactory.DotNet.IDotNetRecord.Destructor*
+  name: Destructor
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Destructor_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.Destructor
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.Destructor
+  nameWithType: IDotNetRecord.Destructor
+- uid: CodeFactory.DotNet.IDotNetRecord.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Fields
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.Fields
+  fullName: CodeFactory.DotNet.IDotNetRecord.Fields
+  nameWithType: IDotNetRecord.Fields
+- uid: CodeFactory.DotNet.IDotNetRecord.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_Fields_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.Fields
+  nameWithType: IDotNetRecord.Fields
+- uid: CodeFactory.DotNet.IDotNetRecord.IsAbstract
+  name: IsAbstract
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsAbstract
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.IsAbstract
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsAbstract
+  nameWithType: IDotNetRecord.IsAbstract
+- uid: CodeFactory.DotNet.IDotNetRecord.IsAbstract*
+  name: IsAbstract
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsAbstract_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.IsAbstract
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsAbstract
+  nameWithType: IDotNetRecord.IsAbstract
+- uid: CodeFactory.DotNet.IDotNetRecord.IsSealed
+  name: IsSealed
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsSealed
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.IsSealed
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsSealed
+  nameWithType: IDotNetRecord.IsSealed
+- uid: CodeFactory.DotNet.IDotNetRecord.IsSealed*
+  name: IsSealed
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsSealed_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.IsSealed
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsSealed
+  nameWithType: IDotNetRecord.IsSealed
+- uid: CodeFactory.DotNet.IDotNetRecord.IsStatic
+  name: IsStatic
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsStatic
+  commentId: P:CodeFactory.DotNet.IDotNetRecord.IsStatic
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsStatic
+  nameWithType: IDotNetRecord.IsStatic
+- uid: CodeFactory.DotNet.IDotNetRecord.IsStatic*
+  name: IsStatic
+  href: api/CodeFactory.DotNet.IDotNetRecord.html#CodeFactory_DotNet_IDotNetRecord_IsStatic_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecord.IsStatic
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecord.IsStatic
+  nameWithType: IDotNetRecord.IsStatic
+- uid: CodeFactory.DotNet.IDotNetRecordStructure
+  name: IDotNetRecordStructure
+  href: api/CodeFactory.DotNet.IDotNetRecordStructure.html
+  commentId: T:CodeFactory.DotNet.IDotNetRecordStructure
+  fullName: CodeFactory.DotNet.IDotNetRecordStructure
+  nameWithType: IDotNetRecordStructure
+- uid: CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  name: Constructors
+  href: api/CodeFactory.DotNet.IDotNetRecordStructure.html#CodeFactory_DotNet_IDotNetRecordStructure_Constructors
+  commentId: P:CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  fullName: CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  nameWithType: IDotNetRecordStructure.Constructors
+- uid: CodeFactory.DotNet.IDotNetRecordStructure.Constructors*
+  name: Constructors
+  href: api/CodeFactory.DotNet.IDotNetRecordStructure.html#CodeFactory_DotNet_IDotNetRecordStructure_Constructors_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecordStructure.Constructors
+  nameWithType: IDotNetRecordStructure.Constructors
+- uid: CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  name: Fields
+  href: api/CodeFactory.DotNet.IDotNetRecordStructure.html#CodeFactory_DotNet_IDotNetRecordStructure_Fields
+  commentId: P:CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  fullName: CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  nameWithType: IDotNetRecordStructure.Fields
+- uid: CodeFactory.DotNet.IDotNetRecordStructure.Fields*
+  name: Fields
+  href: api/CodeFactory.DotNet.IDotNetRecordStructure.html#CodeFactory_DotNet_IDotNetRecordStructure_Fields_
+  commentId: Overload:CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetRecordStructure.Fields
+  nameWithType: IDotNetRecordStructure.Fields
 - uid: CodeFactory.DotNet.IDotNetSource
   name: IDotNetSource
   href: api/CodeFactory.DotNet.IDotNetSource.html
@@ -14453,6 +15264,19 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetSource.Enums
   nameWithType: IDotNetSource.Enums
+- uid: CodeFactory.DotNet.IDotNetSource.HostedInProject
+  name: HostedInProject
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_HostedInProject
+  commentId: P:CodeFactory.DotNet.IDotNetSource.HostedInProject
+  fullName: CodeFactory.DotNet.IDotNetSource.HostedInProject
+  nameWithType: IDotNetSource.HostedInProject
+- uid: CodeFactory.DotNet.IDotNetSource.HostedInProject*
+  name: HostedInProject
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_HostedInProject_
+  commentId: Overload:CodeFactory.DotNet.IDotNetSource.HostedInProject
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetSource.HostedInProject
+  nameWithType: IDotNetSource.HostedInProject
 - uid: CodeFactory.DotNet.IDotNetSource.Interfaces
   name: Interfaces
   href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_Interfaces
@@ -14492,6 +15316,45 @@ references:
   isSpec: "True"
   fullName: CodeFactory.DotNet.IDotNetSource.Namespaces
   nameWithType: IDotNetSource.Namespaces
+- uid: CodeFactory.DotNet.IDotNetSource.ProjectName
+  name: ProjectName
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_ProjectName
+  commentId: P:CodeFactory.DotNet.IDotNetSource.ProjectName
+  fullName: CodeFactory.DotNet.IDotNetSource.ProjectName
+  nameWithType: IDotNetSource.ProjectName
+- uid: CodeFactory.DotNet.IDotNetSource.ProjectName*
+  name: ProjectName
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_ProjectName_
+  commentId: Overload:CodeFactory.DotNet.IDotNetSource.ProjectName
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetSource.ProjectName
+  nameWithType: IDotNetSource.ProjectName
+- uid: CodeFactory.DotNet.IDotNetSource.Records
+  name: Records
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_Records
+  commentId: P:CodeFactory.DotNet.IDotNetSource.Records
+  fullName: CodeFactory.DotNet.IDotNetSource.Records
+  nameWithType: IDotNetSource.Records
+- uid: CodeFactory.DotNet.IDotNetSource.Records*
+  name: Records
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_Records_
+  commentId: Overload:CodeFactory.DotNet.IDotNetSource.Records
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetSource.Records
+  nameWithType: IDotNetSource.Records
+- uid: CodeFactory.DotNet.IDotNetSource.RecordStructures
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_RecordStructures
+  commentId: P:CodeFactory.DotNet.IDotNetSource.RecordStructures
+  fullName: CodeFactory.DotNet.IDotNetSource.RecordStructures
+  nameWithType: IDotNetSource.RecordStructures
+- uid: CodeFactory.DotNet.IDotNetSource.RecordStructures*
+  name: RecordStructures
+  href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_RecordStructures_
+  commentId: Overload:CodeFactory.DotNet.IDotNetSource.RecordStructures
+  isSpec: "True"
+  fullName: CodeFactory.DotNet.IDotNetSource.RecordStructures
+  nameWithType: IDotNetSource.RecordStructures
 - uid: CodeFactory.DotNet.IDotNetSource.Structures
   name: Structures
   href: api/CodeFactory.DotNet.IDotNetSource.html#CodeFactory_DotNet_IDotNetSource_Structures
@@ -15093,6 +15956,18 @@ references:
   commentId: F:CodeFactory.DotNet.PathBuilderConstants.Property
   fullName: CodeFactory.DotNet.PathBuilderConstants.Property
   nameWithType: PathBuilderConstants.Property
+- uid: CodeFactory.DotNet.PathBuilderConstants.Record
+  name: Record
+  href: api/CodeFactory.DotNet.PathBuilderConstants.html#CodeFactory_DotNet_PathBuilderConstants_Record
+  commentId: F:CodeFactory.DotNet.PathBuilderConstants.Record
+  fullName: CodeFactory.DotNet.PathBuilderConstants.Record
+  nameWithType: PathBuilderConstants.Record
+- uid: CodeFactory.DotNet.PathBuilderConstants.RecordStructure
+  name: RecordStructure
+  href: api/CodeFactory.DotNet.PathBuilderConstants.html#CodeFactory_DotNet_PathBuilderConstants_RecordStructure
+  commentId: F:CodeFactory.DotNet.PathBuilderConstants.RecordStructure
+  fullName: CodeFactory.DotNet.PathBuilderConstants.RecordStructure
+  nameWithType: PathBuilderConstants.RecordStructure
 - uid: CodeFactory.DotNet.PathBuilderConstants.Source
   name: Source
   href: api/CodeFactory.DotNet.PathBuilderConstants.html#CodeFactory_DotNet_PathBuilderConstants_Source
@@ -17703,6 +18578,45 @@ references:
   isSpec: "True"
   fullName: CodeFactory.VisualStudio.IVsActions.EnvironmentActions
   nameWithType: IVsActions.EnvironmentActions
+- uid: CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  name: GetCSharpProjectFileFromSourceAsync(CsSource)
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetCSharpProjectFileFromSourceAsync_CodeFactory_DotNet_CSharp_CsSource_
+  commentId: M:CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  fullName: CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  nameWithType: IVsActions.GetCSharpProjectFileFromSourceAsync(CsSource)
+- uid: CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync*
+  name: GetCSharpProjectFileFromSourceAsync
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetCSharpProjectFileFromSourceAsync_
+  commentId: Overload:CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsActions.GetCSharpProjectFileFromSourceAsync
+  nameWithType: IVsActions.GetCSharpProjectFileFromSourceAsync
+- uid: CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  name: GetProjectFileFromSourceAsync(CsSource)
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetProjectFileFromSourceAsync_CodeFactory_DotNet_CSharp_CsSource_
+  commentId: M:CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  fullName: CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  nameWithType: IVsActions.GetProjectFileFromSourceAsync(CsSource)
+- uid: CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync*
+  name: GetProjectFileFromSourceAsync
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetProjectFileFromSourceAsync_
+  commentId: Overload:CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsActions.GetProjectFileFromSourceAsync
+  nameWithType: IVsActions.GetProjectFileFromSourceAsync
+- uid: CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  name: GetProjectFromSourceAsync(CsSource)
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetProjectFromSourceAsync_CodeFactory_DotNet_CSharp_CsSource_
+  commentId: M:CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  fullName: CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync(CodeFactory.DotNet.CSharp.CsSource)
+  nameWithType: IVsActions.GetProjectFromSourceAsync(CsSource)
+- uid: CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync*
+  name: GetProjectFromSourceAsync
+  href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetProjectFromSourceAsync_
+  commentId: Overload:CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync
+  isSpec: "True"
+  fullName: CodeFactory.VisualStudio.IVsActions.GetProjectFromSourceAsync
+  nameWithType: IVsActions.GetProjectFromSourceAsync
 - uid: CodeFactory.VisualStudio.IVsActions.GetSolutionAsync
   name: GetSolutionAsync()
   href: api/CodeFactory.VisualStudio.IVsActions.html#CodeFactory_VisualStudio_IVsActions_GetSolutionAsync

@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 // ReSharper disable InconsistentNaming
 
@@ -91,6 +91,17 @@ namespace CodeFactory.DotNet
         /// Definition of a enumeration value model in the path for a dot net model.
         /// </summary>
         public const string EnumValue = "/ENV:";
+
+        /// <summary>
+        /// Definition of a record model in the path of a dot net model.
+        /// </summary>
+        public const string Record = "/R:";
+
+
+        /// <summary>
+        /// Definition of a record structure model in the path of a dot net model.
+        /// </summary>
+        public const string RecordStructure = "/RS:";
 
 
 

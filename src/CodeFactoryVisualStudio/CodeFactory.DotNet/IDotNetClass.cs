@@ -11,7 +11,7 @@ namespace CodeFactory.DotNet
     /// <summary>
     /// Model definition for a class in .net.
     /// </summary>
-    public interface IDotNetClass:IDotNetContainer
+    public interface IDotNetClass:IDotNetNestedContainers
     {
 
         /// <summary>

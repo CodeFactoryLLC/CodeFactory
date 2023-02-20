@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2022 CodeFactory, LLC
+//* Copyright (c) 2023 CodeFactory, LLC
 //*****************************************************************************
 
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Data model that represents the definition of a structure.
     /// </summary>
-    public abstract class CsStructure:CsContainer,ICsStructure
+    public abstract class CsStructure:CsContainerWithNestedContainers,ICsStructure
     {
         /// <summary>
         /// Constructor for the <see cref="CsStructure"/>

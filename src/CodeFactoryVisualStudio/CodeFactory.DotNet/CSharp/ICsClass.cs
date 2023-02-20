@@ -1,6 +1,6 @@
 ﻿//*****************************************************************************
 //* Code Factory SDK
-//* Copyright (c) 2020-2022 CodeFactory, LLC
+//* Copyright (c) 2020-2023 CodeFactory, LLC
 //*****************************************************************************
 using System.Collections.Generic;
 
@@ -10,7 +10,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Model definition for a class in C#.
     /// </summary>
-    public interface ICsClass:ICsContainer,IDotNetClass
+    public interface ICsClass:ICsNestedContainers,IDotNetClass
     {
         /// <summary>
         /// List of the constructors implemented in this class.

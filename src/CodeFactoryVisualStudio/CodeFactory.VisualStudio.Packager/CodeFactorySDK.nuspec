@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd" >
   <metadata>
     <id>CodeFactorySDK</id>
-    <version>1.23044.1</version>
+    <version>1.23050.2</version>
     <title>CodeFactory Software Development Kit</title>
     <authors>CodeFactory, LLC.</authors>
     <owners>CodeFactory, LLC.</owners>
@@ -11,12 +11,40 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Software factory automation library used with the CodeFactory for Visual Studio.</description>
     <releaseNotes>
-      SDK Update for CodeFactory 1.23044.1
-      
-      This release of the SDK focuses on the following.
-	  - Adding the solution load command. The first of the IDE commands. This command fires when the solution is first loaded and only fired once.
-	  - Fixed a bug with the XML documentation formatter for C# now will correctly only add /// if they do not exist.
-    </releaseNotes>
+		SDK Update for CodeFactory 1.23050.2
+
+		This release of the SDK focuses on the following.
+	    
+		Members now have two new methods
+		 - CommentOutSyntaxAsync - Will comment out the code implementation.
+	     - GetMemberSyntaxAsync - Will return the full raw source code syntax 
+		
+        Two new container types have been added
+		 - Record Type 
+		 - Record Structure Type
+
+        Property Model has been extended
+         - HasInit - Flag that determines if the init accessor was added to the property.
+         - InitMethod - Returns the implementation of the init method is there is a implementation. 
+
+        CsSource Model has been extended
+         - Records - Records property has been added to track all records defined in the source code.
+         - RecordStructures - RecordStructures property has been added to track all records defined in the source code.
+         - HostedInProject - Property that stores a flag that determines if the source is hosted in a project.
+         - ProjectName - Property that stores the name of the project the source is hosted in, or null if not in a project.
+
+        IDotNetContainer has been split into two interfaces IDotNetContainer and IDotNetNestedContainers
+         - The nested functionality has been moved into the IDotNetNestedContainers interface
+         - the C# Interfaces and classes has been also split.
+         - The Class, Interface, and Structure classes now inherit the NestedContainers implementation. 
+         - The Record, and Record Structure types inherit from Container interface and implementation.
+
+        IVSActions has three new methods
+        GetProjectFromSourceAsync - Gets the project that hosts the CsSource model.
+        GetCSharpProjectFileFromSourceAsync - Get the VsCSharpSource model from the CsSource model.
+        GetProjectFileFromSourceAsync - Get the VsDocument model from the the CsSource model.
+
+	</releaseNotes>
     <copyright>Copyright 2023</copyright>
     <tags>Factory Automation</tags>
     <dependencies>

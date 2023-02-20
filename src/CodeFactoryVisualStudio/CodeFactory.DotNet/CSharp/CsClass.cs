@@ -13,7 +13,7 @@ namespace CodeFactory.DotNet.CSharp
     /// <summary>
     /// Data model that represents a class implementation.
     /// </summary>
-    public abstract class CsClass:CsContainer,ICsClass
+    public abstract class CsClass:CsContainerWithNestedContainers,ICsClass
     {
         #region Property backing fields
         private readonly bool _isStatic;
