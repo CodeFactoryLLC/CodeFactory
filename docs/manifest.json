@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ActionException.html",
-          "hash": "00Qnzg+oh9HCbHcLBTiAssetfbnOhYjlxBigcQq7KY8="
+          "hash": "V3s9qTxhno0Ppp/9aZAx27JjFPMxnrw7Rl0i2Q/M0lY="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.CodeFactoryException.html",
-          "hash": "7036X1aLw0uddkT8fI9EUuIjNkc/7H7V9PUFBajVTfk="
+          "hash": "35+AMsksDNMfDB36nT/p2qfN1IYq6ZXF/g5QERREU8Y="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.CodeFactoryMessages.html",
-          "hash": "5KeWuULFoufdzKN53K4D+vTTnpMGJeQCJPx5LNpzq6g="
+          "hash": "LgE6dK36uo6MaeAJWHOPm+JyPDL8fXCFLJ5fQUYuRUc="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Document.DocumentException.html",
-          "hash": "O77ukGoMJUkMEU/dCM5n5aLvmBKzlajp8fP7QqRb43g="
+          "hash": "4qc+osailsNPT6Jj5iD++vLNCK5cppSv+hpjKE40SH0="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Document.DocumentLine.html",
-          "hash": "ZgMrQ7sV678RObKrLcrj6durSK8C319f5DPQQHPoM0M="
+          "hash": "PVql+nOzPxx6chW8jU7H7pPQ38yHs4y4VE0nXNWVfEY="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Document.DocumentLocation.html",
-          "hash": "x0hzqCM5j09MZXOIh1FXglLuBzWPUAXzjUgYuUSgQQE="
+          "hash": "WlSFySzXVjHNLt1NLltBirim+EIESz/dmYNbhPZX4e4="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Document.IDocumentLine.html",
-          "hash": "EDFsX05CBwKlS8eadpfM+IrzTZbUPgxyBxLUyjisVWM="
+          "hash": "geBw4nrswEHE8WiHAQ4QpdjMtEnQev5dMK5LDcLkH2U="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Document.IDocumentLocation.html",
-          "hash": "0T6NJrDCttFkk/P1yyjl8ddoX/cNoMyaM1obXMeEqhw="
+          "hash": "5uLcvIvngjjCDu521g6d+cEY2qr8kJalfb3d4eLesQo="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CSharpModelExtensions.html",
-          "hash": "SMHEsojp6JYwVsi36tNUWRdSZxE6oiBixc2WpJyJQkU="
+          "hash": "rRIu18tWLEdVlHh8hgQYqKIl/yqc6U3QwJ5X7j8ILkM="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttribute.html",
-          "hash": "J09QS7kzOZ3Mgt1G0taaehnsPChuvc/szNo0237NEhw="
+          "hash": "Qj3jTspKaDO+qjP/12uNXg6U346j3bE8BBvnVI0bsoc="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameter.html",
-          "hash": "ZP+mrowgCkOnG2dd8OhQRPhuK0LMRptEb73GvAU+3hA="
+          "hash": "2qnC6ZeIqEekNVT6keJcJ5YssSaRU+xD4ZrtE9pnjIE="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsAttributeParameterValue.html",
-          "hash": "XRkUi/aAbFlbNkLF2Rgpg8N8M6zCUzrNpBB4cMFGpLE="
+          "hash": "Yy7E8qp4eSqSOB8VmyvRvB1WV0C4/xZjKiqc2ggMIpk="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsClass.html",
-          "hash": "au0v2MNWDQB7yPnR/6yCoZksSkL9FOF5OzeUGdm/kto="
+          "hash": "RzM2Rm2J460LrZrUcruxViPeWKt1IjEy7dj/rS5jOaU="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsClassExtensions.html",
-          "hash": "+SEacyeVieDtvVSUyFi0F5xALmQr/g3dzOAVaY1k0sE="
+          "hash": "Q1xBAbpO7yokHxTwFvPzyn85XQ7l7B5Jbc02Bs864LQ="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainer.html",
-          "hash": "q+TJK0LFunDcFETugNdB4xUzbIlOvrKzDnNQtpTyIBE="
+          "hash": "+Lwv3NDwTynyzQO9rZMmWIywir5/X1+UFMtD8rnusLw="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerExtensions.html",
-          "hash": "e6VXjEj5iWRPxu9CEyhrshtaqnPVJe8PnhNPzhsYsDk="
+          "hash": "g8CqIcpRHchllz01I5ui9skOo98hX/ZR9kVNgbMc724="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerType.html",
-          "hash": "HnL5j7OlWGbjNMW1B4+tXjBP8KjZUot9BJpbfU+WoGg="
+          "hash": "XIBxB/xsKMtJk6cW3lDUeGe+wxw9LVpdgaEMtZwvEbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsContainerWithNestedContainers.html",
+          "hash": "QlQdMaBxEdmNSczp13BL7XR5pt7p9k21gCXEfPxCjAk="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsDelegate.html",
-          "hash": "VcYzIjAYHq/0pioey2QZLMIVd/qNgTLr+dN9VmX2IEc="
+          "hash": "jIzd5y/eLgUleYbbIyFeNPZ3AN2CGRP4hJpzr994kV8="
         }
       },
       "is_incremental": false,
@@ -270,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsEnum.html",
-          "hash": "VkQ32EwHqD0x/5KD8Uj+1qGtlJqOpXL4wCtZnhT347s="
+          "hash": "HoXUDJFQvhOlKhjsanOFFaB21aoqx2Z9x0js1zlZQgc="
         }
       },
       "is_incremental": false,
@@ -282,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsEnumValue.html",
-          "hash": "QISgQk/hIpTR0dq29lOdCtCKTdU1Z+4CyOotMv2GfAs="
+          "hash": "/8EU9DFHcxoCHcP5HxERk+SuTZ5oZiqMaRvMwvoF89A="
         }
       },
       "is_incremental": false,
@@ -294,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsEvent.html",
-          "hash": "VEdPb4xEzCTkEKK2lqM3oeTdy79wjxCOFnbx5uZUH24="
+          "hash": "LXe1xcN/pm6GcMK6Ad29kbhqr3CdPkvqTySz0UEzEqU="
         }
       },
       "is_incremental": false,
@@ -306,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsField.html",
-          "hash": "fHG8S4/7l3AbFZWUwVH/vceYDvzcZLNgih3bcGWsKYs="
+          "hash": "psmaKmV0hW0bWAXzp4JuNBYZG0czbUTiNf2AQgrcs4A="
         }
       },
       "is_incremental": false,
@@ -318,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsGenericParameter.html",
-          "hash": "uBX54NJK0PE2P6vTk4lLLbtVNXsk7Sd1tBk+Bsw+0Ug="
+          "hash": "cL9EcF458CGyBGnzbiVpyUJnr+QhgjOGB5vFUer759o="
         }
       },
       "is_incremental": false,
@@ -330,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsInterface.html",
-          "hash": "zmyeXZrzvSL8eFTFGdi1PHLP2ZWPLsAGLtMLpgPfa9I="
+          "hash": "JBwSk/kftEkYbZ4AR/EVQLRp/UmAm5ea5cs9fjiuvZ8="
         }
       },
       "is_incremental": false,
@@ -354,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsMember.html",
-          "hash": "oXpfTbHAhhr7sC7CH1xr0721I00C32v5mOdrXW/HN6s="
+          "hash": "EGD2GD2TawUEoKsPWF6A5oj+jMFIuO5YSFBqVl3IsSU="
         }
       },
       "is_incremental": false,
@@ -366,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsMemberExtensions.html",
-          "hash": "pO2ZJO+Kdt7knbUYTsejpzMi2tqjosLJFVOzrbnW3I8="
+          "hash": "fuob+f8pnnvTi/JjKOs0f2Tac2ETmFrtM/LjZBgr6hE="
         }
       },
       "is_incremental": false,
@@ -390,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsMethod.html",
-          "hash": "NlS0lPFpoKPHwU0Ez5jGoZ9RJI1N730oo8QsFNC57J4="
+          "hash": "vFxJn7kmvvvfLViNuecFfyab9raq+ZTNA2hCfChEpGs="
         }
       },
       "is_incremental": false,
@@ -402,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsMethodType.html",
-          "hash": "DXcaLK/3U9WLT/eXNkuxZb4ma3i51hawybDUtwE4EBQ="
+          "hash": "z2zL37n/5rS4QbgRgHe4h/H9gu6P2k8+R+Zudsw74rE="
         }
       },
       "is_incremental": false,
@@ -414,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsModel.html",
-          "hash": "dR10gST/W7blJEyH5LBg1f8qRSrcReu9Dy+BzXJD8lQ="
+          "hash": "H8cHEir+TYxtV5UkhzW++IlO23+Ml6TSL8s85jda5xM="
         }
       },
       "is_incremental": false,
@@ -426,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelExtensions.html",
-          "hash": "01dlU7ioZ3duCnGvPUxLOTHM5jsMzyaBoEtj9WeRV6c="
+          "hash": "jKYlMCJFTEp+88NO0tcdthEuwgRmG6Y2JPgAoPk+jc0="
         }
       },
       "is_incremental": false,
@@ -438,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelStore.html",
-          "hash": "jfhBaTpj0lpYGNGr1kAcXShmbms/Td6TU58N689tbWA="
+          "hash": "IHRBaDgr60TZFAd7T1XrPk7fMhfs8MPP4Pnm0LIKvvw="
         }
       },
       "is_incremental": false,
@@ -450,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsModelType.html",
-          "hash": "3E8too1NMo1uJV/MDpZ79S8MilaVUkoSnxNhYzcMw/o="
+          "hash": "7RrPeRzlEjhNTNuP/JGnfMeNx1hBkLZesDH4yt2KqqU="
         }
       },
       "is_incremental": false,
@@ -462,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsNamespace.html",
-          "hash": "MOOEFAEVQ0EWOVJkkoOtUHx4J3+hKxRmlvr0wW+e+48="
+          "hash": "YQ0/oLw4aM+MMIQF89+XqHha3g1kTZfa/xL4PEoa5FU="
         }
       },
       "is_incremental": false,
@@ -486,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsParameter.html",
-          "hash": "/mgA3PSubwm8GNknORBScEqed+oe7kcullW5hv+lQAY="
+          "hash": "NCGFzFNaopgt+M/7W8H4ywDy4EesaI8z2oDtqPrb7Co="
         }
       },
       "is_incremental": false,
@@ -498,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsParameterDefaultValue.html",
-          "hash": "aDEPnZQ183bX9aH0ElBAqv5NMfRvbeUuNNQum/oiWjA="
+          "hash": "zCtIjQj65BLWjAGg5hSV/jt9BrxK5SLfMCjS8Fl/t2Q="
         }
       },
       "is_incremental": false,
@@ -510,7 +522,31 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsProperty.html",
-          "hash": "dxxokk1bS95BEc6Ih9vD2q/SFoLgReQsuozWE20+ftU="
+          "hash": "M1MOdiBhohLNI02417O2KaDE0eb69Szuw7skLho1WSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsRecord.html",
+          "hash": "92Ij5IrDKkBYMghTfaJ09HlSsVRtv2Y2uaQ/UUqtVLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.CsRecordStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.CsRecordStructure.html",
+          "hash": "rr8BW8ldfAfQGq4iT3t0uIXdMfac8Sz7wPvWkHfYPxI="
         }
       },
       "is_incremental": false,
@@ -522,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsSecurity.html",
-          "hash": "0PF1GXwIlJNJyNdESq2gznMUDy0I5gjhuTYMykTd328="
+          "hash": "3Vy94asGgxb5Q1tacBO5BOy54DR1x1quGgfYCM7GnGI="
         }
       },
       "is_incremental": false,
@@ -534,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsSource.html",
-          "hash": "6UQqh3TsmsDXZemcyfot0VT86MP2ZvLtX8qZUUbru1k="
+          "hash": "Vnf3TO4azk/ovXrdtQyNF7h9RKg7n2o26UOMHinF0pk="
         }
       },
       "is_incremental": false,
@@ -546,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsSourceExtensions.html",
-          "hash": "rDVMZtdIRtOP4XvwNT46xbaYOFxnwLHbO69WroOT/UM="
+          "hash": "xRzjF9mkY/433BNvAcm2pAy58ZLaURfFkCCqPlmz3IQ="
         }
       },
       "is_incremental": false,
@@ -558,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsStructure.html",
-          "hash": "213RUmLkUFyiBYTpO1YSirhVEOXxnlh0ynBlNSFxXWQ="
+          "hash": "H4Oab9cKWeWIPIgAYaIFHNSeQFR+BaGwstmTfEYZKr8="
         }
       },
       "is_incremental": false,
@@ -570,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsTupleTypeParameter.html",
-          "hash": "VkDJqz2/91CYQukyTO6MzGDfC3vjfZ6KggjY91rdF1Q="
+          "hash": "fkyrs2OhGbQR/c5wcPwufx3efdwrcAVJhDi6zFs7S0Q="
         }
       },
       "is_incremental": false,
@@ -582,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsType.html",
-          "hash": "rhoeb92DkP1MsILW2NRVj8x49fwexTc8ucJcR7NQg2Y="
+          "hash": "hYLV7LXtJ+BLSEhnGi/pNQ6pGZPs9Cm7GZiFnXBL0J0="
         }
       },
       "is_incremental": false,
@@ -594,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsTypeExtensions.html",
-          "hash": "EVG5bu+n0Yx5ttJSjUkBUzNBFVbUOa7MmfxGeUY4VgA="
+          "hash": "ErcH2EubAZNpt065Je1Nbv4+03EbkFITmUlYlA/thlQ="
         }
       },
       "is_incremental": false,
@@ -606,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.CsUsingStatement.html",
-          "hash": "78tHp7JNsdRgTkayQd4iMMmPG+AQLtXppE3dYJZMvic="
+          "hash": "JS+8cjTcW9eyuHwkG8+u6wA4g1YqHc0/7dZFtLZwfio="
         }
       },
       "is_incremental": false,
@@ -618,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.CommonContextualKeywords.html",
-          "hash": "HRMy11ewjqdRJUsPtg9+e9nmfBH87D3kUr5v8sC3WPg="
+          "hash": "7HTduf7cPuRHKIw14jk652WMdWWBNGff/c1ZGRCiGvA="
         }
       },
       "is_incremental": false,
@@ -630,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Keywords.html",
-          "hash": "QcV+vAprHkb8/vEemIB3ANe7eh51URTCeoHPPprdltk="
+          "hash": "AR61GDlsaXLcjn+lmiMlaWUWVQ8vT7Rg2gaBa6EXoII="
         }
       },
       "is_incremental": false,
@@ -642,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Security.html",
-          "hash": "VoFRRXLx31tUv1mx0KzguSXxpux65XdisfUk8iWyKTo="
+          "hash": "Dbq8gegXfXCCDI1EO8QSogDmS9XuNCRPZ1k1DsLrZA4="
         }
       },
       "is_incremental": false,
@@ -654,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.Symbols.html",
-          "hash": "rqUkqyF02xgbMxhyIV6smpQLQ2vfEn5Ru7KuVTDopt4="
+          "hash": "ywATZWj9ldiMbvdr8U2i/X0y41bToKzidgF0nnAXnRA="
         }
       },
       "is_incremental": false,
@@ -666,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.FormattedSyntax.WellKnownTypes.html",
-          "hash": "eja/wOl3ClCt/zpLePhy9tnUIXntdam5rOGzc6LeX1w="
+          "hash": "GOQTcc3sotxlwFgfX/EOuxSj3geBWmfGfQYgPPrOaC0="
         }
       },
       "is_incremental": false,
@@ -690,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttribute.html",
-          "hash": "sKRTQ1oIVgzzQ4b/CuJ6AHPeqLcDJG81Wj+llBXntNo="
+          "hash": "YgG/Bw8h2SBPH5MB56sxBIwCUV4lzyEWZJxOH6SXls4="
         }
       },
       "is_incremental": false,
@@ -702,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameter.html",
-          "hash": "uIRzmO8MgeNapApGsZQ+HXnxKOgnSSP8qjGPZIVOn14="
+          "hash": "TgNVyFlAsrzawMQZ6IGTbXXKF0MVNdoJD13pwGGV1RI="
         }
       },
       "is_incremental": false,
@@ -714,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributeParameterValue.html",
-          "hash": "fSfYrdj+0EVMq8UcupQwJr/yTDYOsxYDMthIvFEgWSQ="
+          "hash": "m2GSaOYAYiiN83EgAzUMv1PABwNAcmRcsTlmkSc5keU="
         }
       },
       "is_incremental": false,
@@ -726,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsAttributes.html",
-          "hash": "/QozQIWgqX45JA0zAdJfQthtnp6Yc5yN4ilAeMeOFDw="
+          "hash": "i8qDgtziYIinjpWQEACYNeMS8i2V17k0ADLUvsdosMM="
         }
       },
       "is_incremental": false,
@@ -738,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsClass.html",
-          "hash": "T4Co0USbdWBMSiSadthDj9zKzC8MQMoomGNgzBbuBWI="
+          "hash": "DJx+wJegEn6dgb3FStVsB1tYazPx0WGiRXeaH+my18U="
         }
       },
       "is_incremental": false,
@@ -750,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsContainer.html",
-          "hash": "YsSo39ei/KCVuykZHflsTJ00JRww/5yTuaxvGf2RIhU="
+          "hash": "Dvd9jBn0oINLYoOmTvNY28ypTRgFemFBnoQ1jxj54so="
         }
       },
       "is_incremental": false,
@@ -762,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsDelegate.html",
-          "hash": "jl1RYGR59ZovaLzuhVLdns9RuSFTR6rPPd3xuGtwgok="
+          "hash": "2iXpTr7K1D6vu8qjGld/x3qoMvkH5h+vuPuCCvt0FDA="
         }
       },
       "is_incremental": false,
@@ -774,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnum.html",
-          "hash": "ERMg+8pvOf6bwUm6goqrARGx55lU0z/RxgbYc1ib3BQ="
+          "hash": "fdxvYZkrH+Eaui1bCVnWomv5tBjsoZpbOlH2k3qfdSI="
         }
       },
       "is_incremental": false,
@@ -786,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEnumValue.html",
-          "hash": "g1GAmAiKPI6x/9/JJXWSINHPGMynMWJ/yTDwBZ7PMCM="
+          "hash": "1c4Rfy69aW1y1WLseKgShJ+gNPMchgmSWkaaE33I0g4="
         }
       },
       "is_incremental": false,
@@ -798,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsEvent.html",
-          "hash": "8xDAwO1hMwSh+XczkCL+ShARWlh+wozUTqrfMqBtcW4="
+          "hash": "khLE0jawfiwM/8fVMpNF2YcR94JoJn9tvdLDD0J2Opo="
         }
       },
       "is_incremental": false,
@@ -810,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsField.html",
-          "hash": "dle3jlIWL+z9u+RaAwn73fBqWj9Fk0uQutyZJ2peEmc="
+          "hash": "jQPyfxVx9I1NAWvgnCGjCDKq51F4mSkPztoTpa/JNzE="
         }
       },
       "is_incremental": false,
@@ -822,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsGeneric.html",
-          "hash": "2cnctpKAU2leBb1Dl/Sl2sLrOtkFwNeMMBqckjYz8Vk="
+          "hash": "GQqnZaVJ2K3jBP+LxAatDjJYEjEQQBofwLd8rObyoKQ="
         }
       },
       "is_incremental": false,
@@ -834,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsGenericParameter.html",
-          "hash": "U14yVYmhEFrL2OUdOBAC8koxJLdNr7SBLERrMRP4X58="
+          "hash": "ZfoMXAX1zo81w+bsgV0lBKB3BUnHkL0XvjpyUUDLsEA="
         }
       },
       "is_incremental": false,
@@ -846,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsInterface.html",
-          "hash": "Vg6yzBHQQubsvKUnTohReK1PJZ5Ex9pPTAXx94FJnCc="
+          "hash": "JTIot1AsqqT0wkUOL5VbdwRQkszfcl4d/ArPFR+UWHw="
         }
       },
       "is_incremental": false,
@@ -858,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsMember.html",
-          "hash": "Uwn8063kVM+YnR1EfuZotDcX585+Cr3dGX+hPU/LS4k="
+          "hash": "P2TcgcxpdbtSPa7zX7h6g5YHBguM6RmoT37phwTg0OM="
         }
       },
       "is_incremental": false,
@@ -870,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsMethod.html",
-          "hash": "G1fZjKEmDDeTAJlZphnWpW+StNzcUEARz+xuAILLLPQ="
+          "hash": "O2CxdvQfli6BJvWQ5eKhMcDJ32Rkb/KIsiiPxQ/nm/0="
         }
       },
       "is_incremental": false,
@@ -882,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsModel.html",
-          "hash": "JRMUpIB7HUrO96rl2QbryIX66kTgFGJHMq8voRqwi8A="
+          "hash": "Dtj10kKJg3Ft7vrQJyiaPA9KnPzO+dY21NOw72ZHBzo="
         }
       },
       "is_incremental": false,
@@ -902,11 +938,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedContainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedContainers.html",
+          "hash": "7i+/+WCWAoXYk1uppFZJA8E+0BCnkeY2swmdvQ0SOD0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsNestedModel.html",
-          "hash": "Ku7CdyZ2m50ZEo9v5TzEX6FBULjTipNZcjTJp85aE6I="
+          "hash": "x7RIW45jw9G1QXXcw+JXa2wVxmElZHITZT1c8TOrp/s="
         }
       },
       "is_incremental": false,
@@ -918,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsParameter.html",
-          "hash": "ulbxIWpHI+KCKeJP7Xu/R8cEMNhwDM16RB/W1G4q+XQ="
+          "hash": "I7kZGquTf5EAowaNv6pcbyv/ufe/HxVC6oj124wATWI="
         }
       },
       "is_incremental": false,
@@ -942,7 +990,31 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsProperty.html",
-          "hash": "Nu9Dfu4k4whnvI+pJmeNP9b+7No5uvniPXfurqeCKKI="
+          "hash": "HwAa2Ly2Z6qCiXTezPPkpRRrK3eDTMuLY1iylxDeCm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsRecord.html",
+          "hash": "VJZ0L4J+Hz14WemQccDVkTVIzrFdaNt0p56uvnWMS/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.CSharp.ICsRecordStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.CSharp.ICsRecordStructure.html",
+          "hash": "4ZLru0clP7LPyz8IZVi/AkelbMiWaJGtgNXaO1TdZng="
         }
       },
       "is_incremental": false,
@@ -954,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsSource.html",
-          "hash": "b2zVBr+DbxUc7feQl0uvONHfZSBXTkopB42KbTuYjS0="
+          "hash": "fTwQWfLMg5XVG7aR0LOnBXL6S0UAIrMW2jYRnnCWlC8="
         }
       },
       "is_incremental": false,
@@ -966,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsStructure.html",
-          "hash": "HsxhQd4O6YCv1Mt7ZG43e/RjboGkOUetGr1/Gg+LGrs="
+          "hash": "8pIIqN1pMQs/PMLKKUn5MVPjOEUMO2kPNxvbOZJd8AI="
         }
       },
       "is_incremental": false,
@@ -978,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsT4Factory.html",
-          "hash": "K1zagpTtEuOUXxWkyoSCZMW8y5rf3QgzPCL15V9sGd0="
+          "hash": "81WfO3soBjE7m7RyrJU4cr/TZyemeOmlUrrN4v2vS9Y="
         }
       },
       "is_incremental": false,
@@ -990,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsTupleTypeParameter.html",
-          "hash": "ZVTR1H5x7YYJzoOjKGIXzwF0XeSRQM2sYr4nS7+p74Q="
+          "hash": "ApccUFO6FQz2abgLeC3AxM1fNvpeX4d24SuNRvULGaQ="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsType.html",
-          "hash": "FIMaWOGDnh++Lli/NSN/moCCc2ZZGHQdd1fhcbUhyCk="
+          "hash": "7eZNYq3P4GnBKYkXrYrJl9LSSxM/Mg+di4G8+drHaSY="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.ICsUsingStatement.html",
-          "hash": "YWey3YWbHzoo69tl9u04pbQDhgEfdVS3RJEpbgdlEvA="
+          "hash": "Hquw3oAjSWFzBtn5idA+0FxQfEfhJvPnPxbei3tzezY="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.IParent.html",
-          "hash": "NUtdS3KDzleqJFhGOJeXsOwssLuwNcU5fNEwwMlR+Go="
+          "hash": "/qQ7XZ8YEHNxsIfa8JdyxRSUUlNrvPntHFB+LJLWhP4="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.InterfaceMemberExtensions.html",
-          "hash": "pvIPfVEUhOPf4cmX5lQpZHVVMhgR46pv1Ky+qyLIuA0="
+          "hash": "vwHXney4aRNcUY5PrOdCS1arBrw1FNAdF0vL6yv7DHU="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.CSharp.html",
-          "hash": "s/2geXtNYlJkgWH5wuahZdnI8i4GJNY583mJoYFMf2g="
+          "hash": "GlpHROyO4KWqRf97BCgn8g+KgSMV5QQSGPo9yYkEuNM="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetContainerExtensions.html",
-          "hash": "ZA1HDKJ6BMhxtKn2erUPc30KXQGPJrbFIWcqfIlp4/Y="
+          "hash": "iM/lMPmn00jTAJIEyXTSFE6ob+wCeCWldNXq3JdBS1k="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetContainerType.html",
-          "hash": "r4cBLumni3fz0UmDO7RhVExLccY4vyQ3y47vepqFTLg="
+          "hash": "7S8ZmERBs0Mazlw/ojRZvEVON8T69klw4FMOjUJyk2U="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetMemberExtensions.html",
-          "hash": "S1i6aO4huYVba3tnPo91u5Szf+HIOFI/yQE2Dn/K3Ws="
+          "hash": "rKFuSI1lQ6Jcu0TsQ2VpEigp1TUeZlhFEFwEx3U4csI="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetMethodType.html",
-          "hash": "OB4vo3U/kuXFlTz6iJAPW918YoAUGfHdC/FF/O3b7X8="
+          "hash": "VoVaxREEnObs7SQ1fYLJzF3ealjoXtjRBesvYrmJkEE="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetModelExtensions.html",
-          "hash": "Y63u78MisS8bfQGlCUeiRM8Ke9ZLuR8/R4YAJtoUa70="
+          "hash": "CvJ54M/aQryPofx69OWPwVUJkxNYjsXAP+Ph8j8prqM="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.DotNetModelType.html",
-          "hash": "Vd0YI+NcXr5+vNYvCOIOwGjPc6289Gm/dC88U8amDsE="
+          "hash": "7SNzhgZ15xWF5Xto2mtfVf/SV1vUjMTqJH6PRxf7rqM="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDocumentation.html",
-          "hash": "BuLaWYxe02iaMMggblYW7MjBaMwyBemTjYn/7Mscq1I="
+          "hash": "/xjZB5WA6bpCTdu3wRXKvJkZPXrSi2XeNeWi3rwSo2g="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetAttribute.html",
-          "hash": "S9JX4H+EL0MYx/J6YAsiPidTeFUgRgLyKQSaijkC+AU="
+          "hash": "rxEPxmPrFqdQSBqA/1qqf959FJX4bX6OG3kDriUmZh0="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameter.html",
-          "hash": "6mxZMJalsyQTzg3X3NtcxBVqjkhkVgMelz9z7zpKxi0="
+          "hash": "fw6F4Eloxv5YIA+a+rAMoM69zGg4xdqC4o/BxgyaRcc="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetAttributeParameterValue.html",
-          "hash": "ejBhAjbmtgEvjX4+nu/41yR5TQi05wkJW5U9DA6hcN8="
+          "hash": "/Lx5mc69F9wNNQd/t06jcgWTREZV4RpTzMHFKCEW9N0="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetAttributes.html",
-          "hash": "q59qdTtN9tCO4PXt9/6GWEYkgnaDtPsbovAFcN4Ehv0="
+          "hash": "hpGHYfOpFSO/eKEQtzR8Q3nCbFUGLqTzrvKLy5bFUr0="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetClass.html",
-          "hash": "8LGSyKn8psB0mUYv+ELC/VHb/rdDvQrYZIujGTBue+k="
+          "hash": "+f030g0RpUPqXL9yFi3cjeNbiZRSa1EKXvFp8c/VOKc="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetContainer.html",
-          "hash": "DLbHJEvV19tjJdfZwHq9U/VRxCP6bkvkpOOwy822174="
+          "hash": "nMqlxnnIIeUuaTCMWOncdvlRzAp1fpE1QlxNxPrhHus="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetDelegate.html",
-          "hash": "8ElVxPMxo1T9WOCHhP6BMrP9qBMefWHqDDN1RKt1AY8="
+          "hash": "UnKRv1NBq0HZh8UsETlZgDNHWR1YMBtl7Pl/2tUxwUs="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetEnum.html",
-          "hash": "uFzgghkVuiyptlhGMoQnyd8/B3JuYL5QbJyCPY7dlaI="
+          "hash": "ZFH4vaB75IvuJmm9Z7LbVNZ/dP0EbbSguOcoZHgQtEo="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetEnumValue.html",
-          "hash": "TtpQSJ74nJWHapQbJ5BXNxnzhOdoE8ddHIzRNMUt0HM="
+          "hash": "U75WvqNl9Tix8chcccz4gdQHEU1nk7g5D697fwtawtg="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetEvent.html",
-          "hash": "NGSUlWHvLo2v2/+WiHUxznaFb750zr1JuGxdUW6+xqg="
+          "hash": "zGHDwzwrDe+ukMY3K5GYBvEKRaBnKskLMOfhIYSQ9yA="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetField.html",
-          "hash": "6/mwCm95TRyDlOO7/RvHSHX6e6ZA82H/NBJO8NiNnAE="
+          "hash": "yij59x2JJyCQNVzGr/9iafQhahFhxCQc7Siv0tWEPug="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetGeneric.html",
-          "hash": "poZbI0igIY5LRIPfeuXHOnClJ5AAFvBD+zM6RRJi1AQ="
+          "hash": "xnOdCSrWQsKxhfWErzrCOgPXl3aqB+ckpnSY6kaFvy8="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetGenericParameter.html",
-          "hash": "AD34+SjC14iwBITrlVEH3N8/vyGZjvmIWusY8kzv28I="
+          "hash": "GMneVrgXBzujAjIIy7HRs3othn8hCijwRRew1XS9Fv8="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetInterface.html",
-          "hash": "9WaS+JbgeZsFngjTmnIqmIvJJ+gbeA5QxMayBcpcCiE="
+          "hash": "3STwTT8eWsNS87cNHAdmEhmCrBLLE75Zg06sLCZ32lE="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetMember.html",
-          "hash": "m0gYykHneCC4DaZbXJwHRYkZIlMuKOCFLO7ih8YswQk="
+          "hash": "2Wh10K64paGE4noVvLEaOi3J/8QasaulzgiulT4EXz4="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetMethod.html",
-          "hash": "O0tBgFvwxbYr6GTc2wzybVHWgktdXMlP5GQ4d1Yv1ZQ="
+          "hash": "bC28LN4w9D1FM00C47nzfNSNgFoyzZ/RfPnparC5utc="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetModel.html",
-          "hash": "phfyPu2dwUV9qFwntC4KQYrku5nncVscoY1pu/v66DE="
+          "hash": "A5bSJp0i0z+K8cPlMFBTeZRDY/Op4hM1isDlRmiMZMQ="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetNamespace.html",
-          "hash": "wDxTtw/8UXd4HxcClk/DIp5j0tVB7tjifVW7NvJDthA="
+          "hash": "3DthAtRcze/NUYKgH56XnMxw2jPvhcRF1wqS0f2NQEA="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1470,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetNamespaceReference.html",
-          "hash": "cx27+wjOM1EdS2yjXO5fIL4ZY/YX8cdUe3ZEV1ty9bY="
+          "hash": "WlNZDm4MUYgiDBw9ep9bsifWIMWCIkUcv5bkEg8bzj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetNestedContainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetNestedContainers.html",
+          "hash": "ZAF5eRnA6X/6uqV6v1/H+C53ctClxMqCIAcuprzYdJg="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetNestedModel.html",
-          "hash": "weVoCOiozYF1QXXkLJPjFNRUkITpeRDF/UI0AfQymz4="
+          "hash": "HSTocmV2yqVOp5GyJOp7wKtEmvQwNsH8DoBB1tNliKo="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetParameter.html",
-          "hash": "/guAhXevCmty+fCYorD68w8ozMnfsChzkRWVCMtupMY="
+          "hash": "Fv9fAS9yY8F2WUJ1uXAbsSJdWhRcsYGE0Hl4uP8sEaM="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetParameterDefaultValue.html",
-          "hash": "oF5aj+EuNbs7wikiPfH3jQfwCWiOTfxto60y6thOGoE="
+          "hash": "q7PWTVUxeEg58ssIJtaBBv+3DBstaIBJ9I5cQ3VY1/g="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1530,31 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetProperty.html",
-          "hash": "2ZcuGD5UxUNlDXu6cNYmGxylEPfedWHDDKneYxr0muc="
+          "hash": "xhfqbyPLV6r1r6ecLL0QEwg+WiJNnH45sBwzk3BIVGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetRecord.html",
+          "hash": "jtIejvVd9SayjwaSx5r/AMhaZQCvqxX3h9ccEVzfc3E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.DotNet.IDotNetRecordStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.DotNet.IDotNetRecordStructure.html",
+          "hash": "GM6tbyZKvpsaWzmsx5C25uT0gU4XXUnWqaastU2+TcY="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetSource.html",
-          "hash": "ZVqVrVBiKKBO6u0p8jSXsMaDn8pbvOeBRVVJD9LLiuA="
+          "hash": "F6JLHGAHnqSPL/3CJd956w5//yrGKyt2+M28xfKoWEA="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetStructure.html",
-          "hash": "E03tFhoqZQUWDxNdFnpHApNU19yKSHU1/GAoBxaYkrw="
+          "hash": "ZUIjUgkpZIkreXrJI3ItqGi0ZQ8tU8visVGY0bfGZWM="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetTupleTypeParameter.html",
-          "hash": "l8rAImkQg6+jAjX2KzxrDOZbFRVaJ0Z2e4IsavVYRIk="
+          "hash": "J16NxYieH90vryWLzOPwCQZ4vG9yh07ini3RLMyULq0="
         }
       },
       "is_incremental": false,
@@ -1494,7 +1602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IDotNetType.html",
-          "hash": "yspd86WZbZULFs3hhCDfLy1hYh9xhfwz5wh2TezjE3s="
+          "hash": "nbGkgnUovb+F10HwKpS2hPd4CJIOzzOJvIUiaIjclvA="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.ILookup.html",
-          "hash": "/3x9LBmnnrsZ6eKQl+uK9tcuFAqd1DMYABBTXFHAqsQ="
+          "hash": "YJ2cZfwE+d22kDmGZj6NzzzmpvSN4J68gh9RY1VJFkU="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IParent.html",
-          "hash": "y5FZsHwFDYBd8VFSs73Hvog4JE2P5WDMmbFzEUJLkLQ="
+          "hash": "Sb2e0VxaSwp6OYqNMsm0rkWIWd7RQD+/vcGO5tI+sYo="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.IT4Factory.html",
-          "hash": "Nyn+23iTMN+34BjZEnHGJtnBoyT5yoYDAMq9fOeAcYQ="
+          "hash": "wHJfiiF5h/IxbFIIau1Wn+Lkx5iIUy/i2BK9HaIvgEM="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.PathBuilderConstants.html",
-          "hash": "WvWdW3Kilk+zwBXjlOCusyd3TLIpBvPPkgdGHNLlhKM="
+          "hash": "M5RZy0OWuobYgrgDdpiGQnpoQR5QwO0U3UBIkWr7BJM="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.DotNet.html",
-          "hash": "7kolwfSfhMm7+k8uRzfZicg5R/GLDIF6SpyUO1P2muU="
+          "hash": "kOeeabHiqPJ8GPRBe71suFcf26hanb+si1iHtk5rw1o="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeExtensions.html",
-          "hash": "C4dnNLPhOgMNPuAmli9BvaLipKtCdOikuyUIdqdjafw="
+          "hash": "qmhfoQ1HqafsW9jMA6oa6Wt5sOYZgrBIyMtow5kfMro="
         }
       },
       "is_incremental": false,
@@ -1638,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterExtensions.html",
-          "hash": "kPPiK0GvD3vWgp4OMqKmbBCLKKhkys8kTUTS7BwfLq4="
+          "hash": "JxaMgjCLkIbG62lr7jtKn50X71wixkwwfH1OPbjXevM="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsAttributeParameterValueExtensions.html",
-          "hash": "8dBFq0P+wKhXiRFbKpj7XSVfWuzgf9FvwRsaIUwPh+Y="
+          "hash": "tH455ELyndBx2I9siuniRHULD7AgaNJIM7wPSOLoKBA="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsClassExtensions.html",
-          "hash": "6mgty6sw/e9jGQ0g/mZnwTNLjkyu+fhyq/1Y9e5bZJ8="
+          "hash": "LYT4WJQ9PiOUD+twQNTUY+RQHsmSHXwiPvylJkLSb9g="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsEnumExtensions.html",
-          "hash": "w/DNvcoYxqEDq1nnwtzI47L89D1awohGpx5Iz73qDkU="
+          "hash": "UJvrVbkvZF4TZ+7yUFoRhdnaPmp7Hybn23PH70VcWu8="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsEventExtensions.html",
-          "hash": "Rqt/oyt+sSK2KFgryMVERkrcfT85526SN5UBZvbV1f4="
+          "hash": "qXZO0ok2b4/xNvhRa15FcppOGf5IFcMLau39eVNSBFw="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsFieldExtensions.html",
-          "hash": "C6W5+aXk0lRj+QmNZyfd7HjRPq9u2GOgeHbTEgNBedg="
+          "hash": "1hhhKEUhSBeqXQ6X9twQH/02Bdn2sAaaq0lbpb49FdE="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsGenericParameterExtensions.html",
-          "hash": "t57oK85FS7TIglleGtp+acUvKFJZetECZriGAzDyI78="
+          "hash": "aTk7yP4s+6N5njQ1V4QPGiFqheWVmOgSAQhwFs0e8hI="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsInterfaceExtensions.html",
-          "hash": "WfQ/2B73OnVNqO9ssyj0PANye292O11TVuXSQYeY0Q4="
+          "hash": "sntNs59ptdvjM827by0qL+qRQUdSam3uxyxfuXEU6ik="
         }
       },
       "is_incremental": false,
@@ -1734,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsManualUsingStatement.html",
-          "hash": "Ogyh1e3pVX+Q40eoiws2pgBF+9dUWu3LiE/HbhSLs3k="
+          "hash": "wkClLEcCv7H/iCLYnk4luN8OnpT9/glyKu7C67TyNGM="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsMethodExtensions.html",
-          "hash": "+rjRHcQjABIJfYMzViwX+FftwGudWPcfhdBfdZ0+FbY="
+          "hash": "hbsBQxuPxtOaE/JtafMjqPzQLIzzgQdxo8CPml3RGTw="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterDefaultValueExtensions.html",
-          "hash": "N2eVNp4KxoJci+V2BxoxOM3wF2PcvxqMbttdZg9Ko/s="
+          "hash": "X277P2vjRZY4Qx/bz/N0OIxPUiS84gCHDc+o8wYUZDw="
         }
       },
       "is_incremental": false,
@@ -1770,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsParameterExtensions.html",
-          "hash": "xIu7Vb71g+PeCCGcOWe82dsMIU5GjexmTP+203KGMmA="
+          "hash": "+jKbRmH+62QtLWZD0iWdsI9YIF0JzJOyBYXK98Hdjl4="
         }
       },
       "is_incremental": false,
@@ -1782,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsPropertyExtensions.html",
-          "hash": "kmCStr8gZ+/kGIZnR1E3KUUFE0TPozline9G2OCGFiw="
+          "hash": "Uh8SmIG/QTCI58bAsX8Z0qQYvZ3WpspikSj+nRA3PtY="
         }
       },
       "is_incremental": false,
@@ -1794,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsSecurityExtensions.html",
-          "hash": "G7lU83iMfbn4KjjDQY5hiY9Zwtp88WCVWn65dSOcVMU="
+          "hash": "ffS4t1MRuX8e9YM8iAi3tdoQyCRbLHu5M51uZSSLXdc="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsSourceExtensions.html",
-          "hash": "FNkfOXGDic6YFpp+N+M7VxmgYqKdAuQeYWW7bkulsWo="
+          "hash": "LvACKD5yz54jUYNudSCpHMyrjYLFgwSQM3ly5gYyikc="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsStructureExtensions.html",
-          "hash": "TAGgHwG1D2T3t5/P5Q+2zUZG3N6WJxyFONCHKaq13A0="
+          "hash": "LyRVfWprdo83qGb0v/eL03OEo+j79q2P5aYvFy8lL0U="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsTypeExtensions.html",
-          "hash": "blmlzl13ryLhuCPTclA0pvzwmsNXgGGsvEuKWmxYl5c="
+          "hash": "GksZnSILzHISMeoa8p42V87oAdGl1NTyNfMDNCUAKmo="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.CsUsingStatementExtensions.html",
-          "hash": "EB16C3mGtbTIwyxtPAOQpZgvgESdTx9ZnL2CdF6xrwc="
+          "hash": "l0FUb7R/4KvVNT3RD0csPOeBZOqA1kYTLzyKgv6tZcY="
         }
       },
       "is_incremental": false,
@@ -1854,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.DocumentationExtensions.html",
-          "hash": "I9bKZ/P01RsgOwgfMZHKtMVD25h6kxQ7rih+TTSAvKk="
+          "hash": "Bn6kpJYYgdbo1cVn0oRxpca3e6lZ98nSjF0YFVIhvbw="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Formatting.CSharp.NamespaceManager.html",
-          "hash": "zrolQkSScwlNKeBfRjEMAMvaLSV3aKm2jrPVGB+G4QE="
+          "hash": "URTsQ2YFOtFP6W1Yxbb9QVcSDbjjCbKd/ReWvLSMTvM="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ICommand-1.html",
-          "hash": "Mm7OSjAxj1GQ+Coel40xm5z7JA/d+0wTi/qkzSSj0+k="
+          "hash": "+js/r0OBUpmZ1YfkmdzriNB2L6fCHCxbnQO2hzA2plE="
         }
       },
       "is_incremental": false,
@@ -1902,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.IModel-1.html",
-          "hash": "YU2cy8qtvt3vg+B4GseZ3RqMZAqKSgQAZwaRQCPeLuM="
+          "hash": "/MqatZLpc/w0yKpmQw5GrOvbc7MR+F7RA24hxt2a62k="
         }
       },
       "is_incremental": false,
@@ -1914,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.IModelStatus.html",
-          "hash": "+PgUrYM7+tw/WJMzvzP1siwhEeWy30JesdI8LDKfLK4="
+          "hash": "FpsMI9xUPr7rGoqVZV7uzV57lx8OBqOW4RhUsq6MA4k="
         }
       },
       "is_incremental": false,
@@ -1926,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ISourceFormatter.html",
-          "hash": "wDUtBwM8tuo8lTBtud+w4f7dbzIaiSoHpU4w+UHD6Nc="
+          "hash": "u2kT0SF60sh7BWa5jolw1X+oqv2zzAFXW7qH5J3OFiA="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Logging.ILogger.html",
-          "hash": "3VmGiGVVw52SGdI/PbV8AfPALaoCRL3ErD4bd0jYpWw="
+          "hash": "Fn1YDff/TmQ0QCy/MLWZI2UHfYWInTHb+nN1AyG3SDI="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Logging.LogManager.html",
-          "hash": "s8VnM1Dt7pmQyPrI90Mmf/vryGdq7qqB2W4ZQGeGEe0="
+          "hash": "2b2sJ8BP4jHiMj5uXSEIQ6U2BDdj6OEvM2HPQv48ews="
         }
       },
       "is_incremental": false,
@@ -1962,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.Logging.LoggingProperties.html",
-          "hash": "VsE2/qZRTT2YXkrJWmfDfTspjcdlCctjtoTm5sd6LGM="
+          "hash": "QI2d2ergpi1FDbNY1tPfakbTEXYLo7c9Gf4mqIo9I0U="
         }
       },
       "is_incremental": false,
@@ -1986,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ModelException-1.html",
-          "hash": "5//dBRLua+UjJ8IGUHl6KwhjZFKU+x0N8z5ddYx/n1s="
+          "hash": "iAwZBehtD679FSAGC31z5qHu0daHnhz0GMn6RZ9FgEI="
         }
       },
       "is_incremental": false,
@@ -1998,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ModelLoadException.html",
-          "hash": "DXAOTJr4pT5DHOCGKjoChraoKmg/WpTdw1GqLAK5HFM="
+          "hash": "N8ToO+7XApEaFr92xFBBaamqz64p81osIk7gFWvHqYI="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.ModelStore-1.html",
-          "hash": "saCQhHDaSmK125nQQVv/O7PlXUZMGyyyGnzqJ4n07iY="
+          "hash": "Kg86DClnGhFIEsnelMCKXe2mrrw7qUURoT8t47g3iyM="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.SourceCode.ISourceFiles.html",
-          "hash": "BKPxOf/Srs55uIlefpyxxPx0uSv6d8FdjeKa9DUVL0U="
+          "hash": "ndHyDEpzFlTZ3gs11fom7bK3aDfvPxgjGXoivMn4dho="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.SourceCode.ISourceLocation.html",
-          "hash": "pnS14KfYS+QqACklnuxAmzFfiYD4HY6AwSc8XOQxjuU="
+          "hash": "+wrxFcEs6y9teTtiihYfCfF2MbPvUNp4SEWQ9ws1Ou8="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.SourceCode.SourceLocation.html",
-          "hash": "pQgBtWk13h0/5y8885UD0AFn0sPaAbCrUEyKzIGd52M="
+          "hash": "o3qfW0FOkxmij126mFM7MM0seMJbyLFhnmjgseaigPg="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.SourceFormatter.html",
-          "hash": "xF4pR4PBFmz48U5IST6FbU+7Jd2CShejlVNIEhPurdI="
+          "hash": "6zi2mInkczrt9pfgukBgsULhl3Yjz4sxjTzsWnagF3c="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.UnsupportedSdkLibraryException.html",
-          "hash": "uvv/j4uojNPuW+AOexlKdih82lj7Vt8SWProt/Ydyjo="
+          "hash": "baHtqH1JEPyM1PmjPOflF8rI37D01M4J0V6ZeOApWBI="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.AssemblyCFEnvironment.html",
-          "hash": "CeA6WgMWKhXHIQQfFC55JKI3wU/8cVU8jZqhB8EWoDo="
+          "hash": "Pt7lPgvPU2ENYXj716bKiTP9K1d9jtf9edbAfWJO+NE="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.AssemblyCFSdkVersion.html",
-          "hash": "J3SolEOyT+MisUePz5wSKGq1WFHn7jxTKsrz7eVzEOU="
+          "hash": "8x1FIUyz7wKoH99KSrSR0RU9J2gJkkTINSvV1sRkBWg="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.CSharpSourceExtensions.html",
-          "hash": "Y0xDhDy8cI6zytY0sx30iqrclnowRp7bANwAdMuOstU="
+          "hash": "CHUvozPpoyGCu8AMMEqU1bN0IjghlRZVSIxBZb04dPA="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.FileHelper.html",
-          "hash": "v2YWBffN7Ih2AoBr2UCjhaJ2AJL2MuygdWANQqBkvYg="
+          "hash": "yG6yW7c8YPcmGepPnZggHkKPEcMTirwX3mcnFep3Svo="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IChildren.html",
-          "hash": "viuSWeauDO9nZhTIn4lZsn8IHqF1k+L2W08i2l3pTvQ="
+          "hash": "7omei+VB9RLRKdjP9xrJkQ3L0mFEi4ecER6MK65LgLE="
         }
       },
       "is_incremental": false,
@@ -2178,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IDE.SolutionLoadCommandBase.html",
-          "hash": "bqCl8dfhLJeiXmaO8yJ3LxYKGuvMajrPlyPVB3pGZYg="
+          "hash": "/d3A8BJ5qNpq/ASRqfkHBmLAxmkKy6nUhj7Yg5mBtEg="
         }
       },
       "is_incremental": false,
@@ -2202,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IParent.html",
-          "hash": "oGewKVPsF3ecWXkbTkJdlu8b+IgxEnQh/mmAgCPb4ig="
+          "hash": "I1qznNVTQPn6Xny3s+VrDUs+aUUm68eM9vcMFyzrkzI="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsActions.html",
-          "hash": "GjEx7qAH4U+XbUV4+g2qAEFUjidEoX3bSqcmHtfWHO0="
+          "hash": "S2UH0Uk/1oQYmvRHfwICmCKruzpmgjGNghzgblYHcTM="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsCSharpSource.html",
-          "hash": "KRecVEmMNRPYb5st+O051ZA56Wj+ZaUb70R8kheLgqI="
+          "hash": "fXkf3DzuyxcRjvAFjtWbFY1y+Hig32BQIardrWfIXOM="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsCommandInformation.html",
-          "hash": "lxgxTkMPoRPWV8HzObNlT1CE2YgyObuZLKaYnqDbk5M="
+          "hash": "EX2/a2ImVRHDUucIF0v0/odvuCV0BlLcwKL2zmoQE4U="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsDocument.html",
-          "hash": "M+Gv+WBjgUIaSef3xM3yg4WzcNTvpeA4xcuk0lRKUfo="
+          "hash": "a3o6Ptd53ztwXMmMuSEoBO57SVeRkcuqPmKFiqmKkG8="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsDocumentActions.html",
-          "hash": "0Cmcs80uXwvc5o2rQ+wyWf+9Szkdp+1fymDKytfl8m0="
+          "hash": "yGNQkw9DayrbeVS1LczlahWGsb6TMWW1tnilE8RkpTQ="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsEnvironmentActions.html",
-          "hash": "yqCoAPhv7LHjTuU9yJCwYFhAKC6VZDgtxs6aRLtJiXY="
+          "hash": "qRyPT1CBx3Y4maUjbtN6G9oZugUc8BjXnBLceDxnt2w="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsEnvironmentCommand-1.html",
-          "hash": "d7c8nt+9TmGXGlL1xtULb8rDAxnjWttaB025HMEEiek="
+          "hash": "HYuUBuQcyepCnEMS/XKcP+B/W0y+oqb9riXOBTuAKAI="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2406,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsFactoryCommand-1.html",
-          "hash": "L2wRneKZpNHpXj/xTNbo0D90JMoe7hPu1WZ2GV/dEzs="
+          "hash": "0es11Z5ZKGNjCLVGsXOd3ujFZNTQg5KF/Z2K7qcvZfg="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsModel.html",
-          "hash": "LGttdfiduh0uuu4xc1NWn8h5Q3wttnVacTOiOACxOw0="
+          "hash": "l6SoT1d39OIuyRDombl/iKptznDWgj1c/Cvg9tXd7qE="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProject.html",
-          "hash": "eyDgp/NKiHtgqGlvpdrfUPPIdZM/4AlrlUJ++LkD7Xg="
+          "hash": "P+KGXRDBnWM6xX270VnTGa6e6G9C2vbw1egHC4gbMYU="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProjectActions.html",
-          "hash": "9vJ0d9sndndDhNXf+EoeGZVHYxo2mljHZ2gq1JuvQ7U="
+          "hash": "2AK8bfZgBMlguFShvOmf5mxa2BkdqApfdtHhYIZ9iCE="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolder.html",
-          "hash": "aNZ3d7cGEPe94xGLYCXVZ/edp9qD+hmMot8G2mxpzKE="
+          "hash": "jpMs/LRib8pHwGubelpxOdexwjCyeQVXCEbOJf9gUR4="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2466,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFolderActions.html",
-          "hash": "TF4olQFiQkxtDi6HvCQwUSY7rFD3ONhM1LVM1I5abow="
+          "hash": "1pdTw7XdUAY/xChvCgX8ZTrxPLf8QzStdFILRCCrWAY="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsProjectFramework.html",
-          "hash": "7y3ShgOETw18eLHfn7LiY0db16ae7s4hLGurN/svtPw="
+          "hash": "5RWT2jfaWeJcmp8kgrYja4N8XdbOMniZlS3+1aX+WgY="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsReference.html",
-          "hash": "ifLT6u6YI1SJiffDaUCuxdpyQ8Kk36f9VlZzRK2zYW0="
+          "hash": "fQesks/FIob9ObRVZstVTawKfVBnG7HNH+uJfSyCjUw="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsReferenceActions.html",
-          "hash": "jTLrys9lpXV8TcPRHXBzWHUrGhk9C8ed5xkJyzsi/fY="
+          "hash": "KbyzknQnreyKAH8DfCXQ6vDH9W1x/Us/twNm9brt5Q4="
         }
       },
       "is_incremental": false,
@@ -2406,7 +2514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsSolution.html",
-          "hash": "UAe994dDsIjgcu56WrTCWU3Pj/AVHsFsmGj1vsKbO0g="
+          "hash": "atrf/WGI1TdNB7f9Rb6iHFbaEtS9U8EfrEYVlWvlJZo="
         }
       },
       "is_incremental": false,
@@ -2418,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionActions.html",
-          "hash": "LHPfX7C3ImsZIMQ7inOg5UodtaJJzW9MeWlMg+EOIjc="
+          "hash": "DnPhsGTHdxpFR3eun3xGyQ4QsTQ2TpExCiTwCYuKuj8="
         }
       },
       "is_incremental": false,
@@ -2442,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsSolutionFolderActions.html",
-          "hash": "b1Y13RZ9zJN4GubopYVSe47u1OPdctbFGnT25zgXOkg="
+          "hash": "jq6xvYgzmtLitr1jkDUNxWsxIIcMhNTZ4TGBytbFWAQ="
         }
       },
       "is_incremental": false,
@@ -2454,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.IVsSourceActions.html",
-          "hash": "k2Y0AKdmfLXFyI6EoWZhCGUyaIJAzSUR1WVC5VIBTDo="
+          "hash": "lOkaxl/0RzlNyk/vdzIi1XQAEDMP+kwnJiJI97Npz3Y="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.PathHelper.html",
-          "hash": "/AYNLWcxRskeNxjcRKm38WFbrh6vX8/gdUaxl9XHOSo="
+          "hash": "BuBfmeAS1sBo1R5FhYZiqTrbLLcAjz1IvyI6pkc6qtE="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2610,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.ProjectSystemException.html",
-          "hash": "CpxFL05e9Gr7VJ9GnvMpBroHBHdBGl7uzIzhQ1Jal9U="
+          "hash": "1YBzzYL+kyFfuogSPVOpLXVQFV4nRURysngY7h6/dio="
         }
       },
       "is_incremental": false,
@@ -2514,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.CSharpSourceCommandBase.html",
-          "hash": "G/s2vSNdwnYwry3wZLtX7gxIys00UZqICESXEATK7ag="
+          "hash": "4le+/vD2Ko0DAEHPufCtFmea973rzgUDbOZZEckGHc8="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2718,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectCommandBase.html",
-          "hash": "SycNl7e6nRZYUENaKNm6NTE059UI2eI0pQFfEIPOEzs="
+          "hash": "C5DNxz2ydnDHsXGfh6VERnhguvDghLoiKHJjmXzCyHo="
         }
       },
       "is_incremental": false,
@@ -2622,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectDocumentCommandBase.html",
-          "hash": "VcvxAMk5Xaw+/IVtcmYYO+y75hJajtOM4UoemiFR8o0="
+          "hash": "N3jfsUzR6PePI/vA8rvoZUbm6bq5j9Tgrme0tSfDWjc="
         }
       },
       "is_incremental": false,
@@ -2634,7 +2742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.ProjectFolderCommandBase.html",
-          "hash": "lU4yaotx32mOVFSQx8bY7xsAsltX4m8Ljjl3GtmnGIc="
+          "hash": "Q19Jx/p4p96RLSyUHC/fxa0QGb3qz70xrIJIa2zpNMg="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionCommandBase.html",
-          "hash": "jaLTLo8FxSVXlJfnaQLlosia0DMlHL4PfSInt9DWE7A="
+          "hash": "gWLToTdSVBPkPkHSA5Ud+iHz2gsOUpwaziyY3wdeisY="
         }
       },
       "is_incremental": false,
@@ -2658,7 +2766,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionDocumentCommandBase.html",
-          "hash": "l4TIgSuY28DGdNhTvFxUPuzymBFws9pTlqKU9KAJ3Y8="
+          "hash": "+oCaGEIM5X+dnwRTTcRIBnMogfZp+oHmFlRdrwtIMUo="
         }
       },
       "is_incremental": false,
@@ -2670,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorer.SolutionFolderCommandBase.html",
-          "hash": "qJiS/xVVVJH+tNoFEAXiruUoa8aC0hhvwEeuqg80NDc="
+          "hash": "78BB43cd3JA8ceiaMRNtXVcKWFIoSnZqB1vTqx/ZHCA="
         }
       },
       "is_incremental": false,
@@ -2694,7 +2802,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.SolutionExplorerException.html",
-          "hash": "lO/Fl+6kpDAvvODOQbaoqt7UogKQw4gHDw6FAA4uJ0Y="
+          "hash": "cFsEdxcjXwaUoWg0jyCaGXZg0aPoZzq2Eh7BkTzqQs0="
         }
       },
       "is_incremental": false,
@@ -2706,7 +2814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.UI.IVsUIActions.html",
-          "hash": "TjQg9yftUVvpb3pW7LL2SoE6fHDe/SFLNXQvoLMjAUI="
+          "hash": "psdX4bVSxGezDL6k5GIwlmY+Zufoh04rdji7H5kvMzM="
         }
       },
       "is_incremental": false,
@@ -2718,7 +2826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.UI.VsUserControl.html",
-          "hash": "lLnrvJZkHZ2xExpW1NY+RhzbhCFiZHjMK0cDWblqmT0="
+          "hash": "t3kLC/NJ6IG7hdouokUVnXwjwR/rVEjwa9zE1gV7g7g="
         }
       },
       "is_incremental": false,
@@ -2742,7 +2850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VisualStudioException.html",
-          "hash": "JTf+sOUM899rZAXOTA52UuWqnIFag84Mu9INe9Z+Jcs="
+          "hash": "8jWPg4S//xnFS37i/Bbl2k6OD1axzX0GFl06avVupMM="
         }
       },
       "is_incremental": false,
@@ -2754,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VisualStudioMessages.html",
-          "hash": "deqoPfvDgzTWXR5rZMkbfjWxO9StAJeKA704bMD+A7o="
+          "hash": "PPsd7FyJwvd2fZtVme95nkeLMbCPj6hHD7KF5xX29r8="
         }
       },
       "is_incremental": false,
@@ -2778,7 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsCSharpSource.html",
-          "hash": "xzvwXDfdrDJjSrIeWvzhk9j5Ncq14mYmXH9oey7LtGk="
+          "hash": "O6PpmwQAmlB/AlHIBSIODh6ejCuBIVT7kHto5Tvhl98="
         }
       },
       "is_incremental": false,
@@ -2790,7 +2898,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsCSharpSourceExtensions.html",
-          "hash": "7t8sK4EA8+jpc44TFJNHULH0+AXFqAjuIT7hMKTMc5w="
+          "hash": "goDknYeZYhjuE6zcqbFX+Z9SdYaL/696oH3LKJ2ePtU="
         }
       },
       "is_incremental": false,
@@ -2802,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsCommandBase-1.html",
-          "hash": "sCTeVZiE9C7CeiIE3OXVVuSXr7A68prpoh64n/Jb020="
+          "hash": "u4dJyE61pX56h3i6Lv7geNSAcdVXQIC7q5mmAtrHnZg="
         }
       },
       "is_incremental": false,
@@ -2826,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsDocument.html",
-          "hash": "06IrjwNxAttakQ1YYo1HLj0m809jrwdmrLOacT0b1Fg="
+          "hash": "Wwm2REfDEs5KhE2TKPCuuBqhe8ExkhmAyNpdy3ajSPE="
         }
       },
       "is_incremental": false,
@@ -2850,7 +2958,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsEnviromentCommandBase-1.html",
-          "hash": "iznqvqzCNL4jmPvpwPeNq55qXTd9KSaACjeXtZKkESo="
+          "hash": "60Ei2+zJHxfRiJSsdNPUE7HWCiHQl04RKcr9ahWWJvA="
         }
       },
       "is_incremental": false,
@@ -2862,7 +2970,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsModel.html",
-          "hash": "aP45cHvTIzbxpkdihmYFUYm9Zgdlw4IIxCfuP0NEN5I="
+          "hash": "6VI5m1f9XEhvLPexHpkWfnl85nZj91o28TkTfJ4Jb3k="
         }
       },
       "is_incremental": false,
@@ -2874,7 +2982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProject.html",
-          "hash": "3udFLHLwmf1e4Pq4lP3kwObdAnK9+wT//pSCAESDmt4="
+          "hash": "9t/R4y9cOZMKbS09zarlsjGK4AlJgQ3uJ5TIffB1aLc="
         }
       },
       "is_incremental": false,
@@ -2886,7 +2994,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProjectExtensions.html",
-          "hash": "iSy3P7x6PEWu87b/45vPyyDgtLjq1sDaLfsnxVioOqA="
+          "hash": "7VqGToRzrTZKLn4F538FQW+h9n0xO0fIgn1sQBawDzg="
         }
       },
       "is_incremental": false,
@@ -2898,7 +3006,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProjectFolder.html",
-          "hash": "uwYjlzOUKa0LCt/X1KRV0pkm2ScLD91eidlPuIsY+zA="
+          "hash": "f00VAh6OjFPr6FFpe0f+mDIyN4I7c8NPfWjf/v2+YZE="
         }
       },
       "is_incremental": false,
@@ -2910,7 +3018,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsProjectFramework.html",
-          "hash": "PAYUqTP+rnlK76+oEU1fHMLlCmELIpTC2chU/3ARAEE="
+          "hash": "ieo0EeGuBtp3zsvgBfnPX6D758C1sL4FdrThytEbwFo="
         }
       },
       "is_incremental": false,
@@ -2922,7 +3030,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsReference.html",
-          "hash": "n4izL8Pg9U6mhzaxQzmrkCpY3pzRwZMAEVXP9PogBf8="
+          "hash": "t5xXfSqb5RTKUhXgF7o2DQRcV7JmfbjUvC7vBH87BdM="
         }
       },
       "is_incremental": false,
@@ -2934,7 +3042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsSolution.html",
-          "hash": "KSEb99W+hAVOtKjIOsaS2g57NsX/ZII4mnnNvRy+xz0="
+          "hash": "UjF9Zdsvjm3dxi5fdbwfN3iQ8jHdf9rGLlv/zL3tbOc="
         }
       },
       "is_incremental": false,
@@ -2946,7 +3054,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CodeFactory.VisualStudio.VsSolutionFolder.html",
-          "hash": "Elld34faj5q+ByUxPNrbfG/pbwTnPT5O53sxkr4ig2Q="
+          "hash": "M7Rx6nFIxjsARb2qHhpNixeXUnoc1b2IZ/ftchggEzs="
         }
       },
       "is_incremental": false,
@@ -3005,7 +3113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oBDKo1l2rCuSQAPGVuRyUMOn1mltQMt5XS3TnNVX0Zs="
+          "hash": "WBZkY62rFwk1THgwC80IqjC03CoE0oDSiA2wFO4/7bk="
         }
       },
       "is_incremental": false,
@@ -3860,6 +3968,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "releasenotes/VSWindowsRuntime/1.23050.0.1.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/VSWindowsRuntime/1.23050.0.1.html",
+          "hash": "OE3i+Yx6koI7Ih2rZeDOe+15+zR47TUBe1yDI9ehPFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "releasenotes/intro.md",
       "output": {
         ".html": {
@@ -3907,12 +4027,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "releasenotes/sdk/1.23050.2.md",
+      "output": {
+        ".html": {
+          "relative_path": "releasenotes/sdk/1.23050.2.html",
+          "hash": "c3E1wktT01EQBK/qDmwS/KGT0GHUYokz2tVQXr4njkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "releasenotes/toc.yml",
       "output": {
         ".html": {
           "relative_path": "releasenotes/toc.html",
-          "hash": "S7IRKwvq47wYu/Ws9J4ycTKg4egfFEXuSvwNQcvf43k="
+          "hash": "s+2XVukyS8mBSi2/eXjtE0R1aBdUIfczVHXi6LHOp8E="
         }
       },
       "is_incremental": false,
@@ -3945,13 +4077,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 247,
+          "total_file_count": 256,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

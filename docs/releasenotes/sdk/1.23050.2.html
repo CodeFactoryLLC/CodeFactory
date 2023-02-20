@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>SDK Release: Version 1.23050.2 | CodeFactory Platform </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="SDK Release: Version 1.23050.2 | CodeFactory Platform ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../../images/favicon.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../../styles/config.css">
+      <link rel="stylesheet" href="../../styles/discord.css">
+      <link rel="stylesheet" href="../../styles/singulink.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+      <script async="" defer="" data-domain="docs.codefactory.software" src="https://plausible.io/js/plausible.js"></script>
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../../index.html">
+              <img src="../../images/logo.png" alt="CodeFactory Platform" class="logomark">
+              <span class="brand-title">CodeFactory Platform</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../../index.html">
+                          <img src="../../images/logo.png" alt="CodeFactory Platform" class="logomark">
+                          <span class="brand-title">CodeFactory Platform</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  
+  <strong><a href='https://www.codefactory.software/'>CodeFactory</a>
+                </strong></div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="sdk-release-version-1230502">SDK Release: Version 1.23050.2</h1>
+
+<h2 id="feburary-sdk-release">Feburary SDK Release</h2>
+<p>This is the second of the feburary releases of CodeFactory SDK updates.</p>
+<h3 id="ivsactions-has-three-new-methods">IVSActions has three new methods</h3>
+<p>This release has allowed easier access to project and support project file types to CSSource models.
+The following threw new method were addeded to IVsActions</p>
+<ul>
+<li><strong>GetProjectFromSourceAsync</strong> - Gets the project that hosts the CsSource model.</li>
+<li><strong>GetCSharpProjectFileFromSourceAsync</strong> - Get the VsCSharpSource model from the CsSource model.</li>
+<li><strong>GetProjectFileFromSourceAsync</strong> - Get the VsDocument model from the the CsSource model.</li>
+</ul>
+<h3 id="members-now-have-two-new-methods">Members now have two new methods</h3>
+<p>The CSMembers now have two additional helper methods to grant direct access to the syntax and to comment out a target member.</p>
+<ul>
+<li><strong>CommentOutSyntaxAsync</strong> - Will comment out the code implementation.</li>
+<li><strong>GetMemberSyntaxAsync</strong> - Will return the full raw source code syntax�</li>
+</ul>
+<h3 id="two-new-container-types-have-been-added">Two new container types have been added</h3>
+<p>This release updates to support version 9 and 10 of the C# programming language. The record container types have been added.</p>
+<ul>
+<li><strong>Record Type</strong> - Direct support to manage record type.</li>
+<li><strong>Record Structure Type</strong> - Direct support to manage record struct type.</li>
+</ul>
+<h3 id="property-model-has-been-extended">Property Model has been extended</h3>
+<p>To support the additon of <strong>Record</strong> types the property model has been extended to support the following.</p>
+<ul>
+<li><strong>HasInit</strong> - Flag that determines if the init accessor was added to the property.</li>
+<li><strong>InitMethod</strong> - Returns the implementation of the init method is there is a implementation.</li>
+</ul>
+<h3 id="idotnetcontainer-container-changes">IDotNetContainer Container Changes</h3>
+<p>The container interface has been split into two interfaces IDotNetContainer and IDotNetNestedContainers. The following changes have been implemented with the change.</p>
+<ul>
+<li>The nested functionality has been moved into the IDotNetNestedContainers interface</li>
+<li>the C# Interfaces and classes has been also split.</li>
+<li>The Class, Interface, and Structure classes now inherit the NestedContainers implementation.</li>
+<li>The Record, and Record Structure types inherit from Container interface and implementation.</li>
+</ul>
+<h3 id="cssource-model-has-been-extended">CsSource Model has been extended</h3>
+<ul>
+<li><strong>Records</strong> - Records property has been added to track all records defined in the source code.</li>
+<li><strong>RecordStructures</strong> - RecordStructures property has been added to track all records defined in the source code.</li>
+<li><strong>HostedInProject</strong> - Property that stores a flag that determines if the source is hosted in a project.</li>
+<li><strong>ProjectName</strong> - Property that stores the name of the project the source is hosted in, or null if not in a project.</li>
+</ul>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; CodeFactory, LLC. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../../styles/docfx.js"></script>
+        <script type="text/javascript" src="../../styles/singulink.js"></script>
+        <script type="text/javascript" src="../../styles/main.js"></script>    </body>
+</html>
